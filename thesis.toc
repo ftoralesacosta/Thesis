@@ -12,214 +12,200 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Relativistic Heavy Ion Collisions}{2}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}The Quark Gluon Plasma}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.3}The Quark Gluon Plasma}{5}{section.1.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.1}Flow}{6}{subsection.1.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Flow in Small Systems}{9}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.2}Flow in Small Systems}{10}{subsection.1.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Jets}{11}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.3}Jets}{12}{subsection.1.3.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.4}Nuclear Modification Factor}{13}{subsection.1.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Fragmentation Functions}{15}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Fragmentation Functions}{16}{section.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Cold Nuclear Matter Effects}{18}{section.1.5}%
+\contentsline {section}{\numberline {1.5}Cold Nuclear Matter Effects}{17}{section.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.6}Two Particle Correlations}{18}{section.1.6}%
+\contentsline {section}{\numberline {1.6}Two Particle Correlations}{19}{section.1.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.7}Prompt Photons}{21}{section.1.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.8}Photons in Heavy Ion Collisions}{23}{section.1.8}%
+\contentsline {section}{\numberline {1.8}Photons in Heavy Ion Collisions}{22}{section.1.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.8.1}$\gamma $-Jet Correlations}{23}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.1}$\gamma $-Jet Correlations}{24}{subsection.1.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.8.2}$\gamma $-hadron Correlations}{25}{subsection.1.8.2}%
+\contentsline {subsection}{\numberline {1.8.2}$\gamma $-hadron Correlations}{26}{subsection.1.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.9}cold nuclear Matter Effects}{28}{section.1.9}%
+\contentsline {section}{\numberline {1.9}cold nuclear Matter Effects}{27}{section.1.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.9.1}The Nuclear Parton Distribution Function}{29}{subsection.1.9.1}%
+\contentsline {subsection}{\numberline {1.9.1}The Nuclear Parton Distribution Function}{28}{subsection.1.9.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.9.2}Nuclei and Fragmentation}{30}{subsection.1.9.2}%
+\contentsline {subsection}{\numberline {1.9.2}Nuclei and Fragmentation}{29}{subsection.1.9.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.10}Statement of Purpose}{30}{section.1.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {2}Experimental Apparatus}{32}{chapter.2}%
+\contentsline {chapter}{\chapternumberline {2}Experimental Apparatus}{31}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{32}{section.2.1}%
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{31}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}A Large Ion Collider Experiment}{34}{section.2.2}%
+\contentsline {section}{\numberline {2.2}A Large Ion Collider Experiment}{33}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Inner Tracking System}{35}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Inner Tracking System}{34}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}V0 Detector}{38}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}V0 Detector}{37}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Time Projection Chamber}{38}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}Time Projection Chamber}{37}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Electromagnetic Calorimeter}{41}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.4}Electromagnetic Calorimeter}{40}{subsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Time of Flight Detector}{42}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.5}Time of Flight Detector}{41}{subsection.2.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Central Barrel Tracking}{43}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Central Barrel Tracking}{42}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Triggering System}{44}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Triggering System}{43}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {3}Data Anaysis}{46}{chapter.3}%
+\contentsline {chapter}{\chapternumberline {3}Data Anaysis}{45}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Analysis Summary}{46}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Analysis Summary}{45}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Datasets}{48}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Datasets}{47}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Monte Carlo simulations}{49}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Monte Carlo simulations}{48}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Event Selection}{49}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Event Selection}{48}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Calorimeter Cluster Reconstruction}{50}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Calorimeter Cluster Reconstruction}{49}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.1}Definition}{50}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.1}Definition}{49}{subsection.3.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.2}Corrections}{50}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.2}Corrections}{49}{subsection.3.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.3}Selection}{51}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.3}Selection}{50}{subsection.3.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Isolated Prompt Photon Selection}{54}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Isolated Prompt Photon Selection}{53}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.1}Shower Profile Selection}{54}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.1}Shower Profile Selection}{53}{subsection.3.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.2}Photon Isolation Requirement}{55}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.2}Photon Isolation Requirement}{54}{subsection.3.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.3}Underlying Event Estimation for Photon Isolation}{56}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.3}Underlying Event Estimation for Photon Isolation}{55}{subsection.3.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.4}UE Correction to Isolation Variable}{58}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.4}UE Correction to Isolation Variable}{57}{subsection.3.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.5}Remaining Background after Photon Selection}{60}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.5}Remaining Background after Photon Selection}{59}{subsection.3.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Purity}{61}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Purity}{60}{section.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.1}The Template Fit Method}{61}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.1}The Template Fit Method}{60}{subsection.3.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.2}Signal Template and Background Templates }{61}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.2}Signal Template and Background Templates }{60}{subsection.3.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.3}Fit Results}{64}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.3}Fit Results}{63}{subsection.3.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}Charged Particle Tracking}{67}{section.3.8}%
+\contentsline {section}{\numberline {3.8}Charged Particle Tracking}{66}{section.3.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.8.1}Efficiency and Fake Rate}{68}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.1}Efficiency and Fake Rate}{67}{subsection.3.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.8.2}Resolution, Response Matrix and Bin Migration}{70}{subsection.3.8.2}%
+\contentsline {subsection}{\numberline {3.8.2}Resolution, Response Matrix and Bin Migration}{69}{subsection.3.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.8.3}Angular Dependence of Tracking Efficiency}{73}{subsection.3.8.3}%
+\contentsline {subsection}{\numberline {3.8.3}Angular Dependence of Tracking Efficiency}{72}{subsection.3.8.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.9}Photon Hadron Correlations}{74}{section.3.9}%
+\contentsline {section}{\numberline {3.9}Photon Hadron Correlations}{73}{section.3.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.9.1}Signal Correlation Function}{75}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.1}Signal Correlation Function}{74}{subsection.3.9.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.9.2}Decay Photon Hadron Correlations}{77}{subsection.3.9.2}%
+\contentsline {subsection}{\numberline {3.9.2}Decay Photon Hadron Correlations}{76}{subsection.3.9.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.9.3}Photon Purity Weighting}{78}{subsection.3.9.3}%
+\contentsline {subsection}{\numberline {3.9.3}Photon Purity Weighting}{77}{subsection.3.9.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.9.4}Track Efficiency, Fake Rate, and Bin Migration Weights}{78}{subsection.3.9.4}%
+\contentsline {subsection}{\numberline {3.9.4}Track Efficiency, Fake Rate, and Bin Migration Weights}{77}{subsection.3.9.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.9.5}Pair-Acceptance Correction with Event Mixing}{79}{subsection.3.9.5}%
+\contentsline {subsection}{\numberline {3.9.5}Pair-Acceptance Correction with Event Mixing}{78}{subsection.3.9.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.9.6}Fully Corrected \ensuremath {C_{\mathrm {SR}}}and \ensuremath {C_{\mathrm {BR}}}}{84}{subsection.3.9.6}%
+\contentsline {subsection}{\numberline {3.9.6}Fully Corrected \ensuremath {C_{\mathrm {SR}}}and \ensuremath {C_{\mathrm {BR}}}}{83}{subsection.3.9.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.9.7}Underlying Event Estimation}{87}{subsection.3.9.7}%
+\contentsline {subsection}{\numberline {3.9.7}Underlying Event Estimation}{86}{subsection.3.9.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {4}Checks and Systematics}{90}{chapter.4}%
+\contentsline {chapter}{\chapternumberline {4}Checks and Systematics}{89}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Event Mixing}{90}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Event Mixing}{89}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Toy Monte Carlo for Validating Event Mixing}{90}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.1}Toy Monte Carlo for Validating Event Mixing}{89}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Binned Event Mixing}{91}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Binned Event Mixing}{90}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Underlying Event Estimation}{92}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Underlying Event Estimation}{91}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Large \ensuremath {\Delta \eta }\nobreakspace {}Check}{93}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Large \ensuremath {\Delta \eta }\nobreakspace {}Check}{91}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Checks on UE Estimate with Standard ALICE Tracking}{93}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Checks on UE Estimate with Standard ALICE Tracking}{92}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Purity}{96}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Purity}{95}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Systematic Uncertainties of the Purity Measurement}{96}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.1}Systematic Uncertainties of the Purity Measurement}{95}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Signal Template}{97}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.2}Signal Template}{96}{subsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Sideband variation in the background template}{100}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.3}Sideband variation in the background template}{99}{subsection.4.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Background template correction}{100}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.4}Background template correction}{99}{subsection.4.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.5}Summary of Systematic Uncertainties on Purity Measurement}{105}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.5}Summary of Systematic Uncertainties on Purity Measurement}{104}{subsection.4.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Tracking}{105}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Tracking}{104}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Comparison to Published Data}{105}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.1}Comparison to Published Data}{104}{subsection.4.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Validation of $\varphi $-dependence of efficiency}{106}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.2}Validation of $\varphi $-dependence of efficiency}{105}{subsection.4.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Hybrid tracking on isolation check}{109}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.3}Hybrid tracking on isolation check}{108}{subsection.4.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.4}Summary of the ITS-only Tracking Performance Studies}{109}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.4}Summary of the ITS-only Tracking Performance Studies}{108}{subsection.4.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Neutral Energy in Isolation Variable}{110}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Neutral Energy in Isolation Variable}{109}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Impact of Acceptance Difference Between pp and p--Pb\nobreakspace {}due to Boost}{111}{section.4.6}%
+\contentsline {section}{\numberline {4.6}Impact of Acceptance Difference Between pp and p--Pb\nobreakspace {}due to Boost}{110}{section.4.6}%
 \defcounter {refsection}{0}\relax 
 \setcounter {tocdepth}{0}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Isolated-photon Efficiency}{114}{section.4.7}%
+\contentsline {section}{\numberline {4.7}Isolated-photon Efficiency}{113}{section.4.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.8}Comparison to ABCD method results}{114}{section.4.8}%
+\contentsline {section}{\numberline {4.8}Comparison to ABCD method results}{113}{section.4.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.9}Check by splitting clusters in $|\eta |<0.4$ and $0.4<|\eta |<0.67$ }{115}{section.4.9}%
+\contentsline {section}{\numberline {4.9}Check by splitting clusters in $|\eta |<0.4$ and $0.4<|\eta |<0.67$ }{114}{section.4.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.10}Cluster Selection Variations}{116}{section.4.10}%
+\contentsline {section}{\numberline {4.10}Cluster Selection Variations}{115}{section.4.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.11}MC-based correction for background template}{120}{section.4.11}%
+\contentsline {section}{\numberline {4.11}MC-based correction for background template}{117}{section.4.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.12}Checks on Error Function Fits to Purity}{121}{section.4.12}%
+\contentsline {section}{\numberline {4.12}Checks on Error Function Fits to Purity}{119}{section.4.12}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.13}Smearing signal template}{121}{section.4.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.14}Checking sensitivity to $\Delta \varphi $ binning }{121}{section.4.14}%
+\contentsline {section}{\numberline {4.14}Checking sensitivity to $\Delta \varphi $ binning }{122}{section.4.14}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.15}Checking Sensitivity to Beam Flip}{124}{section.4.15}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.16}Correlations including $\Delta \varphi =0$ }{124}{section.4.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.17}Comparing ITS only tracking to ITS+TPC Tracking}{124}{section.4.17}%
+\contentsline {section}{\numberline {4.17}Comparing ITS only tracking to ITS+TPC Tracking}{126}{section.4.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.18}Checking sensitivity to $\ensuremath {z_{\mathrm {T}}}$ binning}{124}{section.4.18}%
+\contentsline {section}{\numberline {4.18}Checking sensitivity to $\ensuremath {z_{\mathrm {T}}}$ binning}{126}{section.4.18}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.19}Checking sensitivity to pile up cut in pp}{126}{section.4.19}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.20}Checking Maximum Track $\ensuremath {p_{\mathrm {T}}}$ Cut}{126}{section.4.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.21}Sensitivity to $\chi ^2/\mathrm {ITS}_{clus}$ in p-Pb}{132}{section.4.21}%
+\contentsline {section}{\numberline {4.21}Sensitivity to $\chi ^2/\mathrm {ITS}_{clus}$ in p-Pb}{126}{section.4.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.22}Summary of Systematic Uncertainties}{135}{section.4.22}%
+\contentsline {section}{\numberline {4.22}Summary of Systematic Uncertainties}{132}{section.4.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {5}First Photon-Tagged Fragmentation Results in p--Pb}{138}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}First Photon-Tagged Fragmentation Results in p--Pb}{136}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.0.1}Fully Subtracted Correlation Functions}{138}{subsection.5.0.1}%
+\contentsline {subsection}{\numberline {5.0.1}Fully Subtracted Correlation Functions}{136}{subsection.5.0.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Parton Fragmentation Function}{138}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Parton Fragmentation Function}{136}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {6}Discussion}{142}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {6}Discussion}{140}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.0.1}Integrated Statistical Uncertainty on Fragmentation Function Ratio}{142}{subsection.6.0.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Kinematic Range Probed}{143}{section.6.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Insensitivity to Parton Distribution Function}{143}{subsection.6.1.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Comparison to Theory}{144}{section.6.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Conclusion}{144}{section.6.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {appendix}{\chapternumberline {A}High Performance Computing for Event Mixing}{145}{chapter.A}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Block Implementation and Parallelization}{145}{section.A.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Hiearchichal Data Format 5}{145}{section.A.2}%
+\contentsline {subsection}{\numberline {6.0.1}Integrated Statistical Uncertainty on Fragmentation Function Ratio}{140}{subsection.6.0.1}%

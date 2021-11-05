@@ -2452,7 +2452,6 @@
     <bcf:citekey order="119">Sirunyan:2017qhf</bcf:citekey>
     <bcf:citekey order="120">Erwann</bcf:citekey>
     <bcf:citekey order="121">Acharya:2019jkx</bcf:citekey>
-    <bcf:citekey order="121">Erwann</bcf:citekey>
     <bcf:citekey order="122">Acharya:2018qsh</bcf:citekey>
     <bcf:citekey order="123">Acharya:2019jkx</bcf:citekey>
     <bcf:citekey order="124">Erwann</bcf:citekey>
@@ -2473,6 +2472,7 @@
     <bcf:citekey order="138">Erwann</bcf:citekey>
     <bcf:citekey order="138">Acharya:2019jkx</bcf:citekey>
     <bcf:citekey order="139">Adare:2011sc</bcf:citekey>
+    <bcf:citekey order="140">PhysRevC.103.034911</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
