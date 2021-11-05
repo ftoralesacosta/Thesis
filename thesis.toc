@@ -38,9 +38,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.9}cold nuclear Matter Effects}{27}{section.1.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.9.1}The Nuclear Parton Distribution Function}{28}{subsection.1.9.1}%
+\contentsline {subsection}{\numberline {1.9.1}The Nuclear Parton Distribution Function}{27}{subsection.1.9.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.9.2}Nuclei and Fragmentation}{29}{subsection.1.9.2}%
+\contentsline {subsection}{\numberline {1.9.2}Nuclei and Fragmentation}{28}{subsection.1.9.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.10}Statement of Purpose}{30}{section.1.10}%
 \defcounter {refsection}{0}\relax 
@@ -136,7 +136,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Underlying Event Estimation}{91}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Large \ensuremath {\Delta \eta }\nobreakspace {}Check}{91}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Large \ensuremath {\Delta \eta }\nobreakspace {}Check}{92}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.2}Checks on UE Estimate with Standard ALICE Tracking}{92}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
@@ -209,3 +209,19 @@
 \contentsline {chapter}{\chapternumberline {6}Discussion}{140}{chapter.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.0.1}Integrated Statistical Uncertainty on Fragmentation Function Ratio}{140}{subsection.6.0.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Kinematic Range Probed}{141}{section.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.1}Insensitivity to Parton Distribution Function}{141}{subsection.6.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Comparison to Theory}{142}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Conclusion}{143}{section.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {appendix}{\chapternumberline {A}High Performance Computing for Event Mixing}{144}{chapter.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Block Implementation and Parallelization}{144}{section.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Hiearchichal Data Format 5}{144}{section.A.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{145}{section*.5}%
