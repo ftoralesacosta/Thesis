@@ -2449,24 +2449,23 @@
     <bcf:citekey order="116">Acharya:2018qsh</bcf:citekey>
     <bcf:citekey order="117">GaleShapley:1962amm</bcf:citekey>
     <bcf:citekey order="118">GaleShapley:1962amm</bcf:citekey>
-    <bcf:citekey order="119">Fantoni_2011</bcf:citekey>
-    <bcf:citekey order="120">Adare:2011sc</bcf:citekey>
-    <bcf:citekey order="121">Sirunyan:2017qhf</bcf:citekey>
-    <bcf:citekey order="122">Erwann</bcf:citekey>
+    <bcf:citekey order="119">Sirunyan:2017qhf</bcf:citekey>
+    <bcf:citekey order="120">Erwann</bcf:citekey>
+    <bcf:citekey order="121">Acharya:2019jkx</bcf:citekey>
+    <bcf:citekey order="121">Erwann</bcf:citekey>
+    <bcf:citekey order="122">Acharya:2018qsh</bcf:citekey>
     <bcf:citekey order="123">Acharya:2019jkx</bcf:citekey>
-    <bcf:citekey order="123">Erwann</bcf:citekey>
-    <bcf:citekey order="124">Acharya:2018qsh</bcf:citekey>
-    <bcf:citekey order="125">Acharya:2019jkx</bcf:citekey>
+    <bcf:citekey order="124">Erwann</bcf:citekey>
+    <bcf:citekey order="125">Erwann</bcf:citekey>
     <bcf:citekey order="126">Erwann</bcf:citekey>
     <bcf:citekey order="127">Erwann</bcf:citekey>
+    <bcf:citekey order="128">Acharya:2019jkx</bcf:citekey>
     <bcf:citekey order="128">Erwann</bcf:citekey>
-    <bcf:citekey order="129">Erwann</bcf:citekey>
-    <bcf:citekey order="130">Acharya:2019jkx</bcf:citekey>
-    <bcf:citekey order="130">Erwann</bcf:citekey>
-    <bcf:citekey order="131">10.1007/978-3-642-18211-2_166</bcf:citekey>
-    <bcf:citekey order="132">10.1007/978-3-642-18211-2_166</bcf:citekey>
-    <bcf:citekey order="133">PhysRevC.101.065204</bcf:citekey>
-    <bcf:citekey order="134">PhysRevC.101.065204</bcf:citekey>
+    <bcf:citekey order="129">10.1007/978-3-642-18211-2_166</bcf:citekey>
+    <bcf:citekey order="130">10.1007/978-3-642-18211-2_166</bcf:citekey>
+    <bcf:citekey order="131">PhysRevC.101.065204</bcf:citekey>
+    <bcf:citekey order="132">PhysRevC.101.065204</bcf:citekey>
+    <bcf:citekey order="133">Adare:2011sc</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
