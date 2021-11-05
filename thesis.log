@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.5)  5 NOV 2021 08:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.5)  5 NOV 2021 11:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -782,17 +782,7 @@ File: biblatex.cfg
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count463
 \l__pdf_internal_box=\box55
-) (./thesis.aux (./abstract.aux) (./Introduction.aux)
-./thesis.aux:108: Undefined control sequence.
-l.108 \abx@aux@s
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-)
+) (./thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -857,2783 +847,606 @@ LaTeX Info: Redefining \nameref on input line 36.
 LaTeX Info: Redefining \ref on input line 36.
 LaTeX Info: Redefining \pageref on input line 36.
 LaTeX Info: Redefining \nameref on input line 36.
-(./thesis.out) (./thesis.out)
-\@outlinefile=\write6
-\openout6 = `thesis.out'.
-
- (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count465
-\scratchdimen=\dimen198
-\scratchbox=\box56
-\nofMPsegments=\count466
-\nofMParguments=\count467
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count468
-\MPscratchDim=\dimen199
-\MPnumerator=\count469
-\makeMPintoPDFobject=\count470
-\everyMPtoPDFconversion=\toks31
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
-LaTeX Info: Redefining \celsius on input line 36.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 36.
-
-
-Package gensymb Warning: Not defining \perthousand.
-
-LaTeX Info: Redefining \ohm on input line 36.
-Package gensymb Info: Using \Omega for \ohm on input line 36.
-
-Package gensymb Warning: Not defining \micro.
-
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-Package biblatex Info: Document encoding is UTF8 ....
- (/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-02-18 L3 programming layer (loader) 
-)
-Package biblatex Info: ... and expl3
-(biblatex)             2021-02-18 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
-Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
-)
-\openout5 = `thesis.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'thesis.bbl' not found.
-
-No file thesis.bbl.
-Package biblatex Info: Reference section=0 on input line 36.
-Package biblatex Info: Reference segment=0 on input line 36.
-[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-]
-./thesis.tex:69: Undefined control sequence.
-\maketitle ... {\@jointinst }\par \else {\@degree 
-                                                  }\par \fi in \par {\@field...
-l.69 \maketitle
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.69 \maketitle
-                [1]
-
-Class ucbthesis Warning: The final submitted version should not have an approval page on input line 71.
-
-[2] [3]
-\openout2 = `abstract.aux'.
-
- (./abstract.tex
-./abstract.tex:3: Undefined control sequence.
-\abstract ... \par by\par \@author \par {\@degree 
-                                                  } in \@field \par \ifdefin...
-l.3 \begin{abstract}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.10 \end{abstract}
-                    [1
-
-]) [1
-
-
-] (./thesis.toc [2] [3]
-Overfull \hbox (2.03766pt too wide) detected at line 235
- \OT1/cmr/bx/n/12 142
- []
-
-) [4] (./thesis.lof [5
-
-]
-Overfull \hbox (32.83356pt too wide) in paragraph at lines 33--33
- \OT1/cmr/m/n/12 side which peaks around $^^A\OML/cmm/m/it/12 ^^^ \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^Y$ \OT1/cmr/m/n/12 in p+p and d+Au, is sup-pressed in Au+Au[[]][][] []  
- []
-
-[6]
-
-LaTeX Warning: Reference `Adolfsson:2750097' on page vii undefined on input line 57.
-
-[7] [8] [9]
-Overfull \hbox (0.82765pt too wide) in paragraph at lines 131--131
- [][] [][][]\OT1/cmr/m/n/12 Transverse mo-men-tum den-sity (left panel) and iso-la-tion dis-tri-bu-tions (right panel) 
- []
-
-
-LaTeX Warning: Reference `eq:bkgtemplatedoubleratio' on page x undefined on input line 141.
-
-[10]
-
-LaTeX Warning: Reference `eq:bkgtemplatedoubleratio' on page xi undefined on input line 143.
-
-
-Overfull \hbox (1.63895pt too wide) in paragraph at lines 155--155
- [][] [][][]\OT1/cmr/m/n/12 Correlation func-tion be-tween iso-lated prompt pho-tons and hadrons from \OT1/cmr/m/sc/12 Pythia8 
- []
-
-[11]
-
-LaTeX Warning: Reference `sec:results' on page xii undefined on input line 181.
-
-
-LaTeX Warning: Reference `fig:CorrelationFinal' on page xii undefined on input line 185.
-
-[12]) [13] (./thesis.lot) [14
-
-] [15]
-\openout2 = `Introduction.aux'.
-
- (./Introduction.tex
-
-LaTeX Warning: Citation 'and2010' on page 1 undefined on input line 5.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.29 
-      [1
-
-
-]
-
-LaTeX Warning: Citation 'Bettini2008' on page 2 undefined on input line 53.
-
-<Introduction/a_S_running.pdf, id=764, 614.295pt x 794.97pt>
-File: Introduction/a_S_running.pdf Graphic file (type pdf)
-<use Introduction/a_S_running.pdf>
-Package pdftex.def Info: Introduction/a_S_running.pdf  used on input line 58.
-(pdftex.def)             Requested size: 469.0pt x 467.45271pt.
-
-LaTeX Warning: Citation 'AIP2014' on page 2 undefined on input line 70.
-
-
-LaTeX Warning: Citation '.' on page 2 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'annurev-nucl' on page 2 undefined on input line 71.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.72 
-      [2]pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.72 
-      [3 <./Introduction/a_S_running.pdf>]
-<Introduction/collision_snapshot.pdf, id=831, 264.78473pt x 154.12079pt>
-File: Introduction/collision_snapshot.pdf Graphic file (type pdf)
-<use Introduction/collision_snapshot.pdf>
-Package pdftex.def Info: Introduction/collision_snapshot.pdf  used on input line 75.
-(pdftex.def)             Requested size: 464.31258pt x 270.25865pt.
-<Introduction/qcd_phase.pdf, id=833, 253.33005pt x 155.92714pt>
-File: Introduction/qcd_phase.pdf Graphic file (type pdf)
-<use Introduction/qcd_phase.pdf>
-Package pdftex.def Info: Introduction/qcd_phase.pdf  used on input line 89.
-(pdftex.def)             Requested size: 464.31258pt x 285.80779pt.
-
-
-LaTeX Warning: Citation 'annurev-nucl' on page 4 undefined on input line 90.
-
-
-LaTeX Warning: Citation 'annurev-nucl' on page 4 undefined on input line 90.
-
-[4]
-
-LaTeX Warning: Citation 'Wilson1974' on page 5 undefined on input line 96.
-
-<Introduction/lattice_qcd.pdf, id=840, 195.12285pt x 153.82008pt>
-File: Introduction/lattice_qcd.pdf Graphic file (type pdf)
-<use Introduction/lattice_qcd.pdf>
-Package pdftex.def Info: Introduction/lattice_qcd.pdf  used on input line 101.
-(pdftex.def)             Requested size: 375.20143pt x 295.82173pt.
-
-LaTeX Warning: Citation 'Borsanyi2014' on page 5 undefined on input line 102.
-
-
-LaTeX Warning: Citation 'HotQCDCollaboration2014' on page 5 undefined on input line 102.
-
-
-LaTeX Warning: Citation 'Borsanyi2014' on page 5 undefined on input line 102.
-
-
-LaTeX Warning: Citation 'HotQCDCollaboration2014' on page 5 undefined on input line 102.
-
-[5 <./Introduction/collision_snapshot.pdf>] [6 <./Introduction/qcd_phase.pdf>]
-<Introduction/overlap_diagram.pdf, id=962, 318.65257pt x 208.93047pt>
-File: Introduction/overlap_diagram.pdf Graphic file (type pdf)
-<use Introduction/overlap_diagram.pdf>
-Package pdftex.def Info: Introduction/overlap_diagram.pdf  used on input line 120.
-(pdftex.def)             Requested size: 375.20143pt x 246.02571pt.
- [7 <./Introduction/lattice_qcd.pdf>] [8 <./Introduction/overlap_diagram.pdf>]
-
-LaTeX Warning: Citation 'Aidala2019' on page 9 undefined on input line 135.
-
-<Introduction/collision_geometries.pdf, id=1047, 280.67783pt x 214.44998pt>
-File: Introduction/collision_geometries.pdf Graphic file (type pdf)
-<use Introduction/collision_geometries.pdf>
-Package pdftex.def Info: Introduction/collision_geometries.pdf  used on input line 139.
-(pdftex.def)             Requested size: 375.20143pt x 286.69066pt.
-
-LaTeX Warning: Citation 'Aamodt2011' on page 9 undefined on input line 144.
-
-<Introduction/flow_measurements_peripheral.pdf, id=1049, 240.07736pt x 155.61537pt>
-File: Introduction/flow_measurements_peripheral.pdf Graphic file (type pdf)
-<use Introduction/flow_measurements_peripheral.pdf>
-Package pdftex.def Info: Introduction/flow_measurements_peripheral.pdf  used on input line 148.
-(pdftex.def)             Requested size: 211.04857pt x 136.8066pt.
-<Introduction/flow_measurements_central.pdf, id=1050, 223.66443pt x 175.38834pt>
-File: Introduction/flow_measurements_central.pdf Graphic file (type pdf)
-<use Introduction/flow_measurements_central.pdf>
-Package pdftex.def Info: Introduction/flow_measurements_central.pdf  used on input line 149.
-(pdftex.def)             Requested size: 211.04857pt x 165.4993pt.
-
-LaTeX Warning: Citation 'Romatschke2007' on page 9 undefined on input line 155.
-
-
-LaTeX Warning: Citation 'Khachatryan2010' on page 9 undefined on input line 163.
-
-
-LaTeX Warning: Citation 'Abelev2013' on page 9 undefined on input line 163.
-
-
-LaTeX Warning: Citation 'Aaij2016' on page 9 undefined on input line 163.
-
-<Introduction/near_side_ridge.pdf, id=1052, 186.7015pt x 148.0756pt>
-File: Introduction/near_side_ridge.pdf Graphic file (type pdf)
-<use Introduction/near_side_ridge.pdf>
-Package pdftex.def Info: Introduction/near_side_ridge.pdf  used on input line 167.
-(pdftex.def)             Requested size: 375.20143pt x 297.59879pt.
-
-LaTeX Warning: Citation 'Aaij2016' on page 9 undefined on input line 168.
-
-
-LaTeX Warning: Citation 'Aaij2016' on page 9 undefined on input line 168.
-
-<Introduction/small_systems_flow.pdf, id=1054, 312.09506pt x 119.33513pt>
-File: Introduction/small_systems_flow.pdf Graphic file (type pdf)
-<use Introduction/small_systems_flow.pdf>
-Package pdftex.def Info: Introduction/small_systems_flow.pdf  used on input line 176.
-(pdftex.def)             Requested size: 464.31258pt x 177.53822pt.
-
-LaTeX Warning: Citation 'Khachatryan2017' on page 9 undefined on input line 177.
-
-
-LaTeX Warning: Citation 'Khachatryan2015' on page 9 undefined on input line 177.
-
-
-LaTeX Warning: Citation 'Khachatryan2017' on page 9 undefined on input line 177.
-
-
-LaTeX Warning: Citation 'Khachatryan2015' on page 9 undefined on input line 177.
-
-[9] [10 <./Introduction/collision_geometries.pdf>]
-
-LaTeX Warning: Citation 'Romatschke2018a' on page 11 undefined on input line 185.
-
-[11 <./Introduction/flow_measurements_peripheral.pdf> <./Introduction/flow_measurements_central.pdf>]
-
-LaTeX Warning: Citation 'Atkin2015' on page 12 undefined on input line 193.
-
-[12 <./Introduction/near_side_ridge.pdf>]
-
-LaTeX Warning: Citation 'doi:10.1146/annurev.nucl.57.090506.123020' on page 13 undefined on input line 204.
-
-[13 <./Introduction/small_systems_flow.pdf>]
-<Introduction/atlas_raa.pdf, id=1384, 209.58537pt x 162.08495pt>
-File: Introduction/atlas_raa.pdf Graphic file (type pdf)
-<use Introduction/atlas_raa.pdf>
-Package pdftex.def Info: Introduction/atlas_raa.pdf  used on input line 209.
-(pdftex.def)             Requested size: 375.20143pt x 290.19455pt.
-
-
-LaTeX Warning: Citation 'Aaboud2019' on page 14 undefined on input line 210.
-
-
-LaTeX Warning: Citation 'Aaboud2019' on page 14 undefined on input line 210.
-
-[14 <./Introduction/atlas_raa.pdf>]
-
-LaTeX Warning: Citation 'Connors2018' on page 15 undefined on input line 217.
-
-
-LaTeX Warning: Reference `fig:alice_hadron_raa' on page 15 undefined on input line 219.
-
-
-LaTeX Warning: Citation 'Bencedi2016' on page 15 undefined on input line 219.
-
-<Introduction/alice_hadron_raa.pdf, id=1429, 184.78748pt x 162.10893pt>
-File: Introduction/alice_hadron_raa.pdf Graphic file (type pdf)
-<use Introduction/alice_hadron_raa.pdf>
-Package pdftex.def Info: Introduction/alice_hadron_raa.pdf  used on input line 223.
-(pdftex.def)             Requested size: 464.31258pt x 407.3392pt.
-
-LaTeX Warning: Citation 'Bencedi2016' on page 15 undefined on input line 224.
-
-
-LaTeX Warning: Citation 'Bencedi2016' on page 15 undefined on input line 224.
-
-
-LaTeX Warning: Reference `sec:direct_photons' on page 15 undefined on input line 228.
-
-
-LaTeX Warning: Citation 'Khachatryan2016' on page 15 undefined on input line 228.
-
-[15] [16 <./Introduction/alice_hadron_raa.pdf>] [17]
-<Introduction/pdg_ff.pdf, id=1560, 202.18947pt x 275.60776pt>
-File: Introduction/pdg_ff.pdf Graphic file (type pdf)
-<use Introduction/pdg_ff.pdf>
-Package pdftex.def Info: Introduction/pdg_ff.pdf  used on input line 263.
-(pdftex.def)             Requested size: 375.20143pt x 511.4434pt.
-
-
-LaTeX Warning: Citation 'deFlorian2018' on page 18 undefined on input line 264.
-
-
-LaTeX Warning: Citation 'deFlorian2018' on page 18 undefined on input line 264.
-
-<Introduction/pdfs.pdf, id=1561, 213.32599pt x 208.97252pt>
-File: Introduction/pdfs.pdf Graphic file (type pdf)
-<use Introduction/pdfs.pdf>
-Package pdftex.def Info: Introduction/pdfs.pdf  used on input line 270.
-(pdftex.def)             Requested size: 375.20143pt x 367.56636pt.
-
-LaTeX Warning: Citation 'Pumplin2002' on page 18 undefined on input line 271.
-
-
-LaTeX Warning: Citation 'Pumplin2002' on page 18 undefined on input line 271.
-
-
-LaTeX Warning: Reference `fig:dihadron_cartoon' on page 18 undefined on input line 290.
-
-
-LaTeX Warning: Reference `sec:ue_subtraction' on page 18 undefined on input line 290.
-
-[18] [19 <./Introduction/pdg_ff.pdf>]
-<Introduction/dihadron_cartoon.pdf, id=1648, 433.62pt x 289.08pt>
-File: Introduction/dihadron_cartoon.pdf Graphic file (type pdf)
-<use Introduction/dihadron_cartoon.pdf>
-Package pdftex.def Info: Introduction/dihadron_cartoon.pdf  used on input line 294.
-(pdftex.def)             Requested size: 375.20143pt x 250.1478pt.
-<Introduction/star_dihadron.pdf, id=1650, 169.53116pt x 118.21425pt>
-File: Introduction/star_dihadron.pdf Graphic file (type pdf)
-<use Introduction/star_dihadron.pdf>
-Package pdftex.def Info: Introduction/star_dihadron.pdf  used on input line 303.
-(pdftex.def)             Requested size: 375.20143pt x 261.67569pt.
-
-
-LaTeX Warning: Citation 'Adams2005' on page 20 undefined on input line 304.
-
-
-LaTeX Warning: Citation 'Adams2005' on page 20 undefined on input line 304.
-
-[20 <./Introduction/pdfs.pdf>]
-
-LaTeX Warning: Citation 'Aurenche1993' on page 21 undefined on input line 311.
-
-<Introduction/prompt_photons.pdf, id=1700, 314.09303pt x 98.09409pt>
-File: Introduction/prompt_photons.pdf Graphic file (type pdf)
-<use Introduction/prompt_photons.pdf>
-Package pdftex.def Info: Introduction/prompt_photons.pdf  used on input line 315.
-(pdftex.def)             Requested size: 375.20143pt x 117.1884pt.
-[21 <./Introduction/dihadron_cartoon.pdf>] [22 <./Introduction/star_dihadron.pdf> <./Introduction/prompt_photons.pdf>]
-
-LaTeX Warning: Citation 'David2020' on page 23 undefined on input line 339.
-
-<Introduction/photon_raa.pdf, id=1795, 441.8945pt x 336.40923pt>
-File: Introduction/photon_raa.pdf Graphic file (type pdf)
-<use Introduction/photon_raa.pdf>
-Package pdftex.def Info: Introduction/photon_raa.pdf  used on input line 345.
-(pdftex.def)             Requested size: 375.20143pt x 285.64632pt.
-
-LaTeX Warning: Citation 'Sirunyan2018' on page 23 undefined on input line 356.
-
-<Introduction/cms_gj_correlations.pdf, id=1797, 457.88034pt x 200.95699pt>
-File: Introduction/cms_gj_correlations.pdf Graphic file (type pdf)
-<use Introduction/cms_gj_correlations.pdf>
-Package pdftex.def Info: Introduction/cms_gj_correlations.pdf  used on input line 361.
-(pdftex.def)             Requested size: 464.31258pt x 203.78058pt.
-
-LaTeX Warning: Citation 'Sirunyan2018' on page 23 undefined on input line 362.
-
-
-LaTeX Warning: Citation 'Sirunyan2018' on page 23 undefined on input line 362.
-
-[23]
-
-LaTeX Warning: Citation 'Sirunyan2018' on page 24 undefined on input line 367.
-
-<Introduction/cms_gj_quenching.pdf, id=1805, 205.65948pt x 208.57182pt>
-File: Introduction/cms_gj_quenching.pdf Graphic file (type pdf)
-<use Introduction/cms_gj_quenching.pdf>
-Package pdftex.def Info: Introduction/cms_gj_quenching.pdf  used on input line 371.
-(pdftex.def)             Requested size: 375.20143pt x 380.51784pt.
-
-Overfull \hbox (3.701pt too wide) in paragraph at lines 380--381
-\OT1/cmr/m/n/12 the prompt pho-ton as the trig-ger, is noth-ing but the frag-men-ta-tion vari-able, $\OML/cmm/m/it/12 p[]=p[]$\OT1/cmr/m/n/12 .
- []
-
-[24 <./Introduction/photon_raa.pdf>]
-
-LaTeX Warning: Citation 'STARCollaboration2017' on page 25 undefined on input line 382.
-
-
-LaTeX Warning: Citation 'Zhang2007' on page 25 undefined on input line 382.
-
-[25 <./Introduction/cms_gj_correlations.pdf>] [26 <./Introduction/cms_gj_quenching.pdf>]
-<Introduction/phenix_gh_corr.pdf, id=1939, 387.85901pt x 275.7211pt>
-File: Introduction/phenix_gh_corr.pdf Graphic file (type pdf)
-<use Introduction/phenix_gh_corr.pdf>
-Package pdftex.def Info: Introduction/phenix_gh_corr.pdf  used on input line 386.
-(pdftex.def)             Requested size: 375.20143pt x 266.7297pt.
-
-
-LaTeX Warning: Citation 'PHENIXCollaboration2020' on page 27 undefined on input line 391.
-
-<Introduction/phenix_gh_IAA.pdf, id=1941, 246.41922pt x 168.20923pt>
-File: Introduction/phenix_gh_IAA.pdf Graphic file (type pdf)
-<use Introduction/phenix_gh_IAA.pdf>
-Package pdftex.def Info: Introduction/phenix_gh_IAA.pdf  used on input line 395.
-(pdftex.def)             Requested size: 375.20143pt x 256.12982pt.
-[27 <./Introduction/phenix_gh_corr.pdf>] [28 <./Introduction/phenix_gh_IAA.pdf>]
-<Introduction/cnm_cartoon.pdf, id=2028, 246.85056pt x 185.46399pt>
-File: Introduction/cnm_cartoon.pdf Graphic file (type pdf)
-<use Introduction/cnm_cartoon.pdf>
-Package pdftex.def Info: Introduction/cnm_cartoon.pdf  used on input line 420.
-(pdftex.def)             Requested size: 375.20143pt x 281.90253pt.
-
-
-LaTeX Warning: Citation 'Pumplin2001' on page 29 undefined on input line 421.
-
-
-LaTeX Warning: Citation 'Pumplin2001' on page 29 undefined on input line 421.
-
-
-LaTeX Warning: Citation 'Cronin1975' on page 29 undefined on input line 428.
-
-[29 <./Introduction/cnm_cartoon.pdf>]
-
-LaTeX Warning: Citation 'Adler:2005ad' on page 30 undefined on input line 433.
-
-
-LaTeX Warning: Citation 'Acharya:2018edi' on page 30 undefined on input line 433.
-
-
-LaTeX Warning: Citation 'Adam:2015xea' on page 30 undefined on input line 433.
-
-
-LaTeX Warning: Citation 'Adare:2011sc' on page 30 undefined on input line 433.
-
-
-LaTeX Warning: Citation 'Aidala:2018eqn' on page 30 undefined on input line 433.
-
-
-LaTeX Warning: Citation 'Aaboud:2017tke' on page 30 undefined on input line 433.
-
-
-LaTeX Warning: Citation 'deFlorian:2011fp' on page 30 undefined on input line 433.
-
-
-LaTeX Warning: Citation 'Accardi:2009qv' on page 30 undefined on input line 437.
-
-
-LaTeX Warning: Citation 'Accardi:2012qut' on page 30 undefined on input line 437.
-
-
-LaTeX Warning: Citation 'Xing:2012ii' on page 30 undefined on input line 437.
-
-
-LaTeX Warning: Citation 'Connors:2017ptx' on page 30 undefined on input line 437.
-
-[30]
-
-LaTeX Warning: Citation 'Adare:2011sc' on page 31 undefined on input line 439.
-
-
-LaTeX Warning: Citation 'Accardi:2009qv' on page 31 undefined on input line 441.
-
-
-LaTeX Warning: Citation 'Salgado:2011wc' on page 31 undefined on input line 441.
-
-) [31]
-\openout2 = `Experimental_Apparatus.aux'.
-
- (./Experimental_Apparatus.tex
-
-LaTeX Warning: Citation 'Evans2008' on page 32 undefined on input line 8.
-
-[32
-
-
-
-
-]
-
-LaTeX Warning: Citation 'Evans2008' on page 33 undefined on input line 19.
-
-<Experimental_Aparatus/LHC.png, id=2118, 5121.534pt x 4552.5282pt>
-File: Experimental_Aparatus/LHC.png Graphic file (type png)
-<use Experimental_Aparatus/LHC.png>
-Package pdftex.def Info: Experimental_Aparatus/LHC.png  used on input line 25.
-(pdftex.def)             Requested size: 370.50685pt x 329.33781pt.
-
-LaTeX Warning: Citation 'Mobs:2197559' on page 33 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'Mobs:2197559' on page 33 undefined on input line 27.
-
-[33]
-
-LaTeX Warning: Citation 'PhysRevLett.116.222302' on page 34 undefined on input line 34.
-
-
-LaTeX Warning: Reference `fig:alice' on page 34 undefined on input line 34.
-
-<Experimental_Aparatus/ALICE.png, id=2125, 722.7pt x 417.56pt>
-File: Experimental_Aparatus/ALICE.png Graphic file (type png)
-<use Experimental_Aparatus/ALICE.png>
-Package pdftex.def Info: Experimental_Aparatus/ALICE.png  used on input line 39.
-(pdftex.def)             Requested size: 464.31258pt x 268.26965pt.
-
-LaTeX Warning: Citation 'Tauro:2263642' on page 34 undefined on input line 40.
-
-
-LaTeX Warning: Citation 'Tauro:2263642' on page 34 undefined on input line 40.
-
-
-LaTeX Warning: Reference `fig:alice' on page 34 undefined on input line 44.
-
-[34 <./Experimental_Aparatus/LHC.png>]
-
-LaTeX Warning: Reference `fig:ITS' on page 35 undefined on input line 58.
-
-
-LaTeX Warning: Reference `tab:its' on page 35 undefined on input line 58.
-
-[35 <./Experimental_Aparatus/ALICE.png>]
-<Experimental_Aparatus/ITS.pdf, id=2140, 264.86916pt x 163.26064pt>
-File: Experimental_Aparatus/ITS.pdf Graphic file (type pdf)
-<use Experimental_Aparatus/ITS.pdf>
-Package pdftex.def Info: Experimental_Aparatus/ITS.pdf  used on input line 62.
-(pdftex.def)             Requested size: 375.20143pt x 231.28864pt.
-
-
-LaTeX Warning: Citation 'Tauro:2263642' on page 36 undefined on input line 63.
-
-
-LaTeX Warning: Citation 'Tauro:2263642' on page 36 undefined on input line 63.
-
-
-LaTeX Warning: Reference `fig:silicon' on page 36 undefined on input line 81.
-
-[36 <./Experimental_Aparatus/ITS.pdf>]
-<Experimental_Aparatus/silicon_detector.pdf, id=2172, 318.95773pt x 182.9255pt>
-File: Experimental_Aparatus/silicon_detector.pdf Graphic file (type pdf)
-<use Experimental_Aparatus/silicon_detector.pdf>
-Package pdftex.def Info: Experimental_Aparatus/silicon_detector.pdf  used on input line 85.
-(pdftex.def)             Requested size: 375.20143pt x 215.19427pt.
-
-
-LaTeX Warning: Reference `Adolfsson:2750097' on page 37 undefined on input line 86.
-
-
-LaTeX Warning: Reference `Adolfsson:2750097' on page 37 undefined on input line 86.
-
-[37 <./Experimental_Aparatus/silicon_detector.pdf>]
-
-LaTeX Warning: Reference `fig:tpc_avalanche' on page 38 undefined on input line 103.
-
-<Experimental_Aparatus/Proportional_counter.jpg, id=2221, 755.4624pt x 423.5022pt>
-File: Experimental_Aparatus/Proportional_counter.jpg Graphic file (type jpg)
-<use Experimental_Aparatus/Proportional_counter.jpg>
-Package pdftex.def Info: Experimental_Aparatus/Proportional_counter.jpg  used on input line 107.
-(pdftex.def)             Requested size: 375.20143pt x 210.33536pt.
-
-LaTeX Warning: Citation 'Dougsim2012' on page 38 undefined on input line 108.
-
-
-LaTeX Warning: Citation 'Dougsim2012' on page 38 undefined on input line 108.
-
-[38]
-
-LaTeX Warning: Citation 'Alme2010' on page 39 undefined on input line 114.
-
-[39 <./Experimental_Aparatus/Proportional_counter.jpg>]
-
-LaTeX Warning: Citation 'Schmidt2020' on page 40 undefined on input line 117.
-
-
-LaTeX Warning: Reference `fig:tpc_distortion' on page 40 undefined on input line 117.
-
-<Experimental_Aparatus/TPC_distortion.pdf, id=2230, 418.3893pt x 353.72952pt>
-File: Experimental_Aparatus/TPC_distortion.pdf Graphic file (type pdf)
-<use Experimental_Aparatus/TPC_distortion.pdf>
-Package pdftex.def Info: Experimental_Aparatus/TPC_distortion.pdf  used on input line 121.
-(pdftex.def)             Requested size: 375.20143pt x 317.22556pt.
-
-LaTeX Warning: Citation 'Hellbar2019' on page 40 undefined on input line 122.
-
-
-LaTeX Warning: Citation 'Hellbar2019' on page 40 undefined on input line 122.
-
-
-LaTeX Warning: Reference `sec:tracking_published_comparision' on page 40 undefined on input line 127.
-
-[40]
-
-LaTeX Warning: Citation 'Blau2020' on page 41 undefined on input line 133.
-
-
-LaTeX Warning: Reference `fig:emcal' on page 41 undefined on input line 133.
-
-[41 <./Experimental_Aparatus/TPC_distortion.pdf>]
-<Experimental_Aparatus/emcal.pdf, id=2563, 369.22993pt x 300.11081pt>
-File: Experimental_Aparatus/emcal.pdf Graphic file (type pdf)
-<use Experimental_Aparatus/emcal.pdf>
-Package pdftex.def Info: Experimental_Aparatus/emcal.pdf  used on input line 137.
-(pdftex.def)             Requested size: 211.04857pt x 171.54117pt.
-<Experimental_Aparatus/module.pdf, id=2564, 329.73518pt x 245.22957pt>
-File: Experimental_Aparatus/module.pdf Graphic file (type pdf)
-<use Experimental_Aparatus/module.pdf>
-Package pdftex.def Info: Experimental_Aparatus/module.pdf  used on input line 138.
-(pdftex.def)             Requested size: 211.04857pt x 156.96509pt.
-
-
-LaTeX Warning: Citation 'Bellwied2010' on page 42 undefined on input line 139.
-
-
-LaTeX Warning: Citation 'Bellwied2010' on page 42 undefined on input line 139.
-
-
-LaTeX Warning: Citation 'Aamodt:2008zz' on page 42 undefined on input line 149.
-
-File: Experimental_Aparatus/LHC.png Graphic file (type png)
-<use Experimental_Aparatus/LHC.png>
-Package pdftex.def Info: Experimental_Aparatus/LHC.png  used on input line 153.
-(pdftex.def)             Requested size: 375.20143pt x 333.50577pt.
-
-LaTeX Warning: Citation 'Adolfsson2020' on page 42 undefined on input line 154.
-
-
-LaTeX Warning: Citation 'Adolfsson2020' on page 42 undefined on input line 154.
-
-[42 <./Experimental_Aparatus/emcal.pdf> <./Experimental_Aparatus/module.pdf>]
-./Experimental_Apparatus.tex:162: Undefined control sequence.
-<recently read> \Chi 
-                     
-l.162 ...ted, and the tracks with the lowest $\Chi
-                                                  ^2$ are selected at the end.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[43]
-
-LaTeX Warning: Reference `sec:TPC' on page 44 undefined on input line 166.
-
-
-LaTeX Warning: Reference `sec:tracking_published_comparision' on page 44 undefined on input line 166.
-
-
-LaTeX Warning: Citation 'Wenninger:2668326' on page 44 undefined on input line 172.
-
-[44]
-
-LaTeX Warning: Reference `sec:ntuples' on page 45 undefined on input line 178.
-
-) [45]
-\openout2 = `Analysis.aux'.
-
- (./Analysis.tex
-
-LaTeX Warning: Citation 'Arleo:2004gn' on page 46 undefined on input line 9.
-
-[46
-
-
-
-
-]
-
-LaTeX Warning: Citation 'Sirunyan:2018gro' on page 47 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'Chatrchyan:2012gt' on page 47 undefined on input line 15.
-
-[47]
-
-LaTeX Warning: Reference `tab:triggerstrings' on page 48 undefined on input line 37.
-
-
-LaTeX Warning: Reference `sec:tracking' on page 48 undefined on input line 62.
-
-[48]
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\OT1/cmtt/m/n/10 pass4 / global _ properties . pdf$[][] \OT1/cmr/m/n/10 and [][]$\OT1/cmtt/m/n/10 http : / / aliqaevs . web . cern . ch / aliqaevs / data / 2017 / LHC17q /
- []
-
-
-LaTeX Warning: Reference `sec:purity' on page 49 undefined on input line 83.
-
-
-LaTeX Warning: Reference `sec:tracking' on page 49 undefined on input line 83.
-
-
-LaTeX Warning: Reference `tab:datasets' on page 49 undefined on input line 114.
-
-
-LaTeX Warning: Reference `tab:triggerstrings' on page 49 undefined on input line 116.
-
-
-LaTeX Warning: Reference `tab:eventsselected' on page 49 undefined on input line 122.
-
-[49]
-
-LaTeX Warning: Citation 'Acharya:2017tlv' on page 50 undefined on input line 155.
-
-[50]
-
-LaTeX Warning: Citation 'CrossTalk' on page 51 undefined on input line 167.
-
-
-LaTeX Warning: Reference `tab:MCsamples' on page 51 undefined on input line 167.
-
-
-LaTeX Warning: Citation 'Acharya:2019jkx' on page 51 undefined on input line 184.
-
-
-LaTeX Warning: Reference `ClusterCutFlow_pPb' on page 51 undefined on input line 188.
-
-
-LaTeX Warning: Reference `ClusterCutFlow_pp' on page 51 undefined on input line 188.
-
-
-LaTeX Warning: Reference `tab:photonCutFlow' on page 51 undefined on input line 188.
-
-<Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_13def.pdf, id=2689, 650.43pt x 433.62pt>
-File: Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_13def.pdf Graphic file (type pdf)
-<use Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_13def.pdf>
-Package pdftex.def Info: Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_13def.pdf  used on input line 192.
-(pdftex.def)             Requested size: 445.54857pt x 297.04114pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_17q.pdf, id=2690, 650.43pt x 433.62pt>
-File: Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_17q.pdf Graphic file (type pdf)
-<use Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_17q.pdf>
-Package pdftex.def Info: Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_17q.pdf  used on input line 200.
-(pdftex.def)             Requested size: 445.54857pt x 297.04114pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[51] [52 <./Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_13def.pdf>] [53 <./Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_17q.pdf>]
-
-LaTeX Warning: Citation 'Acharya:2018dqe' on page 54 undefined on input line 246.
-
-[54
-
-]
-
-LaTeX Warning: Reference `fig:TemplateFit' on page 55 undefined on input line 248.
-
-
-LaTeX Warning: Reference `fig:sigma_long_shapes' on page 55 undefined on input line 262.
-
-<Data_Analysis/sigma_long_shapes.pdf, id=2829, 425.31499pt x 235.78911pt>
-File: Data_Analysis/sigma_long_shapes.pdf Graphic file (type pdf)
-<use Data_Analysis/sigma_long_shapes.pdf>
-Package pdftex.def Info: Data_Analysis/sigma_long_shapes.pdf  used on input line 266.
-(pdftex.def)             Requested size: 234.5pt x 130.001pt.
-
-LaTeX Warning: Reference `sec:purity' on page 55 undefined on input line 271.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
-
- []
-
-
-LaTeX Warning: Citation 'PhysRevD.82.014015' on page 55 undefined on input line 278.
-
-[55 <./Data_Analysis/sigma_long_shapes.pdf>]
-
-LaTeX Warning: Reference `sec:ue_subtraction' on page 56 undefined on input line 296.
-
-
-LaTeX Warning: Citation 'Cacciari:2009dp' on page 56 undefined on input line 298.
-
-
-LaTeX Warning: Reference `eq:ue_density' on page 56 undefined on input line 299.
-
-[56]
-
-LaTeX Warning: Citation 'Cacciari:2009dp' on page 57 undefined on input line 305.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--306
-
- []
-
-<Data_Analysis/Isolation/Rho_MinBias.pdf, id=2862, 569.12625pt x 384.43625pt>
-File: Data_Analysis/Isolation/Rho_MinBias.pdf Graphic file (type pdf)
-<use Data_Analysis/Isolation/Rho_MinBias.pdf>
-Package pdftex.def Info: Data_Analysis/Isolation/Rho_MinBias.pdf  used on input line 309.
-(pdftex.def)             Requested size: 234.5pt x 158.40005pt.
-<Data_Analysis/Isolation/Rho_GammaTrigger.pdf, id=2863, 569.12625pt x 384.43625pt>
-File: Data_Analysis/Isolation/Rho_GammaTrigger.pdf Graphic file (type pdf)
-<use Data_Analysis/Isolation/Rho_GammaTrigger.pdf>
-Package pdftex.def Info: Data_Analysis/Isolation/Rho_GammaTrigger.pdf  used on input line 310.
-(pdftex.def)             Requested size: 234.5pt x 158.40005pt.
-
-Overfull \hbox (1.85606pt too wide) in paragraph at lines 309--311
-[][] [] 
- []
-
-
-LaTeX Warning: Reference `fig:Rho' on page 57 undefined on input line 314.
-
-
-LaTeX Warning: Reference `tab:rhoestimates' on page 57 undefined on input line 317.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `sec:ue_isolation' on page 57 undefined on input line 337.
-
-[57 <./Data_Analysis/Isolation/Rho_MinBias.pdf, page is rotated 90 degrees> <./Data_Analysis/Isolation/Rho_GammaTrigger.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `sec:iso_acceptance_check' on page 58 undefined on input line 345.
-
-
-LaTeX Warning: Reference `fig:iso_ue' on page 58 undefined on input line 350.
-
-
-LaTeX Warning: Reference `sec:ue_isolation' on page 58 undefined on input line 350.
-
-<Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_13def_root.pdf, id=2958, 650.43pt x 433.62pt>
-File: Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_13def_root.pdf Graphic file (type pdf)
-<use Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_13def_root.pdf>
-Package pdftex.def Info: Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_13def_root.pdf  used on input line 354.
-(pdftex.def)             Requested size: 229.81258pt x 153.20505pt.
-<Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_17q_root.pdf, id=2959, 650.43pt x 433.62pt>
-File: Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_17q_root.pdf Graphic file (type pdf)
-<use Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_17q_root.pdf>
-Package pdftex.def Info: Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_17q_root.pdf  used on input line 355.
-(pdftex.def)             Requested size: 229.81258pt x 153.20505pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `MC_Isolation' on page 58 undefined on input line 361.
-
-
-LaTeX Warning: Reference `tab:MCsamples' on page 58 undefined on input line 361.
-
-<Data_Analysis/Isolation/IsolationMCsignal_Skimmed_17g6a1_pthat1_4L_root.pdf, id=2960, 867.24pt x 289.08pt>
-File: Data_Analysis/Isolation/IsolationMCsignal_Skimmed_17g6a1_pthat1_4L_root.pdf Graphic file (type pdf)
-<use Data_Analysis/Isolation/IsolationMCsignal_Skimmed_17g6a1_pthat1_4L_root.pdf>
-Package pdftex.def Info: Data_Analysis/Isolation/IsolationMCsignal_Skimmed_17g6a1_pthat1_4L_root.pdf  used on input line 365.
-(pdftex.def)             Requested size: 469.0pt x 156.33466pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `MC_Isolation' on page 58 undefined on input line 372.
-
-[58]
-
-LaTeX Warning: Reference `MC_Isolation' on page 59 undefined on input line 377.
-
-
-LaTeX Warning: Reference `sec:purity' on page 59 undefined on input line 377.
-
-[59 <./Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_13def_root.pdf> <./Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_17q_root.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_17q_root.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/Isolation/IsolationMCsignal_Skimmed_17g6a1_pthat1_4L_root.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Isolation/IsolationMCsignal_Skimmed_17g6a1_pthat1_4L_root.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-
-LaTeX Warning: Reference `fig:cross_section_camparison' on page 60 undefined on input line 379.
-
-<Data_Analysis/Isolation/isolated_photon_cross_section.pdf, id=3098, 197.37599pt x 144.51129pt>
-File: Data_Analysis/Isolation/isolated_photon_cross_section.pdf Graphic file (type pdf)
-<use Data_Analysis/Isolation/isolated_photon_cross_section.pdf>
-Package pdftex.def Info: Data_Analysis/Isolation/isolated_photon_cross_section.pdf  used on input line 384.
-(pdftex.def)             Requested size: 197.37549pt x 144.51093pt.
-<Data_Analysis/Isolation/charged_jet_cross_section.pdf, id=3099, 195.0251pt x 186.45198pt>
-File: Data_Analysis/Isolation/charged_jet_cross_section.pdf Graphic file (type pdf)
-<use Data_Analysis/Isolation/charged_jet_cross_section.pdf>
-Package pdftex.def Info: Data_Analysis/Isolation/charged_jet_cross_section.pdf  used on input line 385.
-(pdftex.def)             Requested size: 195.02461pt x 186.45152pt.
-[60 <./Data_Analysis/Isolation/isolated_photon_cross_section.pdf> <./Data_Analysis/Isolation/charged_jet_cross_section.pdf>]
-
-LaTeX Warning: Citation 'Sirunyan:2017qhf' on page 61 undefined on input line 405.
-
-
-LaTeX Warning: Reference `tab:MCsamples' on page 61 undefined on input line 405.
-
-
-LaTeX Warning: Reference `SidebandDefinition' on page 61 undefined on input line 408.
-
-<Data_Analysis/Purity/IsolationSideband_limited_Skimmed_13def_root.pdf, id=3222, 578.16pt x 433.62pt>
-File: Data_Analysis/Purity/IsolationSideband_limited_Skimmed_13def_root.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/IsolationSideband_limited_Skimmed_13def_root.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/IsolationSideband_limited_Skimmed_13def_root.pdf  used on input line 412.
-(pdftex.def)             Requested size: 229.81258pt x 172.35982pt.
-<Data_Analysis/Purity/IsolationSideband_limited_Skimmed_17q_root.pdf, id=3223, 578.16pt x 433.62pt>
-File: Data_Analysis/Purity/IsolationSideband_limited_Skimmed_17q_root.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/IsolationSideband_limited_Skimmed_17q_root.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/IsolationSideband_limited_Skimmed_17q_root.pdf  used on input line 413.
-(pdftex.def)             Requested size: 229.81258pt x 172.35982pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `sec:bkgtemplate' on page 61 undefined on input line 418.
-
-
-LaTeX Warning: Reference `TemplateShapes' on page 61 undefined on input line 420.
-
-<Data_Analysis/Purity/norm-templates-p-Pb-cluster_Lambda-15-20.pdf, id=3224, 525.27805pt x 393.01266pt>
-File: Data_Analysis/Purity/norm-templates-p-Pb-cluster_Lambda-15-20.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/norm-templates-p-Pb-cluster_Lambda-15-20.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/norm-templates-p-Pb-cluster_Lambda-15-20.pdf  used on input line 424.
-(pdftex.def)             Requested size: 303.25pt x 226.89804pt.
-
-LaTeX Warning: Citation 'Khachatryan:2010fm' on page 61 undefined on input line 430.
-
-[61]
-
-LaTeX Warning: Reference `fig:purcorrectionexample' on page 62 undefined on input line 453.
-
-<Data_Analysis/Purity/correction-example-p-Pb-cluster_Lambda-12-15.pdf, id=3231, 978.46492pt x 523.42303pt>
-File: Data_Analysis/Purity/correction-example-p-Pb-cluster_Lambda-12-15.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/correction-example-p-Pb-cluster_Lambda-12-15.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/correction-example-p-Pb-cluster_Lambda-12-15.pdf  used on input line 469.
-(pdftex.def)             Requested size: 303.25pt x 162.21953pt.
-[62 <./Data_Analysis/Purity/IsolationSideband_limited_Skimmed_13def_root.pdf> <./Data_Analysis/Purity/IsolationSideband_limited_Skimmed_17q_root.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/IsolationSideband_limited_Skimmed_17q_root.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [63 <./Data_Analysis/Purity/norm-templates-p-Pb-cluster_Lambda-15-20.pdf> <./Data_Analysis/Purity/correction-example-p-Pb-cluster_Lambda-12-15.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/correction-example-p-Pb-cluster_Lambda-12-15.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-
-LaTeX Warning: Citation 'James:1975dr' on page 64 undefined on input line 485.
-
-
-LaTeX Warning: Reference `fig:TemplateFit' on page 64 undefined on input line 489.
-
-<Data_Analysis/Purity/tf-example-pp-cluster_Lambda-12-15.pdf, id=3412, 577.01387pt x 537.19133pt>
-File: Data_Analysis/Purity/tf-example-pp-cluster_Lambda-12-15.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/tf-example-pp-cluster_Lambda-12-15.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/tf-example-pp-cluster_Lambda-12-15.pdf  used on input line 495.
-(pdftex.def)             Requested size: 140.70143pt x 130.98596pt.
-<Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-12-15.pdf, id=3413, 573.43802pt x 540.54762pt>
-File: Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-12-15.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-12-15.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-12-15.pdf  used on input line 496.
-(pdftex.def)             Requested size: 140.70143pt x 132.62915pt.
-<Data_Analysis/Purity/tf-example-pp-cluster_Lambda-15-20.pdf, id=3414, 577.01387pt x 537.19133pt>
-File: Data_Analysis/Purity/tf-example-pp-cluster_Lambda-15-20.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/tf-example-pp-cluster_Lambda-15-20.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/tf-example-pp-cluster_Lambda-15-20.pdf  used on input line 498.
-(pdftex.def)             Requested size: 140.70143pt x 130.98596pt.
-<Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-15-20.pdf, id=3415, 573.43802pt x 540.54762pt>
-File: Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-15-20.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-15-20.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-15-20.pdf  used on input line 499.
-(pdftex.def)             Requested size: 140.70143pt x 132.62915pt.
-<Data_Analysis/Purity/tf-example-pp-cluster_Lambda-20-25.pdf, id=3416, 577.01387pt x 537.19133pt>
-File: Data_Analysis/Purity/tf-example-pp-cluster_Lambda-20-25.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/tf-example-pp-cluster_Lambda-20-25.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/tf-example-pp-cluster_Lambda-20-25.pdf  used on input line 501.
-(pdftex.def)             Requested size: 140.70143pt x 130.98596pt.
-<Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-20-25.pdf, id=3417, 573.43802pt x 541.6658pt>
-File: Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-20-25.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-20-25.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-20-25.pdf  used on input line 502.
-(pdftex.def)             Requested size: 140.70143pt x 132.9035pt.
-<Data_Analysis/Purity/tf-example-pp-cluster_Lambda-25-40.pdf, id=3418, 577.01387pt x 537.19133pt>
-File: Data_Analysis/Purity/tf-example-pp-cluster_Lambda-25-40.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/tf-example-pp-cluster_Lambda-25-40.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/tf-example-pp-cluster_Lambda-25-40.pdf  used on input line 504.
-(pdftex.def)             Requested size: 140.70143pt x 130.98596pt.
-<Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-25-40.pdf, id=3419, 573.43802pt x 544.67987pt>
-File: Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-25-40.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-25-40.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-25-40.pdf  used on input line 505.
-(pdftex.def)             Requested size: 140.70143pt x 133.64304pt.
-
-LaTeX Warning: Float too large for page by 46.63815pt on input line 508.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Data_Analysis/Purity/purity.pdf, id=3420, 506.86551pt x 499.21538pt>
-File: Data_Analysis/Purity/purity.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/purity.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/purity.pdf  used on input line 537.
-(pdftex.def)             Requested size: 375.20143pt x 369.5507pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `sec:MCbasedcorrection' on page 64 undefined on input line 542.
-
-
-LaTeX Warning: Reference `sec:puritysystematics' on page 64 undefined on input line 542.
-
-[64] [65 <./Data_Analysis/Purity/tf-example-pp-cluster_Lambda-12-15.pdf> <./Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-12-15.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-12-15.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/Purity/tf-example-pp-cluster_Lambda-15-20.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/tf-example-pp-cluster_Lambda-15-20.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-15-20.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-15-20.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/Purity/tf-example-pp-cluster_Lambda-20-25.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/tf-example-pp-cluster_Lambda-20-25.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-20-25.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-20-25.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/Purity/tf-example-pp-cluster_Lambda-25-40.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/tf-example-pp-cluster_Lambda-25-40.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-25-40.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-25-40.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [66 <./Data_Analysis/Purity/purity.pdf>]
-
-LaTeX Warning: Reference `sec:tpc' on page 67 undefined on input line 555.
-
-
-LaTeX Warning: Citation 'Acharya:2018qsh' on page 67 undefined on input line 557.
-
-
-LaTeX Warning: Reference `sec:tracking_published_comparision' on page 67 undefined on input line 557.
-
-
-LaTeX Warning: Citation 'Acharya:2018qsh' on page 67 undefined on input line 561.
-
-
-LaTeX Warning: Reference `sec:eventselection' on page 67 undefined on input line 561.
-
-
-LaTeX Warning: Reference `tab:track_cuts' on page 67 undefined on input line 563.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[67
-
-]
-
-LaTeX Warning: Reference `eq:eff' on page 68 undefined on input line 612.
-
-
-LaTeX Warning: Reference `eq:eff' on page 68 undefined on input line 614.
-
-[68]
-
-LaTeX Warning: Reference `fig:tpcEff' on page 69 undefined on input line 622.
-
-<Data_Analysis/Tracking/HybridAndITS_Eff_fakerate_pPb_lowpt.pdf, id=4162, 569.12625pt x 546.04pt>
-File: Data_Analysis/Tracking/HybridAndITS_Eff_fakerate_pPb_lowpt.pdf Graphic file (type pdf)
-<use Data_Analysis/Tracking/HybridAndITS_Eff_fakerate_pPb_lowpt.pdf>
-Package pdftex.def Info: Data_Analysis/Tracking/HybridAndITS_Eff_fakerate_pPb_lowpt.pdf  used on input line 631.
-(pdftex.def)             Requested size: 328.29857pt x 314.99538pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[69]
-
-LaTeX Warning: Reference `fig:resolution' on page 70 undefined on input line 649.
-
-<Data_Analysis/Tracking/HybridAndITS_resolution_lowpt.pdf, id=4168, 569.12625pt x 552.0625pt>
-File: Data_Analysis/Tracking/HybridAndITS_resolution_lowpt.pdf Graphic file (type pdf)
-<use Data_Analysis/Tracking/HybridAndITS_resolution_lowpt.pdf>
-Package pdftex.def Info: Data_Analysis/Tracking/HybridAndITS_resolution_lowpt.pdf  used on input line 653.
-(pdftex.def)             Requested size: 328.29857pt x 318.46959pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:responseMatrixTPC' on page 70 undefined on input line 658.
-
-[70 <./Data_Analysis/Tracking/HybridAndITS_Eff_fakerate_pPb_lowpt.pdf, page is rotated 90 degrees>]
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Tracking/Matrix_tracking_tpc_MBMC_0GeV15GeV_dNdPt.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Data_Analysis/Tracking/Matrix_tracking_tpc_MBMC_0GeV15GeV_dNdPt.pdf, id=4216, 923.93178pt x 345.11935pt>
-File: Data_Analysis/Tracking/Matrix_tracking_tpc_MBMC_0GeV15GeV_dNdPt.pdf Graphic file (type pdf)
-<use Data_Analysis/Tracking/Matrix_tracking_tpc_MBMC_0GeV15GeV_dNdPt.pdf>
-Package pdftex.def Info: Data_Analysis/Tracking/Matrix_tracking_tpc_MBMC_0GeV15GeV_dNdPt.pdf  used on input line 665.
-(pdftex.def)             Requested size: 459.618pt x 171.68507pt.
-<Data_Analysis/Tracking/Matrix_tracking_its_MBMC_0GeV15GeV_dNdPt.pdf, id=4217, 569.12625pt x 203.76125pt>
-File: Data_Analysis/Tracking/Matrix_tracking_its_MBMC_0GeV15GeV_dNdPt.pdf Graphic file (type pdf)
-<use Data_Analysis/Tracking/Matrix_tracking_its_MBMC_0GeV15GeV_dNdPt.pdf>
-Package pdftex.def Info: Data_Analysis/Tracking/Matrix_tracking_its_MBMC_0GeV15GeV_dNdPt.pdf  used on input line 666.
-(pdftex.def)             Requested size: 469.0pt x 167.92165pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `eq:track_weight' on page 71 undefined on input line 674.
-
-
-LaTeX Warning: Reference `fig:correctionFactors' on page 71 undefined on input line 674.
-
-[71 <./Data_Analysis/Tracking/HybridAndITS_resolution_lowpt.pdf, page is rotated 90 degrees>]
-<Data_Analysis/Tracking/trackCorrectionFactors_pPbAndpp.pdf, id=4268, 569.12625pt x 546.04pt>
-File: Data_Analysis/Tracking/trackCorrectionFactors_pPbAndpp.pdf Graphic file (type pdf)
-<use Data_Analysis/Tracking/trackCorrectionFactors_pPbAndpp.pdf>
-Package pdftex.def Info: Data_Analysis/Tracking/trackCorrectionFactors_pPbAndpp.pdf  used on input line 684.
-(pdftex.def)             Requested size: 328.29857pt x 314.99538pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[72 <./Data_Analysis/Tracking/Matrix_tracking_tpc_MBMC_0GeV15GeV_dNdPt.pdf> <./Data_Analysis/Tracking/Matrix_tracking_its_MBMC_0GeV15GeV_dNdPt.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `eq:eff' on page 73 undefined on input line 692.
-
-<Data_Analysis/Tracking/etaPhi_eff_tpc.pdf, id=4320, 569.12625pt x 552.0625pt>
-File: Data_Analysis/Tracking/etaPhi_eff_tpc.pdf Graphic file (type pdf)
-<use Data_Analysis/Tracking/etaPhi_eff_tpc.pdf>
-Package pdftex.def Info: Data_Analysis/Tracking/etaPhi_eff_tpc.pdf  used on input line 696.
-(pdftex.def)             Requested size: 215.74315pt x 209.27206pt.
-<Data_Analysis/Tracking/etaPhi_eff_4layers.pdf, id=4321, 569.12625pt x 552.0625pt>
-File: Data_Analysis/Tracking/etaPhi_eff_4layers.pdf Graphic file (type pdf)
-<use Data_Analysis/Tracking/etaPhi_eff_4layers.pdf>
-Package pdftex.def Info: Data_Analysis/Tracking/etaPhi_eff_4layers.pdf  used on input line 697.
-(pdftex.def)             Requested size: 215.74315pt x 209.27206pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:2Defficiency' on page 73 undefined on input line 702.
-
-
-LaTeX Warning: Reference `sec:EventMixing' on page 73 undefined on input line 702.
-
-[73 <./Data_Analysis/Tracking/trackCorrectionFactors_pPbAndpp.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `fig:dihadron_cartoon' on page 74 undefined on input line 723.
-
-
-LaTeX Warning: Reference `sec:decay_photon_subtraction' on page 74 undefined on input line 725.
-
-
-LaTeX Warning: Reference `sec:ue_subtraction_correlations' on page 74 undefined on input line 725.
-
-[74 <./Data_Analysis/Tracking/etaPhi_eff_tpc.pdf, page is rotated 90 degrees> <./Data_Analysis/Tracking/etaPhi_eff_4layers.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `eq:basic_correlation' on page 75 undefined on input line 734.
-
-
-LaTeX Warning: Reference `eq:basic_correlation' on page 75 undefined on input line 734.
-
-Excluding 'comment' comment.
-
-LaTeX Warning: Reference `sec:photons' on page 75 undefined on input line 756.
-
-
-LaTeX Warning: Reference `sec:purity' on page 75 undefined on input line 756.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 756--757
-
- []
-
-
-LaTeX Warning: Reference `eq:basic_correlation' on page 75 undefined on input line 771.
-
-[75]
-
-LaTeX Warning: Reference `eq:PS_PB' on page 76 undefined on input line 791.
-
-
-LaTeX Warning: Reference `eq:CSR' on page 76 undefined on input line 791.
-
-
-LaTeX Warning: Reference `eq:CS' on page 76 undefined on input line 791.
-
-
-LaTeX Warning: Reference `eq:CB' on page 76 undefined on input line 791.
-
-
-LaTeX Warning: Reference `sec:purity' on page 76 undefined on input line 791.
-
-
-LaTeX Warning: Reference `eq:TS_TB' on page 76 undefined on input line 791.
-
-
-LaTeX Warning: Reference `eq:CSR_TS_TB' on page 76 undefined on input line 799.
-
-
-LaTeX Warning: Reference `eq:FinalSubtraction_CB' on page 76 undefined on input line 811.
-
-
-LaTeX Warning: Reference `sec:cb' on page 76 undefined on input line 811.
-
-
-LaTeX Warning: Reference `eq:FinalSubtraction_CB' on page 76 undefined on input line 816.
-
-[76]
-
-LaTeX Warning: Reference `eq:CSR' on page 77 undefined on input line 823.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 828--829
-
- []
-
-
-LaTeX Warning: Reference `eq:FinalSubtraction_CB' on page 77 undefined on input line 830.
-
-
-LaTeX Warning: Reference `sec:decaybkgsubtraction' on page 77 undefined on input line 838.
-
-[77]
-
-LaTeX Warning: Reference `eq:FinalSubtraction' on page 78 undefined on input line 855.
-
-
-LaTeX Warning: Reference `fig:purity' on page 78 undefined on input line 855.
-
-
-LaTeX Warning: Reference `eq:FinalSubtraction' on page 78 undefined on input line 855.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 855--856
-
- []
-
-
-LaTeX Warning: Reference `fig:Purity_Error_Function' on page 78 undefined on input line 857.
-
-<Data_Analysis/Error_Function_Fits/pp_Mean_Center.png, id=4490, 622.325pt x 441.65pt>
-File: Data_Analysis/Error_Function_Fits/pp_Mean_Center.png Graphic file (type png)
-<use Data_Analysis/Error_Function_Fits/pp_Mean_Center.png>
-Package pdftex.def Info: Data_Analysis/Error_Function_Fits/pp_Mean_Center.png  used on input line 861.
-(pdftex.def)             Requested size: 234.5pt x 166.42027pt.
-<Data_Analysis/Error_Function_Fits/pPb_Mean_Centers.png, id=4491, 619.31375pt x 439.6425pt>
-File: Data_Analysis/Error_Function_Fits/pPb_Mean_Centers.png Graphic file (type png)
-<use Data_Analysis/Error_Function_Fits/pPb_Mean_Centers.png>
-Package pdftex.def Info: Data_Analysis/Error_Function_Fits/pPb_Mean_Centers.png  used on input line 862.
-(pdftex.def)             Requested size: 234.5pt x 166.46883pt.
-
-Overfull \hbox (1.85606pt too wide) in paragraph at lines 861--863
-[][] [] 
- []
-
-
-LaTeX Warning: Reference `eq:FinalSubtraction' on page 78 undefined on input line 867.
-
-
-LaTeX Warning: Reference `sec:tracking' on page 78 undefined on input line 876.
-
-
-LaTeX Warning: Reference `sec:tracking' on page 78 undefined on input line 882.
-
-[78] [79 <./Data_Analysis/Error_Function_Fits/pp_Mean_Center.png> <./Data_Analysis/Error_Function_Fits/pPb_Mean_Centers.png>]
-
-LaTeX Warning: Citation 'GaleShapley:1962amm' on page 80 undefined on input line 906.
-
-
-LaTeX Warning: Citation 'GaleShapley:1962amm' on page 80 undefined on input line 908.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 908--909
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 910--911
-
- []
-
-[80]
-<Data_Analysis/EventMixing/pPb_Differences.pdf, id=4511, 569.12625pt x 402.50375pt>
-File: Data_Analysis/EventMixing/pPb_Differences.pdf Graphic file (type pdf)
-<use Data_Analysis/EventMixing/pPb_Differences.pdf>
-Package pdftex.def Info: Data_Analysis/EventMixing/pPb_Differences.pdf  used on input line 933.
-(pdftex.def)             Requested size: 445.54857pt x 315.11858pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `Difference_distributions' on page 81 undefined on input line 939.
-
-
-LaTeX Warning: Reference `fig:Multiplicitydistributions' on page 81 undefined on input line 944.
-
-<Data_Analysis/EventMixing/Abs_Multplicity_Dist.pdf, id=4512, 569.12625pt x 239.89626pt>
-File: Data_Analysis/EventMixing/Abs_Multplicity_Dist.pdf Graphic file (type pdf)
-<use Data_Analysis/EventMixing/Abs_Multplicity_Dist.pdf>
-Package pdftex.def Info: Data_Analysis/EventMixing/Abs_Multplicity_Dist.pdf  used on input line 948.
-(pdftex.def)             Requested size: 422.09714pt x 177.93042pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[81]
-<Data_Analysis/G-H_New/2D_SR_ME.pdf, id=4519, 569.12625pt x 499.8675pt>
-File: Data_Analysis/G-H_New/2D_SR_ME.pdf Graphic file (type pdf)
-<use Data_Analysis/G-H_New/2D_SR_ME.pdf>
-Package pdftex.def Info: Data_Analysis/G-H_New/2D_SR_ME.pdf  used on input line 981.
-(pdftex.def)             Requested size: 150.08344pt x 131.81592pt.
-<Data_Analysis/G-H_New/2D_SR_SE.pdf, id=4520, 569.12625pt x 499.8675pt>
-File: Data_Analysis/G-H_New/2D_SR_SE.pdf Graphic file (type pdf)
-<use Data_Analysis/G-H_New/2D_SR_SE.pdf>
-Package pdftex.def Info: Data_Analysis/G-H_New/2D_SR_SE.pdf  used on input line 982.
-(pdftex.def)             Requested size: 150.08344pt x 131.81592pt.
-<Data_Analysis/G-H_New/2D_SR.pdf, id=4521, 569.12625pt x 499.8675pt>
-File: Data_Analysis/G-H_New/2D_SR.pdf Graphic file (type pdf)
-<use Data_Analysis/G-H_New/2D_SR.pdf>
-Package pdftex.def Info: Data_Analysis/G-H_New/2D_SR.pdf  used on input line 983.
-(pdftex.def)             Requested size: 150.08344pt x 131.81592pt.
-
-
-LaTeX Warning: Reference `fig:SR_2D' on page 82 undefined on input line 988.
-
-
-LaTeX Warning: Reference `sec:ToyMC_Mixing' on page 82 undefined on input line 990.
-
-[82 <./Data_Analysis/EventMixing/pPb_Differences.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `fig:pp_SR_BR_Overlay_pp' on page 83 undefined on input line 1060.
-
-
-LaTeX Warning: Reference `fig:pPb_SR_BR_Overlay_pPb' on page 83 undefined on input line 1060.
-
-[83 <./Data_Analysis/EventMixing/Abs_Multplicity_Dist.pdf, page is rotated 90 degrees> <./Data_Analysis/G-H_New/2D_SR_ME.pdf, page is rotated 90 degrees> <./Data_Analysis/G-H_New/2D_SR_SE.pdf, page is rotated 90 degrees> <./Data_Analysis/G-H_New/2D_SR.pdf, page is rotated 90 degrees>]
-<G-H_New/pp_SR_BR_Overlay_pT_0.pdf, id=4748, 2529.45pt x 1156.32pt>
-File: G-H_New/pp_SR_BR_Overlay_pT_0.pdf Graphic file (type pdf)
-<use G-H_New/pp_SR_BR_Overlay_pT_0.pdf>
-Package pdftex.def Info: G-H_New/pp_SR_BR_Overlay_pT_0.pdf  used on input line 1064.
-(pdftex.def)             Requested size: 606.5pt x 277.25781pt.
-<G-H_New/p-Pb_SR_BR_Overlay_pT_0.pdf, id=4749, 2529.45pt x 1156.32pt>
-File: G-H_New/p-Pb_SR_BR_Overlay_pT_0.pdf Graphic file (type pdf)
-<use G-H_New/p-Pb_SR_BR_Overlay_pT_0.pdf>
-Package pdftex.def Info: G-H_New/p-Pb_SR_BR_Overlay_pT_0.pdf  used on input line 1071.
-(pdftex.def)             Requested size: 606.5pt x 277.25781pt.
- [84] [85 <./G-H_New/pp_SR_BR_Overlay_pT_0.pdf>] [86 <./G-H_New/p-Pb_SR_BR_Overlay_pT_0.pdf>]
-
-LaTeX Warning: Reference `sec:ue_isolation' on page 87 undefined on input line 1080.
-
-
-LaTeX Warning: Reference `fig:dihadron_cartoon' on page 87 undefined on input line 1084.
-
-
-LaTeX Warning: Reference `fig:dihadron_cartoon' on page 87 undefined on input line 1089.
-
-
-LaTeX Warning: Reference `fig:dihadron_cartoon' on page 87 undefined on input line 1089.
-
-
-LaTeX Warning: Reference `fig:BF_UE_zT_second' on page 87 undefined on input line 1093.
-
-[87]
-<G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_0.pdf, id=4971, 650.43pt x 650.43pt>
-File: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_0.pdf Graphic file (type pdf)
-<use G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_0.pdf>
-Package pdftex.def Info: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_0.pdf  used on input line 1098.
-(pdftex.def)             Requested size: 145.56332pt x 145.55637pt.
-<G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_1.pdf, id=4972, 650.43pt x 650.43pt>
-File: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_1.pdf Graphic file (type pdf)
-<use G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_1.pdf>
-Package pdftex.def Info: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_1.pdf  used on input line 1099.
-(pdftex.def)             Requested size: 145.56332pt x 145.55637pt.
-<G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_2.pdf, id=4973, 650.43pt x 650.43pt>
-File: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_2.pdf Graphic file (type pdf)
-<use G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_2.pdf>
-Package pdftex.def Info: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_2.pdf  used on input line 1100.
-(pdftex.def)             Requested size: 145.56332pt x 145.55637pt.
-<G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_3.pdf, id=4974, 650.43pt x 650.43pt>
-File: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_3.pdf Graphic file (type pdf)
-<use G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_3.pdf>
-Package pdftex.def Info: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_3.pdf  used on input line 1101.
-(pdftex.def)             Requested size: 145.56332pt x 145.55637pt.
-<G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_4.pdf, id=4975, 650.43pt x 650.43pt>
-File: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_4.pdf Graphic file (type pdf)
-<use G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_4.pdf>
-Package pdftex.def Info: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_4.pdf  used on input line 1102.
-(pdftex.def)             Requested size: 145.56332pt x 145.55637pt.
-<G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_5.pdf, id=4976, 650.43pt x 650.43pt>
-File: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_5.pdf Graphic file (type pdf)
-<use G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_5.pdf>
-Package pdftex.def Info: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_5.pdf  used on input line 1103.
-(pdftex.def)             Requested size: 145.56332pt x 145.55637pt.
-<G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_6.pdf, id=4977, 650.43pt x 650.43pt>
-File: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_6.pdf Graphic file (type pdf)
-<use G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_6.pdf>
-Package pdftex.def Info: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_6.pdf  used on input line 1104.
-(pdftex.def)             Requested size: 145.56332pt x 145.55637pt.
-<G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_7.pdf, id=4978, 650.43pt x 650.43pt>
-File: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_7.pdf Graphic file (type pdf)
-<use G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_7.pdf>
-Package pdftex.def Info: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_7.pdf  used on input line 1105.
-(pdftex.def)             Requested size: 145.56332pt x 145.55637pt.
- [88] [89 <./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_0.pdf> <./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_1.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_2.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_3.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_4.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_5.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_6.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_6.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_7.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_7.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-
-LaTeX Warning: Reference `fig:GH_Correlations' on page 90 undefined on input line 1116.
-
-<Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_0.pdf, id=5366, 722.7pt x 867.24pt>
-File: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_0.pdf Graphic file (type pdf)
-<use Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_0.pdf>
-Package pdftex.def Info: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_0.pdf  used on input line 1121.
-(pdftex.def)             Requested size: 140.70143pt x 168.83984pt.
-<Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_1.pdf, id=5367, 722.7pt x 867.24pt>
-File: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_1.pdf Graphic file (type pdf)
-<use Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_1.pdf>
-Package pdftex.def Info: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_1.pdf  used on input line 1122.
-(pdftex.def)             Requested size: 140.70143pt x 168.83984pt.
-<Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_2.pdf, id=5368, 722.7pt x 867.24pt>
-File: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_2.pdf Graphic file (type pdf)
-<use Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_2.pdf>
-Package pdftex.def Info: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_2.pdf  used on input line 1123.
-(pdftex.def)             Requested size: 140.70143pt x 168.83984pt.
-<Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_3.pdf, id=5369, 722.7pt x 867.24pt>
-File: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_3.pdf Graphic file (type pdf)
-<use Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_3.pdf>
-Package pdftex.def Info: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_3.pdf  used on input line 1124.
-(pdftex.def)             Requested size: 140.70143pt x 168.83984pt.
-<Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_4.pdf, id=5370, 722.7pt x 867.24pt>
-File: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_4.pdf Graphic file (type pdf)
-<use Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_4.pdf>
-Package pdftex.def Info: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_4.pdf  used on input line 1125.
-(pdftex.def)             Requested size: 140.70143pt x 168.83984pt.
-<Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_5.pdf, id=5371, 722.7pt x 867.24pt>
-File: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_5.pdf Graphic file (type pdf)
-<use Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_5.pdf>
-Package pdftex.def Info: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_5.pdf  used on input line 1126.
-(pdftex.def)             Requested size: 140.70143pt x 168.83984pt.
-<Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_6.pdf, id=5372, 722.7pt x 867.24pt>
-File: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_6.pdf Graphic file (type pdf)
-<use Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_6.pdf>
-Package pdftex.def Info: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_6.pdf  used on input line 1127.
-(pdftex.def)             Requested size: 140.70143pt x 168.83984pt.
-<Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_7.pdf, id=5373, 722.7pt x 867.24pt>
-File: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_7.pdf Graphic file (type pdf)
-<use Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_7.pdf>
-Package pdftex.def Info: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_7.pdf  used on input line 1128.
-(pdftex.def)             Requested size: 140.70143pt x 168.83984pt.
-
-LaTeX Warning: Float too large for page by 61.51953pt on input line 1132.
-
-
-LaTeX Warning: Reference `fig:GH_Correlations' on page 90 undefined on input line 1147.
-
-
-LaTeX Warning: Reference `fig:Fragmentation_Functions' on page 90 undefined on input line 1147.
-
-<Data_Analysis/gammahadron/Final_FFunction_and_Ratio.pdf, id=5376, 635.96796pt x 538.04738pt>
-File: Data_Analysis/gammahadron/Final_FFunction_and_Ratio.pdf Graphic file (type pdf)
-<use Data_Analysis/gammahadron/Final_FFunction_and_Ratio.pdf>
-Package pdftex.def Info: Data_Analysis/gammahadron/Final_FFunction_and_Ratio.pdf  used on input line 1151.
-(pdftex.def)             Requested size: 314.22914pt x 265.85399pt.
-
-LaTeX Warning: Reference `fig:Fragmentation_Functions' on page 90 undefined on input line 1158.
-
-) [90
-
-] [91 <./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_0.pdf> <./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_1.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_2.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_3.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_4.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_5.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_6.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_6.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_7.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_7.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [92 <./Data_Analysis/gammahadron/Final_FFunction_and_Ratio.pdf>]
-\openout2 = `Checks_and_Systematics.aux'.
-
- (./Checks_and_Systematics.tex
-
-LaTeX Warning: Reference `fig:toy_MC' on page 93 undefined on input line 11.
-
-<Data_Analysis/EventMixing/toy_MC_no_holes.pdf, id=5898, 583.4322pt x 381.021pt>
-File: Data_Analysis/EventMixing/toy_MC_no_holes.pdf Graphic file (type pdf)
-<use Data_Analysis/EventMixing/toy_MC_no_holes.pdf>
-Package pdftex.def Info: Data_Analysis/EventMixing/toy_MC_no_holes.pdf  used on input line 14.
-(pdftex.def)             Requested size: 229.81258pt x 150.08012pt.
-<Data_Analysis/EventMixing/toy_MC_holes.pdf, id=5899, 570.3636pt x 363.49736pt>
-File: Data_Analysis/EventMixing/toy_MC_holes.pdf Graphic file (type pdf)
-<use Data_Analysis/EventMixing/toy_MC_holes.pdf>
-Package pdftex.def Info: Data_Analysis/EventMixing/toy_MC_holes.pdf  used on input line 15.
-(pdftex.def)             Requested size: 229.81258pt x 146.46129pt.
-
-LaTeX Warning: Reference `fig:SR_2D' on page 93 undefined on input line 20.
-
-
-LaTeX Warning: Reference `fig:toy_MC' on page 93 undefined on input line 20.
-
-
-LaTeX Warning: Reference `fig:toy_MC_holes' on page 93 undefined on input line 20.
-
-
-LaTeX Warning: Reference `fig:phiEff' on page 93 undefined on input line 20.
-
-
-LaTeX Warning: Reference `sec:tracking' on page 93 undefined on input line 20.
-
-<Data_Analysis/EventMixing/2D_Bin_Corr.pdf, id=5900, 569.12625pt x 471.7625pt>
-File: Data_Analysis/EventMixing/2D_Bin_Corr.pdf Graphic file (type pdf)
-<use Data_Analysis/EventMixing/2D_Bin_Corr.pdf>
-Package pdftex.def Info: Data_Analysis/EventMixing/2D_Bin_Corr.pdf  used on input line 27.
-(pdftex.def)             Requested size: 328.29857pt x 272.14674pt.
-[93
-
-
-
-
-] [94 <./Data_Analysis/EventMixing/toy_MC_no_holes.pdf, page is rotated 90 degrees> <./Data_Analysis/EventMixing/toy_MC_holes.pdf, page is rotated 90 degrees>] [95 <./Data_Analysis/EventMixing/2D_Bin_Corr.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `fig:LE_Map' on page 96 undefined on input line 41.
-
-<Data_Analysis/EventMixing/LE_map.pdf, id=5993, 317.70715pt x 258.60548pt>
-File: Data_Analysis/EventMixing/LE_map.pdf Graphic file (type pdf)
-<use Data_Analysis/EventMixing/LE_map.pdf>
-Package pdftex.def Info: Data_Analysis/EventMixing/LE_map.pdf  used on input line 48.
-(pdftex.def)             Requested size: 234.5pt x 190.87575pt.
-
-LaTeX Warning: Reference `small_uncorr' on page 96 undefined on input line 54.
-
-
-LaTeX Warning: Reference `tab:UE_Average' on page 96 undefined on input line 56.
-
-<Data_Analysis/G-H_New/UE_Plot_p-Pb_Single.pdf, id=5994, 1438.17305pt x 621.8967pt>
-File: Data_Analysis/G-H_New/UE_Plot_p-Pb_Single.pdf Graphic file (type pdf)
-<use Data_Analysis/G-H_New/UE_Plot_p-Pb_Single.pdf>
-Package pdftex.def Info: Data_Analysis/G-H_New/UE_Plot_p-Pb_Single.pdf  used on input line 60.
-(pdftex.def)             Requested size: 464.31258pt x 200.77603pt.
-
-LaTeX Warning: Reference `sec:tracking' on page 96 undefined on input line 101.
-
-[96
-
-]
-
-LaTeX Warning: Reference `fig:pPb_its_tpc_rho' on page 97 undefined on input line 103.
-
-<Checks_Systematics/UEestimate_Skimmed_13def.pdf, id=6000, 578.16pt x 433.62pt>
-File: Checks_Systematics/UEestimate_Skimmed_13def.pdf Graphic file (type pdf)
-<use Checks_Systematics/UEestimate_Skimmed_13def.pdf>
-Package pdftex.def Info: Checks_Systematics/UEestimate_Skimmed_13def.pdf  used on input line 107.
-(pdftex.def)             Requested size: 229.81258pt x 172.35982pt.
-<Checks_Systematics/IsolationTPC_Skimmed_13def.pdf, id=6001, 578.16pt x 433.62pt>
-File: Checks_Systematics/IsolationTPC_Skimmed_13def.pdf Graphic file (type pdf)
-<use Checks_Systematics/IsolationTPC_Skimmed_13def.pdf>
-Package pdftex.def Info: Checks_Systematics/IsolationTPC_Skimmed_13def.pdf  used on input line 108.
-(pdftex.def)             Requested size: 229.81258pt x 172.35982pt.
-
-LaTeX Warning: Reference `fig:ComparisonTPCITSiso_purity' on page 97 undefined on input line 113.
-
-<Checks_Systematics/PurityITSTPC.png, id=6002, 518.93875pt x 497.86pt>
-File: Checks_Systematics/PurityITSTPC.png Graphic file (type png)
-<use Checks_Systematics/PurityITSTPC.png>
-Package pdftex.def Info: Checks_Systematics/PurityITSTPC.png  used on input line 117.
-(pdftex.def)             Requested size: 229.81258pt x 220.47966pt.
-
-LaTeX Warning: Reference `fig:ComparisonTPCITSiso_frag' on page 97 undefined on input line 122.
-
-[97 <./Data_Analysis/EventMixing/LE_map.pdf>] [98 <./Data_Analysis/G-H_New/UE_Plot_p-Pb_Single.pdf> <./Checks_Systematics/UEestimate_Skimmed_13def.pdf> <./Checks_Systematics/IsolationTPC_Skimmed_13def.pdf
-
-pdfTeX warning: pdflatex (file ./Checks_Systematics/IsolationTPC_Skimmed_13def.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-<Checks_Systematics/ISO_Compare_Final_FFunction_and_Ratio.pdf, id=6160, 615.07796pt x 549.7382pt>
-File: Checks_Systematics/ISO_Compare_Final_FFunction_and_Ratio.pdf Graphic file (type pdf)
-<use Checks_Systematics/ISO_Compare_Final_FFunction_and_Ratio.pdf>
-Package pdftex.def Info: Checks_Systematics/ISO_Compare_Final_FFunction_and_Ratio.pdf  used on input line 126.
-(pdftex.def)             Requested size: 229.81258pt x 205.39636pt.
-
-
-LaTeX Warning: Reference `sec:clustercutselectionvariation' on page 99 undefined on input line 140.
-
-[99] [100 <./Checks_Systematics/PurityITSTPC.png (PNG copy)>]
-
-LaTeX Warning: Reference `BkgOnlyFit_pPb' on page 101 undefined on input line 145.
-
-<Data_Analysis/Purity/bf-example-pp-cluster_Lambda-12-15.pdf, id=6173, 608.34969pt x 555.7607pt>
-File: Data_Analysis/Purity/bf-example-pp-cluster_Lambda-12-15.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/bf-example-pp-cluster_Lambda-12-15.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/bf-example-pp-cluster_Lambda-12-15.pdf  used on input line 149.
-(pdftex.def)             Requested size: 178.22229pt x 162.81163pt.
-<Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-12-15.pdf, id=6174, 611.54915pt x 552.24757pt>
-File: Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-12-15.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-12-15.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-12-15.pdf  used on input line 150.
-(pdftex.def)             Requested size: 178.22229pt x 160.93979pt.
-<Data_Analysis/Purity/bf-example-pp-cluster_Lambda-15-20.pdf, id=6175, 608.34969pt x 555.7607pt>
-File: Data_Analysis/Purity/bf-example-pp-cluster_Lambda-15-20.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/bf-example-pp-cluster_Lambda-15-20.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/bf-example-pp-cluster_Lambda-15-20.pdf  used on input line 152.
-(pdftex.def)             Requested size: 178.22229pt x 162.81163pt.
-<Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-15-20.pdf, id=6176, 611.54915pt x 552.24757pt>
-File: Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-15-20.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-15-20.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-15-20.pdf  used on input line 153.
-(pdftex.def)             Requested size: 178.22229pt x 160.93979pt.
-<Data_Analysis/Purity/bf-example-pp-cluster_Lambda-20-25.pdf, id=6177, 608.34969pt x 555.7607pt>
-File: Data_Analysis/Purity/bf-example-pp-cluster_Lambda-20-25.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/bf-example-pp-cluster_Lambda-20-25.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/bf-example-pp-cluster_Lambda-20-25.pdf  used on input line 154.
-(pdftex.def)             Requested size: 178.22229pt x 162.81163pt.
-<Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-20-25.pdf, id=6178, 601.32344pt x 552.24757pt>
-File: Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-20-25.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-20-25.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-20-25.pdf  used on input line 155.
-(pdftex.def)             Requested size: 178.22229pt x 163.67844pt.
-<Data_Analysis/Purity/bf-example-pp-cluster_Lambda-25-40.pdf, id=6179, 608.34969pt x 555.7607pt>
-File: Data_Analysis/Purity/bf-example-pp-cluster_Lambda-25-40.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/bf-example-pp-cluster_Lambda-25-40.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/bf-example-pp-cluster_Lambda-25-40.pdf  used on input line 157.
-(pdftex.def)             Requested size: 178.22229pt x 162.81163pt.
-<Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-25-40.pdf, id=6180, 601.32344pt x 552.24757pt>
-File: Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-25-40.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-25-40.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-25-40.pdf  used on input line 158.
-(pdftex.def)             Requested size: 178.22229pt x 163.67844pt.
-
-LaTeX Warning: Float too large for page by 167.81345pt on input line 161.
-
-
-LaTeX Warning: Reference `sec:smearingsignaltemplate' on page 101 undefined on input line 165.
-
-[101 <./Checks_Systematics/ISO_Compare_Final_FFunction_and_Ratio.pdf>] [102 <./Data_Analysis/Purity/bf-example-pp-cluster_Lambda-12-15.pdf> <./Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-12-15.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-12-15.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/Purity/bf-example-pp-cluster_Lambda-15-20.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/bf-example-pp-cluster_Lambda-15-20.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-15-20.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-15-20.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/Purity/bf-example-pp-cluster_Lambda-20-25.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/bf-example-pp-cluster_Lambda-20-25.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-20-25.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-20-25.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/Purity/bf-example-pp-cluster_Lambda-25-40.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/bf-example-pp-cluster_Lambda-25-40.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-25-40.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-25-40.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-
-LaTeX Warning: Reference `sidebandslices' on page 103 undefined on input line 172.
-
-<Data_Analysis/Purity/antiiso-selection-pp-cluster_Lambda-15-20.pdf, id=6822, 970.15262pt x 500.49359pt>
-File: Data_Analysis/Purity/antiiso-selection-pp-cluster_Lambda-15-20.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/antiiso-selection-pp-cluster_Lambda-15-20.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/antiiso-selection-pp-cluster_Lambda-15-20.pdf  used on input line 178.
-(pdftex.def)             Requested size: 469.0pt x 241.9525pt.
-<Data_Analysis/Purity/antiiso-selection-p-Pb-cluster_Lambda-15-20.pdf, id=6823, 963.12637pt x 493.46733pt>
-File: Data_Analysis/Purity/antiiso-selection-p-Pb-cluster_Lambda-15-20.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/antiiso-selection-p-Pb-cluster_Lambda-15-20.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/antiiso-selection-p-Pb-cluster_Lambda-15-20.pdf  used on input line 179.
-(pdftex.def)             Requested size: 469.0pt x 240.30269pt.
-
-LaTeX Warning: Citation 'Sirunyan:2017qhf' on page 103 undefined on input line 186.
-
-
-LaTeX Warning: Reference `eq:bkgtemplatecorrection' on page 103 undefined on input line 188.
-
-
-LaTeX Warning: Citation 'Erwann' on page 103 undefined on input line 188.
-
-[103] [104 <./Data_Analysis/Purity/antiiso-selection-pp-cluster_Lambda-15-20.pdf> <./Data_Analysis/Purity/antiiso-selection-p-Pb-cluster_Lambda-15-20.pdf
-
-pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/antiiso-selection-p-Pb-cluster_Lambda-15-20.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-
-LaTeX Warning: Citation 'Acharya:2019jkx' on page 105 undefined on input line 195.
-
-
-LaTeX Warning: Citation 'Erwann' on page 105 undefined on input line 195.
-
-
-LaTeX Warning: Reference `fig:bkgtemplatedoubleratiofits_pp' on page 105 undefined on input line 197.
-
-
-LaTeX Warning: Reference `fig:bkgtemplatedoubleratiofits_pPb' on page 105 undefined on input line 197.
-
-<Data_Analysis/Purity/single-linear-fits-pp.pdf, id=6913, 492.23271pt x 486.36267pt>
-File: Data_Analysis/Purity/single-linear-fits-pp.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/single-linear-fits-pp.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/single-linear-fits-pp.pdf  used on input line 202.
-(pdftex.def)             Requested size: 469.0pt x 463.41486pt.
-
-LaTeX Warning: Reference `eq:bkgtemplatedoubleratio' on page 105 undefined on input line 203.
-
-
-LaTeX Warning: Reference `eq:bkgtemplatedoubleratio' on page 105 undefined on input line 203.
-
-<Data_Analysis/Purity/single-linear-fits-p-Pb.pdf, id=6914, 492.87575pt x 482.84955pt>
-File: Data_Analysis/Purity/single-linear-fits-p-Pb.pdf Graphic file (type pdf)
-<use Data_Analysis/Purity/single-linear-fits-p-Pb.pdf>
-Package pdftex.def Info: Data_Analysis/Purity/single-linear-fits-p-Pb.pdf  used on input line 210.
-(pdftex.def)             Requested size: 469.0pt x 459.48543pt.
-
-LaTeX Warning: Reference `eq:bkgtemplatedoubleratio' on page 105 undefined on input line 211.
-
-
-LaTeX Warning: Reference `eq:bkgtemplatedoubleratio' on page 105 undefined on input line 211.
-
-
-LaTeX Warning: Reference `eq:bkgtemplatecorrection' on page 105 undefined on input line 215.
-
-[105] [106 <./Data_Analysis/Purity/single-linear-fits-pp.pdf>] [107 <./Data_Analysis/Purity/single-linear-fits-p-Pb.pdf>]
-
-LaTeX Warning: Reference `tab:pursystppblambda' on page 108 undefined on input line 224.
-
-
-LaTeX Warning: Reference `tab:pursystpplambda' on page 108 undefined on input line 224.
-
-
-LaTeX Warning: Reference `sec:closurewithdata' on page 108 undefined on input line 269.
-
-
-LaTeX Warning: Reference `fig:RefoldedComparisonSpectra' on page 108 undefined on input line 271.
-
-
-LaTeX Warning: Citation 'Acharya:2018qsh' on page 108 undefined on input line 271.
-
-
-LaTeX Warning: Reference `eq:refold_eq' on page 108 undefined on input line 271.
-
-[108]
-<Data_Analysis/Tracking/refolding_pPb_tpc_MBMC_0GeV15GeV_dNdpt.pdf, id=6996, 569.12625pt x 315.1775pt>
-File: Data_Analysis/Tracking/refolding_pPb_tpc_MBMC_0GeV15GeV_dNdpt.pdf Graphic file (type pdf)
-<use Data_Analysis/Tracking/refolding_pPb_tpc_MBMC_0GeV15GeV_dNdpt.pdf>
-Package pdftex.def Info: Data_Analysis/Tracking/refolding_pPb_tpc_MBMC_0GeV15GeV_dNdpt.pdf  used on input line 282.
-(pdftex.def)             Requested size: 445.54857pt x 246.7512pt.
-<Data_Analysis/Tracking/refolding_pPb_its_MBMC_0GeV15GeV_dNdpt.pdf, id=6997, 569.12625pt x 315.1775pt>
-File: Data_Analysis/Tracking/refolding_pPb_its_MBMC_0GeV15GeV_dNdpt.pdf Graphic file (type pdf)
-<use Data_Analysis/Tracking/refolding_pPb_its_MBMC_0GeV15GeV_dNdpt.pdf>
-Package pdftex.def Info: Data_Analysis/Tracking/refolding_pPb_its_MBMC_0GeV15GeV_dNdpt.pdf  used on input line 283.
-(pdftex.def)             Requested size: 445.54857pt x 246.7512pt.
-
-
-LaTeX Warning: Reference `fig:RefoldedComparison' on page 109 undefined on input line 290.
-
-
-LaTeX Warning: Reference `fig:RefoldedComparison' on page 109 undefined on input line 290.
-
-<Data_Analysis/Tracking/ratio_refolding_pPb_tpc_MBMC_1GeV15GeV_errors.pdf, id=6998, 569.12625pt x 244.915pt>
-File: Data_Analysis/Tracking/ratio_refolding_pPb_tpc_MBMC_1GeV15GeV_errors.pdf Graphic file (type pdf)
-<use Data_Analysis/Tracking/ratio_refolding_pPb_tpc_MBMC_1GeV15GeV_errors.pdf>
-Package pdftex.def Info: Data_Analysis/Tracking/ratio_refolding_pPb_tpc_MBMC_1GeV15GeV_errors.pdf  used on input line 294.
-(pdftex.def)             Requested size: 445.54857pt x 191.74297pt.
-<Data_Analysis/Tracking/ratio_refolding_pPb_its_MBMC_0GeV15GeV_errors_band.pdf, id=6999, 569.12625pt x 244.915pt>
-File: Data_Analysis/Tracking/ratio_refolding_pPb_its_MBMC_0GeV15GeV_errors_band.pdf Graphic file (type pdf)
-<use Data_Analysis/Tracking/ratio_refolding_pPb_its_MBMC_0GeV15GeV_errors_band.pdf>
-Package pdftex.def Info: Data_Analysis/Tracking/ratio_refolding_pPb_its_MBMC_0GeV15GeV_errors_band.pdf  used on input line 295.
-(pdftex.def)             Requested size: 445.54857pt x 191.74297pt.
-
-LaTeX Warning: Reference `fig:RefoldedComparison' on page 109 undefined on input line 300.
-
-
-LaTeX Warning: Reference `fig:tpcEff' on page 109 undefined on input line 302.
-
-[109] [110 <./Data_Analysis/Tracking/refolding_pPb_tpc_MBMC_0GeV15GeV_dNdpt.pdf, page is rotated 90 degrees> <./Data_Analysis/Tracking/refolding_pPb_its_MBMC_0GeV15GeV_dNdpt.pdf, page is rotated 90 degrees>] [111 <./Data_Analysis/Tracking/ratio_refolding_pPb_tpc_MBMC_1GeV15GeV_errors.pdf, page is rotated 90 degrees> <./Data_Analysis/Tracking/ratio_refolding_pPb_its_MBMC_0GeV15GeV_errors_band.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `fig:phiEff' on page 112 undefined on input line 309.
-
-
-LaTeX Warning: Reference `eq:eff' on page 112 undefined on input line 309.
-
-<Data_Analysis/Tracking/tpc_phi_eff.pdf, id=7189, 569.12625pt x 367.3725pt>
-File: Data_Analysis/Tracking/tpc_phi_eff.pdf Graphic file (type pdf)
-<use Data_Analysis/Tracking/tpc_phi_eff.pdf>
-Package pdftex.def Info: Data_Analysis/Tracking/tpc_phi_eff.pdf  used on input line 313.
-(pdftex.def)             Requested size: 232.15271pt x 149.85571pt.
-<Data_Analysis/Tracking/its_phi_eff.pdf, id=7190, 569.12625pt x 367.3725pt>
-File: Data_Analysis/Tracking/its_phi_eff.pdf Graphic file (type pdf)
-<use Data_Analysis/Tracking/its_phi_eff.pdf>
-Package pdftex.def Info: Data_Analysis/Tracking/its_phi_eff.pdf  used on input line 314.
-(pdftex.def)             Requested size: 232.15271pt x 149.85571pt.
-<Data_Analysis/Tracking/phi_efficiency_cor_tpc.pdf, id=7191, 569.12625pt x 367.3725pt>
-File: Data_Analysis/Tracking/phi_efficiency_cor_tpc.pdf Graphic file (type pdf)
-<use Data_Analysis/Tracking/phi_efficiency_cor_tpc.pdf>
-Package pdftex.def Info: Data_Analysis/Tracking/phi_efficiency_cor_tpc.pdf  used on input line 321.
-(pdftex.def)             Requested size: 232.15271pt x 149.85571pt.
-<Data_Analysis/Tracking/phi_efficiency_cor_its.pdf, id=7192, 569.12625pt x 367.3725pt>
-File: Data_Analysis/Tracking/phi_efficiency_cor_its.pdf Graphic file (type pdf)
-<use Data_Analysis/Tracking/phi_efficiency_cor_its.pdf>
-Package pdftex.def Info: Data_Analysis/Tracking/phi_efficiency_cor_its.pdf  used on input line 322.
-(pdftex.def)             Requested size: 232.15271pt x 149.85571pt.
-
-LaTeX Warning: Reference `fig:phiCorr' on page 112 undefined on input line 327.
-
-[112 <./Data_Analysis/Tracking/tpc_phi_eff.pdf, page is rotated 90 degrees> <./Data_Analysis/Tracking/its_phi_eff.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Citation 'Acharya:2019jkx' on page 113 undefined on input line 350.
-
-[113 <./Data_Analysis/Tracking/phi_efficiency_cor_tpc.pdf, page is rotated 90 degrees> <./Data_Analysis/Tracking/phi_efficiency_cor_its.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `fig:PythiaNeutralIsolation' on page 114 undefined on input line 352.
-
-<Checks_Systematics/PythiaStudyNeutralIso.pdf, id=7384, 1445.4pt x 722.7pt>
-File: Checks_Systematics/PythiaStudyNeutralIso.pdf Graphic file (type pdf)
-<use Checks_Systematics/PythiaStudyNeutralIso.pdf>
-Package pdftex.def Info: Checks_Systematics/PythiaStudyNeutralIso.pdf  used on input line 356.
-(pdftex.def)             Requested size: 606.5pt x 303.24521pt.
-
-LaTeX Warning: Reference `fig:PythiaBoostStudy' on page 114 undefined on input line 367.
-
-<Checks_Systematics/PythiaStudyBoost_wLines.pdf, id=7385, 794.97pt x 614.295pt>
-File: Checks_Systematics/PythiaStudyBoost_wLines.pdf Graphic file (type pdf)
-<use Checks_Systematics/PythiaStudyBoost_wLines.pdf>
-Package pdftex.def Info: Checks_Systematics/PythiaStudyBoost_wLines.pdf  used on input line 371.
-(pdftex.def)             Requested size: 606.5pt x 468.66873pt.
-[114] [115 <./Checks_Systematics/PythiaStudyNeutralIso.pdf>] [116 <./Checks_Systematics/PythiaStudyBoost_wLines.pdf, page is rotated 270 degrees>]
-
-LaTeX Warning: Reference `fig:photonEff_pPb' on page 117 undefined on input line 384.
-
-<Checks_Systematics/Efficiency_photon_pPb.pdf, id=7462, 569.12625pt x 546.04pt>
-File: Checks_Systematics/Efficiency_photon_pPb.pdf Graphic file (type pdf)
-<use Checks_Systematics/Efficiency_photon_pPb.pdf>
-Package pdftex.def Info: Checks_Systematics/Efficiency_photon_pPb.pdf  used on input line 387.
-(pdftex.def)             Requested size: 211.04857pt x 202.48988pt.
-
-LaTeX Warning: Citation 'Erwann' on page 117 undefined on input line 395.
-
-
-LaTeX Warning: Citation 'Erwann' on page 117 undefined on input line 395.
-
-
-LaTeX Warning: Reference `fig:ComparisonToErwanns' on page 117 undefined on input line 397.
-
-[117 <./Checks_Systematics/Efficiency_photon_pPb.pdf, page is rotated 90 degrees>]
-<Checks_Systematics/ABCDcomparison.pdf, id=7514, 516.96574pt x 500.49359pt>
-File: Checks_Systematics/ABCDcomparison.pdf Graphic file (type pdf)
-<use Checks_Systematics/ABCDcomparison.pdf>
-Package pdftex.def Info: Checks_Systematics/ABCDcomparison.pdf  used on input line 404.
-(pdftex.def)             Requested size: 234.5pt x 227.02998pt.
-
-
-LaTeX Warning: Citation 'Erwann' on page 118 undefined on input line 405.
-
-
-LaTeX Warning: Citation 'Erwann' on page 118 undefined on input line 405.
-
-
-LaTeX Warning: Reference `sec:clusterselection' on page 118 undefined on input line 413.
-
-
-LaTeX Warning: Reference `sec:tracking' on page 118 undefined on input line 413.
-
-
-LaTeX Warning: Reference `sec:isolation' on page 118 undefined on input line 413.
-
-
-LaTeX Warning: Reference `fig:spliteta' on page 118 undefined on input line 415.
-
-[118 <./Checks_Systematics/ABCDcomparison.pdf>]
-<Checks_Systematics/SplitEtaStudy.png, id=7570, 516.93124pt x 513.92pt>
-File: Checks_Systematics/SplitEtaStudy.png Graphic file (type png)
-<use Checks_Systematics/SplitEtaStudy.png>
-Package pdftex.def Info: Checks_Systematics/SplitEtaStudy.png  used on input line 419.
-(pdftex.def)             Requested size: 234.5pt x 233.13603pt.
-
-
-LaTeX Warning: Reference `sec:clusterselection' on page 119 undefined on input line 426.
-
-
-LaTeX Warning: Citation 'Acharya:2019jkx' on page 119 undefined on input line 428.
-
-
-LaTeX Warning: Citation 'Erwann' on page 119 undefined on input line 428.
-
-
-LaTeX Warning: Reference `fig:numberoflocalmaxima' on page 119 undefined on input line 428.
-
-
-Overfull \hbox (8.98233pt too wide) in paragraph at lines 428--429
-\OT1/cmr/m/n/12 NLM $\OML/cmm/m/it/12 < \OT1/cmr/m/n/12 3$ se-lec-tion was used in pre-vi-ous iso-lated pho-ton an-a-lyzes (e.g. Ref [[],
- []
-
-[119 <./Checks_Systematics/SplitEtaStudy.png>]
-<G-H_New/dPhi_to_0/NLMvariation_pp.png, id=7579, 516.93124pt x 513.92pt>
-File: G-H_New/dPhi_to_0/NLMvariation_pp.png Graphic file (type png)
-<use G-H_New/dPhi_to_0/NLMvariation_pp.png>
-Package pdftex.def Info: G-H_New/dPhi_to_0/NLMvariation_pp.png  used on input line 432.
-(pdftex.def)             Requested size: 232.15271pt x 230.7992pt.
-<Checks_Systematics/NLMvariation_pPb.png, id=7580, 516.93124pt x 513.92pt>
-File: Checks_Systematics/NLMvariation_pPb.png Graphic file (type png)
-<use Checks_Systematics/NLMvariation_pPb.png>
-Package pdftex.def Info: Checks_Systematics/NLMvariation_pPb.png  used on input line 433.
-(pdftex.def)             Requested size: 232.15271pt x 230.7992pt.
-
-
-LaTeX Warning: Reference `fig:distancetobadchannel' on page 120 undefined on input line 438.
-
-<Checks_Systematics/ppbdistance.pdf, id=7581, 513.45262pt x 513.40057pt>
-File: Checks_Systematics/ppbdistance.pdf Graphic file (type pdf)
-<use Checks_Systematics/ppbdistance.pdf>
-Package pdftex.def Info: Checks_Systematics/ppbdistance.pdf  used on input line 442.
-(pdftex.def)             Requested size: 232.15271pt x 232.13269pt.
-File: Checks_Systematics/ppbdistance.pdf Graphic file (type pdf)
-<use Checks_Systematics/ppbdistance.pdf>
-Package pdftex.def Info: Checks_Systematics/ppbdistance.pdf  used on input line 443.
-(pdftex.def)             Requested size: 232.15271pt x 232.13269pt.
-
-LaTeX Warning: Reference `fig:TOF' on page 120 undefined on input line 448.
-
-<Checks_Systematics/pptof.pdf, id=7582, 513.45262pt x 513.40057pt>
-File: Checks_Systematics/pptof.pdf Graphic file (type pdf)
-<use Checks_Systematics/pptof.pdf>
-Package pdftex.def Info: Checks_Systematics/pptof.pdf  used on input line 452.
-(pdftex.def)             Requested size: 232.15271pt x 232.13269pt.
-<Checks_Systematics/ppbtof.pdf, id=7583, 513.45262pt x 513.40057pt>
-File: Checks_Systematics/ppbtof.pdf Graphic file (type pdf)
-<use Checks_Systematics/ppbtof.pdf>
-Package pdftex.def Info: Checks_Systematics/ppbtof.pdf  used on input line 453.
-(pdftex.def)             Requested size: 232.15271pt x 232.13269pt.
-
-LaTeX Warning: Reference `fig:exoticity' on page 120 undefined on input line 458.
-
-<Checks_Systematics/ppemax.pdf, id=7584, 513.45262pt x 513.40057pt>
-File: Checks_Systematics/ppemax.pdf Graphic file (type pdf)
-<use Checks_Systematics/ppemax.pdf>
-Package pdftex.def Info: Checks_Systematics/ppemax.pdf  used on input line 462.
-(pdftex.def)             Requested size: 232.15271pt x 232.13269pt.
-<Checks_Systematics/ppbemax.pdf, id=7585, 513.45262pt x 513.40057pt>
-File: Checks_Systematics/ppbemax.pdf Graphic file (type pdf)
-<use Checks_Systematics/ppbemax.pdf>
-Package pdftex.def Info: Checks_Systematics/ppbemax.pdf  used on input line 463.
-(pdftex.def)             Requested size: 232.15271pt x 232.13269pt.
-
-LaTeX Warning: Reference `fig:isolationvariation' on page 120 undefined on input line 468.
-
-<Checks_Systematics/ppiso.pdf, id=7586, 513.45262pt x 513.40057pt>
-File: Checks_Systematics/ppiso.pdf Graphic file (type pdf)
-<use Checks_Systematics/ppiso.pdf>
-Package pdftex.def Info: Checks_Systematics/ppiso.pdf  used on input line 474.
-(pdftex.def)             Requested size: 232.15271pt x 232.13269pt.
-<Checks_Systematics/ppbiso.pdf, id=7587, 513.45262pt x 513.40057pt>
-File: Checks_Systematics/ppbiso.pdf Graphic file (type pdf)
-<use Checks_Systematics/ppbiso.pdf>
-Package pdftex.def Info: Checks_Systematics/ppbiso.pdf  used on input line 475.
-(pdftex.def)             Requested size: 232.15271pt x 232.13269pt.
-
-LaTeX Warning: Reference `sec:puritysystematics' on page 120 undefined on input line 483.
-
-
-LaTeX Warning: Reference `fig:bkgCorrection' on page 120 undefined on input line 488.
-
-
-LaTeX Warning: Reference `eq:bkgtemplatecorrection' on page 120 undefined on input line 488.
-
-
-LaTeX Warning: Reference `sec:purity' on page 120 undefined on input line 488.
-
-
-LaTeX Warning: Reference `sec:puritysystematics' on page 120 undefined on input line 488.
-
-[120 <./G-H_New/dPhi_to_0/NLMvariation_pp.png> <./Checks_Systematics/NLMvariation_pPb.png>] [121 <./Checks_Systematics/ppbdistance.pdf> <./Checks_Systematics/pptof.pdf
-
-pdfTeX warning: pdflatex (file ./Checks_Systematics/pptof.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Checks_Systematics/ppbtof.pdf
-
-pdfTeX warning: pdflatex (file ./Checks_Systematics/ppbtof.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [122 <./Checks_Systematics/ppemax.pdf> <./Checks_Systematics/ppbemax.pdf
-
-pdfTeX warning: pdflatex (file ./Checks_Systematics/ppbemax.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Checks_Systematics/ppiso.pdf
-
-pdfTeX warning: pdflatex (file ./Checks_Systematics/ppiso.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./Checks_Systematics/ppbiso.pdf
-
-pdfTeX warning: pdflatex (file ./Checks_Systematics/ppbiso.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-<Checks_Systematics/bkg-template-correction-p-Pb.pdf, id=7920, 516.2443pt x 495.05138pt>
-File: Checks_Systematics/bkg-template-correction-p-Pb.pdf Graphic file (type pdf)
-<use Checks_Systematics/bkg-template-correction-p-Pb.pdf>
-Package pdftex.def Info: Checks_Systematics/bkg-template-correction-p-Pb.pdf  used on input line 492.
-(pdftex.def)             Requested size: 356.43742pt x 341.81998pt.
-
-
-LaTeX Warning: Reference `purity_err_fit' on page 123 undefined on input line 499.
-
-
-LaTeX Warning: Reference `Fig:Fit_variations' on page 123 undefined on input line 499.
-
-[123 <./Checks_Systematics/bkg-template-correction-p-Pb.pdf>]
-<Checks_Systematics/Pol2.png, id=7977, 698.61pt x 473.77pt>
-File: Checks_Systematics/Pol2.png Graphic file (type png)
-<use Checks_Systematics/Pol2.png>
-Package pdftex.def Info: Checks_Systematics/Pol2.png  used on input line 503.
-(pdftex.def)             Requested size: 232.15271pt x 157.43617pt.
-<Checks_Systematics/pol3.png, id=7978, 698.61pt x 473.77pt>
-File: Checks_Systematics/pol3.png Graphic file (type png)
-<use Checks_Systematics/pol3.png>
-Package pdftex.def Info: Checks_Systematics/pol3.png  used on input line 504.
-(pdftex.def)             Requested size: 232.15271pt x 157.43617pt.
-<Checks_Systematics/pol5.png, id=7979, 698.61pt x 473.77pt>
-File: Checks_Systematics/pol5.png Graphic file (type png)
-<use Checks_Systematics/pol5.png>
-Package pdftex.def Info: Checks_Systematics/pol5.png  used on input line 505.
-(pdftex.def)             Requested size: 232.15271pt x 157.43617pt.
-<Checks_Systematics/gauss.png, id=7980, 698.61pt x 473.77pt>
-File: Checks_Systematics/gauss.png Graphic file (type png)
-<use Checks_Systematics/gauss.png>
-Package pdftex.def Info: Checks_Systematics/gauss.png  used on input line 506.
-(pdftex.def)             Requested size: 232.15271pt x 157.43617pt.
-<Checks_Systematics/EF_Fit.png, id=7981, 698.61pt x 473.77pt>
-File: Checks_Systematics/EF_Fit.png Graphic file (type png)
-<use Checks_Systematics/EF_Fit.png>
-Package pdftex.def Info: Checks_Systematics/EF_Fit.png  used on input line 507.
-(pdftex.def)             Requested size: 232.15271pt x 157.43617pt.
-
-
-LaTeX Warning: Reference `sec:puritysystematics' on page 124 undefined on input line 512.
-
-
-LaTeX Warning: Reference `purity_err_fit' on page 124 undefined on input line 512.
-
-
-LaTeX Warning: Reference `Fig:Fit_variations' on page 124 undefined on input line 512.
-
-
-LaTeX Warning: Reference `Fig:Error_Fit_Mean_Center' on page 124 undefined on input line 514.
-
-<Checks_Systematics/pp_MeanVsBinCenter.png, id=7982, 382.42876pt x 264.99pt>
-File: Checks_Systematics/pp_MeanVsBinCenter.png Graphic file (type png)
-<use Checks_Systematics/pp_MeanVsBinCenter.png>
-Package pdftex.def Info: Checks_Systematics/pp_MeanVsBinCenter.png  used on input line 518.
-(pdftex.def)             Requested size: 229.81258pt x 159.24187pt.
-<Checks_Systematics/pPb_Compare.png, id=7983, 376.40625pt x 264.99pt>
-File: Checks_Systematics/pPb_Compare.png Graphic file (type png)
-<use Checks_Systematics/pPb_Compare.png>
-Package pdftex.def Info: Checks_Systematics/pPb_Compare.png  used on input line 519.
-(pdftex.def)             Requested size: 229.81258pt x 161.79326pt.
-<Checks_Systematics/smeared-chi2s-pp-cluster_Lambda-15-20.pdf, id=7984, 526.73662pt x 500.49359pt>
-File: Checks_Systematics/smeared-chi2s-pp-cluster_Lambda-15-20.pdf Graphic file (type pdf)
-<use Checks_Systematics/smeared-chi2s-pp-cluster_Lambda-15-20.pdf>
-Package pdftex.def Info: Checks_Systematics/smeared-chi2s-pp-cluster_Lambda-15-20.pdf  used on input line 530.
-(pdftex.def)             Requested size: 232.15271pt x 220.58443pt.
-<Checks_Systematics/smeared-purities-pp-cluster_Lambda-15-20.pdf, id=7985, 532.30429pt x 500.49359pt>
-File: Checks_Systematics/smeared-purities-pp-cluster_Lambda-15-20.pdf Graphic file (type pdf)
-<use Checks_Systematics/smeared-purities-pp-cluster_Lambda-15-20.pdf>
-Package pdftex.def Info: Checks_Systematics/smeared-purities-pp-cluster_Lambda-15-20.pdf  used on input line 531.
-(pdftex.def)             Requested size: 232.15271pt x 218.27808pt.
-
-LaTeX Warning: Reference `fig:smearingSignalShape' on page 124 undefined on input line 536.
-
-
-LaTeX Warning: Reference `fig:smearingSignalShape' on page 124 undefined on input line 539.
-
-
-LaTeX Warning: Reference `sec:puritysystematics' on page 124 undefined on input line 539.
-
-
-LaTeX Warning: Reference `fig:dPhivariation' on page 124 undefined on input line 544.
-
-[124] [125 <./Checks_Systematics/Pol2.png> <./Checks_Systematics/pol3.png> <./Checks_Systematics/pol5.png> <./Checks_Systematics/gauss.png> <./Checks_Systematics/EF_Fit.png>] [126 <./Checks_Systematics/pp_MeanVsBinCenter.png> <./Checks_Systematics/pPb_Compare.png> <./Checks_Systematics/smeared-chi2s-pp-cluster_Lambda-15-20.pdf> <./Checks_Systematics/smeared-purities-pp-cluster_Lambda-15-20.pdf
-
-pdfTeX warning: pdflatex (file ./Checks_Systematics/smeared-purities-pp-cluster_Lambda-15-20.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-<G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_0.pdf, id=8072, 722.7pt x 650.43pt>
-File: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_0.pdf Graphic file (type pdf)
-<use G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_0.pdf>
-Package pdftex.def Info: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_0.pdf  used on input line 549.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_1.pdf, id=8073, 722.7pt x 650.43pt>
-File: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_1.pdf Graphic file (type pdf)
-<use G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_1.pdf>
-Package pdftex.def Info: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_1.pdf  used on input line 550.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_2.pdf, id=8074, 722.7pt x 650.43pt>
-File: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_2.pdf Graphic file (type pdf)
-<use G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_2.pdf>
-Package pdftex.def Info: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_2.pdf  used on input line 551.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_3.pdf, id=8075, 722.7pt x 650.43pt>
-File: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_3.pdf Graphic file (type pdf)
-<use G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_3.pdf>
-Package pdftex.def Info: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_3.pdf  used on input line 552.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_4.pdf, id=8076, 722.7pt x 650.43pt>
-File: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_4.pdf Graphic file (type pdf)
-<use G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_4.pdf>
-Package pdftex.def Info: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_4.pdf  used on input line 553.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_5.pdf, id=8077, 722.7pt x 650.43pt>
-File: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_5.pdf Graphic file (type pdf)
-<use G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_5.pdf>
-Package pdftex.def Info: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_5.pdf  used on input line 554.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf, id=8078, 722.7pt x 650.43pt>
-File: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf Graphic file (type pdf)
-<use G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf>
-Package pdftex.def Info: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf  used on input line 555.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-File: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf Graphic file (type pdf)
-<use G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf>
-Package pdftex.def Info: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf  used on input line 556.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-
-
-LaTeX Warning: Reference `sec:results' on page 127 undefined on input line 557.
-
-
-LaTeX Warning: Reference `sec:results' on page 127 undefined on input line 557.
-
-
-LaTeX Warning: Reference `fig:Cs_Beam_Flip' on page 127 undefined on input line 568.
-
-<G-H_New/Cs_Averages_p-Pb_Beam_Flip.pdf, id=8079, 1582.71304pt x 1293.63306pt>
-File: G-H_New/Cs_Averages_p-Pb_Beam_Flip.pdf Graphic file (type pdf)
-<use G-H_New/Cs_Averages_p-Pb_Beam_Flip.pdf>
-Package pdftex.def Info: G-H_New/Cs_Averages_p-Pb_Beam_Flip.pdf  used on input line 572.
-(pdftex.def)             Requested size: 422.09714pt x 345.00218pt.
-
-LaTeX Warning: Reference `fig:CorrelationFinal_downtozero' on page 127 undefined on input line 580.
-
-<G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_0.pdf, id=8080, 722.7pt x 650.43pt>
-File: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_0.pdf Graphic file (type pdf)
-<use G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_0.pdf>
-Package pdftex.def Info: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_0.pdf  used on input line 584.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_1.pdf, id=8081, 722.7pt x 650.43pt>
-File: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_1.pdf Graphic file (type pdf)
-<use G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_1.pdf>
-Package pdftex.def Info: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_1.pdf  used on input line 585.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_2.pdf, id=8082, 722.7pt x 650.43pt>
-File: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_2.pdf Graphic file (type pdf)
-<use G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_2.pdf>
-Package pdftex.def Info: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_2.pdf  used on input line 586.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_3.pdf, id=8083, 722.7pt x 650.43pt>
-File: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_3.pdf Graphic file (type pdf)
-<use G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_3.pdf>
-Package pdftex.def Info: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_3.pdf  used on input line 587.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_4.pdf, id=8084, 722.7pt x 650.43pt>
-File: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_4.pdf Graphic file (type pdf)
-<use G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_4.pdf>
-Package pdftex.def Info: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_4.pdf  used on input line 588.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_5.pdf, id=8085, 722.7pt x 650.43pt>
-File: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_5.pdf Graphic file (type pdf)
-<use G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_5.pdf>
-Package pdftex.def Info: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_5.pdf  used on input line 589.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_6.pdf, id=8086, 722.7pt x 650.43pt>
-File: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_6.pdf Graphic file (type pdf)
-<use G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_6.pdf>
-Package pdftex.def Info: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_6.pdf  used on input line 590.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_7.pdf, id=8087, 722.7pt x 650.43pt>
-File: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_7.pdf Graphic file (type pdf)
-<use G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_7.pdf>
-Package pdftex.def Info: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_7.pdf  used on input line 591.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-
-LaTeX Warning: Reference `fig:CorrelationFinal' on page 127 undefined on input line 592.
-
-
-LaTeX Warning: Reference `fig:CorrelationFinal' on page 127 undefined on input line 592.
-
-
-LaTeX Warning: Reference `fig:TPC_CorrelationFinal' on page 127 undefined on input line 612.
-
-<G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_0.pdf, id=8088, 722.7pt x 650.43pt>
-File: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_0.pdf Graphic file (type pdf)
-<use G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_0.pdf>
-Package pdftex.def Info: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_0.pdf  used on input line 616.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_1.pdf, id=8089, 722.7pt x 650.43pt>
-File: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_1.pdf Graphic file (type pdf)
-<use G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_1.pdf>
-Package pdftex.def Info: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_1.pdf  used on input line 617.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_2.pdf, id=8090, 722.7pt x 650.43pt>
-File: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_2.pdf Graphic file (type pdf)
-<use G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_2.pdf>
-Package pdftex.def Info: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_2.pdf  used on input line 618.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_3.pdf, id=8091, 722.7pt x 650.43pt>
-File: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_3.pdf Graphic file (type pdf)
-<use G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_3.pdf>
-Package pdftex.def Info: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_3.pdf  used on input line 619.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_4.pdf, id=8092, 722.7pt x 650.43pt>
-File: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_4.pdf Graphic file (type pdf)
-<use G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_4.pdf>
-Package pdftex.def Info: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_4.pdf  used on input line 620.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_5.pdf, id=8093, 722.7pt x 650.43pt>
-File: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_5.pdf Graphic file (type pdf)
-<use G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_5.pdf>
-Package pdftex.def Info: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_5.pdf  used on input line 621.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_6.pdf, id=8094, 722.7pt x 650.43pt>
-File: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_6.pdf Graphic file (type pdf)
-<use G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_6.pdf>
-Package pdftex.def Info: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_6.pdf  used on input line 622.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_7.pdf, id=8095, 722.7pt x 650.43pt>
-File: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_7.pdf Graphic file (type pdf)
-<use G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_7.pdf>
-Package pdftex.def Info: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_7.pdf  used on input line 623.
-(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
-<G-H_New/TPC_Tracks/Final_FFunction_and_Ratio.pdf, id=8096, 615.07796pt x 549.7382pt>
-File: G-H_New/TPC_Tracks/Final_FFunction_and_Ratio.pdf Graphic file (type pdf)
-<use G-H_New/TPC_Tracks/Final_FFunction_and_Ratio.pdf>
-Package pdftex.def Info: G-H_New/TPC_Tracks/Final_FFunction_and_Ratio.pdf  used on input line 630.
-(pdftex.def)             Requested size: 229.81258pt x 205.39636pt.
-<G-H_New/TPC_Tracks/TPC_Compare_Final_FFunction_and_Ratio.pdf, id=8097, 615.07796pt x 549.7382pt>
-File: G-H_New/TPC_Tracks/TPC_Compare_Final_FFunction_and_Ratio.pdf Graphic file (type pdf)
-<use G-H_New/TPC_Tracks/TPC_Compare_Final_FFunction_and_Ratio.pdf>
-Package pdftex.def Info: G-H_New/TPC_Tracks/TPC_Compare_Final_FFunction_and_Ratio.pdf  used on input line 631.
-(pdftex.def)             Requested size: 229.81258pt x 205.39636pt.
-
-LaTeX Warning: Reference `fig:TPC_FF' on page 127 undefined on input line 637.
-
-
-LaTeX Warning: Reference `fig:FF_zT_Rebin' on page 127 undefined on input line 640.
-
-<G-H_New/zT_Rebin_6_006zT06zTITSSub/Final_FFunction_and_Ratio.pdf, id=8098, 615.07796pt x 549.7382pt>
-File: G-H_New/zT_Rebin_6_006zT06zTITSSub/Final_FFunction_and_Ratio.pdf Graphic file (type pdf)
-<use G-H_New/zT_Rebin_6_006zT06zTITSSub/Final_FFunction_and_Ratio.pdf>
-Package pdftex.def Info: G-H_New/zT_Rebin_6_006zT06zTITSSub/Final_FFunction_and_Ratio.pdf  used on input line 645.
-(pdftex.def)             Requested size: 229.81258pt x 205.39636pt.
-
-LaTeX Warning: Reference `fig:Correlation_pileup' on page 127 undefined on input line 654.
-
-<G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_0.pdf, id=8099, 722.7pt x 650.43pt>
-File: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_0.pdf Graphic file (type pdf)
-<use G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_0.pdf>
-Package pdftex.def Info: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_0.pdf  used on input line 658.
-(pdftex.def)             Requested size: 194.08444pt x 174.67558pt.
-<G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_1.pdf, id=8100, 722.7pt x 650.43pt>
-File: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_1.pdf Graphic file (type pdf)
-<use G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_1.pdf>
-Package pdftex.def Info: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_1.pdf  used on input line 659.
-(pdftex.def)             Requested size: 194.08444pt x 174.67558pt.
-<G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_2.pdf, id=8101, 722.7pt x 650.43pt>
-File: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_2.pdf Graphic file (type pdf)
-<use G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_2.pdf>
-Package pdftex.def Info: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_2.pdf  used on input line 660.
-(pdftex.def)             Requested size: 194.08444pt x 174.67558pt.
-<G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_3.pdf, id=8102, 722.7pt x 650.43pt>
-File: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_3.pdf Graphic file (type pdf)
-<use G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_3.pdf>
-Package pdftex.def Info: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_3.pdf  used on input line 661.
-(pdftex.def)             Requested size: 194.08444pt x 174.67558pt.
-<G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_4.pdf, id=8103, 722.7pt x 650.43pt>
-File: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_4.pdf Graphic file (type pdf)
-<use G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_4.pdf>
-Package pdftex.def Info: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_4.pdf  used on input line 662.
-(pdftex.def)             Requested size: 194.08444pt x 174.67558pt.
-<G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_5.pdf, id=8104, 722.7pt x 650.43pt>
-File: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_5.pdf Graphic file (type pdf)
-<use G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_5.pdf>
-Package pdftex.def Info: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_5.pdf  used on input line 663.
-(pdftex.def)             Requested size: 194.08444pt x 174.67558pt.
-[127] [128 <./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_0.pdf> <./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_1.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_2.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_3.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_4.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_5.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-<G-H_New/zT_Rebin_6_006zT06zTpileCut/Final_FFunction_and_Ratio.pdf, id=8731, 615.07796pt x 549.7382pt>
-File: G-H_New/zT_Rebin_6_006zT06zTpileCut/Final_FFunction_and_Ratio.pdf Graphic file (type pdf)
-<use G-H_New/zT_Rebin_6_006zT06zTpileCut/Final_FFunction_and_Ratio.pdf>
-Package pdftex.def Info: G-H_New/zT_Rebin_6_006zT06zTpileCut/Final_FFunction_and_Ratio.pdf  used on input line 671.
-(pdftex.def)             Requested size: 229.81258pt x 205.39636pt.
-
-
-LaTeX Warning: Reference `fig:FF_pileup' on page 129 undefined on input line 676.
-
-<G-H_New/FF_Averages_Max_pT_pp.pdf, id=8732, 570.93298pt x 498.663pt>
-File: G-H_New/FF_Averages_Max_pT_pp.pdf Graphic file (type pdf)
-<use G-H_New/FF_Averages_Max_pT_pp.pdf>
-Package pdftex.def Info: G-H_New/FF_Averages_Max_pT_pp.pdf  used on input line 683.
-(pdftex.def)             Requested size: 229.81258pt x 200.72475pt.
-<G-H_New/Ratio_FF_Averages_Max_pT.pdf, id=8733, 570.93298pt x 570.93298pt>
-File: G-H_New/Ratio_FF_Averages_Max_pT.pdf Graphic file (type pdf)
-<use G-H_New/Ratio_FF_Averages_Max_pT.pdf>
-Package pdftex.def Info: G-H_New/Ratio_FF_Averages_Max_pT.pdf  used on input line 684.
-(pdftex.def)             Requested size: 229.81529pt x 196.98079pt.
-
-LaTeX Warning: Reference `fig:chi2_eff' on page 129 undefined on input line 703.
-
-
-LaTeX Warning: Reference `fig:chi2_fr' on page 129 undefined on input line 703.
-
-
-LaTeX Warning: Reference `fig:chi2_bm' on page 129 undefined on input line 703.
-
-
-LaTeX Warning: Reference `fig:chi2_w' on page 129 undefined on input line 703.
-
-
-LaTeX Warning: Reference `eq:track_weight' on page 129 undefined on input line 703.
-
-
-LaTeX Warning: Reference `sec:tracking' on page 129 undefined on input line 703.
-
-[129 <./G-H_New/Cs_Averages_p-Pb_Beam_Flip.pdf>] [130 <./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_0.pdf> <./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_1.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_2.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_3.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_4.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_5.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_6.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_6.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_7.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_7.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [131 <./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_0.pdf> <./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_1.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_2.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_3.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_4.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_5.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_6.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_6.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_7.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_7.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [132 <./G-H_New/TPC_Tracks/Final_FFunction_and_Ratio.pdf> <./G-H_New/TPC_Tracks/TPC_Compare_Final_FFunction_and_Ratio.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/TPC_Tracks/TPC_Compare_Final_FFunction_and_Ratio.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/zT_Rebin_6_006zT06zTITSSub/Final_FFunction_and_Ratio.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/zT_Rebin_6_006zT06zTITSSub/Final_FFunction_and_Ratio.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [133 <./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_0.pdf> <./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_1.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_2.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_3.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_4.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_5.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [134 <./G-H_New/zT_Rebin_6_006zT06zTpileCut/Final_FFunction_and_Ratio.pdf> <./G-H_New/FF_Averages_Max_pT_pp.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/FF_Averages_Max_pT_pp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./G-H_New/Ratio_FF_Averages_Max_pT.pdf
-
-pdfTeX warning: pdflatex (file ./G-H_New/Ratio_FF_Averages_Max_pT.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-<Checks_Systematics/ITSchi2_study_efficiency.pdf, id=11315, 569.12625pt x 546.04pt>
-File: Checks_Systematics/ITSchi2_study_efficiency.pdf Graphic file (type pdf)
-<use Checks_Systematics/ITSchi2_study_efficiency.pdf>
-Package pdftex.def Info: Checks_Systematics/ITSchi2_study_efficiency.pdf  used on input line 707.
-(pdftex.def)             Requested size: 229.81258pt x 220.4951pt.
-<Checks_Systematics/ITSchi2_study_fakerate.pdf, id=11316, 569.12625pt x 546.04pt>
-File: Checks_Systematics/ITSchi2_study_fakerate.pdf Graphic file (type pdf)
-<use Checks_Systematics/ITSchi2_study_fakerate.pdf>
-Package pdftex.def Info: Checks_Systematics/ITSchi2_study_fakerate.pdf  used on input line 708.
-(pdftex.def)             Requested size: 229.81258pt x 220.4951pt.
-
-
-LaTeX Warning: Reference `fig:chi2SpectraComparison' on page 135 undefined on input line 713.
-
-<Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBMB.pdf, id=11317, 569.12625pt x 546.04pt>
-File: Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBMB.pdf Graphic file (type pdf)
-<use Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBMB.pdf>
-Package pdftex.def Info: Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBMB.pdf  used on input line 716.
-(pdftex.def)             Requested size: 215.74315pt x 206.9891pt.
-<Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBGJ.pdf, id=11318, 569.12625pt x 546.04pt>
-File: Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBGJ.pdf Graphic file (type pdf)
-<use Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBGJ.pdf>
-Package pdftex.def Info: Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBGJ.pdf  used on input line 717.
-(pdftex.def)             Requested size: 215.74315pt x 206.9891pt.
-<Checks_Systematics/ITSchi2_study_ptSpectra_ratio_GJGJ.pdf, id=11319, 569.12625pt x 546.04pt>
-File: Checks_Systematics/ITSchi2_study_ptSpectra_ratio_GJGJ.pdf Graphic file (type pdf)
-<use Checks_Systematics/ITSchi2_study_ptSpectra_ratio_GJGJ.pdf>
-Package pdftex.def Info: Checks_Systematics/ITSchi2_study_ptSpectra_ratio_GJGJ.pdf  used on input line 718.
-(pdftex.def)             Requested size: 215.74315pt x 206.9891pt.
-
-LaTeX Warning: Citation '10.1007/978-3-642-18211-2_166' on page 135 undefined on input line 719.
-
-
-LaTeX Warning: Citation '10.1007/978-3-642-18211-2_166' on page 135 undefined on input line 719.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `sec:tracking' on page 135 undefined on input line 723.
-
-
-LaTeX Warning: Reference `sec:tracking' on page 135 undefined on input line 723.
-
-
-LaTeX Warning: Reference `fig:TPCITSpp_pPbCompare' on page 135 undefined on input line 723.
-
-File: Checks_Systematics/ITSchi2_study_efficiency.pdf Graphic file (type pdf)
-<use Checks_Systematics/ITSchi2_study_efficiency.pdf>
-Package pdftex.def Info: Checks_Systematics/ITSchi2_study_efficiency.pdf  used on input line 726.
-(pdftex.def)             Requested size: 215.74315pt x 206.9891pt.
-File: Checks_Systematics/ITSchi2_study_fakerate.pdf Graphic file (type pdf)
-<use Checks_Systematics/ITSchi2_study_fakerate.pdf>
-Package pdftex.def Info: Checks_Systematics/ITSchi2_study_fakerate.pdf  used on input line 727.
-(pdftex.def)             Requested size: 215.74315pt x 206.9891pt.
-<Checks_Systematics/ITSchi2_study_binMigration.pdf, id=11320, 569.12625pt x 546.04pt>
-File: Checks_Systematics/ITSchi2_study_binMigration.pdf Graphic file (type pdf)
-<use Checks_Systematics/ITSchi2_study_binMigration.pdf>
-Package pdftex.def Info: Checks_Systematics/ITSchi2_study_binMigration.pdf  used on input line 728.
-(pdftex.def)             Requested size: 215.74315pt x 206.9891pt.
-<Checks_Systematics/ITSchi2_study_weight.pdf, id=11321, 569.12625pt x 546.04pt>
-File: Checks_Systematics/ITSchi2_study_weight.pdf Graphic file (type pdf)
-<use Checks_Systematics/ITSchi2_study_weight.pdf>
-Package pdftex.def Info: Checks_Systematics/ITSchi2_study_weight.pdf  used on input line 729.
-(pdftex.def)             Requested size: 215.74315pt x 206.9891pt.
-
-LaTeX Warning: Citation 'PhysRevC.101.065204' on page 135 undefined on input line 730.
-
-
-LaTeX Warning: Citation 'PhysRevC.101.065204' on page 135 undefined on input line 730.
-
-[135 <./Checks_Systematics/ITSchi2_study_efficiency.pdf, page is rotated 90 degrees> <./Checks_Systematics/ITSchi2_study_fakerate.pdf, page is rotated 90 degrees>] [136 <./Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBMB.pdf, page is rotated 90 degrees> <./Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBGJ.pdf, page is rotated 90 degrees> <./Checks_Systematics/ITSchi2_study_ptSpectra_ratio_GJGJ.pdf, page is rotated 90 degrees>]) [137 <./Checks_Systematics/ITSchi2_study_binMigration.pdf, page is rotated 90 degrees> <./Checks_Systematics/ITSchi2_study_weight.pdf, page is rotated 90 degrees>]
-\openout2 = `Results.aux'.
-
- (./Results.tex) [138
-
-
-
-
-]
-\openout2 = `Discussion.aux'.
-
- (./Discussion.tex
-
-LaTeX Warning: Reference `eq:fragErrorRatio' on page 139 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'Adare:2011sc' on page 139 undefined on input line 25.
-
-[139
-
-
-
-
-]
-
-LaTeX Warning: Reference `sec:pdf_insensitivity' on page 140 undefined on input line 32.
-
-
-LaTeX Warning: Reference `eq:cross_sections' on page 140 undefined on input line 34.
-
-) [140] [141]
-
-LaTeX Warning: Empty bibliography on input line 132.
-
-[142
-
-
-
-]
-\tf@toc=\write7
-\openout7 = `thesis.toc'.
-
-\tf@lof=\write8
-\openout8 = `thesis.lof'.
-
-\tf@lot=\write9
-\openout9 = `thesis.lot'.
-
- (./thesis.aux (./abstract.aux) (./Introduction.aux) (./Experimental_Apparatus.aux) (./Analysis.aux) (./Checks_and_Systematics.aux) (./Results.aux) (./Discussion.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  46C756BD2EC8D2B85FA44E63B7A4A106;1526.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                thesis
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'thesis.run.xml'.
-\openout1 = `thesis.run.xml'.
-
- ) 
+(./thesis.out
+./thesis.out:11: Text line contains an invalid character.
+l.11 ^^@
+        ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ^^@^^@
+           ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ^^@^^@^^@
+              ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ^^@^^@^^@^^@
+                 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ^^@^^@^^@^^@^^@
+                    ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ^^@^^@^^@^^@^^@^^@
+                       ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ^^@^^@^^@^^@^^@^^@^^@
+                          ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ^^@^^@^^@^^@^^@^^@^^@^^@
+                             ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                   ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                      ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                         ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                            ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                               ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./thesis.out:11: Text line contains an invalid character.
+l.11 ...^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
+                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 21732 strings out of 478994
- 390587 string characters out of 5858184
- 1137110 words of memory out of 5000000
- 38273 multiletter control sequences out of 15000+600000
- 413158 words of font info for 61 fonts, out of 8000000 for 9000
+ 18209 strings out of 478994
+ 294293 string characters out of 5858184
+ 796432 words of memory out of 5000000
+ 35539 multiletter control sequences out of 15000+600000
+ 404028 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,16n,88p,2441b,1399s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.5.3} has been referenced but does not exist, replaced by a fixed one
+ 86i,1n,88p,2733b,196s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-pdfTeX warning (dest): name{table.5.2} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.5.1} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.40} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.39} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.38} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.37} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.36} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.35} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.34} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.33} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.32} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.31} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.30} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.29} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.28} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.27} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.26} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.25} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.24} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.23} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.22} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.21} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.20} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.19} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.18} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.17} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.16} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.15} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.14} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.13} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.12} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.11} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.10} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.9} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.8} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.7} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.6} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.5} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.4} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.3} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.2} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.1} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.6} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.5} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.4.4} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.4.3} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.4.2} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.4.1} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.4} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.5} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.4} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.3} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.2} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.3.1} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.3} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.2} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.2.1} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.2} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.1.2} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.1.1} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.0.1} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.10.8} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.10.7} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.10.6} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.10.5} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.10.4} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.10.3} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.10.2} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.10.1} has been referenced but does not exist, replaced by a fixed one
-
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/l
-ocal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (162 pages, 28721564 bytes).
-PDF statistics:
- 11876 PDF objects out of 12825 (max. 8388607)
- 4283 compressed objects within 43 object streams
- 515 named destinations out of 1000 (max. 500000)
- 922 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+./thesis.out:11:  ==> Fatal error occurred, no output PDF file produced!

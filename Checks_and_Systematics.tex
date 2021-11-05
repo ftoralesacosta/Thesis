@@ -1,6 +1,13 @@
 \chapter{Checks and Systematics}
 
 \section{Event Mixing}
+Event mixing is used in the analysis in order to correct for the pair-acceptance of photon-hadron pairs. In other words, the convolution of the EMCal acceptance with the $\eta-\varphi$ dependant efficiency of the standalone ITS tracking is non-trivial. It can be corrected for, however, using the data driven method outlined in Sec.~\ref{sec:mixing}.
+
+Because this correction is data-driven, a systematic on due to any mis-modeling of the detector performance is not applied. In theory, there should be a statistical uncertainty on the event mixing that would propagate as an uncertainty on the final analysis. For this reason, a very large number of MB events are mixed with gamma triggered events such that the statistical uncertainty on the mixed event correlations is neglagible, and thus is not propagated into the analysis. Furthermore, for the high \zt bins in the correlation and fragmentation function analysis, MB events where at least one track with a \pt of 14\GeVc are chosen to be in an event pool (this \pt requirement roughly corresponds to the \zt bin for a photon at 40\GeVc). This provides very good statistics, even in the normally statistics limited bins at higher \zt.
+
+Additionally, because the mixing is used as an acceptance correction, the normalization is set such that the highest value of the mixed-event correlation is set to 1.0, and no uncertainty is applied to this normalization.
+
+Two cross checks are done on the mixing, however. The first is to validate the overall shape of the mixing, and to check that the origin of the non-uniformity in \deltaphi is in fact due to the $\varphi$-dependant efficiency of the ITS-only tracking. The second check applies the slower but more standard binned-mixing technique as a check on the novel use of the gale-shapley algorithm in pairing events.
 
 \subsection{Toy Monte Carlo for Validating Event Mixing}
 \label{sec:ToyMC_Mixing}
