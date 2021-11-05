@@ -1,0 +1,86 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'thesis.blg'
+[72] biber-darwin:340> INFO - === Thu Nov  4, 2021, 20:35:00
+[91] Biber.pm:415> INFO - Reading 'thesis.bcf'
+[184] Biber.pm:952> INFO - Found 77 citekeys in bib section 0
+[196] Biber.pm:4340> INFO - Processing section 0
+[207] Biber.pm:4531> INFO - Looking for bibtex format file 'Zotero.bib' for section 0
+[239] bibtex.pm:1689> INFO - LaTeX decoding ...
+[557] bibtex.pm:1494> INFO - Found BibTeX data source 'Zotero.bib'
+[572] Utils.pm:395> WARN - Duplicate entry key: 'Hocker:1995kb' in file 'Zotero.bib', skipping ...
+[608] Utils.pm:395> WARN - Entry 'and2010' (Zotero.bib): Invalid format '2010-07' of date field 'date' - ignoring
+[609] Utils.pm:395> WARN - Entry 'and2010' (Zotero.bib): Invalid format '2021-10-12' of date field 'urldate' - ignoring
+[612] Utils.pm:395> WARN - Entry 'Bettini2008' (Zotero.bib): Invalid format '2008' of date field 'date' - ignoring
+[612] Utils.pm:395> WARN - Entry 'Bettini2008' (Zotero.bib): Invalid format '2021-10-13' of date field 'urldate' - ignoring
+[614] Utils.pm:395> WARN - Entry 'AIP2014' (Zotero.bib): Invalid format '2014-02-24T12:39:34-05:00' of date field 'date' - ignoring
+[615] Utils.pm:395> WARN - Entry 'AIP2014' (Zotero.bib): Invalid format '2021-10-13' of date field 'urldate' - ignoring
+[618] Utils.pm:395> WARN - Entry 'Wilson1974' (Zotero.bib): Invalid format '1974-10-15' of date field 'date' - ignoring
+[619] Utils.pm:395> WARN - Entry 'Wilson1974' (Zotero.bib): Invalid format '2021-10-14' of date field 'urldate' - ignoring
+[627] Utils.pm:395> WARN - Entry 'Borsanyi2014' (Zotero.bib): Invalid format '2014-03-07' of date field 'date' - ignoring
+[627] Utils.pm:395> WARN - Entry 'Borsanyi2014' (Zotero.bib): Invalid format '2021-10-14' of date field 'urldate' - ignoring
+[648] Utils.pm:395> WARN - Entry 'HotQCDCollaboration2014' (Zotero.bib): Invalid format '2014-11-04' of date field 'date' - ignoring
+[649] Utils.pm:395> WARN - Entry 'HotQCDCollaboration2014' (Zotero.bib): Invalid format '2021-10-14' of date field 'urldate' - ignoring
+[954] Utils.pm:395> WARN - Entry 'Aidala2019' (Zotero.bib): Invalid format '2019-03' of date field 'date' - ignoring
+[954] Utils.pm:395> WARN - Entry 'Aidala2019' (Zotero.bib): Invalid format '2021-10-14' of date field 'urldate' - ignoring
+[1909] Utils.pm:395> WARN - Entry 'Aamodt2011' (Zotero.bib): Invalid format '2011-07-11' of date field 'date' - ignoring
+[1910] Utils.pm:395> WARN - Entry 'Aamodt2011' (Zotero.bib): Invalid format '2021-10-15' of date field 'urldate' - ignoring
+[1913] Utils.pm:395> WARN - Entry 'Romatschke2007' (Zotero.bib): Invalid format '2007-10-24' of date field 'date' - ignoring
+[1914] Utils.pm:395> WARN - Entry 'Romatschke2007' (Zotero.bib): Invalid format '2021-10-14' of date field 'urldate' - ignoring
+[2211] Utils.pm:395> WARN - Entry 'Khachatryan2010' (Zotero.bib): Invalid format '2010-09-27' of date field 'date' - ignoring
+[2212] Utils.pm:395> WARN - Entry 'Khachatryan2010' (Zotero.bib): Invalid format '2021-10-15' of date field 'urldate' - ignoring
+[3192] Utils.pm:395> WARN - Entry 'Abelev2013' (Zotero.bib): Invalid format '2013-02-12' of date field 'date' - ignoring
+[3192] Utils.pm:395> WARN - Entry 'Abelev2013' (Zotero.bib): Invalid format '2021-10-15' of date field 'urldate' - ignoring
+[3939] Utils.pm:395> WARN - Entry 'Aaij2016' (Zotero.bib): Invalid format '2016-11-10' of date field 'date' - ignoring
+[3940] Utils.pm:395> WARN - Entry 'Aaij2016' (Zotero.bib): Invalid format '2021-10-15' of date field 'urldate' - ignoring
+[6240] Utils.pm:395> WARN - Entry 'Khachatryan2017' (Zotero.bib): Invalid format '2017-02-10' of date field 'date' - ignoring
+[6241] Utils.pm:395> WARN - Entry 'Khachatryan2017' (Zotero.bib): Invalid format '2021-10-15' of date field 'urldate' - ignoring
+[8436] Utils.pm:395> WARN - Entry 'Khachatryan2015' (Zotero.bib): Invalid format '2015-03-06' of date field 'date' - ignoring
+[8437] Utils.pm:395> WARN - Entry 'Khachatryan2015' (Zotero.bib): Invalid format '2021-10-15' of date field 'urldate' - ignoring
+[8439] Utils.pm:395> WARN - Entry 'Romatschke2018a' (Zotero.bib): Invalid format '2018-01-05' of date field 'date' - ignoring
+[8440] Utils.pm:395> WARN - Entry 'Romatschke2018a' (Zotero.bib): Invalid format '2021-10-15' of date field 'urldate' - ignoring
+[8442] Utils.pm:395> WARN - Entry 'Atkin2015' (Zotero.bib): Invalid format '2015-10' of date field 'date' - ignoring
+[8443] Utils.pm:395> WARN - Entry 'Atkin2015' (Zotero.bib): Invalid format '2021-10-16' of date field 'urldate' - ignoring
+[8448] Utils.pm:395> WARN - Entry 'doi:10.1146/annurev.nucl.57.090506.123020' (Zotero.bib): Invalid format '2007' of date field 'date' - ignoring
+[11417] Utils.pm:395> WARN - Entry 'Aaboud2019' (Zotero.bib): Invalid format '2019-03-10' of date field 'date' - ignoring
+[11417] Utils.pm:395> WARN - Entry 'Aaboud2019' (Zotero.bib): Invalid format '2021-10-16' of date field 'urldate' - ignoring
+[11423] Utils.pm:395> WARN - Entry 'Connors2018' (Zotero.bib): Invalid format '2018-06-12' of date field 'date' - ignoring
+[11423] Utils.pm:395> WARN - Entry 'Connors2018' (Zotero.bib): Invalid format '2021-10-17' of date field 'urldate' - ignoring
+[11426] Utils.pm:395> WARN - Entry 'Bencedi2016' (Zotero.bib): Invalid format '2016-09-19' of date field 'date' - ignoring
+[11426] Utils.pm:395> WARN - Entry 'Bencedi2016' (Zotero.bib): Invalid format '2021-10-17' of date field 'urldate' - ignoring
+[11738] Utils.pm:395> WARN - Entry 'Khachatryan2016' (Zotero.bib): Invalid format '2016-11-09' of date field 'date' - ignoring
+[11738] Utils.pm:395> WARN - Entry 'Khachatryan2016' (Zotero.bib): Invalid format '2021-10-17' of date field 'urldate' - ignoring
+[11743] Utils.pm:395> WARN - Entry 'deFlorian2018' (Zotero.bib): Invalid format '2018' of date field 'date' - ignoring
+[11752] Utils.pm:395> WARN - Entry 'Pumplin2002' (Zotero.bib): Invalid format '2002-07' of date field 'date' - ignoring
+[11752] Utils.pm:395> WARN - Entry 'Pumplin2002' (Zotero.bib): Invalid format '2021-10-18' of date field 'urldate' - ignoring
+[12129] Utils.pm:395> WARN - Entry 'Adams2005' (Zotero.bib): Invalid format '2005-08-08' of date field 'date' - ignoring
+[12130] Utils.pm:395> WARN - Entry 'Adams2005' (Zotero.bib): Invalid format '2021-10-19' of date field 'urldate' - ignoring
+[12136] Utils.pm:395> WARN - Entry 'Aurenche1993' (Zotero.bib): Invalid format '1993-06-28' of date field 'date' - ignoring
+[12136] Utils.pm:395> WARN - Entry 'Aurenche1993' (Zotero.bib): Invalid format '2021-10-07' of date field 'urldate' - ignoring
+[12139] Utils.pm:395> WARN - Entry 'David2020' (Zotero.bib): Invalid format '2020-03' of date field 'date' - ignoring
+[12139] Utils.pm:395> WARN - Entry 'David2020' (Zotero.bib): Invalid format '2021-10-19' of date field 'urldate' - ignoring
+[14465] Utils.pm:395> WARN - Entry 'Sirunyan2018' (Zotero.bib): Invalid format '2018-10-10' of date field 'date' - ignoring
+[14465] Utils.pm:395> WARN - Entry 'Sirunyan2018' (Zotero.bib): Invalid format '2021-10-20' of date field 'urldate' - ignoring
+[14820] Utils.pm:395> WARN - Entry 'STARCollaboration2017' (Zotero.bib): Invalid format '2017-08-14' of date field 'date' - ignoring
+[14820] Utils.pm:395> WARN - Entry 'STARCollaboration2017' (Zotero.bib): Invalid format '2021-10-20' of date field 'urldate' - ignoring
+[14826] Utils.pm:395> WARN - Entry 'Zhang2007' (Zotero.bib): Invalid format '2007-05-25' of date field 'date' - ignoring
+[14826] Utils.pm:395> WARN - Entry 'Zhang2007' (Zotero.bib): Invalid format '2021-10-20' of date field 'urldate' - ignoring
+[15419] Utils.pm:395> WARN - Entry 'PHENIXCollaboration2020' (Zotero.bib): Invalid format '2020-11-19' of date field 'date' - ignoring
+[15420] Utils.pm:395> WARN - Entry 'PHENIXCollaboration2020' (Zotero.bib): Invalid format '2021-10-20' of date field 'urldate' - ignoring
+[15429] Utils.pm:395> WARN - Entry 'Pumplin2001' (Zotero.bib): Invalid format '2001-12-12' of date field 'date' - ignoring
+[15429] Utils.pm:395> WARN - Entry 'Pumplin2001' (Zotero.bib): Invalid format '2021-10-21' of date field 'urldate' - ignoring
+[15437] Utils.pm:395> WARN - Entry 'Cronin1975' (Zotero.bib): Invalid format '1975-06-01' of date field 'date' - ignoring
+[15437] Utils.pm:395> WARN - Entry 'Cronin1975' (Zotero.bib): Invalid format '2021-10-21' of date field 'urldate' - ignoring
+[15438] Utils.pm:395> WARN - Entry 'Adler:2005ad' (Zotero.bib): Invalid format '2006' of date field 'date' - ignoring
+[15441] Utils.pm:395> WARN - Entry 'Acharya:2018edi' (Zotero.bib): Invalid format '2019' of date field 'date' - ignoring
+[15445] Utils.pm:395> WARN - Entry 'Adam:2015xea' (Zotero.bib): Invalid format '2015' of date field 'date' - ignoring
+[15450] Utils.pm:395> WARN - Entry 'Adare:2011sc' (Zotero.bib): Invalid format '2011' of date field 'date' - ignoring
+[15455] Utils.pm:395> WARN - Entry 'Aidala:2018eqn' (Zotero.bib): Invalid format '2019' of date field 'date' - ignoring
+[15458] Utils.pm:395> WARN - Entry 'Aaboud:2017tke' (Zotero.bib): Invalid format '2018' of date field 'date' - ignoring
+[15464] Utils.pm:395> WARN - Entry 'deFlorian:2011fp' (Zotero.bib): Invalid format '2012' of date field 'date' - ignoring
+[15471] Utils.pm:395> WARN - Entry 'Accardi:2009qv' (Zotero.bib): Invalid format '2010' of date field 'date' - ignoring
+[15478] Utils.pm:395> WARN - Entry 'Accardi:2012qut' (Zotero.bib): Invalid format '2016' of date field 'date' - ignoring
+[15484] Utils.pm:395> WARN - Entry 'Xing:2012ii' (Zotero.bib): Invalid format '2012' of date field 'date' - ignoring
+[15489] Utils.pm:395> WARN - Entry 'Connors:2017ptx' (Zotero.bib): Invalid format '2018' of date field 'date' - ignoring
+[15493] Utils.pm:395> WARN - Entry 'Salgado:2011wc' (Zotero.bib): Invalid format '2012' of date field 'date' - ignoring
+[15497] Utils.pm:395> WARN - Entry 'Evans2008' (Zotero.bib): Invalid format '2008-08' of date field 'date' - ignoring
+[15497] Utils.pm:395> WARN - Entry 'Evans2008' (Zotero.bib): Invalid format '2021-10-27' of date field 'urldate' - ignoring

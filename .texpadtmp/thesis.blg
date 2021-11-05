@@ -1,0 +1,27 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is '/Users/fernando/Documents/Thesis/.texpadtmp/thesis.blg'
+[67] biber-darwin:322> INFO - === Tue Jul 14, 2020, 18:05:27
+[80] Biber.pm:415> INFO - Reading '/Users/fernando/Documents/Thesis/.texpadtmp/thesis.bcf'
+[166] Biber.pm:943> INFO - Found 9 citekeys in bib section 0
+[178] Biber.pm:4256> INFO - Processing section 0
+[178] Utils.pm:75> INFO - Globbing data source ''/Users/fernando/Documents/Thesis/references.bib''
+[178] Utils.pm:91> INFO - Globbed data source ''/Users/fernando/Documents/Thesis/references.bib'' to /Users/fernando/Documents/Thesis/references.bib
+[187] Biber.pm:4455> INFO - Looking for bibtex format file '/Users/fernando/Documents/Thesis/references.bib' for section 0
+[187] bibtex.pm:1653> INFO - LaTeX decoding ...
+[198] bibtex.pm:1471> INFO - Found BibTeX data source '/Users/fernando/Documents/Thesis/references.bib'
+[199] Utils.pm:304> WARN - I didn't find a database entry for 'AURENCHE199334' (section 0)
+[199] Utils.pm:304> WARN - I didn't find a database entry for 'PhysRevD.82.014015' (section 0)
+[199] Utils.pm:304> WARN - I didn't find a database entry for 'Cacciari:2009dp' (section 0)
+[199] Utils.pm:304> WARN - I didn't find a database entry for 'Abelev:2014ffa' (section 0)
+[199] Utils.pm:304> WARN - I didn't find a database entry for 'Acharya:2018dqe' (section 0)
+[199] Utils.pm:304> WARN - I didn't find a database entry for 'Acharya:2019jkx' (section 0)
+[199] Utils.pm:304> WARN - I didn't find a database entry for 'Arleo:2004gn' (section 0)
+[199] Utils.pm:304> WARN - I didn't find a database entry for 'Sirunyan:2018gro' (section 0)
+[199] Utils.pm:304> WARN - I didn't find a database entry for 'Chatrchyan:2012gt' (section 0)
+[204] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[204] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[204] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[204] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[205] bbl.pm:652> INFO - Writing '/Users/fernando/Documents/Thesis/.texpadtmp/thesis.bbl' with encoding 'UTF-8'
+[205] bbl.pm:755> INFO - Output to /Users/fernando/Documents/Thesis/.texpadtmp/thesis.bbl
+[205] Biber.pm:128> INFO - WARNINGS: 9
