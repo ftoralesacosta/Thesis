@@ -1,5 +1,67 @@
 \chapter{Checks and Systematics}
 
+\section{Summary of Systematic Uncertainties}
+The source of systematic uncertainties of the \gammaiso--hadron measurement are the following:
+\begin{itemize}
+    \item Purity\\
+The uncertainty of the purity measurement, is propagated to the correlation function measurement following Equation~\ref{eq:FinalSubtraction}. The resulting uncertainty on the correlation function is a relative $\pm18\%$ for pp data and  $\pm12\%$ for \pPb~data . As described in Section~\ref{sec:puritysystematics}, a large fraction of the purity total uncertainty is either statistical uncertainty or systematic uncertainties that arise due to limited data sample. Therefore, the purity uncertainty in pp and \pPb~data are largely uncorrelated. As a conservative approach, they are taken to be totally uncorrelated.
+
+\item	Underlying Event:\\
+As described in Section~\ref{sec:UEsubtraction}, the uncertainty of the UE subtraction originates from statistical fluctuations in the ZYAM estimate. It propagates directly to the per-trigger yields. It ranges from 7\% to 15\% depending on the \zt~bin and data. This uncertainty is fully correlated in $\varphi$ for a given \zt~bin, but totally uncorrelated among \zt~bins, and totally uncorrelated between pp and \pPb~datasets.
+
+\item Tracking performance :\\
+To estimate the systematic uncertainty of the charged-particle $\pt$ measurement with ITS-only track reconstruction, MC simulation studies were performed compared with the published \pt~spectra that used the ALICE standard tracking (i.e. including TPC) in pp and \pPb~collisions at 5 TeV~\cite{Acharya:2018qsh}. As described in Section~\ref{sec:tracking}, the combined uncertainty due to track efficiency, fake rate, and bin-to-bin migration corrections amounts to $\pm5\%$ added in quadrature with the total systematic uncertainty of the reference $\pt$ spectra, which ranges from a relative 1.6 (2.1$\%$) to 1.9$\%$ (2.5$\%$) in the range $0.5<\pt<10$ \GeVc~for pp (\pPb) collisions~\cite{Acharya:2018qsh}. 
+
+Systematic uncertainties due to secondary-particle contamination and from modelling of the particle-type composition in MC simulations are small ($<2\%$) for the range $0.5<\pt<10$ \GeVc. These were already estimated in Ref.\cite{Acharya:2018qsh} for pp and \pPb~data sets and already included in the systematic uncertainty estimate described above. The tracking performance between pp and \pPb~datasets is very similar, but as a conservative approach the systematic uncertainties are taken to be completely uncorrelated.
+
+
+\item Acceptance mismatch due to boost:\\
+As described in Section~\ref{sec:bootstudy}, our \textsc{Pythia8} study of \gammaiso--hadron correlations show that the impact of an acceptance mismatch between pp and \pPb~data that arises from the boost of $\Delta y = 0.47$ amounts to about $5\%$ effect irrespective of $\zt$. This estimate is subject to PDF uncertainties, which are the ones that dictate the shape of the differential cross-section of photons and associated hadrons in pseudorapidity. We chose to not apply any correction for this effect, and assign a $\pm$5$\%$ systematic uncertainty on the per-trigger hadron yields. This systematic uncertainty is taken to be completely correlated with \zt. We assign this systematic uncertainty to our \pPb~measurements only. 
+
+
+\item Luminosity, trigger, photon, and vertex reconstruction:\\
+The observable is normalized per measured photon. Therefore the uncertainties related to overall normalization of the \gammaiso~\pt~spectra (such as luminosity scale, vertexing efficiency, trigger efficiency and photon reconstruction efficiency) cancel completely. Consequently, A systematic uncertainty associated with these sources is not applied to the measurement. 
+
+\item Photon energy scale, resolution and material budget:\\
+  While the measurement is  by construction totally insensitive to overall normalization, it is principle sensitive to bin-migration or scale uncertainties that affect the shape of the photon \pt~spectra.  A large integration window over the photon \pt~range (12--40 \GeVc) reduces this potential systematic, however. Additionally, the EMCal performance is such that these effects are small in general; for a 12 GeV cluster the resolution  $\sigma_{E}/E = 4.8\%/E\otimes 11.3\%/\sqrt{E}\otimes 1.7\%$ yields $\sigma_{E}/E =3.6\%$, and at 40 GeV this yields $\sigma_{E}/E =2.4\%$. The EMCal energy scale has been studied with beam-test data~\cite{Allen:2009aa} and comparison of $\pi^{0}\to\gamma\gamma$ events in data and simulation~\cite{Adam:2016khe}, and has an associated uncertainty if 0.8$\%$. 
+
+The uncertainties due to photon energy scale, resolution, and material budget have been estimated for the isolated photon cross-section measurement with 7 TeV pp and 5 TeV \pPb~data and are less than 3$\%$ in the \pt~range covered in this analysis~\cite{Erwann,Acharya:2019jkx}. The effects on the per-trigger correlation functions would be even smaller. Given that this level of uncertainty is much smaller than other sources of systematic uncertainties for our measurement, they are neglected. 
+\end{itemize}
+
+Table~\ref{tab:BigSummarySystematics} presents as summary of all uncertainty estimates for our \gammaiso--hadron correlation measurement. Table~\ref{tab:pPb_FF_Uncertainties} shows the uncertainty in the \pPb~to pp ratio. 
+
+
+\begin{table}
+   \centering
+   \caption{Summary of uncertainties in $\gammaiso$-hadron correlations, which are reported as per-trigger yields of correlated hadrons. The uncertainties quoted are relative. The ranges shown encompass the relative uncertainties for hadron \zt~in 2 ranges: Low (0.06--0.18) and High (0.18--0.6) \zt.} 
+   \begin{tabular*}{0.9\columnwidth}{@{\extracolsep{\fill}}lcccc@{}}
+    \hline
+     & Low \zt~pp data & High~\zt~pp data & Low \zt~\pPb~data & High~\zt~\pPb~data \\
+  \hline
+  Statistical Uncertainty & 19\%-40\% & 30\%-49\% & 16\%-23\% & 29\%-39\% \\
+  \hline 
+  Photon Purity  &   18\%     & 18\% &   12\%     & 12\% \\
+  Underlying Event & 8\%-15\% & 7\%-12\% & 7\%-10\% & 9\%-9\% \\
+  Tracking performance &  5.6\% & 5.6\% &  5.6\% & 5.6\% \\
+  Acceptance mismatch &-- & -- &5\% & 5\% \\ 
+  Photon Energy Scale & $<$1\% & $<$1\%  & $<$1\% & $<$1\%\\
+  Photon Energy Resolution & $<$1\% & $<$1\%  & $<$1\% & $<$1\%\\
+  Material budget & $<$1\% & $<$1\% & $<$1\% & $<$1\% \\
+  Luminosity scale & -- & -- & -- & -- \\
+  Vertex efficiency & -- & -- & -- & -- \\ 
+  Trigger corrections & -- & -- & -- & -- \\
+  Photon reconstruction efficiency & -- & -- & -- & -- \\
+  \hline
+  Total Systematic Uncertainty & 21\%-24\% & 20\%-22\% & 15\%-16\% & 16\%-16\% \\
+  \hline
+  Total Uncertainty & 28\%-47\% & 34\%-54\% & 22\%-28\% & 31\%-47\% \\
+  \hline
+  \end{tabular*}
+   \label{tab:BigSummarySystematics}
+\end{table}
+
+
+
 \section{Event Mixing}
 Event mixing is used in the analysis in order to correct for the pair-acceptance of photon-hadron pairs. In other words, the convolution of the EMCal acceptance with the $\eta-\varphi$ dependant efficiency of the standalone ITS tracking is non-trivial. It can be corrected for, however, using the data driven method outlined in Sec.~\ref{sec:mixing}.
 
@@ -668,13 +730,14 @@ A stringent pile up cut is applied to the pp dataset. Figure \ref{fig:Correlatio
 \includegraphics[width = 0.32 \textwidth]{G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_4.pdf}
 \includegraphics[width = 0.32 \textwidth]{G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_5.pdf}
 
-\caption{Fully-corrected $\gammaiso$--hadron correlation function in pp (red) and \pPb~(blue) data with the pile up cut in pp only. The correlations have been rebinned to 6 zT bins to compensate for the loss in statistics after applying the cut.}
+\caption{Fully-corrected $\gammaiso$--hadron correlation function in pp (red) and \pPb~(blue) data with the pile up cut in pp only. The correlations have been rebinned to 6 \zt bins to compensate for the loss in statistics after applying the cut.}
 \label{fig:Correlation_pileup}
 \end{sidewaysfigure}
 
 \begin{figure}
 \centering
-\includegraphics[width=0.49\textwidth]{G-H_New/zT_Rebin_6_006zT06zTpileCut/Final_FFunction_and_Ratio.pdf}
+\includegraphics[width=0.59\textwidth]{G-H_New/zT_Rebin_6_006zT06zTpileCut/Final_FFunction_and_Ratio.pdf}
+\caption{The fragmentation functions with the pile up cut applied to pp, resulting from the correlation functions shown in Fig.~\ref{fig:Correlation_pileup}.}
 \label{fig:FF_pileup}
 \end{figure}
 
@@ -719,9 +782,9 @@ The effect of the $\chi^2/\mathrm{ITS}_{clus}$ cut on the tracking efficiency, f
 Additionally, figure~\ref{fig:chi2SpectraComparison} shows the effect of changing the $\chi^2/ITS_{clus}$ from $\chi^2/ITS_{clus} < 36$ to $\chi^2/ITS_{clus} < 3$ on the track \pt spectra as the ratio of $\chi^2/ITS_{clus} <3$ and $\chi^2/ITS_{clus} < 36$. From the top two plots, one can see that the change in the cut does not affect the \pt spectra as the raito is consistent with unity within 5\% up 8 GeV/ as along as the appropriate Monte Carlo anchored to the data is used. However, the bottom plots, uses LHC13def, but corrects using the 13b2 Monte Carlo, and divergence from unity shows the instability of the $\chi^2/ITS_{clus}$ cut. Thus, the 13b2 Monte Carlo is not used in place of using the 17g6a1 simulation to correct the 13def data set.
 \begin{figure}[h]
 \center
-\includegraphics[width=0.46\textwidth]{Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBMB.pdf}
-\includegraphics[width=0.46\textwidth]{Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBGJ.pdf}
-\includegraphics[width=0.46\textwidth]{Checks_Systematics/ITSchi2_study_ptSpectra_ratio_GJGJ.pdf}
+\includegraphics[width=0.33\textwidth]{Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBMB.pdf}
+\includegraphics[width=0.33\textwidth]{Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBGJ.pdf}
+\includegraphics[width=0.33\textwidth]{Checks_Systematics/ITSchi2_study_ptSpectra_ratio_GJGJ.pdf}
 \caption{The changes in the tracking spectra with respect to the $\chi^2/ITS_{clus}$ cut. The top left is the 13b data corrected using 13b2 Monte Carlo. The top right is 13def data corrected using 17g6a1 Monte Carlo. And the bottom plot is 13def data corrected using 13b2 Monte Carlo.\cite{10.1007/978-3-642-18211-2_166}}
 \label{fig:chi2SpectraComparison}
 \end{figure}
@@ -737,66 +800,4 @@ Finally, the efficiency, fake rate, bin migration and the weights are compared b
 \label{fig:TPCITSpp_pPbCompare}
 
 \end{figure}
-
-\section{Summary of Systematic Uncertainties}
-The source of systematic uncertainties of the \gammaiso--hadron measurement are the following:
-\begin{itemize}
-    \item Purity\\
-The uncertainty of the purity measurement, is propagated to the correlation function measurement following Equation~\ref{eq:FinalSubtraction}. The resulting uncertainty on the correlation function is a relative $\pm18\%$ for pp data and  $\pm12\%$ for \pPb~data . As described in Section~\ref{sec:puritysystematics}, a large fraction of the purity total uncertainty is either statistical uncertainty or systematic uncertainties that arise due to limited data sample. Therefore, the purity uncertainty in pp and \pPb~data are largely uncorrelated. As a conservative approach, they are taken to be totally uncorrelated.
-
-\item	Underlying Event:\\
-As described in Section~\ref{sec:UEsubtraction}, the uncertainty of the UE subtraction originates from statistical fluctuations in the ZYAM estimate. It propagates directly to the per-trigger yields. It ranges from 7\% to 15\% depending on the \zt~bin and data. This uncertainty is fully correlated in $\varphi$ for a given \zt~bin, but totally uncorrelated among \zt~bins, and totally uncorrelated between pp and \pPb~datasets.
-
-\item Tracking performance :\\
-To estimate the systematic uncertainty of the charged-particle $\pt$ measurement with ITS-only track reconstruction, MC simulation studies were performed compared with the published \pt~spectra that used the ALICE standard tracking (i.e. including TPC) in pp and \pPb~collisions at 5 TeV~\cite{Acharya:2018qsh}. As described in Section~\ref{sec:tracking}, the combined uncertainty due to track efficiency, fake rate, and bin-to-bin migration corrections amounts to $\pm5\%$ added in quadrature with the total systematic uncertainty of the reference $\pt$ spectra, which ranges from a relative 1.6 (2.1$\%$) to 1.9$\%$ (2.5$\%$) in the range $0.5<\pt<10$ \GeVc~for pp (\pPb) collisions~\cite{Acharya:2018qsh}. 
-
-Systematic uncertainties due to secondary-particle contamination and from modelling of the particle-type composition in MC simulations are small ($<2\%$) for the range $0.5<\pt<10$ \GeVc. These were already estimated in Ref.\cite{Acharya:2018qsh} for pp and \pPb~data sets and already included in the systematic uncertainty estimate described above. The tracking performance between pp and \pPb~datasets is very similar, but as a conservative approach the systematic uncertainties are taken to be completely uncorrelated.
-
-
-\item Acceptance mismatch due to boost:\\
-As described in Section~\ref{sec:bootstudy}, our \textsc{Pythia8} study of \gammaiso--hadron correlations show that the impact of an acceptance mismatch between pp and \pPb~data that arises from the boost of $\Delta y = 0.47$ amounts to about $5\%$ effect irrespective of $\zt$. This estimate is subject to PDF uncertainties, which are the ones that dictate the shape of the differential cross-section of photons and associated hadrons in pseudorapidity. We chose to not apply any correction for this effect, and assign a $\pm$5$\%$ systematic uncertainty on the per-trigger hadron yields. This systematic uncertainty is taken to be completely correlated with \zt. We assign this systematic uncertainty to our \pPb~measurements only. 
-
-
-\item Luminosity, trigger, photon, and vertex reconstruction:\\
-The observable is normalized per measured photon. Therefore the uncertainties related to overall normalization of the \gammaiso~\pt~spectra (such as luminosity scale, vertexing efficiency, trigger efficiency and photon reconstruction efficiency) cancel completely. Consequently, A systematic uncertainty associated with these sources is not applied to the measurement. 
-
-\item Photon energy scale, resolution and material budget:\\
-While the measurement is  by construction totally insensitive to overall normalization, it is principle sensitive to bin-migration or scale uncertainties that affect the shape of the photon \pt~spectra. This potential systematic uncertainty is reduced because of the large integration window over wide photon \pt~range (12--40 \GeVc). Moreover, the EMCaL performance is such that these effects are small; for a 12 GeV cluster the resolution  $\sigma_{E}/E = 4.8\%/E\otimes 11.3\%/\sqrt{E}\otimes 1.7\%$ yields $\sigma_{E}/E =3.6\%$, and at 40 GeV this yields $\sigma_{E}/E =2.4\%$. The EMCal energy scale has been studied with beam-test data~\cite{Allen:2009aa} and comparison of $\pi^{0}\to\gamma\gamma$ events in data and simulation~\cite{Adam:2016khe}, and has an associated uncertainty if 0.8$\%$. 
-
-The uncertainties due to photon energy scale, resolution, and material budget have been estimated for the isolated photon cross-section measurement with 7 TeV pp and 5 TeV \pPb~data and are less than 3$\%$ in the \pt~range covered in this analysis~\cite{Erwann,Acharya:2019jkx}. The effects on the per-trigger correlation functions would be even smaller. Given that this level of uncertainty is much smaller than other sources of systematic uncertainties for our measurement, they are neglected. 
-\end{itemize}
-
-Table~\ref{tab:BigSummarySystematics} presents as summary of all uncertainty estimates for our \gammaiso--hadron correlation measurement. Table~\ref{tab:pPb_FF_Uncertainties} shows the uncertainty in the \pPb~to pp ratio. 
-
-
-\begin{table}
-   \centering
-   \caption{Summary of uncertainties in $\gammaiso$-hadron correlations, which are reported as per-trigger yields of correlated hadrons. The uncertainties quoted are relative. The ranges shown encompass the relative uncertainties for hadron \zt~in 2 ranges: Low (0.06--0.18) and High (0.18--0.6) \zt.} 
-   \begin{tabular*}{1.0\columnwidth}{@{\extracolsep{\fill}}lcccc@{}}
-    \hline
-     & Low \zt~pp data & High~\zt~pp data & Low \zt~\pPb~data & High~\zt~\pPb~data \\
-  \hline
-  Statistical Uncertainty & 19\%-40\% & 30\%-49\% & 16\%-23\% & 29\%-39\% \\
-  \hline 
-  Photon Purity  &   18\%     & 18\% &   12\%     & 12\% \\
-  Underlying Event & 8\%-15\% & 7\%-12\% & 7\%-10\% & 9\%-9\% \\
-  Tracking performance &  5.6\% & 5.6\% &  5.6\% & 5.6\% \\
-  Acceptance mismatch &-- & -- &5\% & 5\% \\ 
-  Photon Energy Scale & $<$1\% & $<$1\%  & $<$1\% & $<$1\%\\
-  Photon Energy Resolution & $<$1\% & $<$1\%  & $<$1\% & $<$1\%\\
-  Material budget & $<$1\% & $<$1\% & $<$1\% & $<$1\% \\
-  Luminosity scale & -- & -- & -- & -- \\
-  Vertex efficiency & -- & -- & -- & -- \\ 
-  Trigger corrections & -- & -- & -- & -- \\
-  Photon reconstruction efficiency & -- & -- & -- & -- \\
-  \hline
-  Total Systematic Uncertainty & 21\%-24\% & 20\%-22\% & 15\%-16\% & 16\%-16\% \\
-  \hline
-  Total Uncertainty & 28\%-47\% & 34\%-54\% & 22\%-28\% & 31\%-47\% \\
-  \hline
-  \end{tabular*}
-   \label{tab:BigSummarySystematics}
-\end{table}
-
-
 
