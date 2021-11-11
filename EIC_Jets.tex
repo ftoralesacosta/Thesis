@@ -348,31 +348,20 @@ Of particular interest for this work is the study of jets to study parton energy
 
 In the next, section the jet momentum and angular resolutions achievable with the all-silicon tracker are discussed.
 %bvj Subsequently, 
-Then, we will focus on two specific observables, electron-jet correlations in DIS and the charged jet fragmentation function, to illustrate potential of the physics with jets reconstructed in the silicon tracker. 
-
+Finally, two specific observables, electron-jet correlations in DIS and the charged jet fragmentation function, will be presented to illustrate potential of the physics with jets reconstructed in the silicon tracker. 
 
 
 \section{Charged Jet Reconstruction Performance}
 
 Of course, the jet physics program at the EIC can only be accomplished with accurate measurements of the final state jets. This section discusses the jet reconstruction performance of the all-silicon tracker described in Sec.~\ref{sec:sim:full}. Charged jets have been measured extensively in $p$+$p$ collisions with the ALICE detector at the large hadron collider~\cite{PhysRevD.91.112012}.
 %bvj Before journal submission, let's check what ATLAS did and add a reference if appropriate.
-Track-only jets can often offer greater experimental precision, but are traditionally harder to compare to theoretical calculations. However, there has been progress in connecting experimental track-only jet observables with theoretical studies~\cite{PhysRevD.88.034030}. To quantify the jet reconstruction performance of the silicon tracker described in section~\ref{sec:sim:full},
-electron-proton collisions are simulated with the PYTHIA8 Monte-Carlo generator and a full GEANT4 simulation with a 1.4\,T and 3.0\,T solenoidal magnetic field. Electrons and protons are collisions are simulated with a center-of-mass energy of $\sqrt{s}=89$GeV and a minimum $Q^2$ of  $16(\GeVc)^2$. Jets are reconstructed using the anti-$k_\mathrm{T}$ algorithm, with a large resolution parameter of $R= 1.0$. This is feasible due to the relatively low multiplicity of particles produced in $e$+$p$ collisions. 
+
+Track-only jets can often offer greater experimental precision, but are traditionally harder to compare to theoretical calculations. However, there has been progress in connecting experimental track-only jet observables with theoretical studies~\cite{PhysRevD.88.034030}. To quantify the jet reconstruction performance of the silicon tracker described in section~\ref{sec:sim:full}, electron-proton collisions are simulated with the PYTHIA8 Monte-Carlo generator and a full GEANT4 simulation with a 1.4\,T and 3.0\,T solenoidal magnetic field. Electrons and protons are collisions are simulated with a center-of-mass energy of $\sqrt{s}=89$GeV and a minimum $Q^2$ of  $16(\GeVc)^2$. Jets are reconstructed using the anti-$k_\mathrm{T}$ algorithm, with a large resolution parameter of $R= 1.0$. This is feasible due to the relatively low multiplicity of particles produced in $e$+$p$ collisions. 
+
 Reconstructed jets are required to have 4 or more constituents and a minimum total energy of $4.0~\mathrm{GeV}$ (informed by the minimum $Q^2$ of $16(\GeVc)^2$) in order to be considered. Jets are reconstructed in the range $|\eta|<3.5$, according to the acceptance of the all-silicon tracker. Reconstructed jets within $\Delta R = 0.5$ of the highest energy electron in the event are omitted to ensure that the beam electron is not included as part of any jet.
 
 % ES
-Additional selections are made on the jet constituents.
-They are required to have a $p_\mathrm{T} \geq$ 70 MeV/$c$, with a higher threshold depending on $\eta$ of the constituent.
-%The minimum $p_\mathrm{T}$ threshold is due to the requirement that a charged particle create at least three hits in the silicon tracker. As the silicon tracker is not projective in $\eta$, the minimum $p_\mathrm{T}$ threshold depends upon the track pseudorapidity.
-The minimum $p_\mathrm{T}$ for different $\eta$ regions is shown in Table~\ref{tab:min_pt1}.
-%The values in table \ref{tab:min_pt1} are obtained from \cite{DMtable:2020}.
-The values in Table \ref{tab:min_pt1} are extracted from Ref.~\cite{DMtable:2020} and exceed the values discussed in
-section~\ref{sec:sim:full}. These are based on the need for three or more traversed barrel layers or disks in the all-silicon tracker 
-%to be able 
-in order to determine the track curvature for a charged particle and hence its transverse momentum.
-%
-Jets with constituents that hit the conical supports where the central barrel meets the forward and backward disks are omitted. 
-Based on Fig.~\ref{fig:material}, we take this range to be $1.06 < |\eta| < 1.13$.
+Additional selections are made on the jet constituents. They are required to have a $p_\mathrm{T} \geq$ 70 MeV/$c$, with a higher threshold depending on $\eta$ of the constituent. The minimum $p_\mathrm{T}$ for different $\eta$ regions is shown in Table~\ref{tab:min_pt1}. The values in Table \ref{tab:min_pt1} are extracted from Ref.~\cite{DMtable:2020} and exceed the values discussed in section~\ref{sec:sim:full}. These are based on the need for three or more traversed barrel layers or disks in the all-silicon tracker in order to determine the track curvature for a charged particle and hence its transverse momentum. Jets with constituents that hit the conical supports where the central barrel meets the forward and backward disks are omitted. Based on Fig.~\ref{fig:material}, we take this range to be $1.06 < |\eta| < 1.13$.
 
 \begin{table}[htb]
 \caption{Minimum $p_\mathrm{T}$-threshold (in MeV/$c$) for charged jet constituents.}
@@ -408,7 +397,7 @@ A negligible difference was found in the jet performance studies using particle-
 
 Figure~\ref{fig:jet_response} shows the momentum response matrix for charged jets passing all criteria, with $p_T \ge$ 4 GeV/$c$. There is a strong correlation between the reconstructed jet momentum, $p_\mathrm{Jet}^\mathrm{Reco}$, and the charged truth jet momentum, $p_\mathrm{Jet}^\mathrm{Truth,Ch}$, indicated by the prominent diagonal line in the histogram. There are, however, jets that fall outside of this strong linear correlation. The most important variable impacting the energy and position resolution of jets after all other selections are made is the number of 
 %missed 
-particles not reconstructed as part of the jet (ie ``missing" particles).
+particles not reconstructed as part of the jet (ie ''missing'' particles).
 
 \begin{figure}[htbp]
     \centering
@@ -440,24 +429,23 @@ Gaussian fits to the combined distributions are dominated by the narrow peak at 
 
 Figure~\ref{fig:3T_jet_resolutions} shows the momentum and angular resolutions of jets in a 3.0 T field. The resolutions are shown in bins of jet momentum and $\eta$. The momentum resolution for jets with one or more missing particles that make up the shoulder of the distribution is more difficult to describe. The d$p/p$ distribution shown in Fig.~\ref{fig:n_missed_vs_dpp} in red is best fit with a Landau distribution, where $\sigma$ is undefined. Therefore, instead of a fit, the simple numerical standard deviation of the overall distribution is taken, and reported for the momentum resolution in Fig.~\ref{fig:3T_jet_resolutions}. The angular resolutions are well described by double-Gaussian fits, where in both the azimuthal and polar angular distributions there is  a narrow peak centered at zero, with a low shoulder at larger values. The narrow Gaussian from the fit  is used to the standard deviation and its uncertainty is estimated from the fit. Figure \ref{fig:1p4T_jet_resolutions} shows the resulting resolutions of applying this procedure to jets simulated in a 1.4\,T magnetic field.
 
-\begin{figure}[htbp]
-    \centering
-\includegraphics[height=0.6\textwidth,width=0.8\textwidth]{EIC_Jets/azimuthal_correlations.pdf}
-    \caption{Azimuthal correlation between the scattered electron and jets in $e$+$p$ collisions simulated with a 1.4\,T and 3.0\,T magnetic field. Solid lines display the correlation between particle-level scattered electron and jets. The dashed lines display the correlation between the reconstructed electron and reconstructed jets, with the shaded bands representing the uncertainty arising from the $\Delta\varphi$ resolution. The statistical error bars are scaled to reflect an expected luminosity of $L = 10\mathrm{fb}^{-1}$.}
-    \label{fig:az_corr}
-\end{figure}
-
-Figure~\ref{fig:az_corr} shows full simulation results for the azimuthal difference between jets and the scattered electron, $|\varphi^\mathrm{jet} - \varphi^{e} - \pi|$ in a 1.4 and 3.0\,T magnetic field. Dashed lines display the correlation between the reconstructed scattered electron and charged jets both reconstructed with the all-silicon tracker. The darker solid lines show the correlation between the scattered truth electron and particle-level truth jets. The shaded bands centered on the reconstructed correlation reflect the estimated uncertainty arising from the $\Delta\varphi$ resolution, extracted by a fitting double Gaussian to $d\Delta\varphi$ distributions, where $d\Delta\varphi = (\Delta\varphi_\mathrm{truth}-\Delta\varphi_\mathrm{reco}/\Delta\varphi_\mathrm{truth}$. The band is obtained by varying the reconstructed $\Delta\varphi$ correlation by $\pm \sigma_\Delta\varphi$. The statistical error bars are scaled to reflect an expected luminosity of $L = 10\mathrm{fb}^{-1}$.
-The figure shows a peak at zero as expected from LO DIS where the electron and jet are 
-%bvj produced 
-emitted back-to-back. In the limit that the transverse momentum imbalance, $p_\mathrm{T}^e / p_\mathrm{T}^{jet}$, is much smaller than the electron transverse momentum, this observable can provide clean access to the quark TMD PDF and the Sivers effect in transversely polarized scatterings in $e$+$p$ collisions~\cite{PhysRevLett.122.192003}.
-
 
 \section{Charged Jet Observables at the EIC}
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[height=0.6\textwidth,width=0.8\textwidth]{EIC_Jets/charged_jet_fragmentation.pdf}
+\includegraphics[height=0.4\textwidth,width=0.6\textwidth]{EIC_Jets/azimuthal_correlations.pdf}
+    \caption{Azimuthal correlation between the scattered electron and jets in $e$+$p$ collisions simulated with a 1.4\,T and 3.0\,T magnetic field. Solid lines display the correlation between particle-level scattered electron and jets. The dashed lines display the correlation between the reconstructed electron and reconstructed jets, with the shaded bands representing the uncertainty arising from the $\Delta\varphi$ resolution. The statistical error bars are scaled to reflect an expected luminosity of $L = 10\mathrm{fb}^{-1}$.}
+    \label{fig:az_corr}
+\end{figure}
+
+Figure~\ref{fig:az_corr} shows full simulation results for the azimuthal difference between jets and the scattered electron, $|\varphi^\mathrm{jet} - \varphi^{e} - \pi|$ in a 1.4 and 3.0\,T magnetic field. Dashed lines display the correlation between the reconstructed scattered electron and charged jets both reconstructed with the all-silicon tracker. The darker solid lines show the correlation between the scattered truth electron and particle-level truth jets. The shaded bands centered on the reconstructed correlation reflect the estimated uncertainty arising from the $\Delta\varphi$ resolution, extracted by a fitting double Gaussian to $d\Delta\varphi$ distributions, where $d\Delta\varphi = (\Delta\varphi_\mathrm{truth}-\Delta\varphi_\mathrm{reco}/\Delta\varphi_\mathrm{truth}$. The band is obtained by varying the reconstructed $\Delta\varphi$ correlation by $\pm \sigma_\Delta\varphi$. The statistical error bars are scaled to reflect an expected luminosity of $L = 10\mathrm{fb}^{-1}$. Both the electron and jet momentum and azimuthal angle, $\varphi$, are reconstructed using the all-silicon tracker. The measurement on actual data, however, will likely implement an $E/P \approx 1.0$ selection on the electron. However, at the time of this simulation, a mature design of the backwards calorimeter responsible for measuring the electron's energy was not implemented. Instead, the elecron truth energy was smeared by the backward calorimeter energy resolution of $\sigma(E)/E\approx 2\%\sqrt{E}\otimes (1-3)\%$ described in the EIC yellow report of \cite{Khalek2021}.
+
+The figure shows a peak at zero as expected from LO DIS where the electron and jet are emitted back-to-back. In the limit that the transverse momentum imbalance, $p_\mathrm{T}^e / p_\mathrm{T}^{jet}$, is much smaller than the electron transverse momentum, this observable can provide clean access to the quark TMD PDF and the Sivers effect in transversely polarized scatterings in $e$+$p$ collisions~\cite{Liu2019}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[height=0.4\textwidth,width=0.6\textwidth]{EIC_Jets/charged_jet_fragmentation.pdf}
     \caption{Truth-level (dashed lines) and reconstructed-level (solid lines) charged jet fragmentation as a function of $z = p^\mathrm{constituent}/p^\mathrm{jet}$ in 1.4\,T and 3.0\,T magnetic fields. The statistical error bars are scaled to reflect an expected luminosity of $L = 10\mathrm{fb}^{-1}$.}
     \label{fig:jet_frag}
 \end{figure}
@@ -468,7 +456,6 @@ should provide sensitivity to the process of hadron formation.
 %bvj outside of a nucleus. 
 Comparisons of charged jet fragmentation functions measured in $e$+$p$ and $e$+A collisions can elucidate the effects of nuclear matter on the fragmentation process, and yield information on parton transport in a nuclear medium. For lower energy jets, which begin to fragment inside a nucleus in $e$+$A$ collisions, we can use the nucleus as a filter to probe hadronization. 
 
-The choice of magnetic field is shown to have little effect on both observables shown. While the different  magnetic fields result in different angular and momentum resolutions, that will in turn affect the the azimuthal correlation and fragmentation function measurements, 
-%bvj respectively, 
-the magnitude of these changes is quite small. For example, the momentum resolution for reconstructed jets with less than 1 missing constituent is approximately between 0.3\% and 0.45\% in a 3.0\,T magnetic field. In a 1.4\,T magnetic field, the momentum resolution ranges between 0.5\% and 0.75\%. This change in the momentum resolution of a few fractions of a percent is not expected to significantly impact the fragmentation function measurements. Similar reasoning applies to the differences in angular resolution and their effect on the electron-jet correlation measurements, however it should be noted that changes in the angular resolution will effect both the reconstructed jet as well as the reconstructed scattered electron. Nonetheless, the simulations indicate that the statistical precision of electron-jet correlations should be small enough to determine distinguish different values of $\hat{q}L$ shown in Fig.~\ref{fig:ql_corr}. However, direct comparisons to the model in \cite{Liu2019} will require dedicated e-A simulations.
+
+The choice of magnetic field is shown to have little effect on both observables shown. While the different  magnetic fields result in different angular and momentum resolutions, that will in turn affect the the azimuthal correlation and fragmentation function measurements, the magnitude of these changes is quite small. For example, the momentum resolution for reconstructed jets with less than 1 missing constituent is approximately between 0.3\% and 0.45\% in a 3.0\,T magnetic field. In a 1.4\,T magnetic field, the momentum resolution ranges between 0.5\% and 0.75\%. This change in the momentum resolution of a few fractions of a percent is not expected to significantly impact the fragmentation function measurements. Similar reasoning applies to the differences in angular resolution and their effect on the electron-jet correlation measurements, however it should be noted that changes in the angular resolution will effect both the reconstructed jet as well as the reconstructed scattered electron. Nonetheless, the simulations indicate that the statistical precision of electron-jet correlations should be small enough to determine distinguish different values of $\hat{q}L$ shown in Fig.~\ref{fig:ql_corr}. However, direct comparisons to the model in \cite{Liu2019} will require dedicated e-A simulations.
 

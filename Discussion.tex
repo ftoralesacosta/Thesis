@@ -31,16 +31,19 @@ The agreement between pp and \pPb in this kinematic range constrains modificatio
 \subsection{Insensitivity to Parton Distribution Function}
 \ref{sec:pdf_insensitivity} detailed the factorization of the hadronic cross section into the product of the parton distribution function (PDF) and the fragmentation function (FF). A very important question to answer for the study modifications to the fragmentation function in pPb collisions compared to pp collisions is: How do we know if the modifications to the observed $\gamma$-tagged associated yields are due to the PDF, and not in fact modifications to the fragmentation function?
 
-To answer this question, the prompt photon and hadronic cross sections need to be understood, and the importance of measuring  \textit{per-trigger} yields. Because the main observable is the conditional yield of hadrons per photon, modifications to the cross production cross sections cancel. Coupled with the fact the photons should not otherwise be effected by nuclear effects, this measurement is most relevant towards constraining the impact of cold nuclear modification on the parton fragmentation function. Eqn.~\ref{eq:cross_sections} shows the factorized cross sections of photons and hadrons in nuclear collisions:
+To answer this question, the prompt photon and hadronic cross sections need to be understood, and the importance of measuring  \textit{per-trigger} yields. Because the main observable is the conditional yield of hadrons per photon, modifications to the cross production cross sections cancel. Coupled with the fact the photons should not otherwise be effected by nuclear effects, this measurement is most relevant towards constraining the impact of cold nuclear modification on the parton fragmentation function. Eqn.~\ref{eq:photon_cross} shows the factorized cross sections of prompt photons in heavy ion collisions, and Eq.~\ref{eq:hadron_cross} shows the hadron cross section (shown in section \ref{sec:FF}, but displayed here again for convenience):
 
-[prompt photon cross section]\\
   \begin{equation}
-    E\frac{d^3\sigma}{d^3p}(\sqrt{s},\pt) = \int dx_a \int dx_b \int dz \sum^\mathrm{partons}_{i,j}F_{i/A}(x_a,Q^2)F_{i/B},(x_b,Q^2)
-    
+    E\frac{d^3\sigma}{d^3p}(\sqrt{s},\pt) = \int dx_a \int dx_b \int dz \sum^\mathrm{partons}_{i,j}f_{i/A}(x_a)f_{i/B},(x_b) D_{\gamma/k}^{A}E_{\gamma}\frac{d^3\hat{\sigma}_{i+j}\rightarrow\gamma+X}{d^3p_{\gamma}}
+    \label{eq:photon_cross}
   \end{equation}
-[hadronic cross section in PbPb] (reference the FF section in the introduction \ref{sec:FF}).\\
 
-With XXX being the nPDF. Because this term is shared between the two cross sections, it's contribution is cancelled when this ratio is taken. As the conditional yield observable is directly proportional to the ratio of these two cross sections, the nPDF are not expected to contribute to the final measurement.
+  \begin{equation}
+    d\hat{\sigma}= \sum_{a,c} \int dx_a dx_b dz f_a(x_a) f_b(x_b) d\hat{\sigma}(p_a,p_b,p_c) D_c^h(z).
+    \label{eq:hadron_cross}
+  \end{equation}
+
+With $f_{i/A},(x_a)$ and  $f_{i/B},(x_b)$ being the nPDFs. While the notation of the sums are slightly different, with the hadron cross section summing over flavor c, and the photon cross section summing explicitly over parton i and j, the underlying form of the nPDFs in both equations is identical. Because this term is shared between the two cross sections, and the per-trigger yield of hadrons is proportional to the ratio of these two cross-sections, contribution from the nPDFs is cancelled for this measurement. As the conditional yield observable is directly proportional to the ratio of these two cross sections, the nPDF are not expected to contribute to the final measurement.
 
 Thus, the answer to the question is: The observable per-trigger hadrons yields is by construction insensitive to the differences between the PDF and nPDF.
 

@@ -2516,8 +2516,9 @@
     <bcf:citekey order="181">PhysRevD.91.112012</bcf:citekey>
     <bcf:citekey order="182">PhysRevD.88.034030</bcf:citekey>
     <bcf:citekey order="183">DMtable:2020</bcf:citekey>
-    <bcf:citekey order="184">PhysRevLett.122.192003</bcf:citekey>
+    <bcf:citekey order="184">Khalek2021</bcf:citekey>
     <bcf:citekey order="185">Liu2019</bcf:citekey>
+    <bcf:citekey order="186">Liu2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
