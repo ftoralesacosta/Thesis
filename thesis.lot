@@ -18,17 +18,17 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10pt}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces Summary of uncertainties in $\ensuremath {\gamma ^\mathrm {iso}}$-hadron correlations, which are reported as per-trigger yields of correlated hadrons. The uncertainties quoted are relative. The ranges shown encompass the relative uncertainties for hadron \ensuremath {z_{\mathrm {T}}}\nobreakspace {}in 2 ranges: Low (0.06--0.18) and High (0.18--0.6) \ensuremath {z_{\mathrm {T}}}.}}{91}{table.4.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Summary of UE-pedestal estimates with ZYAM and the $\Delta \eta $ method for various $\ensuremath {z_{\mathrm {T}}}$ bins, as well as the difference between LE and ZYAM estimates. The background estimate is shown in units of pairs per trigger. The uncertainty quoted is statistical only.}}{97}{table.4.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.3}{\ignorespaces Summary of the systematic uncertainties on the purity as measured with $\ensuremath {\sigma ^{2}_{\mathrm {long}}}$ in p--Pb\nobreakspace {}collisions. All values are in absolute percentage. ``Stat.'' refers to the statistical uncertainty; ``Signal'' refers to the signal template uncertainty; ``Anti-iso'' refers to the uncertainty due to the sideband selection; ``Bkg'' refers to the uncertainty due to the background template correction; ``Total'' is the sum of the previous three columns in quadrature.}}{106}{table.4.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.4}{\ignorespaces Summary of the systematic uncertainties on the purity as measured with $\ensuremath {\sigma ^{2}_{\mathrm {long}}}$ in pp collisions. All values are in absolute percentage. ``Stat.'' refers to the statistical uncertainty; ``Signal'' refers to the signal template uncertainty; ``Anti-iso'' refers to the uncertainty due to the sideband selection; ``Bkg'' refers to the uncertainty due to the background template correction; ``Total'' is the sum of the previous three columns in quadrature.}}{106}{table.4.4}%
-\defcounter {refsection}{0}\relax 
 \addvspace {10pt}
 \defcounter {refsection}{0}\relax 
 \addvspace {10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.1}{\ignorespaces Summary of uncertainties in $\ensuremath {\gamma ^\mathrm {iso}}$-hadron correlations, which are reported as per-trigger yields of correlated hadrons. The uncertainties quoted are relative. The ranges shown encompass the relative uncertainties for hadron \ensuremath {z_{\mathrm {T}}}\nobreakspace {}in 2 ranges: Low (0.06--0.18) and High (0.18--0.6) \ensuremath {z_{\mathrm {T}}}.}}{99}{table.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.2}{\ignorespaces Summary of UE-pedestal estimates with ZYAM and the $\Delta \eta $ method for various $\ensuremath {z_{\mathrm {T}}}$ bins, as well as the difference between LE and ZYAM estimates. The background estimate is shown in units of pairs per trigger. The uncertainty quoted is statistical only.}}{105}{table.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.3}{\ignorespaces Summary of the systematic uncertainties on the purity as measured with $\ensuremath {\sigma ^{2}_{\mathrm {long}}}$ in p--Pb\nobreakspace {}collisions. All values are in absolute percentage. ``Stat.'' refers to the statistical uncertainty; ``Signal'' refers to the signal template uncertainty; ``Anti-iso'' refers to the uncertainty due to the sideband selection; ``Bkg'' refers to the uncertainty due to the background template correction; ``Total'' is the sum of the previous three columns in quadrature.}}{114}{table.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6.4}{\ignorespaces Summary of the systematic uncertainties on the purity as measured with $\ensuremath {\sigma ^{2}_{\mathrm {long}}}$ in pp collisions. All values are in absolute percentage. ``Stat.'' refers to the statistical uncertainty; ``Signal'' refers to the signal template uncertainty; ``Anti-iso'' refers to the uncertainty due to the sideband selection; ``Bkg'' refers to the uncertainty due to the background template correction; ``Total'' is the sum of the previous three columns in quadrature.}}{114}{table.6.4}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10pt}
 \defcounter {refsection}{0}\relax 
