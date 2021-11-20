@@ -1,3 +1,11 @@
+\externaldocument{Introduction.tex}
+% \externaldocument{Experimental_Apparatus.tex}
+\externaldocument{Results.tex}
+\externaldocument{Analysis.tex}
+\externaldocument{Checks_and_Systematics.tex}
+\externaldocument{EIC_Jets.tex}
+\externaldocument{Discussion.tex}
+
 \chapter{Data Anaysis}
 \section{Analysis Summary}
 This analysis uses the data collected during the \sqrtsNN{} = 5 TeV \pPb~run in 2013 and during the \sqrts{} = 5 TeV pp run in 2017. The EMCal trigger was used to select events with a high-momentum calorimeter cluster, a photon \pt range of {12--40 \GeVc}.%, equivalent to $x_{\mathrm{T}} = 2\pt/\sqrt{s_{\mathrm{NN}}}$ in the {0.006--0.012} range.  %The thresholds of the trigger corresponds to about {$\pt$ = 7 and 11 \GeVc} in the \pPb~data and about {5 \GeVc} in the pp data.
@@ -552,59 +560,20 @@ The purities in the pp and \pPb~datasets are compatible within the uncertainties
 % \subsection{Charged Hadron Selection}
 \section{Charged Particle Tracking}
 \label{sec:tracking}
-The detectors usually responsible for measuring the charged hadrons in this analysis are the ALICE Inner Tracking System (ITS) and Time Projeciton Chamber (TPC). During the 13def and 17q periods, however, the TPC was either not read out or compromised due to space-charge distortions, mentioned in Sec.~\ref{sec:tpc}. As a result, this analysis relies on only the ITS for track reconstruction.
+The detectors usually responsible for measuring the charged hadrons in this analysis are the ALICE Inner Tracking System (ITS) and Time Projeciton Chamber (TPC). During the 13def and 17q periods, however, the TPC was either not read out or compromised due to space-charge distortions, mentioned in Sec.~\ref{sec:TPC}. As a result, this analysis relies on only the ITS for track reconstruction.
 
 ITS-only tracking in ALICE is new for this flavor of analysis. As a result, the charged-particle $\pt$-spectrum using ITS-only tracking is compared to the normal TPC+ITS tracking in the data-taking period when the TPC was active and free of space-charge distortions (the low-luminosity 13b data-taking period at 5 TeV \pPb~minimum-bias data) as well as with published ALICE measurements~\cite{Acharya:2018qsh} that use the same dataset (a more thorough comparison to published ALICE data is done in Sec.~\ref{sec:tracking_published_comparision}).
 
 The combined effect of tracking efficiency, fake rate, and track momentum smearing corrections are calculated using MC simulations, and validated by the comparison to the established hybrid-tracking method in ALICE. The comparison to hybrid tracking also serves as an estimate of the systematic uncertainties due to mis-modeling of the tracking performance.
 
-To study the performance of ITS-only tracking, minimum bias \pPb~events for both data and Monte Carlo. The Monte Carlo simulations used for this section are LHC13b2\_efix\_p1, a \textsc{DPMJET} simulation anchored to LHC13b,c and LHC17l3b, a pp \textsc{Pythia8} simulation anchored to LHC17p. The events are sampled from the LHC13b period and the datasets from \cite{Acharya:2018qsh}, as mentioned previously. Only events with the minimum bias trigger (CINT7) that also the vertex and pileup selections described in Section~\ref{sec:eventselection}. The tracks reconstructed from the ITS (''ITS-only tracks''), are compared with tracks reconstructed from information obtained from both the TPC and ITS (''TPC+ITS tracks'', or ''hybrid'' tracking). Here, ITS-only tracks are reconstructed in a \textit{stand-alone} way and are not simply the ITS-segment of a ITS+TPC track.
+To study the performance of ITS-only tracking, minimum bias \pPb~events from both data and Monte Carlo simulations are used. The Monte Carlo simulations used for this section are LHC13b2\_efix\_p1, a \textsc{DPMJET} simulation anchored to LHC13b,c and LHC17l3b datasets, and a pp \textsc{Pythia8} simulation anchored to LHC17p. The events are sampled from the LHC13b period and the datasets from \cite{Acharya:2018qsh}. Only events with the minimum bias trigger that also pass the vertex and pileup selections described in Section~\ref{sec:eventselection} are used. The tracks reconstructed from the ITS (''ITS-only tracks''), are compared with tracks reconstructed from information obtained from both the TPC and ITS (''TPC+ITS tracks'', or ''hybrid'' tracking). Here, ITS-only tracks are reconstructed in a \textit{stand-alone} way and are not simply the ITS-segment of a ITS+TPC track. A table detailing the cuts applied to ITS-only tracks is shown later in Table ~\ref{tab:track_cuts}.
 
-In order to select good-quality tracks emerging from the primary vertex while maintaining a high efficiency, each track is required to satisfy the cuts summarized in Table ~\ref{tab:track_cuts}. A set of standard PWG-JE cuts are applied to all tracks, and additional track cuts are applied depending on whether the track is a TPC+ITS track or an ITS-only track. 
-
-\begin{table}[h]
-   \centering
-      \caption{Summary of the cuts used in Track Selection.}	
-   \label{tab:track_cuts}
-   \begin{tabular*}{1.0\columnwidth}{@{\extracolsep{\fill}}l|c@{}}
-      	\hline
- 		\textbf{Common Cuts}\\
-        %\textbf{ITS--Only Cuts}\\
-        \hline
-        track $\eta$ & $|\eta| < 0.8$\\
-        track $\pt$ & $\pt \geq 0.150$ \GeVc\\
-        SetMaxDCAToVertexXY & 2.4 cm\\
-        SetMaxDCAToVertexZ & 3.2 cm\\
-        SetDCAToVertex2D & TRUE\\
-		\hline \hline
-        \textbf{TPC+ITS Cuts}\\
-        \hline
-        SetMinNClustersTPCPtDep & 70.+30./20.*x, 20.0\\ 
-        SetMinNClustersTPC & 70\\
-        SetMaxChi2PerClusterTPC & 4\\
-        SetMaxChi2PerClusterITS & 36\\
-        SetMaxFractionSharedTPCClusters & 0.4\\
-        SetMaxChi2TPCConstrainedGlobal &36 \\
-        SetRequireTPCStandAlone & TRUE\\
-        SetRequireTPCRefit & TRUE \\
-        SetRequireITSRefit & TRUE\\
-        SetRequireSigmaToVertex & FALSE \\
-        SetAcceptKinkDaughters & FALSE\\
-        \hline \hline
-        \textbf{ITS--Only Cuts}\\
-        \hline
-        SetRequireITSPureStandAlone &TRUE\\
-        SetMinNClustersITS & 4\\
-        SetMaxChi2PerClusterITS & 36\\
-        \hline
-   \end{tabular*}
-\end{table}
-\FloatBarrier
 
 \subsection{Efficiency and Fake Rate}
 \label{sec:Efficiency_fake_rates}
 %The tracking efficiency is calculated from the minimum bias \pPb~simulation (see Table~\ref{tab:MCsamples}).
 The tracking efficiency is calculated as the ratio of the number of reconstructed primary particles\footnote{No special tuning of the particle type composition is performed. This typically only matters at low $\pt$ and enforces a small (percent level) correction to the out-of-the-box results.}, $N_{\mathrm{prim,rec}}(p_\mathrm{T})$, to the number of generated primary particles, $N_{\mathrm{prim,gen}}$. The truth-to-reconstructed matching is done following the standard ALICE method.
+
 \begin{equation}\label{eq:eff}
 \epsilon (\pt^{\mathrm{true}}) = \frac{N_{\mathrm{prim,rec}}(\pt^{\mathrm{true}})}{N_{\mathrm{prim,gen}}(\pt^{\mathrm{true}})}.
 \end{equation}
@@ -626,9 +595,10 @@ The lower efficiency for the TPC+ITS tracks compared to ITS-only tracks is expec
 %The decrease in the tracking efficiency by about 2--5$\%$ in the range 1--3 \GeVc~is due to the fact that above about 1 \GeVc, tracks are almost straight and can be contained completely in the dead areas between TPC sectors or in ITS dead staves. Therefore, at high $\pt$ the efficiency is dominated by geometry and thus has a constant value.
 
 The fake rate for the TPC+ITS tracks is less than a percent over the entire range shown. In comparison, the fake rate is larger in the ITS-only tracks. It is below 5\% up to 5 \GeVc, and it grows roughly linearly and reaches 15\%  at 10 \GeVc. The higher fake rate is due to the much lower number of clusters associated with ITS-only tracks (maximum of 6) than to TPC+ITS tracks (minimum of 70).
+
 \begin{figure}[h]
 \center
-\includegraphics[width=0.7\textwidth]{Data_Analysis/Tracking/HybridAndITS_Eff_fakerate_pPb_lowpt.pdf}
+\includegraphics[width=0.5\textwidth]{Data_Analysis/Tracking/HybridAndITS_Eff_fakerate_pPb_lowpt.pdf}
 \caption{Efficiency and fake rate for combined TPC+ITS tracking (filled circles) and ITS-only tracking (open circles) obtained with \pPb~simulation. The error bars represent statistical uncertainty only.}
 \label{fig:tpcEff}
 \end{figure}
@@ -903,9 +873,9 @@ Cluster-track pairs in same event correlation functions obviously share the prop
 
 For this analysis, depending on the \zt~bin, each \(\gamma\)-triggered event was mixed with up to 300 minimum-bias events.
 
- Traditionally, events are often placed into bins of multiplicity (V0 amplitude, sum of V0A and V0C) and primary vertex $z$-position, and then mixed within these bins. This has the advantage of conceptual simplicity, but is not very efficient and requires a large amount of cpu time. Instead of bins, the mixing in this analysis is carried out by using a stable matching algorithm~\cite{GaleShapley:1962amm}. Generally, this algorithm is used to pair two sets of populations, where members from both populations have a well defined and ordered preference list. Here, the two populations are $\gamma$-triggered and minimum bias events. The use of this algorithm avoids the need for binning in multiplicity and primary vertex, and is much faster than the standard binning method.
+ Traditionally, events are often placed into bins of multiplicity (V0 amplitude, sum of V0A and V0C) and primary vertex $z$-position, and then mixed within these bins. This has the advantage of conceptual simplicity, but is not very efficient and requires a large amount of cpu time. Instead of bins, the mixing in this analysis is carried out by using a stable matching algorithm~\cite{GALE1985223}. Generally, this algorithm is used to pair two sets of populations, where members from both populations have a well defined and ordered preference list. Here, the two populations are $\gamma$-triggered and minimum bias events. The use of this algorithm avoids the need for binning in multiplicity and primary vertex, and is much faster than the standard binning method.
  
-The stable matching algorithm first creates a preference list made up of all other events based on how close events are in multiplicity and $z$-vertex. After each event has a preference list, the algorithm loops over all events, with a nested loop that iterates over each event's preference list. The algorithm then pairs  pairs the current event to the first unpaired event on that list. As the loop iterates, if an event towards the end of the main loop has an already-paired event high on it’s preference list, the algorithm loops through the already-paired event's preference list and decides if the paired event should stay paired to its current match, or switch to the new event. If the latter is chosen, the previously matched event is “unpaired” and added back into the loop. A stable state is met when all paired events have a match that is higher on their preference list than any remaining unpaired events in the loop. Such a stable state is guaranteed to eventually be met according to Ref.~\cite{GaleShapley:1962amm}.\\
+The stable matching algorithm first creates a preference list made up of all other events based on how close events are in multiplicity and $z$-vertex. After each event has a preference list, the algorithm loops over all events, with a nested loop that iterates over each event's preference list. The algorithm then pairs  pairs the current event to the first unpaired event on that list. As the loop iterates, if an event towards the end of the main loop has an already-paired event high on it’s preference list, the algorithm loops through the already-paired event's preference list and decides if the paired event should stay paired to its current match, or switch to the new event. If the latter is chosen, the previously matched event is “unpaired” and added back into the loop. A stable state is met when all paired events have a match that is higher on their preference list than any remaining unpaired events in the loop. Such a stable state is guaranteed to eventually be met according to Ref.~\cite{GALE1985223}.\\
 
 The pseudo code below follows this description, using \(\gamma\) to denote a \(\gamma\)-triggered event, and \(M_B\) to denote a minimum-bias event. The \textit{unrequested} state refers to a \(M_B\) event on a \(\gamma\)-event's preference list that has not yet been requested for pairing.\\
 

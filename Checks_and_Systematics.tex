@@ -1,3 +1,10 @@
+\externaldocument{Introduction.tex}
+\externaldocument{Experimental_Apparatus.tex}
+\externaldocument{Results.tex}
+\externaldocument{Analysis.tex}
+\externaldocument{EIC_Jets.tex}
+\externaldocument{Checks_and_Systematics.tex}
+\externaldocument{Discussion.tex}
 \chapter{Checks and Systematics}
 
 \section{Summary of Systematic Uncertainties}
@@ -180,7 +187,7 @@ Figure~\ref{fig:pPb_its_tpc_rho} shows the $\rho$  and isolation distributions m
 
 For simplicity the same threshold of 1.5 \GeVc~is used for the $\gammaiso$~candidates for both the ITS-only and ITS+TPC tracks. The ITS+TPC tracks leads to a better rejection of the background, which leads to an increased photon purity. This is shown in Figure~\ref{fig:ComparisonTPCITSiso_purity}. 
 
-\begin{figure}[hbt]
+\begin{figure}[hbtp]
 	\center
 	\includegraphics[width=0.49\textwidth]{Checks_Systematics/PurityITSTPC.png}
 	\caption{Comparison of purity obtained in \pPb~collisions with isolation variable obtained with ITS-only tracks (purple) and with ITS+TPC tracks (cyan). The error bars represent statistical uncertainty only. }
@@ -189,7 +196,7 @@ For simplicity the same threshold of 1.5 \GeVc~is used for the $\gammaiso$~candi
 
 The main results (correlation function) were checked in \pPb~data by performing the analysis with isolation variable, UE estimate, and corresponding purity values calculated separately for ITS-only tracks and for ITS+TPC tracks. As shown in Figure~\ref{fig:ComparisonTPCITSiso_frag}, the results are consistent. A slightly better statistical uncertainty is obtained when including TPC (a relative uncertainty of 22$\%$ to 41$\%$ depending on \zt~vs 24$\%$ to $51\%$ for the ITS case), which an be attributed to the corresponding higher purity. However, these slightly better statistical uncertainties do not change the main result of this study. For consistency with pp results (where one cannot use ITS+TPC tracks because the TPC was not read out), results for ITS-only tracks was chosen for the final analysis. 
 
-\begin{figure}
+\begin{figure}[hbtp]
 	\center
 	\includegraphics[width=0.49\textwidth]{Checks_Systematics/ISO_Compare_Final_FFunction_and_Ratio}
 	\caption{Comparison of fragmentation function measurement in \pPb~collisions with isolation variable obtained with ITS-only tracks (blue) and with ITS+TPC tracks (red).}
@@ -332,6 +339,46 @@ Tables~\ref{tab:pursystppblambda} and~\ref{tab:pursystpplambda} give the full es
 %\label{sec:iso_acceptance_check}
 
 \section{Tracking}
+In order to select good-quality tracks emerging from the primary vertex while maintaining a high efficiency, each track is required to satisfy the cuts summarized in Table ~\ref{tab:track_cuts}. A set of standard PWG-JE cuts are applied to all tracks, and additional track cuts are applied depending on whether the track is a TPC+ITS track or an ITS-only track. 
+
+\begin{table}[h]
+   \centering
+      \caption{Summary of the cuts used in Track Selection.}	
+   \label{tab:track_cuts}
+   \begin{tabular*}{1.0\columnwidth}{@{\extracolsep{\fill}}l|c@{}}
+      	\hline
+ 		\textbf{Common Cuts}\\
+        %\textbf{ITS--Only Cuts}\\
+        \hline
+        track $\eta$ & $|\eta| < 0.8$\\
+        track $\pt$ & $\pt \geq 0.150$ \GeVc\\
+        SetMaxDCAToVertexXY & 2.4 cm\\
+        SetMaxDCAToVertexZ & 3.2 cm\\
+        SetDCAToVertex2D & TRUE\\
+		\hline \hline
+        \textbf{TPC+ITS Cuts}\\
+        \hline
+        SetMinNClustersTPCPtDep & 70.+30./20.*x, 20.0\\ 
+        SetMinNClustersTPC & 70\\
+        SetMaxChi2PerClusterTPC & 4\\
+        SetMaxChi2PerClusterITS & 36\\
+        SetMaxFractionSharedTPCClusters & 0.4\\
+        SetMaxChi2TPCConstrainedGlobal &36 \\
+        SetRequireTPCStandAlone & TRUE\\
+        SetRequireTPCRefit & TRUE \\
+        SetRequireITSRefit & TRUE\\
+        SetRequireSigmaToVertex & FALSE \\
+        SetAcceptKinkDaughters & FALSE\\
+        \hline \hline
+        \textbf{ITS--Only Cuts}\\
+        \hline
+        SetRequireITSPureStandAlone &TRUE\\
+        SetMinNClustersITS & 4\\
+        SetMaxChi2PerClusterITS & 36\\
+        \hline
+   \end{tabular*}
+\end{table}
+\FloatBarrier
 \subsection{Comparison to Published Data}
 \label{sec:tracking_published_comparision}
 In this section results of the closure test, which is described in Section~\ref{sec:closurewithdata}, are show with the goal to validate the MC simulation description of track efficiency, fake rate and momentum smearing corrections using the published data. 
@@ -635,7 +682,7 @@ Here, the impact of binning on the final correlation functions is quantified. Th
 \section{Checking Sensitivity to Beam Flip}
 Figure~\ref{fig:Cs_Beam_Flip} shows results for 13de and 13f periods. They differ in the beam configuration and have roughly similar integrated luminosity. No significant difference is observed. 
 
-\begin{figure}
+\begin{figure}[hbtp]
 \centering
 \includegraphics[width = 0.9 \textwidth]{G-H_New/Cs_Averages_p-Pb_Beam_Flip.pdf}
 \caption{Comparison of final correlations functions for p--Pb (red) and Pb--p (blue) collisions.}
@@ -647,7 +694,7 @@ Figure~\ref{fig:Cs_Beam_Flip} shows results for 13de and 13f periods. They diffe
 \section{Correlations including $\Delta\varphi=0$ }
 Figure~\ref{fig:CorrelationFinal_downtozero} shows the correlation results down to 0 radians. The first bin is contained within the isolation requirement and therefore is biased, which is why is not reported in the main results. 
 
-\begin{sidewaysfigure}
+\begin{sidewaysfigure}[hbtp]
 \centering
 \includegraphics[width = 0.24 \textwidth]{G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_0.pdf}
 \includegraphics[width = 0.24 \textwidth]{G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_1.pdf}
@@ -693,7 +740,7 @@ This section compares results obtained using hybrid (ITS + TPC) tracks in the tr
 \label{fig:TPC_CorrelationFinal}
 \end{sidewaysfigure}
 
-\begin{figure}
+\begin{figure}[hbtp]
 \centering
 \includegraphics[width = 0.49 \textwidth]{G-H_New/TPC_Tracks/Final_FFunction_and_Ratio.pdf}
 \includegraphics[width = 0.49 \textwidth]{G-H_New/TPC_Tracks/TPC_Compare_Final_FFunction_and_Ratio.pdf}
@@ -704,11 +751,44 @@ This section compares results obtained using hybrid (ITS + TPC) tracks in the tr
 
 Figure \ref{fig:TPC_FF} Shows the fragmentation studies in \pPb~data with ITS only tracks and Hybrid tracks. It can be seen in the ratio of ITS Only/Hybrid that the hybrid tracks have a significantly lower yield at high \zt, which roughly corresponds to tracks with high \pt. This is unsurprising as there are issues with TPC charge distortions that have been documented at length [https://alice.its.cern.ch/jira/browse/ATO-351].
 
+\section{Sensitivity to $\chi^2/\mathrm{ITS}_{clus}$ in p-Pb}
+The effect of the $\chi^2/\mathrm{ITS}_{clus}$ cut on the tracking efficiency, fake rate, and bin migration is studied to select the most effective $\chi^2/\mathrm{ITS}_{clus}$ maximum limit. Four values have been tested: $\chi^2/\mathrm{ITS}_{clus} =$ 1, 2, 3, and 36. Figure~\ref{fig:chi2_eff} shows the effect of $\chi^2/\mathrm{ITS}_{clus}$ cuts on the efficiency, fake rate, bin migration, and track correction weight. The weight is calculated from the efficiency, fake rate, and bin migration using equation~\ref{eq:track_weight}. The efficiency seems to be similar for all cut variation except for $\chi^2/\mathrm{ITS}_{clus}$ < 1, where it is lower by 5\%. However, the fake rate and bin migration effects are improved as the cut is tightened. It is to note that regardless of the threshold for the $\chi^2/\mathrm{ITS}_{clus}$ cut, as long as identical cuts are applied to both the Monte Carlo and the data sets used in the section~\ref{sec:tracking}, the fine agreement with published data is always present.
+
+\begin{figure}[hbtp]
+    \centering
+    \includegraphics[width=0.49\textwidth]{Checks_Systematics/ITSchi2_study_efficiency.pdf}
+        \includegraphics[width=0.49\textwidth]{Checks_Systematics/ITSchi2_study_fakerate.pdf}
+    \caption{Left: The efficiency comparison for the various $\chi^2/\mathrm{ITS}_{clus}$ cuts. Right: The fake rate comparison for the various $\chi^2/\mathrm{ITS}_{clus}$ cuts}
+    \label{fig:chi2_eff}
+\end{figure}
+
+Additionally, figure~\ref{fig:chi2SpectraComparison} shows the effect of changing the $\chi^2/ITS_{clus}$ from $\chi^2/ITS_{clus} < 36$ to $\chi^2/ITS_{clus} < 3$ on the track \pt spectra as the ratio of $\chi^2/ITS_{clus} <3$ and $\chi^2/ITS_{clus} < 36$. From the top two plots, one can see that the change in the cut does not affect the \pt spectra as the raito is consistent with unity within 5\% up 8 GeV/ as along as the appropriate Monte Carlo anchored to the data is used. However, the bottom plots, uses LHC13def, but corrects using the 13b2 Monte Carlo, and divergence from unity shows the instability of the $\chi^2/ITS_{clus}$ cut. Thus, the 13b2 Monte Carlo is not used in place of using the 17g6a1 simulation to correct the 13def data set.
+\begin{figure}[hbtp]
+\center
+\includegraphics[width=0.33\textwidth]{Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBMB.pdf}
+\includegraphics[width=0.33\textwidth]{Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBGJ.pdf}
+\includegraphics[width=0.33\textwidth]{Checks_Systematics/ITSchi2_study_ptSpectra_ratio_GJGJ.pdf}
+\caption{The changes in the tracking spectra with respect to the $\chi^2/ITS_{clus}$ cut. The top left is the 13b data corrected using 13b2 Monte Carlo. The top right is 13def data corrected using 17g6a1 Monte Carlo. And the bottom plot is 13def data corrected using 13b2 Monte Carlo.}
+\label{fig:chi2SpectraComparison}
+\end{figure}
+
+Finally, the efficiency, fake rate, bin migration and the weights are compared between ITS-only tracking in p-Pb and pp, and TPC+ITS tracking in p-Pb using 17g6a1 MC dataset. All the TPC+ITS and ITS-only tracking are comparable within uncertainties, while the ITS-only pp and p-Pb follow similar shapes. This result agrees with acceptations and trend demonstrated in section~\ref{sec:tracking}. The key difference is that in section~\ref{sec:tracking} all the figures are produced using 13b2, the minimum bias Monte Carlo, while in the case for figure~\ref{fig:TPCITSpp_pPbCompare}, 17g6a1, the gamma-jet Monte Carlo is used. 
+\begin{figure}[hbtp]
+\center
+\includegraphics[width=0.46\textwidth]{Checks_Systematics/ITSchi2_study_efficiency.pdf}
+\includegraphics[width=0.46\textwidth]{Checks_Systematics/ITSchi2_study_fakerate.pdf}
+\includegraphics[width=0.46\textwidth]{Checks_Systematics/ITSchi2_study_binMigration.pdf}
+\includegraphics[width=0.46\textwidth]{Checks_Systematics/ITSchi2_study_weight.pdf}
+\caption{The comparison of efficiency (top left), fake rate (top right), bin migration (bottom left), and weights (bottom right) between ITS-only tracking for p-Pb and pp, as well as TPC+ITS tracking for p-Pb using the 17g6a1 gamma-jet Monte Carlo.}
+\label{fig:TPCITSpp_pPbCompare}
+
+\end{figure}
+
 \section{Checking sensitivity to $\zt$ binning}
 This section looks into varying the number of \zt bins. Figure \ref{fig:FF_zT_Rebin} shows the resulting fragmentation function in 6 $zt$ bins. 
 
 
-\begin{figure}
+\begin{figure}[hbtp]
 \centering
 \includegraphics[width=0.49\textwidth]{G-H_New/zT_Rebin_6_006zT06zTITSSub/Final_FFunction_and_Ratio.pdf}
 \label{fig:FF_zT_Rebin}
@@ -721,7 +801,7 @@ This section looks into varying the number of \zt bins. Figure \ref{fig:FF_zT_Re
 \section{Checking sensitivity to pile up cut in pp}
 A stringent pile up cut is applied to the pp dataset. Figure \ref{fig:Correlation_pileup} shows the correlation functions in 6 $\zt$ bins to compensate for the loss of statistics in pp after applying the cut.
 
-\begin{sidewaysfigure}
+\begin{sidewaysfigure}[hbtp]
 \centering
 \includegraphics[width = 0.32 \textwidth]{G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_0.pdf}
 \includegraphics[width = 0.32 \textwidth]{G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_1.pdf}
@@ -734,7 +814,7 @@ A stringent pile up cut is applied to the pp dataset. Figure \ref{fig:Correlatio
 \label{fig:Correlation_pileup}
 \end{sidewaysfigure}
 
-\begin{figure}
+\begin{figure}[hbtp]
 \centering
 \includegraphics[width=0.59\textwidth]{G-H_New/zT_Rebin_6_006zT06zTpileCut/Final_FFunction_and_Ratio.pdf}
 \caption{The fragmentation functions with the pile up cut applied to pp, resulting from the correlation functions shown in Fig.~\ref{fig:Correlation_pileup}.}
@@ -767,37 +847,4 @@ This section explores the effect of varying the maximum $\pt$ cut on the final a
 % \label{newpurity}
 % \end{figure}
 
-
-\section{Sensitivity to $\chi^2/\mathrm{ITS}_{clus}$ in p-Pb}
-The effect of the $\chi^2/\mathrm{ITS}_{clus}$ cut on the tracking efficiency, fake rate, and bin migration is studied to select the most effective $\chi^2/\mathrm{ITS}_{clus}$ maximum limit. Four values have been tested: $\chi^2/\mathrm{ITS}_{clus} =$ 1, 2, 3, and 36. The following figures~\ref{fig:chi2_eff}, ~\ref{fig:chi2_fr}, ~\ref{fig:chi2_bm}, and ~\ref{fig:chi2_w} show the effect of $\chi^2/\mathrm{ITS}_{clus}$ cuts on the efficiency, fake rate, bin migration, and track correction weight. The weight is calculated from the efficiency, fake rate, and bin migration using equation~\ref{eq:track_weight}. The efficiency seems to be similar for all cut variation except for $\chi^2/\mathrm{ITS}_{clus}$ < 1, where it is lower by 5\%. However, the fake rate and bin migration effects are improved as the cut is tightened. It is to note that regardless of the threshold for the $\chi^2/\mathrm{ITS}_{clus}$ cut, as long as identical cuts are applied to both the Monte Carlo and the data sets used in the section~\ref{sec:tracking}, the fine agreement with published data is always present.
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.49\textwidth]{Checks_Systematics/ITSchi2_study_efficiency.pdf}
-        \includegraphics[width=0.49\textwidth]{Checks_Systematics/ITSchi2_study_fakerate.pdf}
-    \caption{Left: The efficiency comparison for the various $\chi^2/\mathrm{ITS}_{clus}$ cuts. Right: The fake rate comparison for the various $\chi^2/\mathrm{ITS}_{clus}$ cuts}
-    \label{fig:chi2_eff}
-\end{figure}
-
-Additionally, figure~\ref{fig:chi2SpectraComparison} shows the effect of changing the $\chi^2/ITS_{clus}$ from $\chi^2/ITS_{clus} < 36$ to $\chi^2/ITS_{clus} < 3$ on the track \pt spectra as the ratio of $\chi^2/ITS_{clus} <3$ and $\chi^2/ITS_{clus} < 36$. From the top two plots, one can see that the change in the cut does not affect the \pt spectra as the raito is consistent with unity within 5\% up 8 GeV/ as along as the appropriate Monte Carlo anchored to the data is used. However, the bottom plots, uses LHC13def, but corrects using the 13b2 Monte Carlo, and divergence from unity shows the instability of the $\chi^2/ITS_{clus}$ cut. Thus, the 13b2 Monte Carlo is not used in place of using the 17g6a1 simulation to correct the 13def data set.
-\begin{figure}[h]
-\center
-\includegraphics[width=0.33\textwidth]{Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBMB.pdf}
-\includegraphics[width=0.33\textwidth]{Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBGJ.pdf}
-\includegraphics[width=0.33\textwidth]{Checks_Systematics/ITSchi2_study_ptSpectra_ratio_GJGJ.pdf}
-\caption{The changes in the tracking spectra with respect to the $\chi^2/ITS_{clus}$ cut. The top left is the 13b data corrected using 13b2 Monte Carlo. The top right is 13def data corrected using 17g6a1 Monte Carlo. And the bottom plot is 13def data corrected using 13b2 Monte Carlo.}
-\label{fig:chi2SpectraComparison}
-\end{figure}
-
-Finally, the efficiency, fake rate, bin migration and the weights are compared between ITS-only tracking in p-Pb and pp, and TPC+ITS tracking in p-Pb using 17g6a1 MC dataset. All the TPC+ITS and ITS-only tracking are comparable within uncertainties, while the ITS-only pp and p-Pb follow similar shapes. This result agrees with acceptations and trend demonstrated in section~\ref{sec:tracking}. The key difference is that in section~\ref{sec:tracking} all the figures are produced using 13b2, the minimum bias Monte Carlo, while in the case for figure~\ref{fig:TPCITSpp_pPbCompare}, 17g6a1, the gamma-jet Monte Carlo is used. 
-\begin{figure}[h]
-\center
-\includegraphics[width=0.46\textwidth]{Checks_Systematics/ITSchi2_study_efficiency.pdf}
-\includegraphics[width=0.46\textwidth]{Checks_Systematics/ITSchi2_study_fakerate.pdf}
-\includegraphics[width=0.46\textwidth]{Checks_Systematics/ITSchi2_study_binMigration.pdf}
-\includegraphics[width=0.46\textwidth]{Checks_Systematics/ITSchi2_study_weight.pdf}
-\caption{The comparison of efficiency (top left), fake rate (top right), bin migration (bottom left), and weights (bottom right) between ITS-only tracking for p-Pb and pp, as well as TPC+ITS tracking for p-Pb using the 17g6a1 gamma-jet Monte Carlo.}
-\label{fig:TPCITSpp_pPbCompare}
-
-\end{figure}
 
