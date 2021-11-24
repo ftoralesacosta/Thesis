@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.5)  19 NOV 2021 17:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.5)  24 NOV 2021 14:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -769,17 +769,7 @@ File: biblatex.cfg
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count463
 \l__pdf_internal_box=\box55
-) (./thesis.aux (./abstract.aux) (./Introduction.aux)
-./thesis.aux:108: Undefined control sequence.
-l.108 \abx@aux@
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-)
+) (./thesis.aux (./abstract.aux) (./Introduction.aux) (./Experimental_Apparatus.aux) (./Analysis.aux) (./Results.aux) (./Discussion.aux) (./Checks_and_Systematics.aux) (./EIC_Jets.aux) (./Conclusion.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -889,16 +879,15 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 \openout5 = `thesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'thesis.bbl' not found.
-
-No file thesis.bbl.
+Package biblatex Info: ... file 'thesis.bbl' found.
+ (./thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 40.
 Package biblatex Info: Reference segment=0 on input line 40.
-[1
+ [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-Class ucbthesis Warning: The final submitted version should not have an approval page on input line 75.
+Class ucbthesis Warning: The final submitted version should not have an approval page on input line 74.
 
 [2] [3]
 \openout2 = `abstract.aux'.
@@ -906,25 +895,20 @@ Class ucbthesis Warning: The final submitted version should not have an approval
  (./abstract.texpdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.10 \end{abstract}
-                    [1
+l.6 \end{abstract}
+                   [1
 
 ]) [1
 
 
 ] (./thesis.toc [2] [3]
 Overfull \hbox (2.03766pt too wide) detected at line 215
- \OT1/cmr/bx/n/12 144
+ \OT1/cmr/bx/n/12 145
  []
 
 [4]
 Overfull \hbox (2.03766pt too wide) detected at line 225
- \OT1/cmr/bx/n/12 158
- []
-
-
-Overfull \hbox (2.03766pt too wide) detected at line 227
- \OT1/cmr/bx/n/12 160
+ \OT1/cmr/bx/n/12 159
  []
 
 ) [5] (./thesis.lof [6
@@ -990,13 +974,6 @@ Overfull \hbox (0.82765pt too wide) in paragraph at lines 135--135
  []
 
 [11]
-
-LaTeX Warning: Reference `eq:bkgtemplatedoubleratio' on page xii undefined on input line 145.
-
-
-LaTeX Warning: Reference `eq:bkgtemplatedoubleratio' on page xii undefined on input line 147.
-
-
 Overfull \hbox (1.63895pt too wide) in paragraph at lines 159--159
  [][] [][][]\OT1/cmr/m/n/12 Correlation func-tion be-tween iso-lated prompt pho-tons and hadrons from \OT1/cmr/m/sc/12 Pythia8 
  []
@@ -1008,9 +985,6 @@ LaTeX Warning: Reference `sec:results' on page xiii undefined on input line 185.
 [13]
 
 LaTeX Warning: Reference `fig:CorrelationFinal' on page xiv undefined on input line 189.
-
-
-LaTeX Warning: Reference `fig:Correlation_pileup' on page xiv undefined on input line 205.
 
 [14]) [15] (./thesis.lot [16
 
@@ -1066,99 +1040,127 @@ l.35
 
 ]
 
+LaTeX Warning: Citation 'Gross1973' on page 2 undefined on input line 45.
+
+
+LaTeX Warning: Citation 'Politzer1973' on page 2 undefined on input line 45.
+
+
 LaTeX Warning: Citation 'Bettini2008' on page 2 undefined on input line 59.
 
-<Introduction/a_S_running.pdf, id=870, 614.295pt x 794.97pt>
+<Introduction/a_S_running.pdf, id=1213, 614.295pt x 794.97pt>
 File: Introduction/a_S_running.pdf Graphic file (type pdf)
 <use Introduction/a_S_running.pdf>
 Package pdftex.def Info: Introduction/a_S_running.pdf  used on input line 64.
 (pdftex.def)             Requested size: 469.0pt x 467.45271pt.
 
-LaTeX Warning: Citation 'AIP2014' on page 2 undefined on input line 76.
+LaTeX Warning: Citation 'zotero-314' on page 2 undefined on input line 65.
 
 
-LaTeX Warning: Citation '.' on page 2 undefined on input line 76.
+LaTeX Warning: Citation 'zotero-314' on page 2 undefined on input line 65.
 
 
-LaTeX Warning: Citation 'annurev-nucl' on page 2 undefined on input line 77.
+LaTeX Warning: Citation 'AIP2014' on page 2 undefined on input line 75.
+
+
+LaTeX Warning: Citation '.' on page 2 undefined on input line 75.
+
+
+LaTeX Warning: Citation 'annurev-nucl' on page 2 undefined on input line 76.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78 
+l.77 
       [2]pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78 
+l.77 
       [3 <./Introduction/a_S_running.pdf>]
-<Introduction/collision_snapshot.pdf, id=939, 264.78473pt x 154.12079pt>
+<Introduction/collision_snapshot.pdf, id=1280, 263.41864pt x 171.41562pt>
 File: Introduction/collision_snapshot.pdf Graphic file (type pdf)
 <use Introduction/collision_snapshot.pdf>
-Package pdftex.def Info: Introduction/collision_snapshot.pdf  used on input line 81.
-(pdftex.def)             Requested size: 464.31258pt x 270.25865pt.
-<Introduction/qcd_phase.pdf, id=941, 253.33005pt x 155.92714pt>
+Package pdftex.def Info: Introduction/collision_snapshot.pdf  used on input line 80.
+(pdftex.def)             Requested size: 464.31258pt x 302.15536pt.
+
+
+LaTeX Warning: Citation 'annurev-nucl' on page 4 undefined on input line 81.
+
+
+LaTeX Warning: Citation 'annurev-nucl' on page 4 undefined on input line 81.
+
+<Introduction/qcd_phase.pdf, id=1282, 253.33005pt x 155.92714pt>
 File: Introduction/qcd_phase.pdf Graphic file (type pdf)
 <use Introduction/qcd_phase.pdf>
-Package pdftex.def Info: Introduction/qcd_phase.pdf  used on input line 95.
+Package pdftex.def Info: Introduction/qcd_phase.pdf  used on input line 94.
 (pdftex.def)             Requested size: 464.31258pt x 285.80779pt.
 
+LaTeX Warning: Citation 'annurev-nucl' on page 4 undefined on input line 95.
 
-LaTeX Warning: Citation 'annurev-nucl' on page 4 undefined on input line 96.
+
+LaTeX Warning: Citation 'annurev-nucl' on page 4 undefined on input line 95.
 
 
-LaTeX Warning: Citation 'annurev-nucl' on page 4 undefined on input line 96.
+LaTeX Warning: Citation 'Wilson1974' on page 4 undefined on input line 101.
 
-[4]
-
-LaTeX Warning: Citation 'Wilson1974' on page 5 undefined on input line 102.
-
-<Introduction/lattice_qcd.pdf, id=948, 195.12285pt x 153.82008pt>
+[4] [5 <./Introduction/collision_snapshot.pdf>]
+<Introduction/lattice_qcd.pdf, id=1341, 195.12285pt x 153.82008pt>
 File: Introduction/lattice_qcd.pdf Graphic file (type pdf)
 <use Introduction/lattice_qcd.pdf>
-Package pdftex.def Info: Introduction/lattice_qcd.pdf  used on input line 107.
+Package pdftex.def Info: Introduction/lattice_qcd.pdf  used on input line 106.
 (pdftex.def)             Requested size: 375.20143pt x 295.82173pt.
 
-LaTeX Warning: Citation 'Borsanyi2014' on page 5 undefined on input line 108.
+
+LaTeX Warning: Citation 'Borsanyi2014' on page 6 undefined on input line 107.
 
 
-LaTeX Warning: Citation 'HotQCDCollaboration2014' on page 5 undefined on input line 108.
+LaTeX Warning: Citation 'HotQCDCollaboration2014' on page 6 undefined on input line 107.
 
 
-LaTeX Warning: Citation 'Borsanyi2014' on page 5 undefined on input line 108.
+LaTeX Warning: Citation 'annurev-nucl' on page 6 undefined on input line 107.
 
 
-LaTeX Warning: Citation 'HotQCDCollaboration2014' on page 5 undefined on input line 108.
+LaTeX Warning: Citation 'Borsanyi2014' on page 6 undefined on input line 107.
 
-[5 <./Introduction/collision_snapshot.pdf>] [6 <./Introduction/qcd_phase.pdf>]
-<Introduction/overlap_diagram.pdf, id=1069, 318.65257pt x 208.93047pt>
+
+LaTeX Warning: Citation 'HotQCDCollaboration2014' on page 6 undefined on input line 107.
+
+
+LaTeX Warning: Citation 'annurev-nucl' on page 6 undefined on input line 107.
+
+
+LaTeX Warning: Citation 'Adams2005a' on page 6 undefined on input line 116.
+
+[6 <./Introduction/qcd_phase.pdf>] [7 <./Introduction/lattice_qcd.pdf>]
+<Introduction/overlap_diagram.pdf, id=1474, 318.65257pt x 208.93047pt>
 File: Introduction/overlap_diagram.pdf Graphic file (type pdf)
 <use Introduction/overlap_diagram.pdf>
-Package pdftex.def Info: Introduction/overlap_diagram.pdf  used on input line 126.
+Package pdftex.def Info: Introduction/overlap_diagram.pdf  used on input line 125.
 (pdftex.def)             Requested size: 375.20143pt x 246.02571pt.
- [7 <./Introduction/lattice_qcd.pdf>] [8 <./Introduction/overlap_diagram.pdf>]
+ [8 <./Introduction/overlap_diagram.pdf>]
 
-LaTeX Warning: Citation 'Aidala2019' on page 9 undefined on input line 141.
+LaTeX Warning: Citation 'Aidala2019' on page 9 undefined on input line 140.
 
-<Introduction/collision_geometries.pdf, id=1153, 280.67783pt x 214.44998pt>
+<Introduction/collision_geometries.pdf, id=1495, 280.67783pt x 214.44998pt>
 File: Introduction/collision_geometries.pdf Graphic file (type pdf)
 <use Introduction/collision_geometries.pdf>
-Package pdftex.def Info: Introduction/collision_geometries.pdf  used on input line 145.
+Package pdftex.def Info: Introduction/collision_geometries.pdf  used on input line 144.
 (pdftex.def)             Requested size: 375.20143pt x 286.69066pt.
 
-LaTeX Warning: Citation 'Aamodt2011' on page 9 undefined on input line 150.
+LaTeX Warning: Citation 'Aamodt2011' on page 9 undefined on input line 149.
 
-<Introduction/flow_measurements_peripheral.pdf, id=1155, 240.07736pt x 155.61537pt>
+<Introduction/flow_measurements_peripheral.pdf, id=1497, 240.07736pt x 155.61537pt>
 File: Introduction/flow_measurements_peripheral.pdf Graphic file (type pdf)
 <use Introduction/flow_measurements_peripheral.pdf>
-Package pdftex.def Info: Introduction/flow_measurements_peripheral.pdf  used on input line 154.
+Package pdftex.def Info: Introduction/flow_measurements_peripheral.pdf  used on input line 153.
 (pdftex.def)             Requested size: 211.04857pt x 136.8066pt.
-<Introduction/flow_measurements_central.pdf, id=1156, 223.66443pt x 175.38834pt>
+<Introduction/flow_measurements_central.pdf, id=1498, 223.66443pt x 175.38834pt>
 File: Introduction/flow_measurements_central.pdf Graphic file (type pdf)
 <use Introduction/flow_measurements_central.pdf>
-Package pdftex.def Info: Introduction/flow_measurements_central.pdf  used on input line 155.
+Package pdftex.def Info: Introduction/flow_measurements_central.pdf  used on input line 154.
 (pdftex.def)             Requested size: 211.04857pt x 165.4993pt.
 
-LaTeX Warning: Citation 'Romatschke2007' on page 9 undefined on input line 161.
+LaTeX Warning: Citation 'Romatschke2007' on page 9 undefined on input line 160.
 
 
 LaTeX Warning: Citation 'Khachatryan2010' on page 9 undefined on input line 169.
@@ -1169,148 +1171,172 @@ LaTeX Warning: Citation 'Abelev2013' on page 9 undefined on input line 169.
 
 LaTeX Warning: Citation 'Aaij2016' on page 9 undefined on input line 169.
 
-<Introduction/near_side_ridge.pdf, id=1158, 186.7015pt x 148.0756pt>
+[9]
+<Introduction/near_side_ridge.pdf, id=1505, 186.7015pt x 148.0756pt>
 File: Introduction/near_side_ridge.pdf Graphic file (type pdf)
 <use Introduction/near_side_ridge.pdf>
 Package pdftex.def Info: Introduction/near_side_ridge.pdf  used on input line 173.
 (pdftex.def)             Requested size: 375.20143pt x 297.59879pt.
 
-LaTeX Warning: Citation 'Aaij2016' on page 9 undefined on input line 174.
+
+LaTeX Warning: Citation 'Aaij2016' on page 10 undefined on input line 174.
 
 
-LaTeX Warning: Citation 'Aaij2016' on page 9 undefined on input line 174.
+LaTeX Warning: Citation 'Aaij2016' on page 10 undefined on input line 174.
 
-<Introduction/small_systems_flow.pdf, id=1160, 312.09506pt x 119.33513pt>
+<Introduction/small_systems_flow.pdf, id=1507, 312.09506pt x 119.33513pt>
 File: Introduction/small_systems_flow.pdf Graphic file (type pdf)
 <use Introduction/small_systems_flow.pdf>
 Package pdftex.def Info: Introduction/small_systems_flow.pdf  used on input line 182.
 (pdftex.def)             Requested size: 464.31258pt x 177.53822pt.
 
-LaTeX Warning: Citation 'Khachatryan2017' on page 9 undefined on input line 183.
+LaTeX Warning: Citation 'Khachatryan2017' on page 10 undefined on input line 183.
 
 
-LaTeX Warning: Citation 'Khachatryan2015' on page 9 undefined on input line 183.
+LaTeX Warning: Citation 'Khachatryan2015' on page 10 undefined on input line 183.
 
 
-LaTeX Warning: Citation 'Khachatryan2017' on page 9 undefined on input line 183.
+LaTeX Warning: Citation 'Khachatryan2017' on page 10 undefined on input line 183.
 
 
-LaTeX Warning: Citation 'Khachatryan2015' on page 9 undefined on input line 183.
+LaTeX Warning: Citation 'Khachatryan2015' on page 10 undefined on input line 183.
 
-[9] [10 <./Introduction/collision_geometries.pdf>]
+[10 <./Introduction/collision_geometries.pdf>]
 
 LaTeX Warning: Citation 'Romatschke2018a' on page 11 undefined on input line 191.
 
-[11 <./Introduction/flow_measurements_peripheral.pdf> <./Introduction/flow_measurements_central.pdf>]
 
-LaTeX Warning: Citation 'Atkin2015' on page 12 undefined on input line 199.
+LaTeX Warning: Citation 'Romatschke2017' on page 11 undefined on input line 191.
 
-[12 <./Introduction/near_side_ridge.pdf>]
 
-LaTeX Warning: Citation 'doi:10.1146/annurev.nucl.57.090506.123020' on page 13 undefined on input line 210.
+LaTeX Warning: Citation 'Habich2016' on page 11 undefined on input line 191.
+
+
+LaTeX Warning: Citation 'Zhao2018a' on page 11 undefined on input line 191.
+
+[11 <./Introduction/flow_measurements_peripheral.pdf> <./Introduction/flow_measurements_central.pdf>] [12 <./Introduction/near_side_ridge.pdf>]
+
+LaTeX Warning: Citation 'Atkin2015' on page 13 undefined on input line 199.
 
 [13 <./Introduction/small_systems_flow.pdf>]
-<Introduction/atlas_raa.pdf, id=1491, 209.58537pt x 162.08495pt>
+
+LaTeX Warning: Citation 'doi:10.1146/annurev.nucl.57.090506.123020' on page 14 undefined on input line 210.
+
+
+Overfull \hbox (55.01024pt too wide) in paragraph at lines 210--211
+\OT1/cmr/m/n/12 ret-i-cal pro-ce-dure called a Glauber model cal-cu-la-tion [[]]
+ []
+
+<Introduction/atlas_raa.pdf, id=1837, 209.58537pt x 162.08495pt>
 File: Introduction/atlas_raa.pdf Graphic file (type pdf)
 <use Introduction/atlas_raa.pdf>
 Package pdftex.def Info: Introduction/atlas_raa.pdf  used on input line 215.
 (pdftex.def)             Requested size: 375.20143pt x 290.19455pt.
 
-
 LaTeX Warning: Citation 'Aaboud2019' on page 14 undefined on input line 216.
 
 
 LaTeX Warning: Citation 'Aaboud2019' on page 14 undefined on input line 216.
 
-[14 <./Introduction/atlas_raa.pdf>]
 
-LaTeX Warning: Citation 'Connors2018' on page 15 undefined on input line 223.
-
-
-LaTeX Warning: Reference `fig:alice_hadron_raa' on page 15 undefined on input line 225.
+LaTeX Warning: Citation 'Acharya2020' on page 14 undefined on input line 221.
 
 
-LaTeX Warning: Citation 'Bencedi2016' on page 15 undefined on input line 225.
+LaTeX Warning: Citation 'Connors2018' on page 14 undefined on input line 224.
 
-<Introduction/alice_hadron_raa.pdf, id=1536, 184.78748pt x 162.10893pt>
+
+LaTeX Warning: Citation 'Bencedi2016' on page 14 undefined on input line 226.
+
+[14]
+<Introduction/alice_hadron_raa.pdf, id=1846, 184.78748pt x 162.10893pt>
 File: Introduction/alice_hadron_raa.pdf Graphic file (type pdf)
 <use Introduction/alice_hadron_raa.pdf>
-Package pdftex.def Info: Introduction/alice_hadron_raa.pdf  used on input line 229.
+Package pdftex.def Info: Introduction/alice_hadron_raa.pdf  used on input line 230.
 (pdftex.def)             Requested size: 464.31258pt x 407.3392pt.
 
-LaTeX Warning: Citation 'Bencedi2016' on page 15 undefined on input line 230.
+
+LaTeX Warning: Citation 'Bencedi2016' on page 15 undefined on input line 231.
 
 
-LaTeX Warning: Citation 'Bencedi2016' on page 15 undefined on input line 230.
+LaTeX Warning: Citation 'Bencedi2016' on page 15 undefined on input line 231.
 
 
-LaTeX Warning: Reference `sec:direct_photons' on page 15 undefined on input line 234.
+LaTeX Warning: Reference `sec:direct_photons' on page 15 undefined on input line 235.
 
 
-LaTeX Warning: Citation 'Khachatryan2016' on page 15 undefined on input line 234.
+LaTeX Warning: Citation 'Khachatryan2016' on page 15 undefined on input line 235.
 
-[15] [16 <./Introduction/alice_hadron_raa.pdf>] [17]
-<Introduction/pdg_ff.pdf, id=1667, 202.18947pt x 275.60776pt>
+[15 <./Introduction/atlas_raa.pdf>] [16 <./Introduction/alice_hadron_raa.pdf>] [17]
+<Introduction/pdg_ff.pdf, id=2016, 202.18947pt x 275.60776pt>
 File: Introduction/pdg_ff.pdf Graphic file (type pdf)
 <use Introduction/pdg_ff.pdf>
-Package pdftex.def Info: Introduction/pdg_ff.pdf  used on input line 269.
+Package pdftex.def Info: Introduction/pdg_ff.pdf  used on input line 270.
 (pdftex.def)             Requested size: 375.20143pt x 511.4434pt.
 
 
-LaTeX Warning: Citation 'deFlorian2018' on page 18 undefined on input line 270.
+LaTeX Warning: Citation 'deFlorian2018' on page 18 undefined on input line 271.
 
 
-LaTeX Warning: Citation 'deFlorian2018' on page 18 undefined on input line 270.
+LaTeX Warning: Citation 'deFlorian2018' on page 18 undefined on input line 271.
 
-<Introduction/pdfs.pdf, id=1668, 213.32599pt x 208.97252pt>
+<Introduction/pdfs.pdf, id=2017, 213.32599pt x 208.97252pt>
 File: Introduction/pdfs.pdf Graphic file (type pdf)
 <use Introduction/pdfs.pdf>
-Package pdftex.def Info: Introduction/pdfs.pdf  used on input line 276.
+Package pdftex.def Info: Introduction/pdfs.pdf  used on input line 277.
 (pdftex.def)             Requested size: 375.20143pt x 367.56636pt.
 
-LaTeX Warning: Citation 'Pumplin2002' on page 18 undefined on input line 277.
+LaTeX Warning: Citation 'Pumplin2002' on page 18 undefined on input line 278.
 
 
-LaTeX Warning: Citation 'Pumplin2002' on page 18 undefined on input line 277.
+LaTeX Warning: Citation 'Pumplin2002' on page 18 undefined on input line 278.
+
+./Introduction.tex:297: Undefined control sequence.
+<recently read> \dphi 
+                      
+l.297 ... measured number of triggers, and  $\dphi
+                                                  $ is the difference in azi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:dihadron_cartoon' on page 18 undefined on input line 296.
+LaTeX Warning: Reference `fig:dihadron_cartoon' on page 18 undefined on input line 297.
 
-
-LaTeX Warning: Reference `sec:ue_subtraction' on page 18 undefined on input line 296.
-
-<Introduction/dihadron_cartoon.pdf, id=1672, 433.62pt x 289.08pt>
+[18] [19 <./Introduction/pdg_ff.pdf>]
+<Introduction/dihadron_cartoon.pdf, id=2105, 433.62pt x 289.08pt>
 File: Introduction/dihadron_cartoon.pdf Graphic file (type pdf)
 <use Introduction/dihadron_cartoon.pdf>
-Package pdftex.def Info: Introduction/dihadron_cartoon.pdf  used on input line 300.
+Package pdftex.def Info: Introduction/dihadron_cartoon.pdf  used on input line 301.
 (pdftex.def)             Requested size: 375.20143pt x 250.1478pt.
-[18] [19 <./Introduction/pdg_ff.pdf>]
-<Introduction/star_dihadron.pdf, id=1757, 169.53116pt x 118.21425pt>
+ [20 <./Introduction/pdfs.pdf>]
+<Introduction/star_dihadron.pdf, id=2155, 169.53116pt x 118.21425pt>
 File: Introduction/star_dihadron.pdf Graphic file (type pdf)
 <use Introduction/star_dihadron.pdf>
-Package pdftex.def Info: Introduction/star_dihadron.pdf  used on input line 309.
+Package pdftex.def Info: Introduction/star_dihadron.pdf  used on input line 310.
 (pdftex.def)             Requested size: 375.20143pt x 261.67569pt.
 
 
-LaTeX Warning: Citation 'Adams2005' on page 20 undefined on input line 310.
+LaTeX Warning: Citation 'Adams2005' on page 21 undefined on input line 311.
 
 
-LaTeX Warning: Citation 'Adams2005' on page 20 undefined on input line 310.
+LaTeX Warning: Citation 'Adams2005' on page 21 undefined on input line 311.
 
 
-LaTeX Warning: Citation 'Aurenche1993' on page 20 undefined on input line 317.
+LaTeX Warning: Citation 'Aurenche1993' on page 21 undefined on input line 318.
 
-[20 <./Introduction/pdfs.pdf>]
-<Introduction/prompt_photons.pdf, id=1807, 314.09303pt x 98.09409pt>
+[21 <./Introduction/dihadron_cartoon.pdf>]
+<Introduction/prompt_photons.pdf, id=2201, 314.09303pt x 98.09409pt>
 File: Introduction/prompt_photons.pdf Graphic file (type pdf)
 <use Introduction/prompt_photons.pdf>
-Package pdftex.def Info: Introduction/prompt_photons.pdf  used on input line 321.
+Package pdftex.def Info: Introduction/prompt_photons.pdf  used on input line 322.
 (pdftex.def)             Requested size: 375.20143pt x 117.1884pt.
- [21 <./Introduction/dihadron_cartoon.pdf>] [22 <./Introduction/star_dihadron.pdf> <./Introduction/prompt_photons.pdf>]
+ [22 <./Introduction/star_dihadron.pdf>]
 
 LaTeX Warning: Citation 'David2020' on page 23 undefined on input line 345.
 
-<Introduction/photon_raa.pdf, id=1903, 441.8945pt x 336.40923pt>
+<Introduction/photon_raa.pdf, id=2231, 441.8945pt x 336.40923pt>
 File: Introduction/photon_raa.pdf Graphic file (type pdf)
 <use Introduction/photon_raa.pdf>
 Package pdftex.def Info: Introduction/photon_raa.pdf  used on input line 351.
@@ -1330,26 +1356,27 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 LaTeX Warning: Citation 'Sirunyan2018' on page 23 undefined on input line 362.
 
-<Introduction/cms_gj_correlations.pdf, id=1905, 457.88034pt x 200.95699pt>
+[23 <./Introduction/prompt_photons.pdf>]
+<Introduction/cms_gj_correlations.pdf, id=2260, 457.88034pt x 200.95699pt>
 File: Introduction/cms_gj_correlations.pdf Graphic file (type pdf)
 <use Introduction/cms_gj_correlations.pdf>
 Package pdftex.def Info: Introduction/cms_gj_correlations.pdf  used on input line 367.
 (pdftex.def)             Requested size: 464.31258pt x 203.78058pt.
 
-LaTeX Warning: Citation 'Sirunyan2018' on page 23 undefined on input line 368.
+
+LaTeX Warning: Citation 'Sirunyan2018' on page 24 undefined on input line 368.
 
 
-LaTeX Warning: Citation 'Sirunyan2018' on page 23 undefined on input line 368.
+LaTeX Warning: Citation 'Sirunyan2018' on page 24 undefined on input line 368.
 
 
-LaTeX Warning: Citation 'Sirunyan2018' on page 23 undefined on input line 373.
+LaTeX Warning: Citation 'Sirunyan2018' on page 24 undefined on input line 373.
 
-<Introduction/cms_gj_quenching.pdf, id=1908, 205.65948pt x 208.57182pt>
+<Introduction/cms_gj_quenching.pdf, id=2263, 205.65948pt x 208.57182pt>
 File: Introduction/cms_gj_quenching.pdf Graphic file (type pdf)
 <use Introduction/cms_gj_quenching.pdf>
 Package pdftex.def Info: Introduction/cms_gj_quenching.pdf  used on input line 377.
 (pdftex.def)             Requested size: 375.20143pt x 380.51784pt.
-[23]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 384.
@@ -1362,11 +1389,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 384.
 
-
-Overfull \hbox (3.701pt too wide) in paragraph at lines 386--387
-\OT1/cmr/m/n/12 the prompt pho-ton as the trig-ger, is noth-ing but the frag-men-ta-tion vari-able, $\OML/cmm/m/it/12 p[]=p[]$\OT1/cmr/m/n/12 .
- []
-
 [24 <./Introduction/photon_raa.pdf>]
 
 LaTeX Warning: Citation 'STARCollaboration2017' on page 25 undefined on input line 388.
@@ -1374,34 +1396,43 @@ LaTeX Warning: Citation 'STARCollaboration2017' on page 25 undefined on input li
 
 LaTeX Warning: Citation 'Zhang2007' on page 25 undefined on input line 388.
 
-<Introduction/phenix_gh_corr.pdf, id=1953, 387.85901pt x 275.7211pt>
+[25 <./Introduction/cms_gj_correlations.pdf>] [26 <./Introduction/cms_gj_quenching.pdf>]
+<Introduction/phenix_gh_corr.pdf, id=2398, 387.85901pt x 275.7211pt>
 File: Introduction/phenix_gh_corr.pdf Graphic file (type pdf)
 <use Introduction/phenix_gh_corr.pdf>
 Package pdftex.def Info: Introduction/phenix_gh_corr.pdf  used on input line 392.
 (pdftex.def)             Requested size: 375.20143pt x 266.7297pt.
 
-LaTeX Warning: Citation 'PHENIXCollaboration2020' on page 25 undefined on input line 397.
 
-[25 <./Introduction/cms_gj_correlations.pdf>] [26 <./Introduction/cms_gj_quenching.pdf>]
-<Introduction/phenix_gh_IAA.pdf, id=2051, 246.41922pt x 168.20923pt>
+LaTeX Warning: Citation 'PHENIXCollaboration2020' on page 27 undefined on input line 393.
+
+
+LaTeX Warning: Citation 'PHENIXCollaboration2020' on page 27 undefined on input line 393.
+
+
+LaTeX Warning: Citation 'PHENIXCollaboration2020' on page 27 undefined on input line 397.
+
+<Introduction/phenix_gh_IAA.pdf, id=2400, 246.41922pt x 168.20923pt>
 File: Introduction/phenix_gh_IAA.pdf Graphic file (type pdf)
 <use Introduction/phenix_gh_IAA.pdf>
 Package pdftex.def Info: Introduction/phenix_gh_IAA.pdf  used on input line 401.
 (pdftex.def)             Requested size: 375.20143pt x 256.12982pt.
- [27 <./Introduction/phenix_gh_corr.pdf>]
-<Introduction/cnm_cartoon.pdf, id=2089, 246.85056pt x 185.46399pt>
+[27 <./Introduction/phenix_gh_corr.pdf>] [28 <./Introduction/phenix_gh_IAA.pdf>]
+<Introduction/cnm_cartoon.pdf, id=2486, 246.85056pt x 185.46399pt>
 File: Introduction/cnm_cartoon.pdf Graphic file (type pdf)
 <use Introduction/cnm_cartoon.pdf>
 Package pdftex.def Info: Introduction/cnm_cartoon.pdf  used on input line 426.
 (pdftex.def)             Requested size: 375.20143pt x 281.90253pt.
 
 
-LaTeX Warning: Citation 'Pumplin2001' on page 28 undefined on input line 427.
+LaTeX Warning: Citation 'Pumplin2001' on page 29 undefined on input line 427.
 
 
-LaTeX Warning: Citation 'Pumplin2001' on page 28 undefined on input line 427.
+LaTeX Warning: Citation 'Pumplin2001' on page 29 undefined on input line 427.
 
-[28 <./Introduction/phenix_gh_IAA.pdf>]
+
+LaTeX Warning: Citation 'Pumplin2001' on page 29 undefined on input line 431.
+
 
 LaTeX Warning: Citation 'Cronin1975' on page 29 undefined on input line 434.
 
@@ -1439,16 +1470,17 @@ LaTeX Warning: Citation 'Xing:2012ii' on page 30 undefined on input line 443.
 
 LaTeX Warning: Citation 'Connors:2017ptx' on page 30 undefined on input line 443.
 
+[30]
 
-LaTeX Warning: Citation 'Adare:2011sc' on page 30 undefined on input line 445.
-
-
-LaTeX Warning: Citation 'Accardi:2009qv' on page 30 undefined on input line 447.
+LaTeX Warning: Citation 'Adare:2011sc' on page 31 undefined on input line 445.
 
 
-LaTeX Warning: Citation 'Salgado:2011wc' on page 30 undefined on input line 447.
+LaTeX Warning: Citation 'Accardi:2009qv' on page 31 undefined on input line 447.
 
-[30]) [31]
+
+LaTeX Warning: Citation 'Salgado:2011wc' on page 31 undefined on input line 447.
+
+) [31]
 \openout2 = `Experimental_Apparatus.aux'.
 
  (./Experimental_Apparatus.tex
@@ -1494,7 +1526,7 @@ LaTeX Warning: Citation 'Evans2008' on page 32 undefined on input line 12.
 
 LaTeX Warning: Citation 'Evans2008' on page 33 undefined on input line 23.
 
-<Experimental_Aparatus/LHC.png, id=2224, 5121.534pt x 4552.5282pt>
+<Experimental_Aparatus/LHC.png, id=2575, 5121.534pt x 4552.5282pt>
 File: Experimental_Aparatus/LHC.png Graphic file (type png)
 <use Experimental_Aparatus/LHC.png>
 Package pdftex.def Info: Experimental_Aparatus/LHC.png  used on input line 29.
@@ -1503,4 +1535,2333 @@ Package pdftex.def Info: Experimental_Aparatus/LHC.png  used on input line 29.
 LaTeX Warning: Citation 'Mobs:2197559' on page 33 undefined on input line 31.
 
 
-LaTeX Warning: Citat
+LaTeX Warning: Citation 'Mobs:2197559' on page 33 undefined on input line 31.
+
+[33]
+
+LaTeX Warning: Citation 'ALICECollaboration2016' on page 34 undefined on input line 38.
+
+<Experimental_Aparatus/ALICE.png, id=2584, 722.7pt x 417.56pt>
+File: Experimental_Aparatus/ALICE.png Graphic file (type png)
+<use Experimental_Aparatus/ALICE.png>
+Package pdftex.def Info: Experimental_Aparatus/ALICE.png  used on input line 43.
+(pdftex.def)             Requested size: 464.31258pt x 268.26965pt.
+
+LaTeX Warning: Citation 'Tauro2017' on page 34 undefined on input line 44.
+
+
+LaTeX Warning: Citation 'Tauro2017' on page 34 undefined on input line 44.
+
+[34 <./Experimental_Aparatus/LHC.png>]
+
+LaTeX Warning: Reference `tab:its' on page 35 undefined on input line 62.
+
+[35 <./Experimental_Aparatus/ALICE.png>]
+<Experimental_Aparatus/ITS.pdf, id=2600, 264.86916pt x 163.26064pt>
+File: Experimental_Aparatus/ITS.pdf Graphic file (type pdf)
+<use Experimental_Aparatus/ITS.pdf>
+Package pdftex.def Info: Experimental_Aparatus/ITS.pdf  used on input line 66.
+(pdftex.def)             Requested size: 375.20143pt x 231.28864pt.
+
+
+LaTeX Warning: Citation 'Tauro2017' on page 36 undefined on input line 67.
+
+
+LaTeX Warning: Citation 'Tauro2017' on page 36 undefined on input line 67.
+
+[36 <./Experimental_Aparatus/ITS.pdf>]
+<Experimental_Aparatus/silicon_detector.pdf, id=2633, 318.95773pt x 182.9255pt>
+File: Experimental_Aparatus/silicon_detector.pdf Graphic file (type pdf)
+<use Experimental_Aparatus/silicon_detector.pdf>
+Package pdftex.def Info: Experimental_Aparatus/silicon_detector.pdf  used on input line 89.
+(pdftex.def)             Requested size: 375.20143pt x 215.19427pt.
+
+
+LaTeX Warning: Citation 'Brenner' on page 37 undefined on input line 90.
+
+
+LaTeX Warning: Citation 'Brenner' on page 37 undefined on input line 90.
+
+[37 <./Experimental_Aparatus/silicon_detector.pdf>]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 98.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 98.
+
+Missing character: There is no ° in font cmr12!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 102.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 102.
+
+Missing character: There is no ° in font cmr12!
+<Experimental_Aparatus/Proportional_counter.jpg, id=2684, 755.4624pt x 423.5022pt>
+File: Experimental_Aparatus/Proportional_counter.jpg Graphic file (type jpg)
+<use Experimental_Aparatus/Proportional_counter.jpg>
+Package pdftex.def Info: Experimental_Aparatus/Proportional_counter.jpg  used on input line 111.
+(pdftex.def)             Requested size: 375.20143pt x 210.33536pt.
+
+LaTeX Warning: Citation 'Dougsim2012' on page 38 undefined on input line 112.
+
+
+LaTeX Warning: Citation 'Dougsim2012' on page 38 undefined on input line 112.
+
+[38]
+
+LaTeX Warning: Citation 'Alme2010' on page 39 undefined on input line 118.
+
+[39 <./Experimental_Aparatus/Proportional_counter.jpg>]
+
+LaTeX Warning: Citation 'Schmidt2020' on page 40 undefined on input line 121.
+
+<Experimental_Aparatus/TPC_distortion.pdf, id=2695, 418.3893pt x 353.72952pt>
+File: Experimental_Aparatus/TPC_distortion.pdf Graphic file (type pdf)
+<use Experimental_Aparatus/TPC_distortion.pdf>
+Package pdftex.def Info: Experimental_Aparatus/TPC_distortion.pdf  used on input line 125.
+(pdftex.def)             Requested size: 375.20143pt x 317.22556pt.
+
+LaTeX Warning: Citation 'Hellbar2019' on page 40 undefined on input line 126.
+
+
+LaTeX Warning: Citation 'Hellbar2019' on page 40 undefined on input line 126.
+
+[40]
+
+LaTeX Warning: Citation 'Blau2020' on page 41 undefined on input line 137.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 137.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 137.
+
+Missing character: There is no ° in font cmr12!
+[41 <./Experimental_Aparatus/TPC_distortion.pdf>]
+<Experimental_Aparatus/emcal.pdf, id=3028, 369.22993pt x 300.11081pt>
+File: Experimental_Aparatus/emcal.pdf Graphic file (type pdf)
+<use Experimental_Aparatus/emcal.pdf>
+Package pdftex.def Info: Experimental_Aparatus/emcal.pdf  used on input line 141.
+(pdftex.def)             Requested size: 211.04857pt x 171.54117pt.
+<Experimental_Aparatus/module.pdf, id=3029, 329.73518pt x 245.22957pt>
+File: Experimental_Aparatus/module.pdf Graphic file (type pdf)
+<use Experimental_Aparatus/module.pdf>
+Package pdftex.def Info: Experimental_Aparatus/module.pdf  used on input line 142.
+(pdftex.def)             Requested size: 211.04857pt x 156.96509pt.
+
+
+LaTeX Warning: Citation 'Bellwied2010' on page 42 undefined on input line 143.
+
+
+LaTeX Warning: Citation 'Bellwied2010' on page 42 undefined on input line 143.
+
+
+LaTeX Warning: Citation 'Aamodt:2008zz' on page 42 undefined on input line 153.
+
+File: Experimental_Aparatus/LHC.png Graphic file (type png)
+<use Experimental_Aparatus/LHC.png>
+Package pdftex.def Info: Experimental_Aparatus/LHC.png  used on input line 157.
+(pdftex.def)             Requested size: 375.20143pt x 333.50577pt.
+
+LaTeX Warning: Citation 'Adolfsson2020' on page 42 undefined on input line 158.
+
+
+LaTeX Warning: Citation 'Adolfsson2020' on page 42 undefined on input line 158.
+
+[42 <./Experimental_Aparatus/emcal.pdf> <./Experimental_Aparatus/module.pdf>] [43]
+
+LaTeX Warning: Citation 'Wenninger:2668326' on page 44 undefined on input line 176.
+
+[44]) [45]
+\openout2 = `Analysis.aux'.
+
+ (./Analysis.tex
+
+Package xr Warning: 
+No file Introduction.tex.aux
+LABELS NOT IMPORTED.
+ on input line 1.
+
+
+Package xr Warning: 
+No file Results.tex.aux
+LABELS NOT IMPORTED.
+ on input line 3.
+
+
+Package xr Warning: 
+No file Analysis.tex.aux
+LABELS NOT IMPORTED.
+ on input line 4.
+
+
+Package xr Warning: 
+No file Checks_and_Systematics.tex.aux
+LABELS NOT IMPORTED.
+ on input line 5.
+
+
+Package xr Warning: 
+No file EIC_Jets.tex.aux
+LABELS NOT IMPORTED.
+ on input line 6.
+
+
+Package xr Warning: 
+No file Discussion.tex.aux
+LABELS NOT IMPORTED.
+ on input line 7.
+
+
+LaTeX Warning: Citation 'Arleo:2004gn' on page 46 undefined on input line 17.
+
+[46
+
+
+
+
+]
+
+LaTeX Warning: Citation 'Sirunyan:2018gro' on page 47 undefined on input line 23.
+
+
+LaTeX Warning: Citation 'Chatrchyan:2012gt' on page 47 undefined on input line 23.
+
+[47] [48]
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\OT1/cmtt/m/n/10 pass4 / global _ properties . pdf$[][] \OT1/cmr/m/n/10 and [][]$\OT1/cmtt/m/n/10 http : / / aliqaevs . web . cern . ch / aliqaevs / data / 2017 / LHC17q /
+ []
+
+
+LaTeX Warning: Reference `tab:datasets' on page 49 undefined on input line 122.
+
+[49]
+
+LaTeX Warning: Citation 'Acharya:2017tlv' on page 50 undefined on input line 163.
+
+[50]
+
+LaTeX Warning: Citation 'CrossTalk' on page 51 undefined on input line 175.
+
+
+LaTeX Warning: Reference `tab:MCsamples' on page 51 undefined on input line 175.
+
+
+LaTeX Warning: Citation 'Acharya:2019jkx' on page 51 undefined on input line 192.
+
+<Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_13def.pdf, id=3164, 650.43pt x 433.62pt>
+File: Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_13def.pdf Graphic file (type pdf)
+<use Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_13def.pdf>
+Package pdftex.def Info: Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_13def.pdf  used on input line 200.
+(pdftex.def)             Requested size: 445.54857pt x 297.04114pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_17q.pdf, id=3165, 650.43pt x 433.62pt>
+File: Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_17q.pdf Graphic file (type pdf)
+<use Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_17q.pdf>
+Package pdftex.def Info: Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_17q.pdf  used on input line 208.
+(pdftex.def)             Requested size: 445.54857pt x 297.04114pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[51] [52 <./Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_13def.pdf>] [53 <./Data_Analysis/EventAndClusterSelection/ClusterCutFlow_dataset_Skimmed_17q.pdf>]
+
+LaTeX Warning: Citation 'Acharya:2018dqe' on page 54 undefined on input line 254.
+
+[54
+
+]
+
+LaTeX Warning: Reference `fig:TemplateFit' on page 55 undefined on input line 256.
+
+<Data_Analysis/sigma_long_shapes.pdf, id=3306, 425.31499pt x 235.78911pt>
+File: Data_Analysis/sigma_long_shapes.pdf Graphic file (type pdf)
+<use Data_Analysis/sigma_long_shapes.pdf>
+Package pdftex.def Info: Data_Analysis/sigma_long_shapes.pdf  used on input line 274.
+(pdftex.def)             Requested size: 234.5pt x 130.001pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+
+ []
+
+
+LaTeX Warning: Citation 'PhysRevD.82.014015' on page 55 undefined on input line 286.
+
+[55 <./Data_Analysis/sigma_long_shapes.pdf>]
+
+LaTeX Warning: Citation 'Cacciari:2009dp' on page 56 undefined on input line 306.
+
+[56]
+
+LaTeX Warning: Citation 'Cacciari:2009dp' on page 57 undefined on input line 313.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--314
+
+ []
+
+<Data_Analysis/Isolation/Rho_MinBias.pdf, id=3341, 569.12625pt x 384.43625pt>
+File: Data_Analysis/Isolation/Rho_MinBias.pdf Graphic file (type pdf)
+<use Data_Analysis/Isolation/Rho_MinBias.pdf>
+Package pdftex.def Info: Data_Analysis/Isolation/Rho_MinBias.pdf  used on input line 317.
+(pdftex.def)             Requested size: 234.5pt x 158.40005pt.
+<Data_Analysis/Isolation/Rho_GammaTrigger.pdf, id=3342, 569.12625pt x 384.43625pt>
+File: Data_Analysis/Isolation/Rho_GammaTrigger.pdf Graphic file (type pdf)
+<use Data_Analysis/Isolation/Rho_GammaTrigger.pdf>
+Package pdftex.def Info: Data_Analysis/Isolation/Rho_GammaTrigger.pdf  used on input line 318.
+(pdftex.def)             Requested size: 234.5pt x 158.40005pt.
+
+Overfull \hbox (1.85606pt too wide) in paragraph at lines 317--319
+[][] [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[57 <./Data_Analysis/Isolation/Rho_MinBias.pdf, page is rotated 90 degrees> <./Data_Analysis/Isolation/Rho_GammaTrigger.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `sec:iso_acceptance_check' on page 58 undefined on input line 353.
+
+<Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_13def_root.pdf, id=3443, 650.43pt x 433.62pt>
+File: Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_13def_root.pdf Graphic file (type pdf)
+<use Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_13def_root.pdf>
+Package pdftex.def Info: Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_13def_root.pdf  used on input line 362.
+(pdftex.def)             Requested size: 229.81258pt x 153.20505pt.
+<Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_17q_root.pdf, id=3444, 650.43pt x 433.62pt>
+File: Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_17q_root.pdf Graphic file (type pdf)
+<use Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_17q_root.pdf>
+Package pdftex.def Info: Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_17q_root.pdf  used on input line 363.
+(pdftex.def)             Requested size: 229.81258pt x 153.20505pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `tab:MCsamples' on page 58 undefined on input line 369.
+
+<Data_Analysis/Isolation/IsolationMCsignal_Skimmed_17g6a1_pthat1_4L_root.pdf, id=3446, 867.24pt x 289.08pt>
+File: Data_Analysis/Isolation/IsolationMCsignal_Skimmed_17g6a1_pthat1_4L_root.pdf Graphic file (type pdf)
+<use Data_Analysis/Isolation/IsolationMCsignal_Skimmed_17g6a1_pthat1_4L_root.pdf>
+Package pdftex.def Info: Data_Analysis/Isolation/IsolationMCsignal_Skimmed_17g6a1_pthat1_4L_root.pdf  used on input line 373.
+(pdftex.def)             Requested size: 469.0pt x 156.33466pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[58] [59 <./Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_13def_root.pdf> <./Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_17q_root.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Isolation/IsolationWithUESubtraction_Skimmed_17q_root.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/Isolation/IsolationMCsignal_Skimmed_17g6a1_pthat1_4L_root.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Isolation/IsolationMCsignal_Skimmed_17g6a1_pthat1_4L_root.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Data_Analysis/Isolation/isolated_photon_cross_section.pdf, id=3588, 197.37599pt x 144.51129pt>
+File: Data_Analysis/Isolation/isolated_photon_cross_section.pdf Graphic file (type pdf)
+<use Data_Analysis/Isolation/isolated_photon_cross_section.pdf>
+Package pdftex.def Info: Data_Analysis/Isolation/isolated_photon_cross_section.pdf  used on input line 392.
+(pdftex.def)             Requested size: 197.37549pt x 144.51093pt.
+<Data_Analysis/Isolation/charged_jet_cross_section.pdf, id=3589, 195.0251pt x 186.45198pt>
+File: Data_Analysis/Isolation/charged_jet_cross_section.pdf Graphic file (type pdf)
+<use Data_Analysis/Isolation/charged_jet_cross_section.pdf>
+Package pdftex.def Info: Data_Analysis/Isolation/charged_jet_cross_section.pdf  used on input line 393.
+(pdftex.def)             Requested size: 195.02461pt x 186.45152pt.
+ [60 <./Data_Analysis/Isolation/isolated_photon_cross_section.pdf> <./Data_Analysis/Isolation/charged_jet_cross_section.pdf>]
+
+LaTeX Warning: Citation 'Sirunyan:2017qhf' on page 61 undefined on input line 413.
+
+
+LaTeX Warning: Reference `tab:MCsamples' on page 61 undefined on input line 413.
+
+<Data_Analysis/Purity/IsolationSideband_limited_Skimmed_13def_root.pdf, id=3713, 578.16pt x 433.62pt>
+File: Data_Analysis/Purity/IsolationSideband_limited_Skimmed_13def_root.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/IsolationSideband_limited_Skimmed_13def_root.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/IsolationSideband_limited_Skimmed_13def_root.pdf  used on input line 420.
+(pdftex.def)             Requested size: 229.81258pt x 172.35982pt.
+<Data_Analysis/Purity/IsolationSideband_limited_Skimmed_17q_root.pdf, id=3714, 578.16pt x 433.62pt>
+File: Data_Analysis/Purity/IsolationSideband_limited_Skimmed_17q_root.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/IsolationSideband_limited_Skimmed_17q_root.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/IsolationSideband_limited_Skimmed_17q_root.pdf  used on input line 421.
+(pdftex.def)             Requested size: 229.81258pt x 172.35982pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Data_Analysis/Purity/norm-templates-p-Pb-cluster_Lambda-15-20.pdf, id=3717, 525.27805pt x 393.01266pt>
+File: Data_Analysis/Purity/norm-templates-p-Pb-cluster_Lambda-15-20.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/norm-templates-p-Pb-cluster_Lambda-15-20.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/norm-templates-p-Pb-cluster_Lambda-15-20.pdf  used on input line 432.
+(pdftex.def)             Requested size: 303.25pt x 226.89804pt.
+
+LaTeX Warning: Citation 'Khachatryan:2010fm' on page 61 undefined on input line 438.
+
+[61]
+<Data_Analysis/Purity/correction-example-p-Pb-cluster_Lambda-12-15.pdf, id=3725, 978.46492pt x 523.42303pt>
+File: Data_Analysis/Purity/correction-example-p-Pb-cluster_Lambda-12-15.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/correction-example-p-Pb-cluster_Lambda-12-15.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/correction-example-p-Pb-cluster_Lambda-12-15.pdf  used on input line 477.
+(pdftex.def)             Requested size: 303.25pt x 162.21953pt.
+ [62 <./Data_Analysis/Purity/IsolationSideband_limited_Skimmed_13def_root.pdf> <./Data_Analysis/Purity/IsolationSideband_limited_Skimmed_17q_root.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/IsolationSideband_limited_Skimmed_17q_root.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [63 <./Data_Analysis/Purity/norm-templates-p-Pb-cluster_Lambda-15-20.pdf> <./Data_Analysis/Purity/correction-example-p-Pb-cluster_Lambda-12-15.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/correction-example-p-Pb-cluster_Lambda-12-15.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Citation 'James:1975dr' on page 64 undefined on input line 493.
+
+
+LaTeX Warning: Reference `fig:TemplateFit' on page 64 undefined on input line 497.
+
+<Data_Analysis/Purity/tf-example-pp-cluster_Lambda-12-15.pdf, id=3906, 577.01387pt x 537.19133pt>
+File: Data_Analysis/Purity/tf-example-pp-cluster_Lambda-12-15.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/tf-example-pp-cluster_Lambda-12-15.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/tf-example-pp-cluster_Lambda-12-15.pdf  used on input line 503.
+(pdftex.def)             Requested size: 140.70143pt x 130.98596pt.
+<Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-12-15.pdf, id=3907, 573.43802pt x 540.54762pt>
+File: Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-12-15.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-12-15.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-12-15.pdf  used on input line 504.
+(pdftex.def)             Requested size: 140.70143pt x 132.62915pt.
+<Data_Analysis/Purity/tf-example-pp-cluster_Lambda-15-20.pdf, id=3908, 577.01387pt x 537.19133pt>
+File: Data_Analysis/Purity/tf-example-pp-cluster_Lambda-15-20.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/tf-example-pp-cluster_Lambda-15-20.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/tf-example-pp-cluster_Lambda-15-20.pdf  used on input line 506.
+(pdftex.def)             Requested size: 140.70143pt x 130.98596pt.
+<Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-15-20.pdf, id=3909, 573.43802pt x 540.54762pt>
+File: Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-15-20.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-15-20.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-15-20.pdf  used on input line 507.
+(pdftex.def)             Requested size: 140.70143pt x 132.62915pt.
+<Data_Analysis/Purity/tf-example-pp-cluster_Lambda-20-25.pdf, id=3910, 577.01387pt x 537.19133pt>
+File: Data_Analysis/Purity/tf-example-pp-cluster_Lambda-20-25.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/tf-example-pp-cluster_Lambda-20-25.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/tf-example-pp-cluster_Lambda-20-25.pdf  used on input line 509.
+(pdftex.def)             Requested size: 140.70143pt x 130.98596pt.
+<Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-20-25.pdf, id=3911, 573.43802pt x 541.6658pt>
+File: Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-20-25.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-20-25.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-20-25.pdf  used on input line 510.
+(pdftex.def)             Requested size: 140.70143pt x 132.9035pt.
+<Data_Analysis/Purity/tf-example-pp-cluster_Lambda-25-40.pdf, id=3912, 577.01387pt x 537.19133pt>
+File: Data_Analysis/Purity/tf-example-pp-cluster_Lambda-25-40.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/tf-example-pp-cluster_Lambda-25-40.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/tf-example-pp-cluster_Lambda-25-40.pdf  used on input line 512.
+(pdftex.def)             Requested size: 140.70143pt x 130.98596pt.
+<Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-25-40.pdf, id=3913, 573.43802pt x 544.67987pt>
+File: Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-25-40.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-25-40.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-25-40.pdf  used on input line 513.
+(pdftex.def)             Requested size: 140.70143pt x 133.64304pt.
+
+LaTeX Warning: Float too large for page by 46.63815pt on input line 516.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Data_Analysis/Purity/purity.pdf, id=3914, 506.86551pt x 499.21538pt>
+File: Data_Analysis/Purity/purity.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/purity.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/purity.pdf  used on input line 545.
+(pdftex.def)             Requested size: 375.20143pt x 369.5507pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[64] [65 <./Data_Analysis/Purity/tf-example-pp-cluster_Lambda-12-15.pdf> <./Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-12-15.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-12-15.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/Purity/tf-example-pp-cluster_Lambda-15-20.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/tf-example-pp-cluster_Lambda-15-20.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-15-20.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-15-20.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/Purity/tf-example-pp-cluster_Lambda-20-25.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/tf-example-pp-cluster_Lambda-20-25.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-20-25.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-20-25.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/Purity/tf-example-pp-cluster_Lambda-25-40.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/tf-example-pp-cluster_Lambda-25-40.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-25-40.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/tf-example-p-Pb-cluster_Lambda-25-40.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [66 <./Data_Analysis/Purity/purity.pdf>]
+
+LaTeX Warning: Citation 'Acharya:2018qsh' on page 67 undefined on input line 565.
+
+
+LaTeX Warning: Citation 'Acharya:2018qsh' on page 67 undefined on input line 569.
+
+[67
+
+]
+<Data_Analysis/Tracking/HybridAndITS_Eff_fakerate_pPb_lowpt.pdf, id=4661, 569.12625pt x 546.04pt>
+File: Data_Analysis/Tracking/HybridAndITS_Eff_fakerate_pPb_lowpt.pdf Graphic file (type pdf)
+<use Data_Analysis/Tracking/HybridAndITS_Eff_fakerate_pPb_lowpt.pdf>
+Package pdftex.def Info: Data_Analysis/Tracking/HybridAndITS_Eff_fakerate_pPb_lowpt.pdf  used on input line 601.
+(pdftex.def)             Requested size: 375.20143pt x 359.99591pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[68]
+<Data_Analysis/Tracking/HybridAndITS_resolution_lowpt.pdf, id=4668, 569.12625pt x 552.0625pt>
+File: Data_Analysis/Tracking/HybridAndITS_resolution_lowpt.pdf Graphic file (type pdf)
+<use Data_Analysis/Tracking/HybridAndITS_resolution_lowpt.pdf>
+Package pdftex.def Info: Data_Analysis/Tracking/HybridAndITS_resolution_lowpt.pdf  used on input line 623.
+(pdftex.def)             Requested size: 328.29857pt x 318.46959pt.
+ [69 <./Data_Analysis/Tracking/HybridAndITS_Eff_fakerate_pPb_lowpt.pdf, page is rotated 90 degrees>]
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Tracking/Matrix_tracking_tpc_MBMC_0GeV15GeV_dNdPt.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Data_Analysis/Tracking/Matrix_tracking_tpc_MBMC_0GeV15GeV_dNdPt.pdf, id=4718, 923.93178pt x 345.11935pt>
+File: Data_Analysis/Tracking/Matrix_tracking_tpc_MBMC_0GeV15GeV_dNdPt.pdf Graphic file (type pdf)
+<use Data_Analysis/Tracking/Matrix_tracking_tpc_MBMC_0GeV15GeV_dNdPt.pdf>
+Package pdftex.def Info: Data_Analysis/Tracking/Matrix_tracking_tpc_MBMC_0GeV15GeV_dNdPt.pdf  used on input line 635.
+(pdftex.def)             Requested size: 459.618pt x 171.68507pt.
+<Data_Analysis/Tracking/Matrix_tracking_its_MBMC_0GeV15GeV_dNdPt.pdf, id=4719, 569.12625pt x 203.76125pt>
+File: Data_Analysis/Tracking/Matrix_tracking_its_MBMC_0GeV15GeV_dNdPt.pdf Graphic file (type pdf)
+<use Data_Analysis/Tracking/Matrix_tracking_its_MBMC_0GeV15GeV_dNdPt.pdf>
+Package pdftex.def Info: Data_Analysis/Tracking/Matrix_tracking_its_MBMC_0GeV15GeV_dNdPt.pdf  used on input line 636.
+(pdftex.def)             Requested size: 469.0pt x 167.92165pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[70 <./Data_Analysis/Tracking/HybridAndITS_resolution_lowpt.pdf, page is rotated 90 degrees>]
+<Data_Analysis/Tracking/trackCorrectionFactors_pPbAndpp.pdf, id=4770, 569.12625pt x 546.04pt>
+File: Data_Analysis/Tracking/trackCorrectionFactors_pPbAndpp.pdf Graphic file (type pdf)
+<use Data_Analysis/Tracking/trackCorrectionFactors_pPbAndpp.pdf>
+Package pdftex.def Info: Data_Analysis/Tracking/trackCorrectionFactors_pPbAndpp.pdf  used on input line 654.
+(pdftex.def)             Requested size: 328.29857pt x 314.99538pt.
+ [71 <./Data_Analysis/Tracking/Matrix_tracking_tpc_MBMC_0GeV15GeV_dNdPt.pdf> <./Data_Analysis/Tracking/Matrix_tracking_its_MBMC_0GeV15GeV_dNdPt.pdf, page is rotated 90 degrees>]
+<Data_Analysis/Tracking/etaPhi_eff_tpc.pdf, id=4823, 569.12625pt x 552.0625pt>
+File: Data_Analysis/Tracking/etaPhi_eff_tpc.pdf Graphic file (type pdf)
+<use Data_Analysis/Tracking/etaPhi_eff_tpc.pdf>
+Package pdftex.def Info: Data_Analysis/Tracking/etaPhi_eff_tpc.pdf  used on input line 666.
+(pdftex.def)             Requested size: 215.74315pt x 209.27206pt.
+<Data_Analysis/Tracking/etaPhi_eff_4layers.pdf, id=4824, 569.12625pt x 552.0625pt>
+File: Data_Analysis/Tracking/etaPhi_eff_4layers.pdf Graphic file (type pdf)
+<use Data_Analysis/Tracking/etaPhi_eff_4layers.pdf>
+Package pdftex.def Info: Data_Analysis/Tracking/etaPhi_eff_4layers.pdf  used on input line 667.
+(pdftex.def)             Requested size: 215.74315pt x 209.27206pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[72 <./Data_Analysis/Tracking/trackCorrectionFactors_pPbAndpp.pdf, page is rotated 90 degrees>] [73 <./Data_Analysis/Tracking/etaPhi_eff_tpc.pdf, page is rotated 90 degrees> <./Data_Analysis/Tracking/etaPhi_eff_4layers.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `fig:dihadron_cartoon' on page 74 undefined on input line 693.
+
+
+LaTeX Warning: Reference `sec:decay_photon_subtraction' on page 74 undefined on input line 695.
+
+
+LaTeX Warning: Reference `sec:ue_subtraction_correlations' on page 74 undefined on input line 695.
+
+Excluding 'comment' comment.
+Underfull \hbox (badness 10000) in paragraph at lines 726--727
+
+ []
+
+[74] [75]
+Underfull \hbox (badness 10000) in paragraph at lines 798--799
+
+ []
+
+[76]
+
+LaTeX Warning: Reference `fig:purity' on page 77 undefined on input line 825.
+
+
+Overfull \hbox (0.71149pt too wide) in paragraph at lines 825--826
+\OT1/cmr/m/n/12 Equation [][]3.27[][] shows the back-ground cor-re-la-tion func-tion, $\OML/cmm/m/it/12 C[]$\OT1/cmr/m/n/12 , ap-prox-i-mated by the $\OML/cmm/m/it/12 ^^M[]$ \OT1/cmr/m/n/12 cor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--826
+
+ []
+
+[77]
+<Data_Analysis/Error_Function_Fits/pp_Mean_Center.png, id=5021, 622.325pt x 441.65pt>
+File: Data_Analysis/Error_Function_Fits/pp_Mean_Center.png Graphic file (type png)
+<use Data_Analysis/Error_Function_Fits/pp_Mean_Center.png>
+Package pdftex.def Info: Data_Analysis/Error_Function_Fits/pp_Mean_Center.png  used on input line 831.
+(pdftex.def)             Requested size: 234.5pt x 166.42027pt.
+<Data_Analysis/Error_Function_Fits/pPb_Mean_Centers.png, id=5022, 619.31375pt x 439.6425pt>
+File: Data_Analysis/Error_Function_Fits/pPb_Mean_Centers.png Graphic file (type png)
+<use Data_Analysis/Error_Function_Fits/pPb_Mean_Centers.png>
+Package pdftex.def Info: Data_Analysis/Error_Function_Fits/pPb_Mean_Centers.png  used on input line 832.
+(pdftex.def)             Requested size: 234.5pt x 166.46883pt.
+
+Overfull \hbox (1.85606pt too wide) in paragraph at lines 831--833
+[][] [] 
+ []
+
+[78 <./Data_Analysis/Error_Function_Fits/pp_Mean_Center.png> <./Data_Analysis/Error_Function_Fits/pPb_Mean_Centers.png>]
+
+LaTeX Warning: Citation 'GALE1985223' on page 79 undefined on input line 876.
+
+[79]
+
+LaTeX Warning: Citation 'GALE1985223' on page 80 undefined on input line 878.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 878--879
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
+
+ []
+
+<Data_Analysis/EventMixing/pPb_Differences.pdf, id=5041, 569.12625pt x 402.50375pt>
+File: Data_Analysis/EventMixing/pPb_Differences.pdf Graphic file (type pdf)
+<use Data_Analysis/EventMixing/pPb_Differences.pdf>
+Package pdftex.def Info: Data_Analysis/EventMixing/pPb_Differences.pdf  used on input line 903.
+(pdftex.def)             Requested size: 445.54857pt x 315.11858pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[80]
+<Data_Analysis/EventMixing/Abs_Multplicity_Dist.pdf, id=5048, 569.12625pt x 239.89626pt>
+File: Data_Analysis/EventMixing/Abs_Multplicity_Dist.pdf Graphic file (type pdf)
+<use Data_Analysis/EventMixing/Abs_Multplicity_Dist.pdf>
+Package pdftex.def Info: Data_Analysis/EventMixing/Abs_Multplicity_Dist.pdf  used on input line 918.
+(pdftex.def)             Requested size: 422.09714pt x 177.93042pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[81 <./Data_Analysis/EventMixing/pPb_Differences.pdf, page is rotated 90 degrees>]
+<Data_Analysis/G-H_New/2D_SR_ME.pdf, id=5097, 569.12625pt x 499.8675pt>
+File: Data_Analysis/G-H_New/2D_SR_ME.pdf Graphic file (type pdf)
+<use Data_Analysis/G-H_New/2D_SR_ME.pdf>
+Package pdftex.def Info: Data_Analysis/G-H_New/2D_SR_ME.pdf  used on input line 951.
+(pdftex.def)             Requested size: 150.08344pt x 131.81592pt.
+<Data_Analysis/G-H_New/2D_SR_SE.pdf, id=5098, 569.12625pt x 499.8675pt>
+File: Data_Analysis/G-H_New/2D_SR_SE.pdf Graphic file (type pdf)
+<use Data_Analysis/G-H_New/2D_SR_SE.pdf>
+Package pdftex.def Info: Data_Analysis/G-H_New/2D_SR_SE.pdf  used on input line 952.
+(pdftex.def)             Requested size: 150.08344pt x 131.81592pt.
+<Data_Analysis/G-H_New/2D_SR.pdf, id=5099, 569.12625pt x 499.8675pt>
+File: Data_Analysis/G-H_New/2D_SR.pdf Graphic file (type pdf)
+<use Data_Analysis/G-H_New/2D_SR.pdf>
+Package pdftex.def Info: Data_Analysis/G-H_New/2D_SR.pdf  used on input line 953.
+(pdftex.def)             Requested size: 150.08344pt x 131.81592pt.
+ [82 <./Data_Analysis/EventMixing/Abs_Multplicity_Dist.pdf, page is rotated 90 degrees>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1028.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1028.
+
+<G-H_New/pp_SR_BR_Overlay_pT_0.pdf, id=5154, 2529.45pt x 1156.32pt>
+File: G-H_New/pp_SR_BR_Overlay_pT_0.pdf Graphic file (type pdf)
+<use G-H_New/pp_SR_BR_Overlay_pT_0.pdf>
+Package pdftex.def Info: G-H_New/pp_SR_BR_Overlay_pT_0.pdf  used on input line 1034.
+(pdftex.def)             Requested size: 606.5pt x 277.25781pt.
+<G-H_New/p-Pb_SR_BR_Overlay_pT_0.pdf, id=5155, 2529.45pt x 1156.32pt>
+File: G-H_New/p-Pb_SR_BR_Overlay_pT_0.pdf Graphic file (type pdf)
+<use G-H_New/p-Pb_SR_BR_Overlay_pT_0.pdf>
+Package pdftex.def Info: G-H_New/p-Pb_SR_BR_Overlay_pT_0.pdf  used on input line 1041.
+(pdftex.def)             Requested size: 606.5pt x 277.25781pt.
+[83 <./Data_Analysis/G-H_New/2D_SR_ME.pdf, page is rotated 90 degrees> <./Data_Analysis/G-H_New/2D_SR_SE.pdf, page is rotated 90 degrees> <./Data_Analysis/G-H_New/2D_SR.pdf, page is rotated 90 degrees>] [84 <./G-H_New/pp_SR_BR_Overlay_pT_0.pdf>] [85 <./G-H_New/p-Pb_SR_BR_Overlay_pT_0.pdf>]
+
+LaTeX Warning: Reference `fig:dihadron_cartoon' on page 86 undefined on input line 1054.
+
+
+LaTeX Warning: Reference `fig:dihadron_cartoon' on page 86 undefined on input line 1059.
+
+
+LaTeX Warning: Reference `fig:dihadron_cartoon' on page 86 undefined on input line 1059.
+
+[86]
+<G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_0.pdf, id=5509, 650.43pt x 650.43pt>
+File: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_0.pdf Graphic file (type pdf)
+<use G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_0.pdf>
+Package pdftex.def Info: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_0.pdf  used on input line 1068.
+(pdftex.def)             Requested size: 145.56332pt x 145.55637pt.
+<G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_1.pdf, id=5510, 650.43pt x 650.43pt>
+File: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_1.pdf Graphic file (type pdf)
+<use G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_1.pdf>
+Package pdftex.def Info: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_1.pdf  used on input line 1069.
+(pdftex.def)             Requested size: 145.56332pt x 145.55637pt.
+<G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_2.pdf, id=5511, 650.43pt x 650.43pt>
+File: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_2.pdf Graphic file (type pdf)
+<use G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_2.pdf>
+Package pdftex.def Info: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_2.pdf  used on input line 1070.
+(pdftex.def)             Requested size: 145.56332pt x 145.55637pt.
+<G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_3.pdf, id=5512, 650.43pt x 650.43pt>
+File: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_3.pdf Graphic file (type pdf)
+<use G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_3.pdf>
+Package pdftex.def Info: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_3.pdf  used on input line 1071.
+(pdftex.def)             Requested size: 145.56332pt x 145.55637pt.
+<G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_4.pdf, id=5513, 650.43pt x 650.43pt>
+File: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_4.pdf Graphic file (type pdf)
+<use G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_4.pdf>
+Package pdftex.def Info: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_4.pdf  used on input line 1072.
+(pdftex.def)             Requested size: 145.56332pt x 145.55637pt.
+<G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_5.pdf, id=5514, 650.43pt x 650.43pt>
+File: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_5.pdf Graphic file (type pdf)
+<use G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_5.pdf>
+Package pdftex.def Info: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_5.pdf  used on input line 1073.
+(pdftex.def)             Requested size: 145.56332pt x 145.55637pt.
+<G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_6.pdf, id=5515, 650.43pt x 650.43pt>
+File: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_6.pdf Graphic file (type pdf)
+<use G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_6.pdf>
+Package pdftex.def Info: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_6.pdf  used on input line 1074.
+(pdftex.def)             Requested size: 145.56332pt x 145.55637pt.
+<G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_7.pdf, id=5516, 650.43pt x 650.43pt>
+File: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_7.pdf Graphic file (type pdf)
+<use G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_7.pdf>
+Package pdftex.def Info: G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_7.pdf  used on input line 1075.
+(pdftex.def)             Requested size: 145.56332pt x 145.55637pt.
+ [87] [88 <./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_0.pdf> <./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_1.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_2.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_3.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_4.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_5.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_6.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_6.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_7.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/Befor_After_UE_pp-pPb_pT_0_zT_7.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>])
+\openout2 = `Results.aux'.
+
+ (./Results.tex
+
+Package xr Warning: 
+No file Introduction.tex.aux
+LABELS NOT IMPORTED.
+ on input line 1.
+
+
+Package xr Warning: 
+No file Experimental_Apparatus.tex.aux
+LABELS NOT IMPORTED.
+ on input line 2.
+
+
+Package xr Warning: 
+No file Results.tex.aux
+LABELS NOT IMPORTED.
+ on input line 3.
+
+
+Package xr Warning: 
+No file Analysis.tex.aux
+LABELS NOT IMPORTED.
+ on input line 4.
+
+
+Package xr Warning: 
+No file EIC_Jets.tex.aux
+LABELS NOT IMPORTED.
+ on input line 5.
+
+
+Package xr Warning: 
+No file Checks_and_Systematics.tex.aux
+LABELS NOT IMPORTED.
+ on input line 6.
+
+
+Package xr Warning: 
+No file Discussion.tex.aux
+LABELS NOT IMPORTED.
+ on input line 7.
+
+<Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_0.pdf, id=5905, 722.7pt x 867.24pt>
+File: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_0.pdf Graphic file (type pdf)
+<use Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_0.pdf>
+Package pdftex.def Info: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_0.pdf  used on input line 18.
+(pdftex.def)             Requested size: 140.70143pt x 168.83984pt.
+<Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_1.pdf, id=5906, 722.7pt x 867.24pt>
+File: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_1.pdf Graphic file (type pdf)
+<use Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_1.pdf>
+Package pdftex.def Info: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_1.pdf  used on input line 19.
+(pdftex.def)             Requested size: 140.70143pt x 168.83984pt.
+<Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_2.pdf, id=5907, 722.7pt x 867.24pt>
+File: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_2.pdf Graphic file (type pdf)
+<use Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_2.pdf>
+Package pdftex.def Info: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_2.pdf  used on input line 20.
+(pdftex.def)             Requested size: 140.70143pt x 168.83984pt.
+<Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_3.pdf, id=5908, 722.7pt x 867.24pt>
+File: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_3.pdf Graphic file (type pdf)
+<use Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_3.pdf>
+Package pdftex.def Info: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_3.pdf  used on input line 21.
+(pdftex.def)             Requested size: 140.70143pt x 168.83984pt.
+<Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_4.pdf, id=5909, 722.7pt x 867.24pt>
+File: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_4.pdf Graphic file (type pdf)
+<use Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_4.pdf>
+Package pdftex.def Info: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_4.pdf  used on input line 22.
+(pdftex.def)             Requested size: 140.70143pt x 168.83984pt.
+<Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_5.pdf, id=5910, 722.7pt x 867.24pt>
+File: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_5.pdf Graphic file (type pdf)
+<use Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_5.pdf>
+Package pdftex.def Info: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_5.pdf  used on input line 23.
+(pdftex.def)             Requested size: 140.70143pt x 168.83984pt.
+<Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_6.pdf, id=5911, 722.7pt x 867.24pt>
+File: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_6.pdf Graphic file (type pdf)
+<use Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_6.pdf>
+Package pdftex.def Info: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_6.pdf  used on input line 24.
+(pdftex.def)             Requested size: 140.70143pt x 168.83984pt.
+<Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_7.pdf, id=5912, 722.7pt x 867.24pt>
+File: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_7.pdf Graphic file (type pdf)
+<use Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_7.pdf>
+Package pdftex.def Info: Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_7.pdf  used on input line 25.
+(pdftex.def)             Requested size: 140.70143pt x 168.83984pt.
+
+LaTeX Warning: Float too large for page by 61.51953pt on input line 29.
+
+[89
+
+
+
+
+
+] [90 <./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_0.pdf> <./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_1.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_2.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_3.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_4.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_5.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_6.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_6.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_7.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/gammahadron/Cs_Final_Indv_pT_0_zT_7.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Data_Analysis/gammahadron/Final_FFunction_and_Ratio.pdf, id=6360, 635.96796pt x 538.04738pt>
+File: Data_Analysis/gammahadron/Final_FFunction_and_Ratio.pdf Graphic file (type pdf)
+<use Data_Analysis/gammahadron/Final_FFunction_and_Ratio.pdf>
+Package pdftex.def Info: Data_Analysis/gammahadron/Final_FFunction_and_Ratio.pdf  used on input line 48.
+(pdftex.def)             Requested size: 314.22914pt x 265.85399pt.
+ [91 <./Data_Analysis/gammahadron/Final_FFunction_and_Ratio.pdf>]) [92]
+\openout2 = `Discussion.aux'.
+
+ (./Discussion.tex
+
+Package xr Warning: 
+No file Introduction.tex.aux
+LABELS NOT IMPORTED.
+ on input line 1.
+
+
+Package xr Warning: 
+No file Experimental_Apparatus.tex.aux
+LABELS NOT IMPORTED.
+ on input line 2.
+
+
+Package xr Warning: 
+No file Results.tex.aux
+LABELS NOT IMPORTED.
+ on input line 3.
+
+
+Package xr Warning: 
+No file Analysis.tex.aux
+LABELS NOT IMPORTED.
+ on input line 4.
+
+
+Package xr Warning: 
+No file EIC_Jets.tex.aux
+LABELS NOT IMPORTED.
+ on input line 5.
+
+
+Package xr Warning: 
+No file Checks_and_Systematics.tex.aux
+LABELS NOT IMPORTED.
+ on input line 6.
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 11.
+
+
+LaTeX Warning: Citation 'Adare:2011sc' on page 93 undefined on input line 33.
+
+[93
+
+
+
+
+]
+
+LaTeX Warning: Reference `sec:pdf_insensitivity' on page 94 undefined on input line 40.
+
+[94]
+
+LaTeX Warning: Citation 'Xie2021' on page 95 undefined on input line 59.
+
+<FF_Model_Comparisons_Ratio.pdf, id=6462, 614.69652pt x 432.39542pt>
+File: FF_Model_Comparisons_Ratio.pdf Graphic file (type pdf)
+<use FF_Model_Comparisons_Ratio.pdf>
+Package pdftex.def Info: FF_Model_Comparisons_Ratio.pdf  used on input line 62.
+(pdftex.def)             Requested size: 375.20143pt x 263.92577pt.
+
+LaTeX Warning: Citation 'Xie2021' on page 95 undefined on input line 63.
+
+
+LaTeX Warning: Citation 'Xie2021' on page 95 undefined on input line 63.
+
+
+LaTeX Warning: Citation 'Eskola2017a' on page 95 undefined on input line 67.
+
+[95]) [96 <./FF_Model_Comparisons_Ratio.pdf>]
+\openout2 = `Checks_and_Systematics.aux'.
+
+ (./Checks_and_Systematics.tex
+
+Package xr Warning: 
+No file Introduction.tex.aux
+LABELS NOT IMPORTED.
+ on input line 1.
+
+
+Package xr Warning: 
+No file Experimental_Apparatus.tex.aux
+LABELS NOT IMPORTED.
+ on input line 2.
+
+
+Package xr Warning: 
+No file Results.tex.aux
+LABELS NOT IMPORTED.
+ on input line 3.
+
+
+Package xr Warning: 
+No file Analysis.tex.aux
+LABELS NOT IMPORTED.
+ on input line 4.
+
+
+Package xr Warning: 
+No file EIC_Jets.tex.aux
+LABELS NOT IMPORTED.
+ on input line 5.
+
+
+Package xr Warning: 
+No file Checks_and_Systematics.tex.aux
+LABELS NOT IMPORTED.
+ on input line 6.
+
+
+Package xr Warning: 
+No file Discussion.tex.aux
+LABELS NOT IMPORTED.
+ on input line 7.
+
+
+LaTeX Warning: Reference `sec:UEsubtraction' on page 97 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'Acharya:2018qsh' on page 97 undefined on input line 20.
+
+
+LaTeX Warning: Citation 'Acharya:2018qsh' on page 97 undefined on input line 20.
+
+
+LaTeX Warning: Citation 'Acharya:2018qsh' on page 97 undefined on input line 22.
+
+[97
+
+
+
+
+]
+
+LaTeX Warning: Citation 'Allen:2009aa' on page 98 undefined on input line 33.
+
+
+LaTeX Warning: Citation 'Adam:2016khe' on page 98 undefined on input line 33.
+
+
+LaTeX Warning: Citation 'Erwann' on page 98 undefined on input line 35.
+
+
+LaTeX Warning: Citation 'Acharya:2019jkx' on page 98 undefined on input line 35.
+
+
+LaTeX Warning: Reference `tab:pPb_FF_Uncertainties' on page 98 undefined on input line 38.
+
+[98]
+Overfull \hbox (148.71313pt too wide) in alignment at lines 44--66
+[] [] [] [] [] 
+ []
+
+
+LaTeX Warning: Reference `sec:mixing' on page 99 undefined on input line 73.
+
+[99]
+
+LaTeX Warning: Reference `fig:toy_MC' on page 100 undefined on input line 86.
+
+<Data_Analysis/EventMixing/toy_MC_no_holes.pdf, id=6496, 583.4322pt x 381.021pt>
+File: Data_Analysis/EventMixing/toy_MC_no_holes.pdf Graphic file (type pdf)
+<use Data_Analysis/EventMixing/toy_MC_no_holes.pdf>
+Package pdftex.def Info: Data_Analysis/EventMixing/toy_MC_no_holes.pdf  used on input line 89.
+(pdftex.def)             Requested size: 229.81258pt x 150.08012pt.
+<Data_Analysis/EventMixing/toy_MC_holes.pdf, id=6497, 570.3636pt x 363.49736pt>
+File: Data_Analysis/EventMixing/toy_MC_holes.pdf Graphic file (type pdf)
+<use Data_Analysis/EventMixing/toy_MC_holes.pdf>
+Package pdftex.def Info: Data_Analysis/EventMixing/toy_MC_holes.pdf  used on input line 90.
+(pdftex.def)             Requested size: 229.81258pt x 146.46129pt.
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+Missing character: There is no ° in font cmr12!
+Missing character: There is no ° in font cmr12!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+Missing character: There is no ° in font cmr12!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+Missing character: There is no ° in font cmr12!
+Missing character: There is no ° in font cmr12!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+Missing character: There is no ° in font cmr12!
+Missing character: There is no ° in font cmr12!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+Missing character: There is no ° in font cmr12!
+Missing character: There is no ° in font cmr12!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+Missing character: There is no ° in font cmr12!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+Missing character: There is no ° in font cmr12!
+Missing character: There is no ° in font cmr12!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 91.
+
+Missing character: There is no ° in font cmr12!
+Missing character: There is no ° in font cmr12!
+
+LaTeX Warning: Reference `fig:toy_MC' on page 100 undefined on input line 95.
+
+
+LaTeX Warning: Reference `fig:toy_MC_holes' on page 100 undefined on input line 95.
+
+[100 <./Data_Analysis/EventMixing/toy_MC_no_holes.pdf, page is rotated 90 degrees> <./Data_Analysis/EventMixing/toy_MC_holes.pdf, page is rotated 90 degrees>]
+<Data_Analysis/EventMixing/2D_Bin_Corr.pdf, id=6537, 569.12625pt x 471.7625pt>
+File: Data_Analysis/EventMixing/2D_Bin_Corr.pdf Graphic file (type pdf)
+<use Data_Analysis/EventMixing/2D_Bin_Corr.pdf>
+Package pdftex.def Info: Data_Analysis/EventMixing/2D_Bin_Corr.pdf  used on input line 102.
+(pdftex.def)             Requested size: 328.29857pt x 272.14674pt.
+ [101 <./Data_Analysis/EventMixing/2D_Bin_Corr.pdf, page is rotated 90 degrees>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Delta' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\eta' on input line 111.
+
+<Data_Analysis/EventMixing/LE_map.pdf, id=6586, 317.70715pt x 258.60548pt>
+File: Data_Analysis/EventMixing/LE_map.pdf Graphic file (type pdf)
+<use Data_Analysis/EventMixing/LE_map.pdf>
+Package pdftex.def Info: Data_Analysis/EventMixing/LE_map.pdf  used on input line 123.
+(pdftex.def)             Requested size: 234.5pt x 190.87575pt.
+<Data_Analysis/G-H_New/UE_Plot_p-Pb_Single.pdf, id=6589, 1438.17305pt x 621.8967pt>
+File: Data_Analysis/G-H_New/UE_Plot_p-Pb_Single.pdf Graphic file (type pdf)
+<use Data_Analysis/G-H_New/UE_Plot_p-Pb_Single.pdf>
+Package pdftex.def Info: Data_Analysis/G-H_New/UE_Plot_p-Pb_Single.pdf  used on input line 135.
+(pdftex.def)             Requested size: 464.31258pt x 200.77603pt.
+[102]
+<Checks_Systematics/UEestimate_Skimmed_13def.pdf, id=6596, 578.16pt x 433.62pt>
+File: Checks_Systematics/UEestimate_Skimmed_13def.pdf Graphic file (type pdf)
+<use Checks_Systematics/UEestimate_Skimmed_13def.pdf>
+Package pdftex.def Info: Checks_Systematics/UEestimate_Skimmed_13def.pdf  used on input line 182.
+(pdftex.def)             Requested size: 229.81258pt x 172.35982pt.
+<Checks_Systematics/IsolationTPC_Skimmed_13def.pdf, id=6597, 578.16pt x 433.62pt>
+File: Checks_Systematics/IsolationTPC_Skimmed_13def.pdf Graphic file (type pdf)
+<use Checks_Systematics/IsolationTPC_Skimmed_13def.pdf>
+Package pdftex.def Info: Checks_Systematics/IsolationTPC_Skimmed_13def.pdf  used on input line 183.
+(pdftex.def)             Requested size: 229.81258pt x 172.35982pt.
+<Checks_Systematics/PurityITSTPC.png, id=6599, 518.93875pt x 497.86pt>
+File: Checks_Systematics/PurityITSTPC.png Graphic file (type png)
+<use Checks_Systematics/PurityITSTPC.png>
+Package pdftex.def Info: Checks_Systematics/PurityITSTPC.png  used on input line 192.
+(pdftex.def)             Requested size: 229.81258pt x 220.47966pt.
+ [103 <./Data_Analysis/EventMixing/LE_map.pdf>] [104 <./Data_Analysis/G-H_New/UE_Plot_p-Pb_Single.pdf> <./Checks_Systematics/UEestimate_Skimmed_13def.pdf> <./Checks_Systematics/IsolationTPC_Skimmed_13def.pdf
+
+pdfTeX warning: pdflatex (file ./Checks_Systematics/IsolationTPC_Skimmed_13def.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Checks_Systematics/ISO_Compare_Final_FFunction_and_Ratio.pdf, id=6754, 615.07796pt x 549.7382pt>
+File: Checks_Systematics/ISO_Compare_Final_FFunction_and_Ratio.pdf Graphic file (type pdf)
+<use Checks_Systematics/ISO_Compare_Final_FFunction_and_Ratio.pdf>
+Package pdftex.def Info: Checks_Systematics/ISO_Compare_Final_FFunction_and_Ratio.pdf  used on input line 201.
+(pdftex.def)             Requested size: 229.81258pt x 205.39636pt.
+ [105] [106 <./Checks_Systematics/PurityITSTPC.png (PNG copy)> <./Checks_Systematics/ISO_Compare_Final_FFunction_and_Ratio.pdf>]
+<Data_Analysis/Purity/bf-example-pp-cluster_Lambda-12-15.pdf, id=6852, 608.34969pt x 555.7607pt>
+File: Data_Analysis/Purity/bf-example-pp-cluster_Lambda-12-15.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/bf-example-pp-cluster_Lambda-12-15.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/bf-example-pp-cluster_Lambda-12-15.pdf  used on input line 224.
+(pdftex.def)             Requested size: 178.22229pt x 162.81163pt.
+<Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-12-15.pdf, id=6853, 611.54915pt x 552.24757pt>
+File: Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-12-15.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-12-15.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-12-15.pdf  used on input line 225.
+(pdftex.def)             Requested size: 178.22229pt x 160.93979pt.
+<Data_Analysis/Purity/bf-example-pp-cluster_Lambda-15-20.pdf, id=6854, 608.34969pt x 555.7607pt>
+File: Data_Analysis/Purity/bf-example-pp-cluster_Lambda-15-20.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/bf-example-pp-cluster_Lambda-15-20.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/bf-example-pp-cluster_Lambda-15-20.pdf  used on input line 227.
+(pdftex.def)             Requested size: 178.22229pt x 162.81163pt.
+<Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-15-20.pdf, id=6855, 611.54915pt x 552.24757pt>
+File: Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-15-20.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-15-20.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-15-20.pdf  used on input line 228.
+(pdftex.def)             Requested size: 178.22229pt x 160.93979pt.
+<Data_Analysis/Purity/bf-example-pp-cluster_Lambda-20-25.pdf, id=6856, 608.34969pt x 555.7607pt>
+File: Data_Analysis/Purity/bf-example-pp-cluster_Lambda-20-25.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/bf-example-pp-cluster_Lambda-20-25.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/bf-example-pp-cluster_Lambda-20-25.pdf  used on input line 229.
+(pdftex.def)             Requested size: 178.22229pt x 162.81163pt.
+<Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-20-25.pdf, id=6857, 601.32344pt x 552.24757pt>
+File: Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-20-25.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-20-25.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-20-25.pdf  used on input line 230.
+(pdftex.def)             Requested size: 178.22229pt x 163.67844pt.
+<Data_Analysis/Purity/bf-example-pp-cluster_Lambda-25-40.pdf, id=6858, 608.34969pt x 555.7607pt>
+File: Data_Analysis/Purity/bf-example-pp-cluster_Lambda-25-40.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/bf-example-pp-cluster_Lambda-25-40.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/bf-example-pp-cluster_Lambda-25-40.pdf  used on input line 232.
+(pdftex.def)             Requested size: 178.22229pt x 162.81163pt.
+<Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-25-40.pdf, id=6859, 601.32344pt x 552.24757pt>
+File: Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-25-40.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-25-40.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-25-40.pdf  used on input line 233.
+(pdftex.def)             Requested size: 178.22229pt x 163.67844pt.
+
+
+LaTeX Warning: Float too large for page by 167.81345pt on input line 236.
+
+[107] [108 <./Data_Analysis/Purity/bf-example-pp-cluster_Lambda-12-15.pdf> <./Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-12-15.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-12-15.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/Purity/bf-example-pp-cluster_Lambda-15-20.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/bf-example-pp-cluster_Lambda-15-20.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-15-20.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-15-20.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/Purity/bf-example-pp-cluster_Lambda-20-25.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/bf-example-pp-cluster_Lambda-20-25.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-20-25.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-20-25.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/Purity/bf-example-pp-cluster_Lambda-25-40.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/bf-example-pp-cluster_Lambda-25-40.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-25-40.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/bf-example-p-Pb-cluster_Lambda-25-40.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Data_Analysis/Purity/antiiso-selection-pp-cluster_Lambda-15-20.pdf, id=7414, 970.15262pt x 500.49359pt>
+File: Data_Analysis/Purity/antiiso-selection-pp-cluster_Lambda-15-20.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/antiiso-selection-pp-cluster_Lambda-15-20.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/antiiso-selection-pp-cluster_Lambda-15-20.pdf  used on input line 253.
+(pdftex.def)             Requested size: 469.0pt x 241.9525pt.
+<Data_Analysis/Purity/antiiso-selection-p-Pb-cluster_Lambda-15-20.pdf, id=7415, 963.12637pt x 493.46733pt>
+File: Data_Analysis/Purity/antiiso-selection-p-Pb-cluster_Lambda-15-20.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/antiiso-selection-p-Pb-cluster_Lambda-15-20.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/antiiso-selection-p-Pb-cluster_Lambda-15-20.pdf  used on input line 254.
+(pdftex.def)             Requested size: 469.0pt x 240.30269pt.
+
+
+LaTeX Warning: Citation 'Sirunyan:2017qhf' on page 109 undefined on input line 261.
+
+
+LaTeX Warning: Citation 'Erwann' on page 109 undefined on input line 263.
+
+[109] [110 <./Data_Analysis/Purity/antiiso-selection-pp-cluster_Lambda-15-20.pdf> <./Data_Analysis/Purity/antiiso-selection-p-Pb-cluster_Lambda-15-20.pdf
+
+pdfTeX warning: pdflatex (file ./Data_Analysis/Purity/antiiso-selection-p-Pb-cluster_Lambda-15-20.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Citation 'Acharya:2019jkx' on page 111 undefined on input line 270.
+
+<Data_Analysis/Purity/single-linear-fits-pp.pdf, id=7505, 492.23271pt x 486.36267pt>
+File: Data_Analysis/Purity/single-linear-fits-pp.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/single-linear-fits-pp.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/single-linear-fits-pp.pdf  used on input line 277.
+(pdftex.def)             Requested size: 469.0pt x 463.41486pt.
+<Data_Analysis/Purity/single-linear-fits-p-Pb.pdf, id=7508, 492.87575pt x 482.84955pt>
+File: Data_Analysis/Purity/single-linear-fits-p-Pb.pdf Graphic file (type pdf)
+<use Data_Analysis/Purity/single-linear-fits-p-Pb.pdf>
+Package pdftex.def Info: Data_Analysis/Purity/single-linear-fits-p-Pb.pdf  used on input line 285.
+(pdftex.def)             Requested size: 469.0pt x 459.48543pt.
+[111] [112 <./Data_Analysis/Purity/single-linear-fits-pp.pdf>] [113 <./Data_Analysis/Purity/single-linear-fits-p-Pb.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[114]
+
+LaTeX Warning: Reference `sec:closurewithdata' on page 115 undefined on input line 384.
+
+
+LaTeX Warning: Citation 'Acharya:2018qsh' on page 115 undefined on input line 386.
+
+[115]
+<Data_Analysis/Tracking/refolding_pPb_tpc_MBMC_0GeV15GeV_dNdpt.pdf, id=7596, 569.12625pt x 315.1775pt>
+File: Data_Analysis/Tracking/refolding_pPb_tpc_MBMC_0GeV15GeV_dNdpt.pdf Graphic file (type pdf)
+<use Data_Analysis/Tracking/refolding_pPb_tpc_MBMC_0GeV15GeV_dNdpt.pdf>
+Package pdftex.def Info: Data_Analysis/Tracking/refolding_pPb_tpc_MBMC_0GeV15GeV_dNdpt.pdf  used on input line 397.
+(pdftex.def)             Requested size: 445.54857pt x 246.7512pt.
+<Data_Analysis/Tracking/refolding_pPb_its_MBMC_0GeV15GeV_dNdpt.pdf, id=7597, 569.12625pt x 315.1775pt>
+File: Data_Analysis/Tracking/refolding_pPb_its_MBMC_0GeV15GeV_dNdpt.pdf Graphic file (type pdf)
+<use Data_Analysis/Tracking/refolding_pPb_its_MBMC_0GeV15GeV_dNdpt.pdf>
+Package pdftex.def Info: Data_Analysis/Tracking/refolding_pPb_its_MBMC_0GeV15GeV_dNdpt.pdf  used on input line 398.
+(pdftex.def)             Requested size: 445.54857pt x 246.7512pt.
+<Data_Analysis/Tracking/ratio_refolding_pPb_tpc_MBMC_1GeV15GeV_errors.pdf, id=7600, 569.12625pt x 244.915pt>
+File: Data_Analysis/Tracking/ratio_refolding_pPb_tpc_MBMC_1GeV15GeV_errors.pdf Graphic file (type pdf)
+<use Data_Analysis/Tracking/ratio_refolding_pPb_tpc_MBMC_1GeV15GeV_errors.pdf>
+Package pdftex.def Info: Data_Analysis/Tracking/ratio_refolding_pPb_tpc_MBMC_1GeV15GeV_errors.pdf  used on input line 409.
+(pdftex.def)             Requested size: 445.54857pt x 191.74297pt.
+<Data_Analysis/Tracking/ratio_refolding_pPb_its_MBMC_0GeV15GeV_errors_band.pdf, id=7601, 569.12625pt x 244.915pt>
+File: Data_Analysis/Tracking/ratio_refolding_pPb_its_MBMC_0GeV15GeV_errors_band.pdf Graphic file (type pdf)
+<use Data_Analysis/Tracking/ratio_refolding_pPb_its_MBMC_0GeV15GeV_errors_band.pdf>
+Package pdftex.def Info: Data_Analysis/Tracking/ratio_refolding_pPb_its_MBMC_0GeV15GeV_errors_band.pdf  used on input line 410.
+(pdftex.def)             Requested size: 445.54857pt x 191.74297pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 419.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\varphi' on input line 419.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 419.
+
+<Data_Analysis/Tracking/tpc_phi_eff.pdf, id=7606, 569.12625pt x 367.3725pt>
+File: Data_Analysis/Tracking/tpc_phi_eff.pdf Graphic file (type pdf)
+<use Data_Analysis/Tracking/tpc_phi_eff.pdf>
+Package pdftex.def Info: Data_Analysis/Tracking/tpc_phi_eff.pdf  used on input line 428.
+(pdftex.def)             Requested size: 232.15271pt x 149.85571pt.
+<Data_Analysis/Tracking/its_phi_eff.pdf, id=7607, 569.12625pt x 367.3725pt>
+File: Data_Analysis/Tracking/its_phi_eff.pdf Graphic file (type pdf)
+<use Data_Analysis/Tracking/its_phi_eff.pdf>
+Package pdftex.def Info: Data_Analysis/Tracking/its_phi_eff.pdf  used on input line 429.
+(pdftex.def)             Requested size: 232.15271pt x 149.85571pt.
+<Data_Analysis/Tracking/phi_efficiency_cor_tpc.pdf, id=7608, 569.12625pt x 367.3725pt>
+File: Data_Analysis/Tracking/phi_efficiency_cor_tpc.pdf Graphic file (type pdf)
+<use Data_Analysis/Tracking/phi_efficiency_cor_tpc.pdf>
+Package pdftex.def Info: Data_Analysis/Tracking/phi_efficiency_cor_tpc.pdf  used on input line 436.
+(pdftex.def)             Requested size: 232.15271pt x 149.85571pt.
+<Data_Analysis/Tracking/phi_efficiency_cor_its.pdf, id=7609, 569.12625pt x 367.3725pt>
+File: Data_Analysis/Tracking/phi_efficiency_cor_its.pdf Graphic file (type pdf)
+<use Data_Analysis/Tracking/phi_efficiency_cor_its.pdf>
+Package pdftex.def Info: Data_Analysis/Tracking/phi_efficiency_cor_its.pdf  used on input line 437.
+(pdftex.def)             Requested size: 232.15271pt x 149.85571pt.
+[116] [117 <./Data_Analysis/Tracking/refolding_pPb_tpc_MBMC_0GeV15GeV_dNdpt.pdf, page is rotated 90 degrees> <./Data_Analysis/Tracking/refolding_pPb_its_MBMC_0GeV15GeV_dNdpt.pdf, page is rotated 90 degrees>] [118 <./Data_Analysis/Tracking/ratio_refolding_pPb_tpc_MBMC_1GeV15GeV_errors.pdf, page is rotated 90 degrees> <./Data_Analysis/Tracking/ratio_refolding_pPb_its_MBMC_0GeV15GeV_errors_band.pdf, page is rotated 90 degrees>] [119 <./Data_Analysis/Tracking/tpc_phi_eff.pdf, page is rotated 90 degrees> <./Data_Analysis/Tracking/its_phi_eff.pdf, page is rotated 90 degrees> <./Data_Analysis/Tracking/phi_efficiency_cor_tpc.pdf, page is rotated 90 degrees> <./Data_Analysis/Tracking/phi_efficiency_cor_its.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Citation 'Acharya:2019jkx' on page 120 undefined on input line 465.
+
+[120]
+<Checks_Systematics/PythiaStudyNeutralIso.pdf, id=7983, 1445.4pt x 722.7pt>
+File: Checks_Systematics/PythiaStudyNeutralIso.pdf Graphic file (type pdf)
+<use Checks_Systematics/PythiaStudyNeutralIso.pdf>
+Package pdftex.def Info: Checks_Systematics/PythiaStudyNeutralIso.pdf  used on input line 471.
+(pdftex.def)             Requested size: 606.5pt x 303.24521pt.
+<Checks_Systematics/PythiaStudyBoost_wLines.pdf, id=7985, 794.97pt x 614.295pt>
+File: Checks_Systematics/PythiaStudyBoost_wLines.pdf Graphic file (type pdf)
+<use Checks_Systematics/PythiaStudyBoost_wLines.pdf>
+Package pdftex.def Info: Checks_Systematics/PythiaStudyBoost_wLines.pdf  used on input line 486.
+(pdftex.def)             Requested size: 606.5pt x 468.66873pt.
+ [121] [122 <./Checks_Systematics/PythiaStudyNeutralIso.pdf>] [123 <./Checks_Systematics/PythiaStudyBoost_wLines.pdf, page is rotated 270 degrees>]
+<Checks_Systematics/Efficiency_photon_pPb.pdf, id=8061, 569.12625pt x 546.04pt>
+File: Checks_Systematics/Efficiency_photon_pPb.pdf Graphic file (type pdf)
+<use Checks_Systematics/Efficiency_photon_pPb.pdf>
+Package pdftex.def Info: Checks_Systematics/Efficiency_photon_pPb.pdf  used on input line 502.
+(pdftex.def)             Requested size: 211.04857pt x 202.48988pt.
+
+
+LaTeX Warning: Citation 'Erwann' on page 124 undefined on input line 510.
+
+
+LaTeX Warning: Citation 'Erwann' on page 124 undefined on input line 510.
+
+<Checks_Systematics/ABCDcomparison.pdf, id=8063, 516.96574pt x 500.49359pt>
+File: Checks_Systematics/ABCDcomparison.pdf Graphic file (type pdf)
+<use Checks_Systematics/ABCDcomparison.pdf>
+Package pdftex.def Info: Checks_Systematics/ABCDcomparison.pdf  used on input line 519.
+(pdftex.def)             Requested size: 234.5pt x 227.02998pt.
+
+LaTeX Warning: Citation 'Erwann' on page 124 undefined on input line 520.
+
+
+LaTeX Warning: Citation 'Erwann' on page 124 undefined on input line 520.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 526.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\eta' on input line 526.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 526.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 526.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\eta' on input line 526.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 526.
+
+[124 <./Checks_Systematics/Efficiency_photon_pPb.pdf, page is rotated 90 degrees>] [125 <./Checks_Systematics/ABCDcomparison.pdf>]
+<Checks_Systematics/SplitEtaStudy.png, id=8169, 516.93124pt x 513.92pt>
+File: Checks_Systematics/SplitEtaStudy.png Graphic file (type png)
+<use Checks_Systematics/SplitEtaStudy.png>
+Package pdftex.def Info: Checks_Systematics/SplitEtaStudy.png  used on input line 534.
+(pdftex.def)             Requested size: 234.5pt x 233.13603pt.
+
+
+LaTeX Warning: Citation 'Acharya:2019jkx' on page 126 undefined on input line 543.
+
+
+LaTeX Warning: Citation 'Erwann' on page 126 undefined on input line 543.
+
+
+Overfull \hbox (8.98233pt too wide) in paragraph at lines 543--544
+\OT1/cmr/m/n/12 NLM $\OML/cmm/m/it/12 < \OT1/cmr/m/n/12 3$ se-lec-tion was used in pre-vi-ous iso-lated pho-ton an-a-lyzes (e.g. Ref [[],
+ []
+
+<G-H_New/dPhi_to_0/NLMvariation_pp.png, id=8172, 516.93124pt x 513.92pt>
+File: G-H_New/dPhi_to_0/NLMvariation_pp.png Graphic file (type png)
+<use G-H_New/dPhi_to_0/NLMvariation_pp.png>
+Package pdftex.def Info: G-H_New/dPhi_to_0/NLMvariation_pp.png  used on input line 547.
+(pdftex.def)             Requested size: 232.15271pt x 230.7992pt.
+<Checks_Systematics/NLMvariation_pPb.png, id=8173, 516.93124pt x 513.92pt>
+File: Checks_Systematics/NLMvariation_pPb.png Graphic file (type png)
+<use Checks_Systematics/NLMvariation_pPb.png>
+Package pdftex.def Info: Checks_Systematics/NLMvariation_pPb.png  used on input line 548.
+(pdftex.def)             Requested size: 232.15271pt x 230.7992pt.
+<Checks_Systematics/ppbdistance.pdf, id=8175, 513.45262pt x 513.40057pt>
+File: Checks_Systematics/ppbdistance.pdf Graphic file (type pdf)
+<use Checks_Systematics/ppbdistance.pdf>
+Package pdftex.def Info: Checks_Systematics/ppbdistance.pdf  used on input line 557.
+(pdftex.def)             Requested size: 232.15271pt x 232.13269pt.
+File: Checks_Systematics/ppbdistance.pdf Graphic file (type pdf)
+<use Checks_Systematics/ppbdistance.pdf>
+Package pdftex.def Info: Checks_Systematics/ppbdistance.pdf  used on input line 558.
+(pdftex.def)             Requested size: 232.15271pt x 232.13269pt.
+<Checks_Systematics/pptof.pdf, id=8177, 513.45262pt x 513.40057pt>
+File: Checks_Systematics/pptof.pdf Graphic file (type pdf)
+<use Checks_Systematics/pptof.pdf>
+Package pdftex.def Info: Checks_Systematics/pptof.pdf  used on input line 567.
+(pdftex.def)             Requested size: 232.15271pt x 232.13269pt.
+<Checks_Systematics/ppbtof.pdf, id=8178, 513.45262pt x 513.40057pt>
+File: Checks_Systematics/ppbtof.pdf Graphic file (type pdf)
+<use Checks_Systematics/ppbtof.pdf>
+Package pdftex.def Info: Checks_Systematics/ppbtof.pdf  used on input line 568.
+(pdftex.def)             Requested size: 232.15271pt x 232.13269pt.
+[126 <./Checks_Systematics/SplitEtaStudy.png>] [127 <./G-H_New/dPhi_to_0/NLMvariation_pp.png> <./Checks_Systematics/NLMvariation_pPb.png> <./Checks_Systematics/ppbdistance.pdf>]
+<Checks_Systematics/ppemax.pdf, id=8239, 513.45262pt x 513.40057pt>
+File: Checks_Systematics/ppemax.pdf Graphic file (type pdf)
+<use Checks_Systematics/ppemax.pdf>
+Package pdftex.def Info: Checks_Systematics/ppemax.pdf  used on input line 577.
+(pdftex.def)             Requested size: 232.15271pt x 232.13269pt.
+<Checks_Systematics/ppbemax.pdf, id=8240, 513.45262pt x 513.40057pt>
+File: Checks_Systematics/ppbemax.pdf Graphic file (type pdf)
+<use Checks_Systematics/ppbemax.pdf>
+Package pdftex.def Info: Checks_Systematics/ppbemax.pdf  used on input line 578.
+(pdftex.def)             Requested size: 232.15271pt x 232.13269pt.
+<Checks_Systematics/ppiso.pdf, id=8242, 513.45262pt x 513.40057pt>
+File: Checks_Systematics/ppiso.pdf Graphic file (type pdf)
+<use Checks_Systematics/ppiso.pdf>
+Package pdftex.def Info: Checks_Systematics/ppiso.pdf  used on input line 589.
+(pdftex.def)             Requested size: 232.15271pt x 232.13269pt.
+<Checks_Systematics/ppbiso.pdf, id=8243, 513.45262pt x 513.40057pt>
+File: Checks_Systematics/ppbiso.pdf Graphic file (type pdf)
+<use Checks_Systematics/ppbiso.pdf>
+Package pdftex.def Info: Checks_Systematics/ppbiso.pdf  used on input line 590.
+(pdftex.def)             Requested size: 232.15271pt x 232.13269pt.
+ [128 <./Checks_Systematics/pptof.pdf> <./Checks_Systematics/ppbtof.pdf
+
+pdfTeX warning: pdflatex (file ./Checks_Systematics/ppbtof.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [129 <./Checks_Systematics/ppemax.pdf> <./Checks_Systematics/ppbemax.pdf
+
+pdfTeX warning: pdflatex (file ./Checks_Systematics/ppbemax.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Checks_Systematics/ppiso.pdf
+
+pdfTeX warning: pdflatex (file ./Checks_Systematics/ppiso.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Checks_Systematics/ppbiso.pdf
+
+pdfTeX warning: pdflatex (file ./Checks_Systematics/ppbiso.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<Checks_Systematics/bkg-template-correction-p-Pb.pdf, id=8523, 516.2443pt x 495.05138pt>
+File: Checks_Systematics/bkg-template-correction-p-Pb.pdf Graphic file (type pdf)
+<use Checks_Systematics/bkg-template-correction-p-Pb.pdf>
+Package pdftex.def Info: Checks_Systematics/bkg-template-correction-p-Pb.pdf  used on input line 607.
+(pdftex.def)             Requested size: 356.43742pt x 341.81998pt.
+
+
+LaTeX Warning: Reference `purity_err_fit' on page 130 undefined on input line 614.
+
+<Checks_Systematics/Pol2.png, id=8525, 698.61pt x 473.77pt>
+File: Checks_Systematics/Pol2.png Graphic file (type png)
+<use Checks_Systematics/Pol2.png>
+Package pdftex.def Info: Checks_Systematics/Pol2.png  used on input line 618.
+(pdftex.def)             Requested size: 232.15271pt x 157.43617pt.
+<Checks_Systematics/pol3.png, id=8526, 698.61pt x 473.77pt>
+File: Checks_Systematics/pol3.png Graphic file (type png)
+<use Checks_Systematics/pol3.png>
+Package pdftex.def Info: Checks_Systematics/pol3.png  used on input line 619.
+(pdftex.def)             Requested size: 232.15271pt x 157.43617pt.
+<Checks_Systematics/pol5.png, id=8527, 698.61pt x 473.77pt>
+File: Checks_Systematics/pol5.png Graphic file (type png)
+<use Checks_Systematics/pol5.png>
+Package pdftex.def Info: Checks_Systematics/pol5.png  used on input line 620.
+(pdftex.def)             Requested size: 232.15271pt x 157.43617pt.
+<Checks_Systematics/gauss.png, id=8528, 698.61pt x 473.77pt>
+File: Checks_Systematics/gauss.png Graphic file (type png)
+<use Checks_Systematics/gauss.png>
+Package pdftex.def Info: Checks_Systematics/gauss.png  used on input line 621.
+(pdftex.def)             Requested size: 232.15271pt x 157.43617pt.
+<Checks_Systematics/EF_Fit.png, id=8529, 698.61pt x 473.77pt>
+File: Checks_Systematics/EF_Fit.png Graphic file (type png)
+<use Checks_Systematics/EF_Fit.png>
+Package pdftex.def Info: Checks_Systematics/EF_Fit.png  used on input line 622.
+(pdftex.def)             Requested size: 232.15271pt x 157.43617pt.
+
+LaTeX Warning: Reference `purity_err_fit' on page 130 undefined on input line 627.
+
+[130 <./Checks_Systematics/bkg-template-correction-p-Pb.pdf>] [131 <./Checks_Systematics/Pol2.png> <./Checks_Systematics/pol3.png> <./Checks_Systematics/pol5.png> <./Checks_Systematics/gauss.png> <./Checks_Systematics/EF_Fit.png>]
+<Checks_Systematics/pp_MeanVsBinCenter.png, id=8591, 382.42876pt x 264.99pt>
+File: Checks_Systematics/pp_MeanVsBinCenter.png Graphic file (type png)
+<use Checks_Systematics/pp_MeanVsBinCenter.png>
+Package pdftex.def Info: Checks_Systematics/pp_MeanVsBinCenter.png  used on input line 633.
+(pdftex.def)             Requested size: 229.81258pt x 159.24187pt.
+<Checks_Systematics/pPb_Compare.png, id=8592, 376.40625pt x 264.99pt>
+File: Checks_Systematics/pPb_Compare.png Graphic file (type png)
+<use Checks_Systematics/pPb_Compare.png>
+Package pdftex.def Info: Checks_Systematics/pPb_Compare.png  used on input line 634.
+(pdftex.def)             Requested size: 229.81258pt x 161.79326pt.
+<Checks_Systematics/smeared-chi2s-pp-cluster_Lambda-15-20.pdf, id=8593, 526.73662pt x 500.49359pt>
+File: Checks_Systematics/smeared-chi2s-pp-cluster_Lambda-15-20.pdf Graphic file (type pdf)
+<use Checks_Systematics/smeared-chi2s-pp-cluster_Lambda-15-20.pdf>
+Package pdftex.def Info: Checks_Systematics/smeared-chi2s-pp-cluster_Lambda-15-20.pdf  used on input line 645.
+(pdftex.def)             Requested size: 232.15271pt x 220.58443pt.
+<Checks_Systematics/smeared-purities-pp-cluster_Lambda-15-20.pdf, id=8594, 532.30429pt x 500.49359pt>
+File: Checks_Systematics/smeared-purities-pp-cluster_Lambda-15-20.pdf Graphic file (type pdf)
+<use Checks_Systematics/smeared-purities-pp-cluster_Lambda-15-20.pdf>
+Package pdftex.def Info: Checks_Systematics/smeared-purities-pp-cluster_Lambda-15-20.pdf  used on input line 646.
+(pdftex.def)             Requested size: 232.15271pt x 218.27808pt.
+ [132 <./Checks_Systematics/pp_MeanVsBinCenter.png> <./Checks_Systematics/pPb_Compare.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 657.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Delta' on input line 657.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\varphi' on input line 657.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 657.
+
+<G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_0.pdf, id=8605, 722.7pt x 650.43pt>
+File: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_0.pdf Graphic file (type pdf)
+<use G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_0.pdf>
+Package pdftex.def Info: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_0.pdf  used on input line 664.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_1.pdf, id=8606, 722.7pt x 650.43pt>
+File: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_1.pdf Graphic file (type pdf)
+<use G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_1.pdf>
+Package pdftex.def Info: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_1.pdf  used on input line 665.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_2.pdf, id=8607, 722.7pt x 650.43pt>
+File: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_2.pdf Graphic file (type pdf)
+<use G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_2.pdf>
+Package pdftex.def Info: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_2.pdf  used on input line 666.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_3.pdf, id=8608, 722.7pt x 650.43pt>
+File: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_3.pdf Graphic file (type pdf)
+<use G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_3.pdf>
+Package pdftex.def Info: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_3.pdf  used on input line 667.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_4.pdf, id=8609, 722.7pt x 650.43pt>
+File: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_4.pdf Graphic file (type pdf)
+<use G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_4.pdf>
+Package pdftex.def Info: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_4.pdf  used on input line 668.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_5.pdf, id=8610, 722.7pt x 650.43pt>
+File: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_5.pdf Graphic file (type pdf)
+<use G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_5.pdf>
+Package pdftex.def Info: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_5.pdf  used on input line 669.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf, id=8611, 722.7pt x 650.43pt>
+File: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf Graphic file (type pdf)
+<use G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf>
+Package pdftex.def Info: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf  used on input line 670.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+File: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf Graphic file (type pdf)
+<use G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf>
+Package pdftex.def Info: G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf  used on input line 671.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+
+LaTeX Warning: Reference `sec:results' on page 133 undefined on input line 672.
+
+
+LaTeX Warning: Reference `sec:results' on page 133 undefined on input line 672.
+
+<G-H_New/Cs_Averages_p-Pb_Beam_Flip.pdf, id=8613, 1582.71304pt x 1293.63306pt>
+File: G-H_New/Cs_Averages_p-Pb_Beam_Flip.pdf Graphic file (type pdf)
+<use G-H_New/Cs_Averages_p-Pb_Beam_Flip.pdf>
+Package pdftex.def Info: G-H_New/Cs_Averages_p-Pb_Beam_Flip.pdf  used on input line 687.
+(pdftex.def)             Requested size: 422.09714pt x 345.00218pt.
+[133 <./Checks_Systematics/smeared-chi2s-pp-cluster_Lambda-15-20.pdf> <./Checks_Systematics/smeared-purities-pp-cluster_Lambda-15-20.pdf
+
+pdfTeX warning: pdflatex (file ./Checks_Systematics/smeared-purities-pp-cluster_Lambda-15-20.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [134 <./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_0.pdf> <./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_1.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_2.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_3.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_4.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_5.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/16_dPhi/Cs_Final_Indv_pT_0_zT_6.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 694.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Delta' on input line 694.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\varphi' on input line 694.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 694.
+
+<G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_0.pdf, id=9302, 722.7pt x 650.43pt>
+File: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_0.pdf Graphic file (type pdf)
+<use G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_0.pdf>
+Package pdftex.def Info: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_0.pdf  used on input line 699.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_1.pdf, id=9303, 722.7pt x 650.43pt>
+File: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_1.pdf Graphic file (type pdf)
+<use G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_1.pdf>
+Package pdftex.def Info: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_1.pdf  used on input line 700.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_2.pdf, id=9304, 722.7pt x 650.43pt>
+File: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_2.pdf Graphic file (type pdf)
+<use G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_2.pdf>
+Package pdftex.def Info: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_2.pdf  used on input line 701.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_3.pdf, id=9305, 722.7pt x 650.43pt>
+File: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_3.pdf Graphic file (type pdf)
+<use G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_3.pdf>
+Package pdftex.def Info: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_3.pdf  used on input line 702.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_4.pdf, id=9306, 722.7pt x 650.43pt>
+File: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_4.pdf Graphic file (type pdf)
+<use G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_4.pdf>
+Package pdftex.def Info: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_4.pdf  used on input line 703.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_5.pdf, id=9307, 722.7pt x 650.43pt>
+File: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_5.pdf Graphic file (type pdf)
+<use G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_5.pdf>
+Package pdftex.def Info: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_5.pdf  used on input line 704.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_6.pdf, id=9308, 722.7pt x 650.43pt>
+File: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_6.pdf Graphic file (type pdf)
+<use G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_6.pdf>
+Package pdftex.def Info: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_6.pdf  used on input line 705.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_7.pdf, id=9309, 722.7pt x 650.43pt>
+File: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_7.pdf Graphic file (type pdf)
+<use G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_7.pdf>
+Package pdftex.def Info: G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_7.pdf  used on input line 706.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+
+LaTeX Warning: Reference `fig:CorrelationFinal' on page 135 undefined on input line 707.
+
+
+LaTeX Warning: Reference `fig:CorrelationFinal' on page 135 undefined on input line 707.
+
+[135 <./G-H_New/Cs_Averages_p-Pb_Beam_Flip.pdf>] [136 <./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_0.pdf> <./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_1.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_2.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_3.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_4.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_5.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_6.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_6.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_7.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_7.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_0.pdf, id=10186, 722.7pt x 650.43pt>
+File: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_0.pdf Graphic file (type pdf)
+<use G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_0.pdf>
+Package pdftex.def Info: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_0.pdf  used on input line 731.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_1.pdf, id=10187, 722.7pt x 650.43pt>
+File: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_1.pdf Graphic file (type pdf)
+<use G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_1.pdf>
+Package pdftex.def Info: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_1.pdf  used on input line 732.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_2.pdf, id=10188, 722.7pt x 650.43pt>
+File: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_2.pdf Graphic file (type pdf)
+<use G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_2.pdf>
+Package pdftex.def Info: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_2.pdf  used on input line 733.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_3.pdf, id=10189, 722.7pt x 650.43pt>
+File: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_3.pdf Graphic file (type pdf)
+<use G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_3.pdf>
+Package pdftex.def Info: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_3.pdf  used on input line 734.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_4.pdf, id=10190, 722.7pt x 650.43pt>
+File: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_4.pdf Graphic file (type pdf)
+<use G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_4.pdf>
+Package pdftex.def Info: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_4.pdf  used on input line 735.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_5.pdf, id=10191, 722.7pt x 650.43pt>
+File: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_5.pdf Graphic file (type pdf)
+<use G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_5.pdf>
+Package pdftex.def Info: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_5.pdf  used on input line 736.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_6.pdf, id=10192, 722.7pt x 650.43pt>
+File: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_6.pdf Graphic file (type pdf)
+<use G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_6.pdf>
+Package pdftex.def Info: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_6.pdf  used on input line 737.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_7.pdf, id=10193, 722.7pt x 650.43pt>
+File: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_7.pdf Graphic file (type pdf)
+<use G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_7.pdf>
+Package pdftex.def Info: G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_7.pdf  used on input line 738.
+(pdftex.def)             Requested size: 145.56332pt x 131.00668pt.
+<G-H_New/TPC_Tracks/Final_FFunction_and_Ratio.pdf, id=10194, 615.07796pt x 549.7382pt>
+File: G-H_New/TPC_Tracks/Final_FFunction_and_Ratio.pdf Graphic file (type pdf)
+<use G-H_New/TPC_Tracks/Final_FFunction_and_Ratio.pdf>
+Package pdftex.def Info: G-H_New/TPC_Tracks/Final_FFunction_and_Ratio.pdf  used on input line 745.
+(pdftex.def)             Requested size: 229.81258pt x 205.39636pt.
+<G-H_New/TPC_Tracks/TPC_Compare_Final_FFunction_and_Ratio.pdf, id=10195, 615.07796pt x 549.7382pt>
+File: G-H_New/TPC_Tracks/TPC_Compare_Final_FFunction_and_Ratio.pdf Graphic file (type pdf)
+<use G-H_New/TPC_Tracks/TPC_Compare_Final_FFunction_and_Ratio.pdf>
+Package pdftex.def Info: G-H_New/TPC_Tracks/TPC_Compare_Final_FFunction_and_Ratio.pdf  used on input line 746.
+(pdftex.def)             Requested size: 229.81258pt x 205.39636pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 754.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\chi' on input line 754.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 754.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 754.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 754.
+
+<Checks_Systematics/ITSchi2_study_efficiency.pdf, id=10200, 569.12625pt x 546.04pt>
+File: Checks_Systematics/ITSchi2_study_efficiency.pdf Graphic file (type pdf)
+<use Checks_Systematics/ITSchi2_study_efficiency.pdf>
+Package pdftex.def Info: Checks_Systematics/ITSchi2_study_efficiency.pdf  used on input line 759.
+(pdftex.def)             Requested size: 229.81258pt x 220.4951pt.
+<Checks_Systematics/ITSchi2_study_fakerate.pdf, id=10201, 569.12625pt x 546.04pt>
+File: Checks_Systematics/ITSchi2_study_fakerate.pdf Graphic file (type pdf)
+<use Checks_Systematics/ITSchi2_study_fakerate.pdf>
+Package pdftex.def Info: Checks_Systematics/ITSchi2_study_fakerate.pdf  used on input line 760.
+(pdftex.def)             Requested size: 229.81258pt x 220.4951pt.
+<Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBMB.pdf, id=10203, 569.12625pt x 546.04pt>
+File: Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBMB.pdf Graphic file (type pdf)
+<use Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBMB.pdf>
+Package pdftex.def Info: Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBMB.pdf  used on input line 768.
+(pdftex.def)             Requested size: 154.77086pt x 148.49092pt.
+<Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBGJ.pdf, id=10204, 569.12625pt x 546.04pt>
+File: Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBGJ.pdf Graphic file (type pdf)
+<use Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBGJ.pdf>
+Package pdftex.def Info: Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBGJ.pdf  used on input line 769.
+(pdftex.def)             Requested size: 154.77086pt x 148.49092pt.
+<Checks_Systematics/ITSchi2_study_ptSpectra_ratio_GJGJ.pdf, id=10205, 569.12625pt x 546.04pt>
+File: Checks_Systematics/ITSchi2_study_ptSpectra_ratio_GJGJ.pdf Graphic file (type pdf)
+<use Checks_Systematics/ITSchi2_study_ptSpectra_ratio_GJGJ.pdf>
+Package pdftex.def Info: Checks_Systematics/ITSchi2_study_ptSpectra_ratio_GJGJ.pdf  used on input line 770.
+(pdftex.def)             Requested size: 154.77086pt x 148.49092pt.
+File: Checks_Systematics/ITSchi2_study_efficiency.pdf Graphic file (type pdf)
+<use Checks_Systematics/ITSchi2_study_efficiency.pdf>
+Package pdftex.def Info: Checks_Systematics/ITSchi2_study_efficiency.pdf  used on input line 778.
+(pdftex.def)             Requested size: 215.74315pt x 206.9891pt.
+File: Checks_Systematics/ITSchi2_study_fakerate.pdf Graphic file (type pdf)
+<use Checks_Systematics/ITSchi2_study_fakerate.pdf>
+Package pdftex.def Info: Checks_Systematics/ITSchi2_study_fakerate.pdf  used on input line 779.
+(pdftex.def)             Requested size: 215.74315pt x 206.9891pt.
+<Checks_Systematics/ITSchi2_study_binMigration.pdf, id=10209, 569.12625pt x 546.04pt>
+File: Checks_Systematics/ITSchi2_study_binMigration.pdf Graphic file (type pdf)
+<use Checks_Systematics/ITSchi2_study_binMigration.pdf>
+Package pdftex.def Info: Checks_Systematics/ITSchi2_study_binMigration.pdf  used on input line 780.
+(pdftex.def)             Requested size: 215.74315pt x 206.9891pt.
+<Checks_Systematics/ITSchi2_study_weight.pdf, id=10210, 569.12625pt x 546.04pt>
+File: Checks_Systematics/ITSchi2_study_weight.pdf Graphic file (type pdf)
+<use Checks_Systematics/ITSchi2_study_weight.pdf>
+Package pdftex.def Info: Checks_Systematics/ITSchi2_study_weight.pdf  used on input line 781.
+(pdftex.def)             Requested size: 215.74315pt x 206.9891pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 787.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 787.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 787.
+
+<G-H_New/zT_Rebin_6_006zT06zTITSSub/Final_FFunction_and_Ratio.pdf, id=10212, 615.07796pt x 549.7382pt>
+File: G-H_New/zT_Rebin_6_006zT06zTITSSub/Final_FFunction_and_Ratio.pdf Graphic file (type pdf)
+<use G-H_New/zT_Rebin_6_006zT06zTITSSub/Final_FFunction_and_Ratio.pdf>
+Package pdftex.def Info: G-H_New/zT_Rebin_6_006zT06zTITSSub/Final_FFunction_and_Ratio.pdf  used on input line 793.
+(pdftex.def)             Requested size: 229.81258pt x 205.39636pt.
+[137] [138 <./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_0.pdf> <./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_1.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_2.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_3.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_4.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_5.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_6.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_6.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_7.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/TPC_Tracks/Cs_Final_Indv_pT_0_zT_7.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [139 <./G-H_New/TPC_Tracks/Final_FFunction_and_Ratio.pdf> <./G-H_New/TPC_Tracks/TPC_Compare_Final_FFunction_and_Ratio.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/TPC_Tracks/TPC_Compare_Final_FFunction_and_Ratio.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Checks_Systematics/ITSchi2_study_efficiency.pdf, page is rotated 90 degrees> <./Checks_Systematics/ITSchi2_study_fakerate.pdf, page is rotated 90 degrees>]
+<G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_0.pdf, id=11191, 722.7pt x 650.43pt>
+File: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_0.pdf Graphic file (type pdf)
+<use G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_0.pdf>
+Package pdftex.def Info: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_0.pdf  used on input line 806.
+(pdftex.def)             Requested size: 194.08444pt x 174.67558pt.
+<G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_1.pdf, id=11192, 722.7pt x 650.43pt>
+File: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_1.pdf Graphic file (type pdf)
+<use G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_1.pdf>
+Package pdftex.def Info: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_1.pdf  used on input line 807.
+(pdftex.def)             Requested size: 194.08444pt x 174.67558pt.
+<G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_2.pdf, id=11193, 722.7pt x 650.43pt>
+File: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_2.pdf Graphic file (type pdf)
+<use G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_2.pdf>
+Package pdftex.def Info: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_2.pdf  used on input line 808.
+(pdftex.def)             Requested size: 194.08444pt x 174.67558pt.
+<G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_3.pdf, id=11194, 722.7pt x 650.43pt>
+File: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_3.pdf Graphic file (type pdf)
+<use G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_3.pdf>
+Package pdftex.def Info: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_3.pdf  used on input line 809.
+(pdftex.def)             Requested size: 194.08444pt x 174.67558pt.
+<G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_4.pdf, id=11195, 722.7pt x 650.43pt>
+File: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_4.pdf Graphic file (type pdf)
+<use G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_4.pdf>
+Package pdftex.def Info: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_4.pdf  used on input line 810.
+(pdftex.def)             Requested size: 194.08444pt x 174.67558pt.
+<G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_5.pdf, id=11196, 722.7pt x 650.43pt>
+File: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_5.pdf Graphic file (type pdf)
+<use G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_5.pdf>
+Package pdftex.def Info: G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_5.pdf  used on input line 811.
+(pdftex.def)             Requested size: 194.08444pt x 174.67558pt.
+<G-H_New/zT_Rebin_6_006zT06zTpileCut/Final_FFunction_and_Ratio.pdf, id=11197, 615.07796pt x 549.7382pt>
+File: G-H_New/zT_Rebin_6_006zT06zTpileCut/Final_FFunction_and_Ratio.pdf Graphic file (type pdf)
+<use G-H_New/zT_Rebin_6_006zT06zTpileCut/Final_FFunction_and_Ratio.pdf>
+Package pdftex.def Info: G-H_New/zT_Rebin_6_006zT06zTpileCut/Final_FFunction_and_Ratio.pdf  used on input line 819.
+(pdftex.def)             Requested size: 276.70828pt x 247.31279pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 828.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 828.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 828.
+
+<G-H_New/FF_Averages_Max_pT_pp.pdf, id=11201, 570.93298pt x 498.663pt>
+File: G-H_New/FF_Averages_Max_pT_pp.pdf Graphic file (type pdf)
+<use G-H_New/FF_Averages_Max_pT_pp.pdf>
+Package pdftex.def Info: G-H_New/FF_Averages_Max_pT_pp.pdf  used on input line 832.
+(pdftex.def)             Requested size: 229.81258pt x 200.72475pt.
+<G-H_New/Ratio_FF_Averages_Max_pT.pdf, id=11202, 570.93298pt x 570.93298pt>
+File: G-H_New/Ratio_FF_Averages_Max_pT.pdf Graphic file (type pdf)
+<use G-H_New/Ratio_FF_Averages_Max_pT.pdf>
+Package pdftex.def Info: G-H_New/Ratio_FF_Averages_Max_pT.pdf  used on input line 833.
+(pdftex.def)             Requested size: 229.81529pt x 196.98079pt.
+[140 <./Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBMB.pdf, page is rotated 90 degrees> <./Checks_Systematics/ITSchi2_study_ptSpectra_ratio_MBGJ.pdf, page is rotated 90 degrees> <./Checks_Systematics/ITSchi2_study_ptSpectra_ratio_GJGJ.pdf, page is rotated 90 degrees>] [141 <./Checks_Systematics/ITSchi2_study_binMigration.pdf, page is rotated 90 degrees> <./Checks_Systematics/ITSchi2_study_weight.pdf, page is rotated 90 degrees>]) [142 <./G-H_New/zT_Rebin_6_006zT06zTITSSub/Final_FFunction_and_Ratio.pdf>] [143 <./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_0.pdf> <./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_1.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_2.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_3.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_3.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_4.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_4.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_5.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/zT_Rebin_6_006zT06zTpileCut/Cs_Final_Indv_pT_0_zT_5.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [144 <./G-H_New/zT_Rebin_6_006zT06zTpileCut/Final_FFunction_and_Ratio.pdf> <./G-H_New/FF_Averages_Max_pT_pp.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/FF_Averages_Max_pT_pp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./G-H_New/Ratio_FF_Averages_Max_pT.pdf
+
+pdfTeX warning: pdflatex (file ./G-H_New/Ratio_FF_Averages_Max_pT.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+\openout2 = `EIC_Jets.aux'.
+
+ (./EIC_Jets.tex
+
+Package xr Warning: 
+No file Introduction.tex.aux
+LABELS NOT IMPORTED.
+ on input line 1.
+
+
+Package xr Warning: 
+No file Experimental_Apparatus.tex.aux
+LABELS NOT IMPORTED.
+ on input line 2.
+
+
+Package xr Warning: 
+No file Results.tex.aux
+LABELS NOT IMPORTED.
+ on input line 3.
+
+
+Package xr Warning: 
+No file Analysis.tex.aux
+LABELS NOT IMPORTED.
+ on input line 4.
+
+
+Package xr Warning: 
+No file Checks_and_Systematics.tex.aux
+LABELS NOT IMPORTED.
+ on input line 5.
+
+
+Package xr Warning: 
+No file Discussion.tex.aux
+LABELS NOT IMPORTED.
+ on input line 7.
+
+
+LaTeX Warning: Citation 'Accardi:2012qut' on page 145 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Aschenauer:2017jsk' on page 145 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'eRHIC:preCDR' on page 145 undefined on input line 13.
+
+<EIC_Jets/eic.jpg, id=12244, 1061.9675pt x 1061.9675pt>
+File: EIC_Jets/eic.jpg Graphic file (type jpg)
+<use EIC_Jets/eic.jpg>
+Package pdftex.def Info: EIC_Jets/eic.jpg  used on input line 18.
+(pdftex.def)             Requested size: 375.20143pt x 375.21053pt.
+
+LaTeX Warning: Citation 'zotero-283' on page 145 undefined on input line 19.
+
+
+LaTeX Warning: Citation 'zotero-283' on page 145 undefined on input line 19.
+
+[145
+
+
+
+
+] [146 <./EIC_Jets/eic.jpg>]
+<EIC_Jets/all_si_model.jpg, id=12253, 1170.87437pt x 439.6425pt>
+File: EIC_Jets/all_si_model.jpg Graphic file (type jpg)
+<use EIC_Jets/all_si_model.jpg>
+Package pdftex.def Info: EIC_Jets/all_si_model.jpg  used on input line 52.
+(pdftex.def)             Requested size: 232.15271pt x 87.16888pt.
+<EIC_Jets/diagram_allsi.jpg, id=12254, 1682.78688pt x 687.06688pt>
+File: EIC_Jets/diagram_allsi.jpg Graphic file (type jpg)
+<use EIC_Jets/diagram_allsi.jpg>
+Package pdftex.def Info: EIC_Jets/diagram_allsi.jpg  used on input line 53.
+(pdftex.def)             Requested size: 232.15271pt x 94.78387pt.
+
+
+LaTeX Warning: Citation 'Arrington2021' on page 147 undefined on input line 56.
+
+
+LaTeX Warning: Citation 'Arrington2021' on page 147 undefined on input line 56.
+
+
+LaTeX Warning: Citation 'eRD16' on page 147 undefined on input line 61.
+
+[147 <./EIC_Jets/all_si_model.jpg> <./EIC_Jets/diagram_allsi.jpg>]
+<EIC_Jets/alice_its2_stave.jpg, id=12266, 1288.815pt x 1287.81125pt>
+File: EIC_Jets/alice_its2_stave.jpg Graphic file (type jpg)
+<use EIC_Jets/alice_its2_stave.jpg>
+Package pdftex.def Info: EIC_Jets/alice_its2_stave.jpg  used on input line 78.
+(pdftex.def)             Requested size: 187.59714pt x 187.44508pt.
+<EIC_Jets/mat_scan.pdf, id=12267, 569.12625pt x 387.4475pt>
+File: EIC_Jets/mat_scan.pdf Graphic file (type pdf)
+<use EIC_Jets/mat_scan.pdf>
+Package pdftex.def Info: EIC_Jets/mat_scan.pdf  used on input line 79.
+(pdftex.def)             Requested size: 276.70828pt x 188.38477pt.
+
+
+LaTeX Warning: Citation 'Abelevetal:2014dna' on page 148 undefined on input line 88.
+
+
+LaTeX Warning: Citation 'Abelevetal:2014dna' on page 148 undefined on input line 88.
+
+
+Overfull \hbox (7.6876pt too wide) in paragraph at lines 110--110
+ [][] 
+ []
+
+
+Overfull \hbox (94.39934pt too wide) in paragraph at lines 131--131
+ [][] 
+ []
+
+
+LaTeX Warning: Citation 'Abelevetal:2014dna' on page 148 undefined on input line 135.
+
+
+LaTeX Warning: Citation 'Keil:2015vta' on page 148 undefined on input line 135.
+
+
+LaTeX Warning: Citation 'Reidt:2016ysg' on page 148 undefined on input line 135.
+
+
+Overfull \hbox (29.89122pt too wide) in paragraph at lines 135--141
+\OT1/cmr/m/n/12 ALICE-ITS2-upgrade inner-barrel staves [[], [], []]
+ []
+
+
+LaTeX Warning: Citation 'eRD25' on page 148 undefined on input line 142.
+
+
+LaTeX Warning: Citation 'its3det' on page 148 undefined on input line 143.
+
+[148] [149 <./EIC_Jets/alice_its2_stave.jpg> <./EIC_Jets/mat_scan.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Citation 'leo' on page 150 undefined on input line 145.
+
+
+LaTeX Warning: Citation 'leo2' on page 150 undefined on input line 145.
+
+
+LaTeX Warning: Citation 'Klein:2020sts' on page 150 undefined on input line 150.
+
+
+LaTeX Warning: Citation 'Cacciari:2008gp' on page 150 undefined on input line 317.
+
+
+LaTeX Warning: Citation 'Khalek2021' on page 150 undefined on input line 319.
+
+<EIC_Jets/LO_DIS_Diagrgram_jet.pdf, id=12323, 240.79681pt x 194.09624pt>
+File: EIC_Jets/LO_DIS_Diagrgram_jet.pdf Graphic file (type pdf)
+<use EIC_Jets/LO_DIS_Diagrgram_jet.pdf>
+Package pdftex.def Info: EIC_Jets/LO_DIS_Diagrgram_jet.pdf  used on input line 323.
+(pdftex.def)             Requested size: 234.5pt x 189.0313pt.
+
+LaTeX Warning: Citation 'Wong:2020xtc' on page 150 undefined on input line 328.
+
+[150]
+
+LaTeX Warning: Citation 'Arratia:2019vju' on page 151 undefined on input line 332.
+
+
+LaTeX Warning: Citation 'Boughezal:2018azh' on page 151 undefined on input line 333.
+
+
+LaTeX Warning: Citation 'Klasen:2017kwb' on page 151 undefined on input line 335.
+
+
+LaTeX Warning: Citation 'Klasen:2018gtb' on page 151 undefined on input line 335.
+
+
+LaTeX Warning: Citation 'Chu:2017mnm' on page 151 undefined on input line 336.
+
+
+LaTeX Warning: Citation 'Hinderer:2015hra' on page 151 undefined on input line 336.
+
+
+LaTeX Warning: Citation 'Hinderer:2017ntk' on page 151 undefined on input line 336.
+
+
+LaTeX Warning: Citation 'Arratia:2020nxw' on page 151 undefined on input line 339.
+
+
+LaTeX Warning: Citation 'Zheng:2018ssm' on page 151 undefined on input line 340.
+
+
+LaTeX Warning: Citation 'Dumitru:2018kuw' on page 151 undefined on input line 340.
+
+
+Overfull \hbox (14.716pt too wide) in paragraph at lines 340--341
+[]\OT1/cmr/m/n/12 Dijet pro-duc-tion can be used to ac-cess gluon TMD func-tions at the EIC [[],
+ []
+
+[151 <./EIC_Jets/LO_DIS_Diagrgram_jet.pdf>]
+
+LaTeX Warning: Citation 'Arratia:2020azl' on page 152 undefined on input line 342.
+
+
+Overfull \hbox (27.00467pt too wide) in paragraph at lines 342--343
+\OT1/cmr/m/n/12 ent ex-per-i-men-tal re-sults re-gard-ing the strangeness con-tent of the nu-cleon [[]]. 
+ []
+
+
+LaTeX Warning: Citation 'Aschenauer:2019uex' on page 152 undefined on input line 344.
+
+
+LaTeX Warning: Citation 'Baier1997' on page 152 undefined on input line 347.
+
+
+LaTeX Warning: Citation 'Liang2008a' on page 152 undefined on input line 347.
+
+<EIC_Jets/qL_corr.png, id=12347, 501.875pt x 302.12875pt>
+File: EIC_Jets/qL_corr.png Graphic file (type png)
+<use EIC_Jets/qL_corr.png>
+Package pdftex.def Info: EIC_Jets/qL_corr.png  used on input line 351.
+(pdftex.def)             Requested size: 281.40286pt x 169.41222pt.
+
+LaTeX Warning: Citation 'Liu2019' on page 152 undefined on input line 352.
+
+
+LaTeX Warning: Citation 'Liu2019' on page 152 undefined on input line 352.
+
+
+LaTeX Warning: Citation 'PhysRevD.91.112012' on page 152 undefined on input line 363.
+
+
+Overfull \hbox (2.00542pt too wide) in paragraph at lines 363--365
+\OML/cmm/m/it/12 p$\OT1/cmr/m/n/12 +$\OML/cmm/m/it/12 p$ \OT1/cmr/m/n/12 col-li-sions with the AL-ICE de-tec-tor at the large hadron col-lider [[]]. 
+ []
+
+[152 <./EIC_Jets/qL_corr.png (PNG copy)>]
+
+LaTeX Warning: Citation 'PhysRevD.88.034030' on page 153 undefined on input line 366.
+
+
+LaTeX Warning: Citation 'DMtable:2020' on page 153 undefined on input line 371.
+
+
+Overfull \hbox (86.17497pt too wide) in paragraph at lines 375--382
+[][]
+ []
+
+[153]
+<EIC_Jets/1.4T_momentum_response.pdf, id=12364, 566.10918pt x 451.16537pt>
+File: EIC_Jets/1.4T_momentum_response.pdf Graphic file (type pdf)
+<use EIC_Jets/1.4T_momentum_response.pdf>
+Package pdftex.def Info: EIC_Jets/1.4T_momentum_response.pdf  used on input line 399.
+(pdftex.def)             Requested size: 229.81258pt x 183.15468pt.
+<EIC_Jets/3T_momentum_response.pdf, id=12365, 565.59242pt x 447.92374pt>
+File: EIC_Jets/3T_momentum_response.pdf Graphic file (type pdf)
+<use EIC_Jets/3T_momentum_response.pdf>
+Package pdftex.def Info: EIC_Jets/3T_momentum_response.pdf  used on input line 400.
+(pdftex.def)             Requested size: 229.81258pt x 182.00273pt.
+<EIC_Jets/N_Miss_dPP.pdf, id=12367, 560.30821pt x 442.96846pt>
+File: EIC_Jets/N_Miss_dPP.pdf Graphic file (type pdf)
+<use EIC_Jets/N_Miss_dPP.pdf>
+Package pdftex.def Info: EIC_Jets/N_Miss_dPP.pdf  used on input line 409.
+(pdftex.def)             Requested size: 196.97914pt x 155.72395pt.
+<EIC_Jets/dPP_two_jets.pdf, id=12368, 791.4788pt x 618.52063pt>
+File: EIC_Jets/dPP_two_jets.pdf Graphic file (type pdf)
+<use EIC_Jets/dPP_two_jets.pdf>
+Package pdftex.def Info: EIC_Jets/dPP_two_jets.pdf  used on input line 410.
+(pdftex.def)             Requested size: 196.97914pt x 153.93137pt.
+ [154 <./EIC_Jets/1.4T_momentum_response.pdf, page is rotated 90 degrees> <./EIC_Jets/3T_momentum_response.pdf, page is rotated 90 degrees>]
+<EIC_Jets/DeltaR_B_3.0_resolutions_eta_mom.pdf, id=12463, 1734.48pt x 867.24pt>
+File: EIC_Jets/DeltaR_B_3.0_resolutions_eta_mom.pdf Graphic file (type pdf)
+<use EIC_Jets/DeltaR_B_3.0_resolutions_eta_mom.pdf>
+Package pdftex.def Info: EIC_Jets/DeltaR_B_3.0_resolutions_eta_mom.pdf  used on input line 423.
+(pdftex.def)             Requested size: 450.24315pt x 225.1198pt.
+<EIC_Jets/DeltaR_B_1.4_resolutions_eta_mom.pdf, id=12464, 1734.48pt x 867.24pt>
+File: EIC_Jets/DeltaR_B_1.4_resolutions_eta_mom.pdf Graphic file (type pdf)
+<use EIC_Jets/DeltaR_B_1.4_resolutions_eta_mom.pdf>
+Package pdftex.def Info: EIC_Jets/DeltaR_B_1.4_resolutions_eta_mom.pdf  used on input line 430.
+(pdftex.def)             Requested size: 450.24315pt x 225.1198pt.
+<EIC_Jets/azimuthal_correlations.pdf, id=12469, 1156.32pt x 722.7pt>
+File: EIC_Jets/azimuthal_correlations.pdf Graphic file (type pdf)
+<use EIC_Jets/azimuthal_correlations.pdf>
+Package pdftex.def Info: EIC_Jets/azimuthal_correlations.pdf  used on input line 442.
+(pdftex.def)             Requested size: 281.3865pt x 187.59982pt.
+
+
+LaTeX Warning: Citation 'Khalek2021' on page 155 undefined on input line 447.
+
+[155 <./EIC_Jets/N_Miss_dPP.pdf, page is rotated 90 degrees> <./EIC_Jets/dPP_two_jets.pdf>]) [156 <./EIC_Jets/DeltaR_B_3.0_resolutions_eta_mom.pdf>] [157 <./EIC_Jets/DeltaR_B_1.4_resolutions_eta_mom.pdf>] [158 <./EIC_Jets/azimuthal_correlations.pdf>]
+\openout2 = `Conclusion.aux'.
+
+ (./Conclusion.tex
+
+Package xr Warning: 
+No file Introduction.tex.aux
+LABELS NOT IMPORTED.
+ on input line 1.
+
+
+Package xr Warning: 
+No file Experimental_Apparatus.tex.aux
+LABELS NOT IMPORTED.
+ on input line 2.
+
+
+Package xr Warning: 
+No file Results.tex.aux
+LABELS NOT IMPORTED.
+ on input line 3.
+
+
+Package xr Warning: 
+No file Analysis.tex.aux
+LABELS NOT IMPORTED.
+ on input line 4.
+
+
+Package xr Warning: 
+No file Checks_and_Systematics.tex.aux
+LABELS NOT IMPORTED.
+ on input line 5.
+
+
+Package xr Warning: 
+No file EIC_Jets.tex.aux
+LABELS NOT IMPORTED.
+ on input line 6.
+
+
+Package xr Warning: 
+No file Discussion.tex.aux
+LABELS NOT IMPORTED.
+ on input line 7.
+
+[159
+
+
+
+
+]) [160]
+
+LaTeX Warning: Empty bibliography on input line 138.
+
+\tf@toc=\write7
+\openout7 = `thesis.toc'.
+
+\tf@lof=\write8
+\openout8 = `thesis.lof'.
+
+\tf@lot=\write9
+\openout9 = `thesis.lot'.
+
+(./thesis.aux (./abstract.aux) (./Introduction.aux) (./Experimental_Apparatus.aux) (./Analysis.aux) (./Results.aux) (./Discussion.aux) (./Checks_and_Systematics.aux) (./EIC_Jets.aux) (./Conclusion.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: 7D73EDD3B6775C514C611EB33AC7755D;23032
+(rerunfilecheck)             After:  E43DE08B0E83F2BC400BB69B881C4F76;23032.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                thesis
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'thesis.run.xml'.
+\openout1 = `thesis.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 22006 strings out of 478994
+ 396685 string characters out of 5858184
+ 1223158 words of memory out of 5000000
+ 38480 multiletter control sequences out of 15000+600000
+ 413158 words of font info for 61 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 86i,16n,88p,2441b,1393s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (182 pages, 31925553 bytes).
+PDF statistics:
+ 12994 PDF objects out of 15390 (max. 8388607)
+ 5035 compressed objects within 51 object streams
+ 488 named destinations out of 1000 (max. 500000)
+ 1893 words of extra memory for PDF output out of 10000 (max. 10000000)
+
