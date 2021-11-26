@@ -1,0 +1,82 @@
+2415,2432d2414
+< @article{Sirunyan2018a,
+<   title = {Study of Jet Quenching with Isolated-Photon+jet Correlations in {{PbPb}} and Pp Collisions at {{sNN}}=5.02~{{TeV}}},
+<   author = {Sirunyan, A},
+<   options = {useprefix=true},
+<   date = {2018-10-10},
+<   journaltitle = {Physics Letters B},
+<   volume = {785},
+<   pages = {14--39},
+<   issn = {0370-2693},
+<   doi = {10.1016/j.physletb.2018.07.061},
+<   url = {https://www.sciencedirect.com/science/article/pii/S0370269318306245},
+<   urldate = {2021-11-26},
+<   abstract = {Measurements of azimuthal angle and transverse momentum (pT ) correlations of isolated photons and associated jets are reported for pp and PbPb collisions at sNN=5.02~TeV. The data were recorded with the CMS detector at the CERN LHC. For events containing a leading isolated photon with pT{$\gamma>$}40~GeV/c and an associated jet with pTjet{$>$}30~GeV/c, the photon+jet azimuthal correlation and pT imbalance in PbPb collisions are studied as functions of collision centrality and pT{$\gamma$}. The results are compared to pp reference data collected at the same collision energy and to predictions from several theoretical models for parton energy loss. No evidence of broadening of the photon+jet azimuthal correlations is observed, while the ratio pTjet/pT{$\gamma$} decreases significantly for PbPb data relative to the pp reference. All models considered agree within uncertainties with the data. The number of associated jets per photon with pT{$\gamma>$}80~GeV/c is observed to be shifted towards lower pTjet values in central PbPb collisions compared to pp collisions.},
+<   langid = {english},
+<   keywords = {CMS,Heavy ion,Jet,Jet quenching,Photon,Physics},
+<   file = {/Users/fernando/Zotero/storage/FTT5TRL5/Sirunyan et al. - 2018 - Study of jet quenching with isolated-photon+jet co.pdf;/Users/fernando/Zotero/storage/FVYDPV6X/S0370269318306245.html}
+< }
+< 
+2549c2531
+<   title = {\$\textbackslash ensuremath\{\textbackslash gamma\}\$-Hadron Spectra in \$p\textbackslash phantom\{\textbackslash rule\{4pt\}\{0ex\}\}+\textbackslash phantom\{\textbackslash rule\{4pt\}\{0ex\}\}\textbackslash mathrm\{\vphantom\}{{Pb}}\vphantom\{\}\$ Collisions at \$\textbackslash sqrt\{\{s\}\_\{\vphantom{\}\}}{{NN}}\vphantom\{\}\vphantom\{\}=5.02\$ {{TeV}}},
+---
+>   title = {$\textbackslash ensuremath\{\textbackslash gamma\}$-Hadron Spectra in $p\textbackslash phantom\{\textbackslash rule\{4pt\}\{0ex\}\}+\textbackslash phantom\{\textbackslash rule\{4pt\}\{0ex\}\}\textbackslash mathrm\{\vphantom\}{{Pb}}\vphantom\{\}$ Collisions at $\textbackslash sqrt\{\{s\}\_\{\vphantom{\}\}}{{NN}}\vphantom\{\}\vphantom\{\}=5.02$ {{TeV}}},
+2560c2542
+<   file = {/Users/fernando/Zotero/storage/YTTY3F47/Xie et al. - 2021 - $ensuremath gamma $-hadron spectra in $pphantom.pdf;/Users/fernando/Zotero/storage/4JWUV33L/PhysRevC.103.html}
+---
+>   file = {/Users/fernando/Zotero/storage/YTTY3F47/Xie et al. - 2021 - $ensuremath gamma $-hadron spectra in pphantom.pdf;/Users/fernando/Zotero/storage/4JWUV33L/PhysRevC.103.html}
+2606c2588
+<   abstract = {In this paper, we investigate the hydrodynamic collectivity in proton--proton (pp) collisions at 13 TeV, using iEBE-VISHNU hybrid model with HIJING initial conditions. With properly tuned parameters, our model simulations can remarkably describe all the measured 2-particle correlations, including integrated and differential elliptic flow coefficients for all charged and identified hadrons (\$K\_S\^0\$, \$\textbackslash Lambda\$). However, our model calculations show positive 4-particle cumulant \$c\_\{2\}\textbackslash\{4\textbackslash\}\$ in high multiplicity pp collisions, and can not reproduce the negative \$c\_\{2\}\textbackslash\{4\textbackslash\}\$ measured in experiment. Further investigations on the HIJING initial conditions show that the fluctuations of the second order anisotropy coefficient \$\textbackslash varepsilon\_\{2\}\$ increases with the increase of its mean value, which leads to a similar trend of the flow fluctuations. For a simultaneous description of the 2- and 4- particle cumulants within the hydrodynamic framework, it is required to have significant improvements on initial condition for pp collisions, which is still lacking of knowledge at the moment.},
+---
+>   abstract = {},
+2624c2606
+<   abstract = {In this paper, we investigate the hydrodynamic collectivity in proton\textendash proton (p\textendash p) collisions at 13 TeV, using iEBE-VISHNU hybrid model with HIJING initial conditions. With properly tuned parameters, our model simulations can remarkably describe all the measured 2-particle correlations, including integrated and differential elliptic flow coefficients for all charged and identified hadrons (KS0, {$\Lambda$}). However, our model calculations show positive 4-particle cumulant c2\{4\} in high multiplicity pp collisions, and can not reproduce the negative c2\{4\} measured in experiment. Further investigations on the HIJING initial conditions show that the fluctuations of the second order anisotropy coefficient {$\epsilon$}2 increases with the increase of its mean value, which leads to a similar trend of the flow fluctuations. For a simultaneous description of the 2- and 4- particle cumulants within the hydrodynamic framework, it is required to have significant improvements on initial condition for pp collisions, which is still lacking of knowledge at the moment.},
+---
+>   abstract = {},
+2694,2705d2675
+< @online{zotero-348,
+<   title = {[{{ATO}}-351] {{Distortions}} before and after 'gas Incident' - {{ALICE Collaboration}}},
+<   url = {https://alice.its.cern.ch/jira/browse/ATO-351},
+<   urldate = {2021-11-26},
+<   file = {/Users/fernando/Zotero/storage/3KESFZET/ls.html}
+< }
+< 
+< @online{zotero-349,
+<   title = {[{{ATO}}-351] {{Distortions}} before and after 'gas Incident' - {{ALICE Collaboration}}},
+<   url = {https://alice.its.cern.ch/jira/browse/ATO-351}
+< }
+< 
+2707a2678,2710
+> @article{Abelevetal:2014dna,
+>     author = "Abelev, B and others",
+>     collaboration = "ALICE",
+>     title = "{Technical Design Report for the Upgrade of the ALICE Inner Tracking System}",
+>     reportNumber = "CERN-LHCC-2013-024, ALICE-TDR-017",
+>     doi = "10.1088/0954-3899/41/8/087002",
+>     journal = "J. Phys. G",
+>     volume = "41",
+>     pages = "087002",
+>     year = "2014"
+> }
+> %EIC stuff
+> % @article{its3det,
+> %     author = "ALICE Collaboration",
+> %     title = "{\href{https://cds.cern.ch/record/2703140}{Letter of Intent for an ALICE ITS Upgrade in LS3}}",
+> %     eprint = "",
+> %     archivePrefix = "",
+> %     primaryClass = "",
+> %     doi = "",
+> %     journal = "CERN-LHCC-2019-018. LHCC-I-034",
+> %     volume = "",
+> %     pages = "",
+> %     year = "January 2020"
+> % }
+> 
+> % @article{leo2,
+> %     author = "Greiner, Leo",
+> %     journal = "{https://www.jlab.org/indico/event/400/contribution/18/material/slides/0.pdf}",
+> %     title = "{Silicon pixel-based particle vertex and tracking detectors towards the US Electron Ion Collider Workshop}",
+> %     volume = "",
+> %     pages = "",
+> %     year = "2 September 2020"
+> % }
