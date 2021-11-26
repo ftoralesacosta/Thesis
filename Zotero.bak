@@ -2673,6 +2673,29 @@
   file = {/Users/fernando/Zotero/storage/BICD3EZU/CERN-GRAPHICS-2019-002-1.html}
 }
 
+@article{Wenninger:2668326,
+      author        = "Wenninger, Jorg",
+      title         = "{Operation and Configuration of the LHC in Run 2}",
+      month         = "Mar",
+      year          = "2019",
+      url           = "https://cds.cern.ch/record/2668326",
+}
+
+@article{Sirunyan:2017qhf,
+      author         = "CMS Collaboration",
+      title          = "{Study of jet quenching with isolated-photon+jet
+                        correlations in PbPb and pp collisions at
+                        $\sqrt{s_{_{\mathrm{NN}}}} =$ 5.02 TeV}",
+      collaboration  = "CMS",
+      year           = "2017",
+      journal        = "arXiv:1711.09738",
+      eprint         = "1711.09738",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-ex",
+      reportNumber   = "CMS-HIN-16-002, CERN-EP-2017-285",
+      SLACcitation   = "%%CITATION = ARXIV:1711.09738;%%"
+}
+
 @preamble{ "\ifdefined\DeclarePrefChars\DeclarePrefChars{'’-}\else\fi " }
 
 @article{Abelevetal:2014dna,
