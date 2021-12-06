@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.5)  26 NOV 2021 14:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.5)  5 DEC 2021 19:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -606,9 +606,7 @@ Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_text_align_skip=\skip259
  (/usr/local/texlive/2021/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
-))
-   defining Unicode char U+0301 (decimal 769)
- (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
@@ -818,29 +816,103 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
+   defining Unicode char U+0301 (decimal 769)
 \@quotelevel=\count479
 \@quotereset=\count480
- (./thesis.aux (./abstract.aux) (./Introduction.aux) (./Experimental_Apparatus.aux) (./Analysis.aux) (./Results.aux) (./Discussion.aux) (./Checks_and_Systematics.aux) (./EIC_Jets.aux) (./Conclusion.aux))
+ (./thesis.aux (./abstract.aux) (./Introduction.aux) (./Experimental_Apparatus.aux) (./Analysis.aux
+Runaway argument?
+{{\M@TitleReference {3.8}{Charged Particle Tracking\let \reserved@d =\ETC.
+./Analysis.aux:73: Paragraph ended before \@newl@bel was complete.
+<to be read again> 
+                   \par 
+l.73 ...ticle Tracking\let \reserved@d =[\def \par
+                                                   }}{67}{Charged Particle T...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Analysis.aux:73: Extra }, or forgotten \endgroup.
+l.73 ...cle Tracking\let \reserved@d =[\def \par }
+                                                  }{67}{Charged Particle Tra...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./Analysis.aux:73: Extra }, or forgotten \endgroup.
+l.73 ...le Tracking\let \reserved@d =[\def \par }}
+                                                  {67}{Charged Particle Trac...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./Analysis.aux:73: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 ... Tracking\let \reserved@d =[\def \par }}{6
+                                                  7}{Charged Particle Tracki...
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Analysis.aux:73: Undefined control sequence.
+<recently read> \Hy@colorlink 
+                              
+l.73 ...}{67}{Charged Particle Tracking\footnote {
+                                                  Credit to Dhruv Dixit for ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Analysis.aux:73: Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.73 ...}{67}{Charged Particle Tracking\footnote {
+                                                  Credit to Dhruv Dixit for ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Analysis.aux:73: Extra }, or forgotten \endgroup.
+l.73 ...Thesis for more details.}}{section.3.8}{}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+) (./Checks_and_Systematics.aux) (./Results.aux) (./Discussion.aux) (./EIC_Jets.aux) (./Conclusion.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 
 ******************************************************
@@ -865,11 +937,15 @@ Sidefootvsep and sidefootheight: 14.5pt and 546.64995pt
 (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
  (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+Overfull \hbox (2007.2652pt too wide) in paragraph at lines 73--2
+[]\OT1/cmr/m/n/12 67Charged Par-ti-cle Track-ing[]black[][]section.3.8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+ []
+
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 40.
+Package hyperref Info: Link coloring ON on input line 42.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -881,10 +957,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 40.
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write6
 \openout6 = `thesis.out'.
@@ -936,7 +1012,21 @@ Package biblatex Info: ... file 'thesis.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                .
+(biblatex)                Carnesecchi2019
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Collins2004
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Hen2017
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -950,18 +1040,43 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
+(biblatex)                Norton2003
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                singh
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                williams2018
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
 (biblatex)                zotero-348
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 40.
-Package biblatex Info: Reference segment=0 on input line 40.
- [1
+Package biblatex Info: Reference section=0 on input line 42.
+Package biblatex Info: Reference segment=0 on input line 42.
+ [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.74 \maketitle
+                [1]
 
-Class ucbthesis Warning: The final submitted version should not have an approval page on input line 74.
+Class ucbthesis Warning: The final submitted version should not have an approval page on input line 76.
 
 [2] [3]
 \openout2 = `abstract.aux'.
@@ -975,42 +1090,89 @@ l.6 \end{abstract}
 ]) [1
 
 
-] (./thesis.toc [2] [3]
-Overfull \hbox (2.03766pt too wide) detected at line 106
- \OT1/cmr/bx/n/12 143
+] (./thesis.toc [2]
+Runaway argument?
+{\numberline {3.6}Isolated Prompt Photon Selection \let \reserved@d =\ETC.
+./thesis.toc:42: Paragraph ended before \contentsline was complete.
+<to be read again> 
+                   \par 
+l.42 ...ton Selection \let \reserved@d =[\def \par
+                                                   }{54}{section.3.6}%
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./thesis.toc:42: Extra }, or forgotten \endgroup.
+l.42 ...n Selection \let \reserved@d =[\def \par }
+                                                  {54}{section.3.6}%
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+Runaway argument?
+{\numberline {3.8}Charged Particle Tracking\let \reserved@d =[\def 
+./thesis.toc:50: Paragraph ended before \contentsline was complete.
+<to be read again> 
+                   \par 
+l.50 ...ticle Tracking\let \reserved@d =[\def \par
+                                                   }{67}{section.3.8}%
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./thesis.toc:50: Extra }, or forgotten \endgroup.
+l.50 ...cle Tracking\let \reserved@d =[\def \par }
+                                                  {67}{section.3.8}%
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[3]
+Overfull \hbox (2.03766pt too wide) detected at line 96
+ \OT1/cmr/bx/n/12 134
+ []
+
+
+Overfull \hbox (2.03766pt too wide) detected at line 99
+ \OT1/cmr/bx/n/12 138
+ []
+
+
+Overfull \hbox (2.03766pt too wide) detected at line 107
+ \OT1/cmr/bx/n/12 148
  []
 
 [4]
-Overfull \hbox (2.03766pt too wide) detected at line 111
- \OT1/cmr/bx/n/12 157
+Overfull \hbox (2.03766pt too wide) detected at line 112
+ \OT1/cmr/bx/n/12 161
  []
 
 
-Overfull \hbox (2.03766pt too wide) detected at line 112
- \OT1/cmr/bx/n/12 159
+Overfull \hbox (2.03766pt too wide) detected at line 113
+ \OT1/cmr/bx/n/12 163
  []
 
 ) [5] (./thesis.lof [6
 
 ] [7] [8] [9] [10]
-Overfull \hbox (0.82765pt too wide) in paragraph at lines 69--69
+Overfull \hbox (0.82765pt too wide) in paragraph at lines 65--65
  [][] [][][]\OT1/cmr/m/n/12 Transverse mo-men-tum den-sity (left panel) and iso-la-tion dis-tri-bu-tions (right panel) 
  []
 
 [11]
-Overfull \hbox (1.63895pt too wide) in paragraph at lines 81--81
+Overfull \hbox (1.63895pt too wide) in paragraph at lines 77--77
  [][] [][][]\OT1/cmr/m/n/12 Correlation func-tion be-tween iso-lated prompt pho-tons and hadrons from \OT1/cmr/m/sc/12 Pythia8 
  []
 
 [12]
 
-LaTeX Warning: Reference `sec:results' on page xiii undefined on input line 94.
+LaTeX Warning: Reference `sec:results' on page xiii undefined on input line 90.
 
-[13]
-
-LaTeX Warning: Reference `fig:CorrelationFinal' on page xiv undefined on input line 96.
-
-[14]) [15] (./thesis.lot [16
+[13] [14]) [15] (./thesis.lot [16
 
 ]) [17] [18]
 \openout2 = `Introduction.aux'.
@@ -1018,13 +1180,13 @@ LaTeX Warning: Reference `fig:CorrelationFinal' on page xiv undefined on input l
  (./Introduction.tex
 
 Package xr Warning: 
-No file Introduction.tex.aux
+No file Experimental_Apparatus.tex.aux
 LABELS NOT IMPORTED.
  on input line 1.
 
 
 Package xr Warning: 
-No file Experimental_Apparatus.tex.aux
+No file Introduction.tex.aux
 LABELS NOT IMPORTED.
  on input line 2.
 
@@ -1060,7 +1222,7 @@ l.35
 
 
 ]
-<Introduction/a_S_running.pdf, id=1270, 614.295pt x 794.97pt>
+<Introduction/a_S_running.pdf, id=1309, 614.295pt x 794.97pt>
 File: Introduction/a_S_running.pdf Graphic file (type pdf)
 <use Introduction/a_S_running.pdf>
 Package pdftex.def Info: Introduction/a_S_running.pdf  used on input line 64.
@@ -1068,121 +1230,125 @@ Package pdftex.def Info: Introduction/a_S_running.pdf  used on input line 64.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.77 
+l.76 
       [2]pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.77 
+l.76 
       [3 <./Introduction/a_S_running.pdf>]
-<Introduction/collision_snapshot.pdf, id=1344, 263.41864pt x 171.41562pt>
-File: Introduction/collision_snapshot.pdf Graphic file (type pdf)
-<use Introduction/collision_snapshot.pdf>
-Package pdftex.def Info: Introduction/collision_snapshot.pdf  used on input line 80.
-(pdftex.def)             Requested size: 464.31258pt x 302.15536pt.
-<Introduction/qcd_phase.pdf, id=1348, 253.33005pt x 155.92714pt>
+<Introduction/qcd_phase.pdf, id=1385, 253.33005pt x 155.92714pt>
 File: Introduction/qcd_phase.pdf Graphic file (type pdf)
 <use Introduction/qcd_phase.pdf>
-Package pdftex.def Info: Introduction/qcd_phase.pdf  used on input line 94.
+Package pdftex.def Info: Introduction/qcd_phase.pdf  used on input line 87.
 (pdftex.def)             Requested size: 464.31258pt x 285.80779pt.
  [4]
-<Introduction/lattice_qcd.pdf, id=1360, 195.12285pt x 153.82008pt>
+<Introduction/collision_snapshot.pdf, id=1400, 263.41864pt x 171.41562pt>
+File: Introduction/collision_snapshot.pdf Graphic file (type pdf)
+<use Introduction/collision_snapshot.pdf>
+Package pdftex.def Info: Introduction/collision_snapshot.pdf  used on input line 96.
+(pdftex.def)             Requested size: 464.31258pt x 302.15536pt.
+ [5 <./Introduction/qcd_phase.pdf>]
+<Introduction/lattice_qcd.pdf, id=1474, 195.12285pt x 153.82008pt>
 File: Introduction/lattice_qcd.pdf Graphic file (type pdf)
 <use Introduction/lattice_qcd.pdf>
-Package pdftex.def Info: Introduction/lattice_qcd.pdf  used on input line 106.
+Package pdftex.def Info: Introduction/lattice_qcd.pdf  used on input line 105.
 (pdftex.def)             Requested size: 375.20143pt x 295.82173pt.
- [5 <./Introduction/collision_snapshot.pdf>] [6 <./Introduction/qcd_phase.pdf>]
-<Introduction/overlap_diagram.pdf, id=1488, 318.65257pt x 208.93047pt>
+ [6 <./Introduction/collision_snapshot.pdf>] [7 <./Introduction/lattice_qcd.pdf>]
+<Introduction/overlap_diagram.pdf, id=1611, 318.65257pt x 208.93047pt>
 File: Introduction/overlap_diagram.pdf Graphic file (type pdf)
 <use Introduction/overlap_diagram.pdf>
-Package pdftex.def Info: Introduction/overlap_diagram.pdf  used on input line 125.
+Package pdftex.def Info: Introduction/overlap_diagram.pdf  used on input line 124.
 (pdftex.def)             Requested size: 375.20143pt x 246.02571pt.
- [7 <./Introduction/lattice_qcd.pdf>] [8 <./Introduction/overlap_diagram.pdf>]
-<Introduction/collision_geometries.pdf, id=1575, 280.67783pt x 214.44998pt>
+ [8 <./Introduction/overlap_diagram.pdf>]
+<Introduction/collision_geometries.pdf, id=1634, 280.67783pt x 214.44998pt>
 File: Introduction/collision_geometries.pdf Graphic file (type pdf)
 <use Introduction/collision_geometries.pdf>
 Package pdftex.def Info: Introduction/collision_geometries.pdf  used on input line 144.
 (pdftex.def)             Requested size: 375.20143pt x 286.69066pt.
-<Introduction/flow_measurements_peripheral.pdf, id=1578, 242.73344pt x 172.49796pt>
+<Introduction/flow_measurements_peripheral.pdf, id=1640, 242.73344pt x 172.49796pt>
 File: Introduction/flow_measurements_peripheral.pdf Graphic file (type pdf)
 <use Introduction/flow_measurements_peripheral.pdf>
 Package pdftex.def Info: Introduction/flow_measurements_peripheral.pdf  used on input line 153.
 (pdftex.def)             Requested size: 211.04857pt x 149.98778pt.
-<Introduction/flow_measurements_central.pdf, id=1579, 223.66443pt x 175.38834pt>
+<Introduction/flow_measurements_central.pdf, id=1641, 223.66443pt x 175.38834pt>
 File: Introduction/flow_measurements_central.pdf Graphic file (type pdf)
 <use Introduction/flow_measurements_central.pdf>
 Package pdftex.def Info: Introduction/flow_measurements_central.pdf  used on input line 154.
 (pdftex.def)             Requested size: 211.04857pt x 165.4993pt.
-<Introduction/near_side_ridge.pdf, id=1585, 186.7015pt x 148.0756pt>
-File: Introduction/near_side_ridge.pdf Graphic file (type pdf)
-<use Introduction/near_side_ridge.pdf>
-Package pdftex.def Info: Introduction/near_side_ridge.pdf  used on input line 173.
-(pdftex.def)             Requested size: 375.20143pt x 297.59879pt.
-<Introduction/small_systems_flow.pdf, id=1589, 312.09506pt x 119.33513pt>
-File: Introduction/small_systems_flow.pdf Graphic file (type pdf)
-<use Introduction/small_systems_flow.pdf>
-Package pdftex.def Info: Introduction/small_systems_flow.pdf  used on input line 182.
-(pdftex.def)             Requested size: 464.31258pt x 177.53822pt.
- [9] [10 <./Introduction/collision_geometries.pdf>] [11 <./Introduction/flow_measurements_peripheral.pdf> <./Introduction/flow_measurements_central.pdf>] [12 <./Introduction/near_side_ridge.pdf>] [13 <./Introduction/small_systems_flow.pdf>]
-<Introduction/atlas_raa.pdf, id=1950, 209.58537pt x 162.08495pt>
+ [9] [10 <./Introduction/collision_geometries.pdf>]
+Overfull \hbox (9.9386pt too wide) in paragraph at lines 183--184
+[]\OT1/cmr/m/n/12 For the $\OML/cmm/m/it/12 k[]$\OT1/cmr/m/n/12 reconstruction al-go-rithm, $\OML/cmm/m/it/12 p$ \OT1/cmr/m/n/12 is 1. For Anti-$\OML/cmm/m/it/12 k[]$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 p \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 1$, and for Cam-bridge/Aachen
+ []
+
+[11 <./Introduction/flow_measurements_peripheral.pdf> <./Introduction/flow_measurements_central.pdf>]
+<Introduction/atlas_raa.pdf, id=1876, 209.58537pt x 162.08495pt>
 File: Introduction/atlas_raa.pdf Graphic file (type pdf)
 <use Introduction/atlas_raa.pdf>
-Package pdftex.def Info: Introduction/atlas_raa.pdf  used on input line 215.
+Package pdftex.def Info: Introduction/atlas_raa.pdf  used on input line 199.
 (pdftex.def)             Requested size: 375.20143pt x 290.19455pt.
- [14 <./Introduction/atlas_raa.pdf>]
-<Introduction/alice_hadron_raa.pdf, id=2004, 184.78748pt x 162.10893pt>
+ [12] [13 <./Introduction/atlas_raa.pdf>]
+<Introduction/alice_hadron_raa.pdf, id=1940, 184.78748pt x 162.10893pt>
 File: Introduction/alice_hadron_raa.pdf Graphic file (type pdf)
 <use Introduction/alice_hadron_raa.pdf>
-Package pdftex.def Info: Introduction/alice_hadron_raa.pdf  used on input line 230.
-(pdftex.def)             Requested size: 464.31258pt x 407.3392pt.
-
-
-LaTeX Warning: Reference `sec:direct_photons' on page 15 undefined on input line 235.
-
-[15] [16 <./Introduction/alice_hadron_raa.pdf>] [17]
-<Introduction/pdg_ff.pdf, id=2140, 202.18947pt x 275.60776pt>
+Package pdftex.def Info: Introduction/alice_hadron_raa.pdf  used on input line 214.
+(pdftex.def)             Requested size: 375.20143pt x 329.16171pt.
+<Introduction/near_side_ridge.pdf, id=1948, 186.7015pt x 148.0756pt>
+File: Introduction/near_side_ridge.pdf Graphic file (type pdf)
+<use Introduction/near_side_ridge.pdf>
+Package pdftex.def Info: Introduction/near_side_ridge.pdf  used on input line 228.
+(pdftex.def)             Requested size: 375.20143pt x 297.59879pt.
+<Introduction/small_systems_flow.pdf, id=1953, 312.09506pt x 119.33513pt>
+File: Introduction/small_systems_flow.pdf Graphic file (type pdf)
+<use Introduction/small_systems_flow.pdf>
+Package pdftex.def Info: Introduction/small_systems_flow.pdf  used on input line 238.
+(pdftex.def)             Requested size: 464.31258pt x 177.53822pt.
+ [14] [15 <./Introduction/alice_hadron_raa.pdf>] [16 <./Introduction/near_side_ridge.pdf> <./Introduction/small_systems_flow.pdf>] [17]
+<Introduction/pdg_ff.pdf, id=2208, 202.18947pt x 275.60776pt>
 File: Introduction/pdg_ff.pdf Graphic file (type pdf)
 <use Introduction/pdg_ff.pdf>
-Package pdftex.def Info: Introduction/pdg_ff.pdf  used on input line 270.
+Package pdftex.def Info: Introduction/pdg_ff.pdf  used on input line 283.
 (pdftex.def)             Requested size: 375.20143pt x 511.4434pt.
-<Introduction/pdfs.pdf, id=2143, 213.32599pt x 208.97252pt>
+<Introduction/pdfs.pdf, id=2211, 213.32599pt x 208.97252pt>
 File: Introduction/pdfs.pdf Graphic file (type pdf)
 <use Introduction/pdfs.pdf>
-Package pdftex.def Info: Introduction/pdfs.pdf  used on input line 277.
+Package pdftex.def Info: Introduction/pdfs.pdf  used on input line 290.
 (pdftex.def)             Requested size: 375.20143pt x 367.56636pt.
- [18] [19 <./Introduction/pdg_ff.pdf>]
-<Introduction/dihadron_cartoon.pdf, id=2234, 433.62pt x 289.08pt>
+ [18] [19 <./Introduction/pdg_ff.pdf>] [20 <./Introduction/pdfs.pdf>]
+<Introduction/dihadron_cartoon.pdf, id=2354, 433.62pt x 289.08pt>
 File: Introduction/dihadron_cartoon.pdf Graphic file (type pdf)
 <use Introduction/dihadron_cartoon.pdf>
-Package pdftex.def Info: Introduction/dihadron_cartoon.pdf  used on input line 301.
+Package pdftex.def Info: Introduction/dihadron_cartoon.pdf  used on input line 314.
 (pdftex.def)             Requested size: 375.20143pt x 250.1478pt.
-<Introduction/star_dihadron.pdf, id=2236, 169.53116pt x 118.21425pt>
+<Introduction/star_dihadron.pdf, id=2356, 169.53116pt x 118.21425pt>
 File: Introduction/star_dihadron.pdf Graphic file (type pdf)
 <use Introduction/star_dihadron.pdf>
-Package pdftex.def Info: Introduction/star_dihadron.pdf  used on input line 310.
+Package pdftex.def Info: Introduction/star_dihadron.pdf  used on input line 323.
 (pdftex.def)             Requested size: 375.20143pt x 261.67569pt.
- [20 <./Introduction/pdfs.pdf>]
-<Introduction/prompt_photons.pdf, id=2288, 314.09303pt x 98.09409pt>
+ [21 <./Introduction/dihadron_cartoon.pdf>]
+<Introduction/prompt_photons.pdf, id=2404, 314.09303pt x 98.09409pt>
 File: Introduction/prompt_photons.pdf Graphic file (type pdf)
 <use Introduction/prompt_photons.pdf>
-Package pdftex.def Info: Introduction/prompt_photons.pdf  used on input line 322.
+Package pdftex.def Info: Introduction/prompt_photons.pdf  used on input line 336.
 (pdftex.def)             Requested size: 375.20143pt x 117.1884pt.
- [21 <./Introduction/dihadron_cartoon.pdf>] [22 <./Introduction/star_dihadron.pdf> <./Introduction/prompt_photons.pdf>]
-<Introduction/photon_raa.pdf, id=2387, 441.8945pt x 336.40923pt>
+ [22 <./Introduction/star_dihadron.pdf>]
+<Introduction/photon_raa.pdf, id=2435, 441.8945pt x 336.40923pt>
 File: Introduction/photon_raa.pdf Graphic file (type pdf)
 <use Introduction/photon_raa.pdf>
-Package pdftex.def Info: Introduction/photon_raa.pdf  used on input line 351.
+Package pdftex.def Info: Introduction/photon_raa.pdf  used on input line 363.
 (pdftex.def)             Requested size: 375.20143pt x 285.64632pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 360.
+(hyperref)                removing `math shift' on input line 371.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 360.
+(hyperref)                removing `\gamma' on input line 371.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 360.
+(hyperref)                removing `math shift' on input line 371.
 
-<Introduction/cms_gj_correlations.pdf, id=239
+[23 <./Introduction/prompt_photons.pdf>]
+<Introduction/cms_gj_correlations.pdf, id=2470, 457.88034pt x 200.95699pt>
+File: Introduction/cms_gj_correlat

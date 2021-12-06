@@ -15,8 +15,9 @@
 \usepackage{textcomp}
 \usepackage{xr}
 \usepackage{siunitx}
-\DeclareUnicodeCharacter{0301}{\'{e}}
 \usepackage[backend=biber,sorting=none]{biblatex}
+\DeclareUnicodeCharacter{0301}{\'{e}}
+
 % To compile this file, run "latex thesis", then "biber thesis"
 % (or "bibtex thesis", if the output from latex asks for that instead),
 % and then "latex thesis" (without the quotes in each case).
@@ -29,12 +30,13 @@
 % be indented (like the others), then include this line:
 % \usepackage{indentfirst}
 
-\addtolength{\abovecaptionskip}{\baselineskip}
-\setcounter{secnumdepth}{10}
-\setcounter{tocdepth}{10}
-\bibliography{Zotero.bib}
+% \addtolength{\abovecaptionskip}{\baselineskip}
+% \setcounter{secnumdepth}{10}
+% \setcounter{tocdepth}{10}
+
+% \bibliography{Zotero.bib}
 \addbibresource{Zotero.bib}
-% \addbibresource{biblio.bib}
+\addbibresource{Zotero.bib}
 \addbibresource{EIC_Jets/eic.bib}
 
 \begin{document}
@@ -47,7 +49,7 @@
 \degreeyear{2021}
 \degree{Doctor of Philosophy}
 \chair{Barbara Jacak}
-\othermembers{Jasmine Vuljic\\
+\othermembers{Jasmina Vujic\\
   Lawrence Hall}
 % For a co-chair who is subordinate to the \chair listed above
 % \cochair{Professor Benedict Francis Pope}
@@ -122,9 +124,9 @@ Finally, the most sincere thanks to my amazing wife Bonnie. This odyssey would n
 \include{Introduction}
 \include{Experimental_Apparatus}
 \include{Analysis}
+\include{Checks_and_Systematics}
 \include{Results}
 \include{Discussion}
-\include{Checks_and_Systematics}
 \include{EIC_Jets}
 \include{Conclusion}
 
@@ -134,7 +136,7 @@ Finally, the most sincere thanks to my amazing wife Bonnie. This odyssey would n
 % 		\section{Block Implementation and Parallelization}
 % 		\section{Hiearchichal Data Format 5}		
 % \end{appendices}
-
+% \bibliographystyle{unsrt}
 \printbibliography
 
 \end{document}

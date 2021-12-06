@@ -10,34 +10,36 @@
 \label{sec:systematics}
 
 \section{Summary of Systematic Uncertainties}
+The measurement is ultimately dominated by statistical uncertainties. Consequently, efforts to reduce the systematic uncertainties of the measurement were tempered such that they are smaller than the statistical uncertainty.
+
 The sources of systematic uncertainties of the \gammaiso--hadron measurement are summarized in Table \ref{tab:BigSummarySystematics}, and listed below:
 \begin{itemize}
     \item Purity\\
-The uncertainty of the purity measurement, is propagated to the correlation function measurement following Equation~\ref{eq:FinalSubtraction}. The resulting uncertainty on the correlation function is a relative $\pm18\%$ for pp data and  $\pm12\%$ for \pPb~data . As described in Section~\ref{sec:puritysystematics}, a large fraction of the purity total uncertainty is either statistical uncertainty or systematic uncertainties that arise due to limited data sample. Therefore, the purity uncertainty in pp and \pPb~data are largely uncorrelated. As a conservative approach, they are taken to be totally uncorrelated.
+The uncertainty of the purity measurement is propagated to the correlation function, following Equation~\ref{eq:FinalSubtraction}. The resulting uncertainty on the correlation function is a relative $\pm18\%$ for pp data and  $\pm12\%$ for \pPb~data . As described in Section~\ref{sec:puritysystematics}, a large fraction of the purity total uncertainty is either statistical uncertainty or systematic uncertainties that arise due to limited data sample. Therefore, the purity uncertainty in pp and \pPb~data are largely uncorrelated. As a conservative approach, they are taken to be totally uncorrelated.
 
 \item	Underlying Event:\\
 As described in Sec.~\ref{sec:ue_subtraction}, the uncertainty of the UE subtraction originates from statistical fluctuations in the ZYAM estimate. It propagates directly to the per-trigger yields. It ranges from 7\% to 15\% depending on the \zt~bin and data. This uncertainty is fully correlated in $\varphi$ for a given \zt~bin, but totally uncorrelated among \zt~bins, and totally uncorrelated between pp and \pPb~datasets.
 
-\item Tracking performance :\\
+\item Tracking performance:\\
 To estimate the systematic uncertainty of the charged-particle $\pt$ measurement with ITS-only track reconstruction, MC simulation studies were performed compared with the published \pt~spectra that used the ALICE standard tracking (i.e. including TPC) in pp and \pPb~collisions at 5 TeV~\cite{Acharya:2018qsh}. As described in Section~\ref{sec:tracking}, the combined uncertainty due to track efficiency, fake rate, and bin-to-bin migration corrections amounts to $\pm5\%$ added in quadrature with the total systematic uncertainty of the reference $\pt$ spectra, which ranges from a relative 1.6 (2.1$\%$) to 1.9$\%$ (2.5$\%$) in the range $0.5<\pt<10$ \GeVc~for pp (\pPb) collisions~\cite{Acharya:2018qsh}. 
 
 Systematic uncertainties due to secondary-particle contamination and from modelling of the particle-type composition in MC simulations are small ($<2\%$) for the range $0.5<\pt<10$ \GeVc. These were already estimated in \cite{Acharya:2018qsh} for pp and \pPb~data sets and already included in the systematic uncertainty estimate described above. The tracking performance between pp and \pPb~datasets is very similar, but as a conservative approach the systematic uncertainties are taken to be completely uncorrelated.
 
 
 \item Acceptance mismatch due to boost:\\
-As described in Section~\ref{sec:bootstudy}, our \textsc{Pythia8} study of \gammaiso--hadron correlations show that the impact of an acceptance mismatch between pp and \pPb~data that arises from the boost of $\Delta y = 0.47$ amounts to about $5\%$ effect irrespective of $\zt$. This estimate is subject to PDF uncertainties, which are the ones that dictate the shape of the differential cross-section of photons and associated hadrons in pseudorapidity. We chose to not apply any correction for this effect, and assign a $\pm$5$\%$ systematic uncertainty on the per-trigger hadron yields. This systematic uncertainty is taken to be completely correlated with \zt. We assign this systematic uncertainty to our \pPb~measurements only. 
+As described in Section~\ref{sec:bootstudy}, our \textsc{Pythia8} study of \gammaiso--hadron correlations show that the impact of an acceptance mismatch between pp and \pPb~data that arises from the boost of $\Delta y = 0.47$ amounts to a $\approx5\%$ effect irrespective of $\zt$. This estimate is subject to PDF uncertainties, which are the ones that dictate the shape of the differential cross-section of photons and associated hadrons in pseudorapidity. We chose to not apply any correction for this effect, and assign a $\pm$5$\%$ systematic uncertainty on the per-trigger hadron yields. This systematic uncertainty is taken to be completely correlated with \zt. We assign this systematic uncertainty to our \pPb~measurements only. 
 
 
 \item Luminosity, trigger, photon, and vertex reconstruction:\\
 The observable is normalized per measured photon. Therefore the uncertainties related to overall normalization of the \gammaiso~\pt~spectra (such as luminosity scale, vertexing efficiency, trigger efficiency and photon reconstruction efficiency) cancel completely. Consequently, a systematic uncertainty associated with these sources is not applied to the measurement. 
 
 \item Photon energy scale, resolution and material budget:\\
-  While the measurement is  by construction insensitive to overall normalization, it is principle sensitive to bin-migration or scale uncertainties that affect the shape of the photon \pt~spectra.  A large integration window over the photon \pt~range (12--40 \GeVc) reduces this potential systematic, however. Additionally, the high precision EMCal ensures that these effects are small in general; for a 12 GeV cluster the resolution  $\sigma_{E}/E = 4.8\%/E\otimes 11.3\%/\sqrt{E}\otimes 1.7\%$ yields $\sigma_{E}/E =3.6\%$, and at 40 GeV this yields $\sigma_{E}/E =2.4\%$. The EMCal energy scale has been studied with beam-test data~\cite{Allen:2009aa} and comparison of $\pi^{0}\to\gamma\gamma$ events in data and simulation~\cite{Adam:2016khe}, and has an associated uncertainty of 0.8$\%$. 
+  While the measurement is  by construction insensitive to overall normalization, it is sensitive to bin-migration or scale uncertainties that affect the shape of the photon \pt~spectra.  A large integration window over the photon \pt~range (12--40 \GeVc) reduces this potential systematic, however. Additionally, the high precision EMCal ensures that these effects are small in general; for a 12 GeV cluster the resolution  $\sigma_{E}/E = 4.8\%/E\otimes 11.3\%/\sqrt{E}\otimes 1.7\%$ yields $\sigma_{E}/E =3.6\%$, and at 40 GeV this yields $\sigma_{E}/E =2.4\%$. The EMCal energy scale has been studied with beam-test data~\cite{Allen:2009aa} and comparison of $\pi^{0}\to\gamma\gamma$ events in data and simulation~\cite{Adam:2016khe}, and has an associated uncertainty of 0.8$\%$. 
 
 The uncertainties due to photon energy scale, resolution, and material budget have been estimated for the isolated photon cross-section measurement with 7 TeV pp and 5 TeV \pPb~data and are less than 3$\%$ in the \pt~range covered in this analysis~\cite{Erwann,Acharya:2019jkx}. The effects on the per-trigger correlation functions would be even smaller due the insensitivity to the photon-cross section. Given that this level of uncertainty is much smaller than other sources of systematic uncertainties for our measurement, they are neglected. 
 \end{itemize}
 
-Table~\ref{tab:BigSummarySystematics} presents as summary of all uncertainty estimates for our \gammaiso--hadron correlation measurement. Table~\ref{tab:pPb_FF_Uncertainties} shows the uncertainty in the \pPb~to pp ratio. 
+Table~\ref{tab:BigSummarySystematics} presents as summary of all uncertainty estimates for our \gammaiso--hadron correlation measurement. 
 
 
 \begin{sidewaystable}
@@ -72,18 +74,20 @@ Table~\ref{tab:BigSummarySystematics} presents as summary of all uncertainty est
 
 
 \section{Event Mixing}
-Event mixing is used in the analysis in order to correct for the pair-acceptance of photon-hadron pairs. In other words, the convolution of the EMCal acceptance with the $\eta-\varphi$ dependent efficiency of the standalone ITS tracking is non-trivial. It can be corrected for, using the data driven method outlined in Sec.~\ref{sec:EventMixing}.
+Event mixing is used in the analysis in order to correct for the pair acceptance of photon-hadron pairs, as the convolution of the EMCal acceptance with the $\eta-\varphi$ dependent efficiency of the standalone ITS tracking is non-trivial. It can be corrected for, using the data driven method outlined in Sec.~\ref{sec:EventMixing}.
 
-Because this correction is data-driven, a systematic on due to any mis-modeling of the detector performance avoided. In theory, there should be a statistical uncertainty on the event mixing that would propagate as an uncertainty on the final analysis. For this reason, a very large number of MB events are mixed with gamma triggered events such that the statistical uncertainty on the mixed event correlations is neglagible, and thus is not propagated into the analysis. Furthermore, for the high \zt~bins in the correlation and fragmentation function analysis, MB events where at least one track with a \pt~of 14\GeVc~are chosen to be in an event pool (this \pt~requirement roughly corresponds to the \zt~bin for a photon at 40\GeVc). This provides very good statistics, even in the normally statistics limited bins at higher \zt.
+Because this correction is data-driven, a systematic from any mis-modeling of the detector performance avoided. In theory, there should be a statistical uncertainty on the event mixing that would propagate as an uncertainty on the final analysis. For this reason, a very large number of MB events are mixed with gamma triggered events such that the statistical uncertainty on the mixed event correlations is negligible, and thus is not propagated into the analysis. Furthermore, for the high \zt~bins in the correlation and fragmentation function analysis, MB events where at least one track with a \pt~of 14\GeVc~are chosen to be in an event pool (this \pt~requirement roughly corresponds to the \zt~bin for a photon at 40\GeVc). This provides very good statistics, even in the normally statistics limited bins at higher \zt.
 
-Additionally, because the mixing is used as an acceptance correction, the normalization is set such that the highest value of the mixed-event correlation is set to 1.0, and no uncertainty is applied to this normalization.
+ Typically, an analysis that uses mixing to estimate uncorrelated background also introduces a systematic uncertainty attributed to the choice of the mixed event normalization. However, because the mixing is used as a pair acceptance correction, the normalization is set such that the highest value of the mixed-event correlation is set to 1.0, and no uncertainty is applied to this normalization.
 
-Two cross checks are done on the mixing. The first is to validate the overall shape of the mixing, and to check that the origin of the non-uniformity in \deltaphi~is in fact due to the $\varphi$-dependent efficiency of the ITS-only tracking. The second check applies the slower but more standard binned-mixing technique as a check on the novel use of the Gale-Shapley algorithm in pairing events.
+ The overall shape of the event mixing distribution was initially difficult to understand. While the EMCal acceptance is limited in $\varphi$, the ITS has full azimuthal coverage. When taking hadron-photon pairs and plotting \deltaphi, one would expect a flat distribution in the absence of any physics effects, as seen in previous event mixing analyses that use ITS+TPC hybrid tracking \cite{singh}. The mixed event correlations in this analysis, however, are far from uniform in \deltaphi, and in fact show an enhancement at $\approx\frac{\pi}{2}$. Thus, the accuracy of the shape of the mixed-event correlation was initially uncertain.
+
+Two cross checks are done to validate the overall shape of the mixed event correlations. To check that the non-uniformity in \deltaphi~ arises from the $\varphi$-dependent efficiency of the ITS-only tracking. The second check applies the slower but more standard binned-mixing technique as a check to ensure that the novel use of the Gale-Shapley algorithm to pair events did not introduce any major features to the mixed event correlations.
 
 \subsection{Toy Monte Carlo for Validating Event Mixing}
 \label{sec:ToyMC_Mixing}
 % While the ALICE EMCal has a limited acceptance in $\varphi$, the ITS has full azimuthal coverage. 
-Given a perfect detector with limited acceptance, the mixed-event correlations functions is expected to be flat in \deltaphi. This is because the minimum bias tracks detected by an idealized version of the ITS will have a flat distribution in $\varphi$. While the EMCal has a limited acceptance in $\varphi$, the \deltaphi~distribution will be flat, as any trigger cluster will be correlated with tracks that are homogeneously spaced in $\varphi$. In other words, minimum bias tracks are just as likely to be near a trigger photon as they are to be opposite the trigger photon, yielding a flat \deltaphi~distribution. Additionally, the shape in \deltaeta is expected to be triangular. Both the EMCal and ITS have a limited acceptance in $\eta$, and the convolution of two square signals should yield a final triangular shape. This is shown in in the left panel of Figure \ref{fig:toy_MC}, where trigger photons are constrained in $\varphi$ and $\eta$ according to the EMCal acceptance, and track are limited only in $\eta$ to correspond to a perfect ITS with full azimuthal coverage.  
+Given a perfect detector with limited acceptance, the mixed-event correlation function is expected to be flat in \deltaphi. This is because the minimum bias tracks detected by an idealized version of the ITS will have a flat distribution in $\varphi$. While the EMCal has a limited acceptance in $\varphi$, the \deltaphi~distribution will be flat, as any trigger cluster will be correlated with tracks that are homogeneously spaced in $\varphi$. In other words, minimum bias tracks are just as likely to be near a trigger photon as they are to be opposite the trigger photon. Additionally, the shape in \deltaeta~is expected to be triangular. Both the EMCal and ITS have a limited acceptance in $\eta$, and the convolution of two square distributions yields a triangular shape. This is shown in the left panel of Figure \ref{fig:toy_MC}, where trigger photons are constrained in $\varphi$ and $\eta$ according to the EMCal acceptance, and tracks are limited in $\eta$ corresponding to a perfect ITS with full azimuthal coverage.  
 
 \begin{figure}[htpb]
 	\includegraphics[width=0.49\textwidth]{Data_Analysis/EventMixing/toy_MC_no_holes.pdf}
@@ -92,17 +96,22 @@ Given a perfect detector with limited acceptance, the mixed-event correlations f
 	\label{fig:toy_MC}
 \end{figure}
 
-However, this flat distribution cannot be assumed, seen previously in Figure \ref{fig:SR_2D} and now in right panel of Figure \ref{fig:toy_MC}. Dead areas or spots with a lower overall tracking efficiency accumulate over years of use at the LHC, and if large enough they can effect the pair-efficiency and therefore the mixed event correlations. This is shown in Figure \ref{fig:toy_MC}. Both track and trigger photon \deltaeta~and \deltaphi~are constrained according to their respective detector acceptances, however additional holes in the $\varphi$ distribution of tracks are placed according to 2D tracking efficiency plot, see Fig.~\ref{fig:phiEff}, Sec.~\ref{sec:tracking}.
+However, this flat distribution cannot be assumed, seen previously in Figure \ref{fig:SR_2D} and now in right panel of Figure \ref{fig:toy_MC}. Dead areas or spots with a lower overall tracking efficiency accumulate over years of use at the LHC, and if large enough they can effect the pair efficiency and therefore the mixed event correlations. This is shown in Figure \ref{fig:toy_MC}. Both track and trigger photon \deltaeta~and \deltaphi~are constrained according to their respective detector acceptances, however additional holes in the $\varphi$ distribution of tracks are placed according to 2D tracking efficiency plot, see Fig.~\ref{fig:phiEff}, Sec.~\ref{sec:tracking}.
 
 \subsection{Binned Event Mixing}
+In order to ensure that the shape of the mixed event correlations arising from the Gale-Shapley matching algorithm, a more standard binned event mixing method was compared.
 
 Typically, events are binned according the their event topology, centrality, z-vertex, and second order event plane angle (in PbPb), and then added to larger pools of events according to these bins. While it depends on the analysis, very common bin sizes are 5\%, 2cm for centrality and z-vertex. The Gale-Shapley pairing algorithm is novel for this use case, and thus a check was carried out in which the mixed event  correlation function was calculated using the standard binning method for event mixing.
 \begin{figure}[htpb]
 \center
-\includegraphics[width=0.7\textwidth]{Data_Analysis/EventMixing/2D_Bin_Corr.pdf}%
-\caption{10 Mixed-Event correlation using the traditional binning method. The major features presented in the Gale-Shapley-Paired Mixed event correlation are reproduced in this low-statistics binned mixing check; The trapezoidal shape in $\Delta\eta$ and the non-uniformity in $\Delta\phi$ from holes in the ITS are reproduced.}
+\includegraphics[width=0.49\textwidth]{Data_Analysis/EventMixing/2D_Bin_Corr.pdf}%
+\includegraphics[width=0.49\textwidth]{Data_Analysis/EventMixing/2D_pPb_Mix_Corr _GS.pdf}%
+\caption{10 Mixed-Event correlation using the traditional binning method (left). The Gale-Shapley Mixed Event Correlation (right). The major features presented in the Gale-Shapley-Paired Mixed event correlation are reproduced in this low-statistics binned mixing check.}
 \label{BIN_Mixed_2D}
-\end{figure}
+\end{figure} 
+
+The major features of the Gale-Shapley mixed event correlation are reproduced in the binned event mixing correlation. These include the trapezoidal shape in $\Delta\eta$, attributed to the finite acceptance of the EMCal and ITS in $\Delta\eta$, as well the non-uniformity in $\Delta\phi$, particularly the enhancement around $\deltaphi\approx\frac{\pi}{2}$, which Fig.~\ref{fig:toy_MC} showed are the result of efficiency holes in the ITS.
+
 \FloatBarrier
 
 \section{Underlying Event Estimation}
@@ -443,6 +452,7 @@ Figure~\ref{fig:phiCorr} shows the $\varphi$ distribution of TPC+ITS and ITS-onl
 
 
 \subsection{Summary of the ITS-only Tracking Performance Studies} 
+\label{sec:sys_tracking}
 This section summarizes the findings of the studies on ITS-only tracking performance: 
 \begin{enumerate}
 \item Tracking Efficiency: \\
@@ -703,7 +713,7 @@ Figure~\ref{fig:CorrelationFinal_downtozero} shows the correlation results down 
 \includegraphics[width = 0.24 \textwidth]{G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_5.pdf}
 \includegraphics[width = 0.24 \textwidth]{G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_6.pdf}
 \includegraphics[width = 0.24 \textwidth]{G-H_New/dPhi_to_0/Cs_Final_Indv_pT_0_zT_7.pdf}
-\caption{Fully-corrected $\gammaiso$--hadron correlation function pp (red) and \pPb~(blue) data. Identical to Figure \ref{fig:CorrelationFinal} with the exception that the correlation functions down to $\Delta\varphi$=0 are shown.}
+\caption{Fully-corrected $\gammaiso$--hadron correlation function pp (red) and \pPb~(blue) data. Identical to Figure \ref{fig:GH_Correlations} with the exception that the correlation functions down to $\Delta\varphi$=0 are shown.}
 \label{fig:CorrelationFinal_downtozero}
 \end{sidewaysfigure}
 
