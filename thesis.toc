@@ -1,7 +1,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \contentsline {chapter}{Contents}{ii}{section*.1}%
-\contentsline {chapter}{List of Figures}{vi}{section*.2}%
-\contentsline {chapter}{List of Tables}{xvi}{section*.3}%
+\contentsline {chapter}{List of Figures}{v}{section*.2}%
+\contentsline {chapter}{List of Tables}{xiv}{section*.3}%
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}QCD}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Relativistic Heavy Ion Collisions}{2}{section.1.2}%
@@ -39,7 +39,7 @@
 \contentsline {subsection}{\numberline {3.5.1}Definition}{50}{subsection.3.5.1}%
 \contentsline {subsection}{\numberline {3.5.2}Corrections}{51}{subsection.3.5.2}%
 \contentsline {subsection}{\numberline {3.5.3}Cluster Selection Cuts}{51}{subsection.3.5.3}%
-\contentsline {section}{\numberline {3.6}Isolated Prompt Photon Selection \let \reserved@d =[\def \par }{54}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Isolated Prompt Photon Selection}{54}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}Photon Isolation Requirement}{55}{subsection.3.6.1}%
 \contentsline {subsection}{\numberline {3.6.2}Underlying Event Estimation for Photon Isolation}{55}{subsection.3.6.2}%
 \contentsline {subsection}{\numberline {3.6.3}UE Correction to Isolation Variable}{58}{subsection.3.6.3}%
@@ -47,7 +47,7 @@
 \contentsline {section}{\numberline {3.7}Purity}{60}{section.3.7}%
 \contentsline {subsection}{\numberline {3.7.1}The Template Fit Method}{61}{subsection.3.7.1}%
 \contentsline {subsection}{\numberline {3.7.2}Fit Results}{64}{subsection.3.7.2}%
-\contentsline {section}{\numberline {3.8}Charged Particle Tracking\let \reserved@d =[\def \par }{67}{section.3.8}%
+\contentsline {section}{\numberline {3.8}Charged Particle Tracking}{67}{section.3.8}%
 \contentsline {subsection}{\numberline {3.8.1}Efficiency and Fake Rate}{67}{subsection.3.8.1}%
 \contentsline {subsection}{\numberline {3.8.2}Resolution, Response Matrix and Bin Migration}{69}{subsection.3.8.2}%
 \contentsline {subsection}{\numberline {3.8.3}Angular Dependence of Tracking Efficiency}{72}{subsection.3.8.3}%
@@ -72,42 +72,32 @@
 \contentsline {subsection}{\numberline {4.4.2}Signal Template}{99}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Sideband variation in the background template}{101}{subsection.4.4.3}%
 \contentsline {subsection}{\numberline {4.4.4}Background template correction}{101}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}Summary of Systematic Uncertainties on Purity Measurement}{106}{subsection.4.4.5}%
-\contentsline {section}{\numberline {4.5}Tracking}{106}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Comparison to Published Data}{107}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Validation of $\varphi $-dependence of efficiency}{108}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Summary of the ITS-only Tracking Performance Studies}{112}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Neutral Energy in Isolation Variable}{112}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Impact of Acceptance Difference Between pp and p--Pb\nobreakspace {}due to Boost}{113}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Isolated-photon Efficiency}{116}{section.4.8}%
-\contentsline {section}{\numberline {4.9}Comparison to ABCD method results}{116}{section.4.9}%
-\contentsline {section}{\numberline {4.10}Check by splitting clusters in $|\eta |<0.4$ and $0.4<|\eta |<0.67$ }{117}{section.4.10}%
-\contentsline {section}{\numberline {4.11}Cluster Selection Variations}{118}{section.4.11}%
-\contentsline {section}{\numberline {4.12}MC-based correction for background template}{120}{section.4.12}%
-\contentsline {section}{\numberline {4.13}Checks on Error Function Fits to Purity}{122}{section.4.13}%
-\contentsline {section}{\numberline {4.14}Smearing signal template}{124}{section.4.14}%
-\contentsline {section}{\numberline {4.15}Check on sensitivity to $\Delta \varphi $ binning}{125}{section.4.15}%
-\contentsline {section}{\numberline {4.16}Checking Sensitivity to Beam Flip}{125}{section.4.16}%
-\contentsline {section}{\numberline {4.17}Correlations including $\Delta \varphi =0$ }{127}{section.4.17}%
-\contentsline {section}{\numberline {4.18}Comparing ITS only tracking to ITS+TPC Tracking}{129}{section.4.18}%
-\contentsline {section}{\numberline {4.19}Checking sensitivity to $\ensuremath {z_{\mathrm {T}}}$ binning}{129}{section.4.19}%
-\contentsline {section}{\numberline {4.20}Checking sensitivity to pile up cut in pp}{129}{section.4.20}%
-\contentsline {section}{\numberline {4.21}Checking maximum track $\ensuremath {p_{\mathrm {T}}}$ cut}{129}{section.4.21}%
-\contentsline {chapter}{\chapternumberline {5}First Photon-Tagged Fragmentation Results in p--Pb}{134}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Fully Subtracted Correlation Functions}{134}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Parton Fragmentation Function}{136}{section.5.2}%
-\contentsline {chapter}{\chapternumberline {6}Discussion}{138}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Integrated Statistical Uncertainty on Fragmentation Function Ratio}{138}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Kinematic Range Probed}{139}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Insensitivity to Parton Distribution Function}{139}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Comparison to Theory}{141}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}The Nucleus as a Medium}{141}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Modeling a Droplet of QGP}{144}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Measurements and Models Compared}{145}{subsection.6.4.3}%
-\contentsline {chapter}{\chapternumberline {7}The Electron Ion Collider}{148}{chapter.7}%
-\contentsline {section}{\numberline {7.1}All-Silicon Tracker Concept Design}{149}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Jet Physics at the EIC}{153}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Charged Jet Reconstruction Performance}{155}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Charged Jet Observables at the EIC}{159}{section.7.4}%
-\contentsline {chapter}{\chapternumberline {8}Conclusions}{161}{chapter.8}%
-\contentsline {chapter}{Bibliography}{163}{section*.5}%
+\contentsline {subsection}{\numberline {4.4.5}Summary of Systematic Uncertainties on Purity Measurement}{102}{subsection.4.4.5}%
+\contentsline {section}{\numberline {4.5}Tracking}{103}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Comparison to Published Data}{103}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Summary of the ITS-only Tracking Performance Studies}{104}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Neutral Energy in Isolation Variable}{106}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Impact of Acceptance Difference Between pp and p--Pb\nobreakspace {}due to Boost}{106}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Isolated-photon Efficiency Effects}{108}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Check for Effects of Isolation Cone Coverage}{108}{section.4.9}%
+\contentsline {section}{\numberline {4.10}Cluster Selection Variations}{110}{section.4.10}%
+\contentsline {section}{\numberline {4.11}MC-based Correction for Background Template}{111}{section.4.11}%
+\contentsline {section}{\numberline {4.12}Checks on Error Function Fits to Purity}{112}{section.4.12}%
+\contentsline {section}{\numberline {4.13}Smearing The Signal Template Shape}{114}{section.4.13}%
+\contentsline {section}{\numberline {4.14}Check on Sensitivity to $\Delta \varphi $ Binning}{115}{section.4.14}%
+\contentsline {section}{\numberline {4.15}Checking Sensitivity to Beam Flip}{115}{section.4.15}%
+\contentsline {section}{\numberline {4.16}Correlations including $\Delta \varphi =0$ }{115}{section.4.16}%
+\contentsline {section}{\numberline {4.17}Comparing ITS only tracking to ITS+TPC Tracking}{115}{section.4.17}%
+\contentsline {section}{\numberline {4.18}Checking Sensitivity to $\ensuremath {z_{\mathrm {T}}}$ binning}{117}{section.4.18}%
+\contentsline {section}{\numberline {4.19}Checking sensitivity to pile up cut in pp}{117}{section.4.19}%
+\contentsline {section}{\numberline {4.20}Checking maximum track $\ensuremath {p_{\mathrm {T}}}$ cut}{122}{section.4.20}%
+\contentsline {chapter}{\chapternumberline {5}Results and Discussion}{124}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Correlation Functions}{124}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Parton Fragmentation Function}{126}{section.5.2}%
+\contentsline {chapter}{\chapternumberline {6}Conclusions}{128}{chapter.6}%
+\contentsline {appendix}{\chapternumberline {A}The Electron Ion Collider}{130}{appendix.A}%
+\contentsline {section}{\numberline {A.1}All-Silicon Tracker Concept Design}{131}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Jet Physics at the EIC}{135}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Charged Jet Reconstruction Performance}{137}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Charged Jet Observables at the EIC}{140}{section.A.4}%
+\contentsline {chapter}{Bibliography}{143}{section*.5}%
