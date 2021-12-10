@@ -1,25 +1,25 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \contentsline {chapter}{Contents}{ii}{section*.1}%
-\contentsline {chapter}{List of Figures}{v}{section*.2}%
-\contentsline {chapter}{List of Tables}{xiv}{section*.3}%
+\contentsline {chapter}{List of Figures}{vi}{section*.2}%
+\contentsline {chapter}{List of Tables}{xv}{section*.3}%
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}QCD}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Relativistic Heavy Ion Collisions}{2}{section.1.2}%
 \contentsline {section}{\numberline {1.3}The Quark Gluon Plasma}{4}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Collective Flow}{7}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.1}Collective Flow}{6}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Jets}{10}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Nuclear Modification Factor}{12}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Flow in Small Systems}{14}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.3}Nuclear Modification Factor}{11}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Flow in Small Systems}{15}{subsection.1.3.4}%
 \contentsline {section}{\numberline {1.4}Fragmentation Functions}{17}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Two Particle Correlations}{18}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Prompt Photons}{22}{section.1.6}%
+\contentsline {section}{\numberline {1.6}Prompt Photons}{21}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Photons in Heavy Ion Collisions}{23}{section.1.7}%
-\contentsline {subsection}{\numberline {1.7.1}$\gamma $-Jet Correlations}{24}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.1}$\gamma $-Jet Correlations}{23}{subsection.1.7.1}%
 \contentsline {subsection}{\numberline {1.7.2}$\gamma $-hadron Correlations}{25}{subsection.1.7.2}%
 \contentsline {section}{\numberline {1.8}Cold nuclear Matter Effects}{28}{section.1.8}%
 \contentsline {subsection}{\numberline {1.8.1}The Nuclear Parton Distribution Function}{29}{subsection.1.8.1}%
 \contentsline {subsection}{\numberline {1.8.2}Nuclei and Fragmentation}{30}{subsection.1.8.2}%
-\contentsline {section}{\numberline {1.9}Statement of Purpose}{31}{section.1.9}%
+\contentsline {section}{\numberline {1.9}Statement of Purpose}{30}{section.1.9}%
 \contentsline {chapter}{\chapternumberline {2}Experimental Apparatus}{32}{chapter.2}%
 \contentsline {section}{\numberline {2.1}The Large Hadron Collider}{32}{section.2.1}%
 \contentsline {section}{\numberline {2.2}A Large Ion Collider Experiment}{34}{section.2.2}%
@@ -94,10 +94,16 @@
 \contentsline {chapter}{\chapternumberline {5}Results and Discussion}{124}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Correlation Functions}{124}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Parton Fragmentation Function}{126}{section.5.2}%
-\contentsline {chapter}{\chapternumberline {6}Conclusions}{128}{chapter.6}%
-\contentsline {appendix}{\chapternumberline {A}The Electron Ion Collider}{130}{appendix.A}%
-\contentsline {section}{\numberline {A.1}All-Silicon Tracker Concept Design}{131}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Jet Physics at the EIC}{135}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Charged Jet Reconstruction Performance}{137}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Charged Jet Observables at the EIC}{140}{section.A.4}%
-\contentsline {chapter}{Bibliography}{143}{section*.5}%
+\contentsline {section}{\numberline {5.3}Integrated Statistical Uncertainty on Fragmentation Function Ratio}{126}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Insensitivity to Parton Distribution Function}{128}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Comparison to Theory}{130}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}The Nucleus as a Medium}{130}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Modeling a Droplet of QGP}{134}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Measurements and Models Compared}{134}{subsection.5.5.3}%
+\contentsline {chapter}{\chapternumberline {6}Conclusions}{137}{chapter.6}%
+\contentsline {appendix}{\chapternumberline {A}The Electron Ion Collider}{139}{appendix.A}%
+\contentsline {section}{\numberline {A.1}All-Silicon Tracker Concept Design}{140}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Jet Physics at the EIC}{144}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Charged Jet Reconstruction Performance}{146}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Charged Jet Observables at the EIC}{149}{section.A.4}%
+\contentsline {chapter}{Bibliography}{152}{section*.5}%
