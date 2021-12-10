@@ -1,46 +1,44 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'thesis.blg'
-[76] biber-darwin:340> INFO - === Fri Dec 10, 2021, 09:48:18
-[92] Biber.pm:415> INFO - Reading 'thesis.bcf'
-[219] Biber.pm:952> INFO - Found 157 citekeys in bib section 0
-[232] Biber.pm:4340> INFO - Processing section 0
-[242] Biber.pm:4531> INFO - Looking for bibtex format file 'Zotero.bib' for section 0
+[74] biber-darwin:340> INFO - === Fri Dec 10, 2021, 10:01:26
+[95] Biber.pm:415> INFO - Reading 'thesis.bcf'
+[216] Biber.pm:952> INFO - Found 157 citekeys in bib section 0
+[229] Biber.pm:4340> INFO - Processing section 0
+[239] Biber.pm:4531> INFO - Looking for bibtex format file 'Zotero.bib' for section 0
 [289] bibtex.pm:1689> INFO - LaTeX decoding ...
-[897] bibtex.pm:1494> INFO - Found BibTeX data source 'Zotero.bib'
-[22889] Utils.pm:395> WARN - legacy year field '28 October 2012, 12:33:23' in entry 'Dougsim2012' is not an integer - this will probably not sort properly.
-[22996] Utils.pm:395> WARN - legacy year field 'arXiv:1807.00782, 2018' in entry 'Sirunyan:2018gro' is not an integer - this will probably not sort properly.
-[23008] Utils.pm:395> WARN - legacy year field 'ANA-837, 2018' in entry 'CrossTalk' is not an integer - this will probably not sort properly.
-[25064] Utils.pm:395> WARN - legacy year field 'ALICE-ANA-2018-4677' in entry 'Erwann' is not an integer - this will probably not sort properly.
-[25618] Biber.pm:4531> INFO - Looking for bibtex format file 'EIC_Jets/eic.bib' for section 0
-[25624] bibtex.pm:1689> INFO - LaTeX decoding ...
-[25747] bibtex.pm:1494> INFO - Found BibTeX data source 'EIC_Jets/eic.bib'
-[25749] Utils.pm:395> WARN - Duplicate entry key: 'Cacciari:2008gp' in file 'EIC_Jets/eic.bib', skipping ...
-[25749] Utils.pm:395> WARN - Duplicate entry key: 'Accardi:2012qut' in file 'EIC_Jets/eic.bib', skipping ...
-[25754] Utils.pm:395> WARN - Duplicate entry key: 'Abelevetal:2014dna' in file 'EIC_Jets/eic.bib', skipping ...
-[25755] Utils.pm:395> WARN - Duplicate entry key: 'Mager:2016yvj' in file 'EIC_Jets/eic.bib', skipping ...
-[25755] Utils.pm:395> WARN - Duplicate entry key: 'det_handbook' in file 'EIC_Jets/eic.bib', skipping ...
-[25755] Utils.pm:395> WARN - Duplicate entry key: 'Arratia:2019vju' in file 'EIC_Jets/eic.bib', skipping ...
-[25771] Utils.pm:395> WARN - legacy year field 'July 2019' in entry 'eRD16' is not an integer - this will probably not sort properly.
-[25782] Utils.pm:395> WARN - legacy year field 'July 2020' in entry 'eRD25' is not an integer - this will probably not sort properly.
-[25785] Utils.pm:395> WARN - legacy year field 'January 2020' in entry 'its3det' is not an integer - this will probably not sort properly.
-[25788] Utils.pm:395> WARN - legacy year field '21 May 2020' in entry 'leo' is not an integer - this will probably not sort properly.
-[25790] Utils.pm:395> WARN - legacy year field '2 September 2020' in entry 'leo2' is not an integer - this will probably not sort properly.
-[25862] Utils.pm:395> WARN - legacy month field 'Jun' in entry 'PhysRevD.91.112012' is not an integer - this will probably not sort properly.
-[25868] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'PhysRevD.88.034030' is not an integer - this will probably not sort properly.
-[25869] Utils.pm:395> WARN - legacy year field '{Accessed:2020-12}' in entry 'DMtable:2020' is not an integer - this will probably not sort properly.
-[25869] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/hm/29gngft55910_26lr9bg6cfc0000gn/T/biber_tmp_Tu7w/eea017a84b7e87712911fab657a50665_88914.utf8, line 6, warning: 84 characters of junk seen at toplevel
-[25870] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/hm/29gngft55910_26lr9bg6cfc0000gn/T/biber_tmp_Tu7w/eea017a84b7e87712911fab657a50665_88914.utf8, line 940, warning: 71 characters of junk seen at toplevel
-[25870] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/hm/29gngft55910_26lr9bg6cfc0000gn/T/biber_tmp_Tu7w/eea017a84b7e87712911fab657a50665_88914.utf8, line 1100, warning: 404 characters of junk seen at toplevel
-[25870] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/hm/29gngft55910_26lr9bg6cfc0000gn/T/biber_tmp_Tu7w/eea017a84b7e87712911fab657a50665_88914.utf8, line 1213, warning: 2038 characters of junk seen at toplevel
-[25870] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/hm/29gngft55910_26lr9bg6cfc0000gn/T/biber_tmp_Tu7w/eea017a84b7e87712911fab657a50665_88914.utf8, line 1271, warning: 335 characters of junk seen at toplevel
-[25870] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/hm/29gngft55910_26lr9bg6cfc0000gn/T/biber_tmp_Tu7w/eea017a84b7e87712911fab657a50665_88914.utf8, line 1300, warning: 388 characters of junk seen at toplevel
-[25870] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/hm/29gngft55910_26lr9bg6cfc0000gn/T/biber_tmp_Tu7w/eea017a84b7e87712911fab657a50665_88914.utf8, line 1420, warning: 474 characters of junk seen at toplevel
-[25870] Utils.pm:395> WARN - I didn't find a database entry for 'singh' (section 0)
-[25870] Utils.pm:395> WARN - I didn't find a database entry for 'williams2018' (section 0)
-[26802] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[26802] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[26802] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[26802] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[27571] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[164143] bbl.pm:757> INFO - Output to thesis.bbl
-[164145] Biber.pm:128> INFO - WARNINGS: 27
+[933] bibtex.pm:1494> INFO - Found BibTeX data source 'Zotero.bib'
+[23941] Utils.pm:395> WARN - legacy year field '28 October 2012, 12:33:23' in entry 'Dougsim2012' is not an integer - this will probably not sort properly.
+[24047] Utils.pm:395> WARN - legacy year field 'arXiv:1807.00782, 2018' in entry 'Sirunyan:2018gro' is not an integer - this will probably not sort properly.
+[24061] Utils.pm:395> WARN - legacy year field 'ANA-837, 2018' in entry 'CrossTalk' is not an integer - this will probably not sort properly.
+[26140] Utils.pm:395> WARN - legacy year field 'ALICE-ANA-2018-4677' in entry 'Erwann' is not an integer - this will probably not sort properly.
+[26707] Biber.pm:4531> INFO - Looking for bibtex format file 'EIC_Jets/eic.bib' for section 0
+[26713] bibtex.pm:1689> INFO - LaTeX decoding ...
+[26852] bibtex.pm:1494> INFO - Found BibTeX data source 'EIC_Jets/eic.bib'
+[26854] Utils.pm:395> WARN - Duplicate entry key: 'Cacciari:2008gp' in file 'EIC_Jets/eic.bib', skipping ...
+[26854] Utils.pm:395> WARN - Duplicate entry key: 'Accardi:2012qut' in file 'EIC_Jets/eic.bib', skipping ...
+[26860] Utils.pm:395> WARN - Duplicate entry key: 'Abelevetal:2014dna' in file 'EIC_Jets/eic.bib', skipping ...
+[26861] Utils.pm:395> WARN - Duplicate entry key: 'Mager:2016yvj' in file 'EIC_Jets/eic.bib', skipping ...
+[26862] Utils.pm:395> WARN - Duplicate entry key: 'det_handbook' in file 'EIC_Jets/eic.bib', skipping ...
+[26862] Utils.pm:395> WARN - Duplicate entry key: 'Arratia:2019vju' in file 'EIC_Jets/eic.bib', skipping ...
+[26884] Utils.pm:395> WARN - legacy year field 'July 2019' in entry 'eRD16' is not an integer - this will probably not sort properly.
+[26897] Utils.pm:395> WARN - legacy year field 'July 2020' in entry 'eRD25' is not an integer - this will probably not sort properly.
+[26899] Utils.pm:395> WARN - legacy year field 'January 2020' in entry 'its3det' is not an integer - this will probably not sort properly.
+[26902] Utils.pm:395> WARN - legacy year field '21 May 2020' in entry 'leo' is not an integer - this will probably not sort properly.
+[26906] Utils.pm:395> WARN - legacy year field '2 September 2020' in entry 'leo2' is not an integer - this will probably not sort properly.
+[26999] Utils.pm:395> WARN - legacy month field 'Jun' in entry 'PhysRevD.91.112012' is not an integer - this will probably not sort properly.
+[27005] Utils.pm:395> WARN - legacy month field 'Aug' in entry 'PhysRevD.88.034030' is not an integer - this will probably not sort properly.
+[27006] Utils.pm:395> WARN - legacy year field '{Accessed:2020-12}' in entry 'DMtable:2020' is not an integer - this will probably not sort properly.
+[27006] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/hm/29gngft55910_26lr9bg6cfc0000gn/T/biber_tmp_4W1D/eea017a84b7e87712911fab657a50665_89354.utf8, line 6, warning: 84 characters of junk seen at toplevel
+[27006] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/hm/29gngft55910_26lr9bg6cfc0000gn/T/biber_tmp_4W1D/eea017a84b7e87712911fab657a50665_89354.utf8, line 940, warning: 71 characters of junk seen at toplevel
+[27006] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/hm/29gngft55910_26lr9bg6cfc0000gn/T/biber_tmp_4W1D/eea017a84b7e87712911fab657a50665_89354.utf8, line 1100, warning: 404 characters of junk seen at toplevel
+[27006] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/hm/29gngft55910_26lr9bg6cfc0000gn/T/biber_tmp_4W1D/eea017a84b7e87712911fab657a50665_89354.utf8, line 1213, warning: 2038 characters of junk seen at toplevel
+[27006] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/hm/29gngft55910_26lr9bg6cfc0000gn/T/biber_tmp_4W1D/eea017a84b7e87712911fab657a50665_89354.utf8, line 1271, warning: 335 characters of junk seen at toplevel
+[27007] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/hm/29gngft55910_26lr9bg6cfc0000gn/T/biber_tmp_4W1D/eea017a84b7e87712911fab657a50665_89354.utf8, line 1300, warning: 388 characters of junk seen at toplevel
+[27007] Utils.pm:395> WARN - BibTeX subsystem: /var/folders/hm/29gngft55910_26lr9bg6cfc0000gn/T/biber_tmp_4W1D/eea017a84b7e87712911fab657a50665_89354.utf8, line 1420, warning: 474 characters of junk seen at toplevel
+[28059] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[28059] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[28059] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[28059] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[28930] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[166600] bbl.pm:757> INFO - Output to thesis.bbl
+[166601] Biber.pm:128> INFO - WARNINGS: 25
