@@ -224,7 +224,8 @@
 % The Grad. Division requires that "Placement of page numbers must be
 % consistent throughout."
 
-\pagestyle{simple}
+% \pagestyle{simple}
+\pagestyle{plain}
 \aliaspagestyle{book}{simple}
 \aliaspagestyle{part}{simple}
 \aliaspagestyle{section}{simple}
@@ -544,7 +545,7 @@ by\par
 \renewenvironment{abstract}
   {\begin{alwayssingle}
     % \pagestyle{simple}
-    \thispagestyle{simple}
+    \thispagestyle{plain}
     \setlength{\parindent}{0pt}
     \setlength{\parskip}{\baselineskip}
     \setcounter{page}{1}
