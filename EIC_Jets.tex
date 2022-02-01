@@ -41,7 +41,7 @@ While the $\gamma$-hadron correlations place very important constraints on cold 
 
 % \section{Requirements on EIC Tracker Design}
 
-The detectors that make up the EIC have been conceptualized as general-purpose instruments surrounding the interaction point (IP) and embedded in a solenoidal magnetic field with a field strength of either 1.4 or 3.0 T. A cylindrical volume of 2.5m along the $z$ axis with a radius of 80cm is reserved for the innermost tracking system. The innermost tracking system will then be surrounded by other sub-detectors including particle identification (PID) detectors as well as electromagnetic and hadronic calorimeters. The tracking and vertexing systems at the EIC must have a wide kinematic coverage, good momentum resolution, and secondary vertex separation capabilities in order to meet the demands of the EIC physics programs. One very interesting detector design being considered is an all-silicon tracker for both momentum and vertex measurements, a contrast from the ALICE hybrid tracking system.
+The detectors that make up the EIC have been conceptualized as general-purpose instruments surrounding the interaction point (IP) and embedded in a solenoidal magnetic field with a field strength of either 1.4 or 3.0 T. A cylindrical volume of 2.5m along the $z$ axis with a radius of 80 cm is reserved for the innermost tracking system. The innermost tracking system will then be surrounded by other sub-detectors including particle identification (PID) detectors as well as electromagnetic and hadronic calorimeters. The tracking and vertexing systems at the EIC must have a wide kinematic coverage, good momentum resolution, and secondary vertex separation capabilities in order to meet the demands of the EIC physics programs. One very interesting detector design being considered is an all-silicon tracker for both momentum and vertex measurements, a contrast from the ALICE hybrid tracking system.
 
 Recent R\&D studies have showed that the all-silicon tracker can deliver comparable or better momentum resolution compared to hybrid concepts while being substantially more compact radially. This leaves much more room for the outer PID detectors that can enhance the overall PID capabilities of the EIC. This detector concept in implemented in GEANT4, and discussed in the next section.
 
@@ -59,7 +59,7 @@ Recent R\&D studies have showed that the all-silicon tracker can deliver compara
 
 A schematic of the all-silicon tracker concept considered in this work is shown in Fig.~\ref{fig:all_si_schematic}.
 The detector, designed within a generic EIC-detector R\&D effort~\cite{eRD16},
-corresponds to a cylindrical tracker with radius of 43.2cm and length of 242cm along the $z$ direction and wrapped around the beam pipe and centered at the nominal IP (which corresponds to $(x,y,z)=(0,0,0)$). In the region $-79.8 < z < 66.8$cm, the current design of the beam pipe corresponds to a beryllium cylinder of radius of 3.17cm and a thickness of 760~\textmu m. Outside of this region, the beam pipe fans out to accommodate a beam-crossing angle of $\approx$25mrad. Inside the beam pipe, a vacuum is simulated. The rest of the geometry is embedded in an air volume.
+corresponds to a cylindrical tracker with radius of 43.2 cm and length of 242 cm along the $z$ direction and wrapped around the beam pipe and centered at the nominal IP (which corresponds to $(x,y,z)=(0,0,0)$). In the region $-79.8 < z < 66.8$ cm, the current design of the beam pipe corresponds to a beryllium cylinder of radius of 3.17 cm and a thickness of 760~\textmu m. Outside of this region, the beam pipe fans out to accommodate a beam-crossing angle of $\approx$25mrad. Inside the beam pipe, a vacuum is simulated. The rest of the geometry is embedded in an air volume.
 
 The tracker coverage for low values of pseudorapidity, $\eta\equiv-{\mathrm ln}\big(\tan(\theta/2)\big)$ is provided by a barrel with 6 layers. The radii at which these layers are located and their corresponding lengths along $z$ are summarized on Table~\ref{tab:all_si:barrel} and illustrated in Fig.~\ref{fig:all_si_schematic} (right). They are laid out as three double layers to provide redundancy, and the middle double layer is placed equidistant between the inner and outer double layers to measure hits in the vicinity of the sagitta (vertical line from the midpoint of the chord to the arc itself, where the arc is simply the charged particles bend in the magnetic field) to optimize the momentum resolution. The pairing of the barrel layers also has the benefit of reducing the number of unique stave designs required.
 
@@ -90,11 +90,10 @@ $|\eta|\approx 1.1$.
 \end{figure}
 
 \begin{table}
-    \parbox{.45\linewidth}{
-        \centering
+  \centering
 \caption{Barrel-layer radii and lengths.}
 \label{tab:all_si:barrel}
-\begin{tabular}{c|cc}
+\resizebox{0.5\textwidth}{!}{\begin{tabular}{c|ccc}
 ~~Barrel~~  & ~~radius~~    & ~~length along z~~        \\
 layer   & {[}cm{]}  & {[}cm{]}              \\
   \hline \hline
@@ -106,13 +105,11 @@ layer   & {[}cm{]}  & {[}cm{]}              \\
 \hline
 5       & 39.30     & 105                   \\
 6       & 43.23     & 114                    
-\end{tabular}
-}
-\parbox{.45\linewidth}{
-\centering
+\end{tabular}}
+
 \caption{Disk $z$ position and inner and outer radii.}
 \label{tab:all_si:disks}
-\begin{tabular}{c|ccc}
+\resizebox{0.7\textwidth}{!}{\begin{tabular}{c|ccc}
 Disk  		& ~~z position~~	& outer 			& inner 			\\
 ~~number		& {[}cm{]}      & ~~radius {[}cm{]}~~	& ~~radius {[}cm{]}~~	\\
 \hline \hline
@@ -127,8 +124,7 @@ Disk  		& ~~z position~~	& outer 			& inner 			\\
 3           & 73            & 43.23			    & 3.50 			    \\
 4           & 97            & 43.23			    & 4.70 			    \\
 5           & 121           & 43.23             & 5.91
-\end{tabular}
-}
+\end{tabular}}
 \end{table}
 
 
@@ -144,7 +140,7 @@ The sensor silicon pixels have a pitch of 10$\times$10\textmu m$^2$ (correspondi
 
 As part of the EIC Yellow Report effort, projections were generated for both the radiation length of staves and discs~\cite{leo} based on the eRD25 EIC specific sensor and for the services (location and composition) and mechanical supports~\cite{leo2} that would be required to complete a tracking detector. These projections, which were only available after most of the work presented here, are referenced for completeness and are reasonably consistent with what is used in the shown simulation for material in the tracking detectors acceptance.
 
-The detector is complemented with a simplistic conical aluminum support structure with a thickness of 5mm which is tapered for $z>58$cm. As shown in Fig.~\ref{fig:material} (right), this support structure adds a significant amount of material 
+The detector is complemented with a simplistic conical aluminum support structure with a thickness of 5mm which is tapered for $z>58$ cm. As shown in Fig.~\ref{fig:material} (right), this support structure adds a significant amount of material 
 to the detector. However, the projective design concentrates this material into a narrow pseudorapidity range at $|\eta|=1.1$.
 More realistic support structures (likely made of carbon-fiber composite) and services are still to be implemented.  
 An earlier notional all-silicon detector extended out to a radius of 75 cm \cite{Klein:2020sts}; a larger detector can offer improved momentum resolution, at a cost in larger silicon area, and hence cost.  This study also considered the possibility of using timing to improve resolution for low-momentum particles, but this is difficult with the smaller 43 cm lever arm.
@@ -316,7 +312,7 @@ An earlier notional all-silicon detector extended out to a radius of 75 cm \cite
 \section{Jet Physics at the EIC}
 As discussed previously, jets are composite objects that relate final-state particles measured in the detector to an initial parton, and serve as a powerful tool for probing QCD. Jets are measured experimentally by clustering the observed particles using a particular clustering algorithm (anti-$k_T$ \cite{Cacciari:2008gp} in this work) within a chosen jet resolution parameter. In heavy-ion collisions, prompt $\gamma$-jet and $\gamma$-hadron correlations are labelled "the golden channel", because the measured photon constrains the kinematics scattered parton, allowing one to study deviations or modifications to the parton more accurately. Such constrains in heavy-ion physics are not common, due to the extremely high multiplicity environments. 
 
-Semi-Inclusive Deep Inelastic Scattering (SIDIS) at the EIC goes much further in this regard, and thus can yield exciting new insights to studying QCD in nuclei. By accurately measuring the energy of the electron before and  after the scattering, one obtains an excellent handle on the momentum that is transferred from the beam electron to the parton. Thus, at leading order, the parton should have momentum $Q$ in the absence of any modification, and yield a measured jet with comparable momentum. Rather than a rare event, as it is in prompt photon channels in heavy-ion collisions, SIDIS events are the rule, not the exception. Fig.~\ref{fig:eic_dis} shows a carton of SIDIS with a measured jet. Futhermore, jet can be measured at much lower $Q^2$ at the EIC when compared to the LHC, down to  $Q^2 = 10^-5$ \cite{Khalek2021}.
+Semi-Inclusive Deep Inelastic Scattering (SIDIS) at the EIC goes much further in this regard, and thus can yield exciting new insights to studying QCD in nuclei. By accurately measuring the energy of the electron before and  after the scattering, one obtains an excellent handle on the momentum that is transferred from the beam electron to the parton. Thus, at leading order, the parton should have momentum $Q$ in the absence of any modification, and yield a measured jet with comparable momentum. Rather than a rare event, as it is in prompt photon channels in heavy-ion collisions, SIDIS events are the rule, not the exception. Figure~\ref{fig:eic_dis} shows a carton of SIDIS with a measured jet. Futhermore, jet can be measured at much lower $Q^2$ at the EIC when compared to the LHC, down to  $Q^2 = 10^{-5}$ \cite{Khalek2021}.
 
 \begin{figure}[htb]
 \centering
@@ -344,12 +340,12 @@ Unlike in the semi-inclusive DIS case, jet measurements allow the extraction of 
 \item Substructure measurements can be used to tune parton-shower event generators and study cold nuclear matter effects as explored in~\cite{Aschenauer:2019uex}.
 \end{itemize}
 
-Of particular interest for this work is the study of jets to study parton energy loss that can be observed as a \pt~broadening effect on the measured jet; When a highly energetic jet is produced in the hard partonic process, it experiences multiple interactions with the target nucleus which will generate PT -broadening effects \cite{Baier1997}. These final state interactions can also be factorized into the TMD quark distribution of the nucleus, from which one can extract the typical transverse momentum obtained by the quark, $\hat{q}L$, through multiple interactions with the cold nuclear matter\cite{Liang2008a}.  The \pt~broadening effect can be observed by measuring electron jet correlations, and modelled using different $\hat{q}L$. This is shown in Fig.~\ref{fig:ql_corr}.
+Of particular interest for this work is the study of jets to study parton energy loss that can be observed as a \pt~broadening effect on the measured jet; When a highly energetic jet is produced in the hard partonic process, it experiences multiple interactions with the target nucleus which will generate \pT~-broadening effects \cite{Baier1997}. These final state interactions can also be factorized into the TMD quark distribution of the nucleus, from which one can extract the typical transverse momentum obtained by the quark, $\hat{q}L$, through multiple interactions with the cold nuclear matter\cite{Liang2008a}.  The \pt~broadening effect can be observed by measuring electron jet correlations, and modelled using different $\hat{q}L$. This is shown in Fig.~\ref{fig:ql_corr}.
 
 \begin{figure}[htpb]
   \centering
   \includegraphics[width=0.6\textwidth]{EIC_Jets/qL_corr.png}
-  \caption{\pt broadening effects  for the lepton jet azimuthal correlation due to the interaction with cold nuclear matter as a function of $\Delta\varphi = |\varphi_\mathrm{jet} - \varphi_{l} - \pi|$ for two typical values of $\hat{q}L$\cite{Liu2019}.}
+  \caption{\pt~broadening effects  for the lepton jet azimuthal correlation due to the interaction with cold nuclear matter as a function of $\Delta\varphi = |\varphi_\mathrm{jet} - \varphi_{l} - \pi|$ for two typical values of $\hat{q}L$ \cite{Liu2019}.}
   \label{fig:ql_corr}
 \end{figure}
 
@@ -363,7 +359,7 @@ Finally, two specific observables, electron-jet correlations in DIS and the char
 Of course, the jet physics program at the EIC can only be accomplished with accurate measurements of the final state jets. This section discusses the jet reconstruction performance of the all-silicon tracker described in Sec.~\ref{sec:sim:full}. Charged jets have been measured extensively in $p$+$p$ collisions with the ALICE detector at the large hadron collider~\cite{PhysRevD.91.112012}.
 %bvj Before journal submission, let's check what ATLAS did and add a reference if appropriate.
 
-Track-only jets can often offer greater experimental precision, but are traditionally harder to compare to theoretical calculations. However, there has been progress in connecting experimental track-only jet observables with theoretical studies~\cite{PhysRevD.88.034030}. To quantify the jet reconstruction performance of the silicon tracker described in section~\ref{sec:sim:full}, electron-proton collisions are simulated with the PYTHIA8 Monte-Carlo generator and a full GEANT4 simulation with a 1.4T and 3.0T solenoidal magnetic field. Electrons and protons are collisions are simulated with a center-of-mass energy of $\sqrt{s}=89$ GeV and a minimum $Q^2$ of  $16(\GeVc)^2$. Jets are reconstructed using the anti-$k_\mathrm{T}$ algorithm, with a large resolution parameter of $R= 1.0$. This is feasible due to the relatively low multiplicity of particles produced in $e$+$p$ collisions. 
+Track-only jets can often offer greater experimental precision, but are traditionally harder to compare to theoretical calculations. However, there has been progress in connecting experimental track-only jet observables with theoretical studies~\cite{PhysRevD.88.034030}. To quantify the jet reconstruction performance of the silicon tracker described in section~\ref{sec:sim:full}, electron-proton collisions are simulated with the PYTHIA8 Monte-Carlo generator and a full GEANT4 simulation with a 1.4 T and 3.0 T solenoidal magnetic field. Electrons and protons are collisions are simulated with a center-of-mass energy of $\sqrt{s}=89$ GeV and a minimum $Q^2$ of  $16(\GeVc)^2$. Jets are reconstructed using the anti-$k_\mathrm{T}$ algorithm, with a large resolution parameter of $R= 1.0$. This is feasible due to the relatively low multiplicity of particles produced in $e$+$p$ collisions. 
 
 Reconstructed jets are required to have 4 or more constituents and a minimum total energy of $4.0~\mathrm{GeV}$ (informed by the minimum $Q^2$ of $16(\GeVc)^2$) in order to be considered. Jets are reconstructed in the range $|\eta|<3.5$, according to the acceptance of the all-silicon tracker. Reconstructed jets within $\Delta R = 0.5$ of the highest energy electron in the event are omitted to ensure that the beam electron is not included as part of any jet.
 
@@ -371,13 +367,14 @@ Reconstructed jets are required to have 4 or more constituents and a minimum tot
 Additional selections are made on the jet constituents. They are required to have a $p_\mathrm{T} \geq$ 70 MeV/$c$, with a higher threshold depending on $\eta$ of the constituent. The minimum $p_\mathrm{T}$ for different $\eta$ regions is shown in Table~\ref{tab:min_pt1}. The values in Table \ref{tab:min_pt1} are extracted from Ref.~\cite{DMtable:2020} and exceed the values discussed in section~\ref{sec:sim:full}. These are based on the need for three or more traversed barrel layers or disks in the all-silicon tracker in order to determine the track curvature for a charged particle and hence its transverse momentum. Jets with constituents that hit the conical supports where the central barrel meets the forward and backward disks are omitted. Based on Fig.~\ref{fig:material}, we take this range to be $1.06 < |\eta| < 1.13$.
 
 \begin{table}[htb]
+  \centering
 \caption{Minimum $p_\mathrm{T}$-threshold (in MeV/$c$) for charged jet constituents.}
-\begin{tabular}{  c | c | c | c | c | c  }
+\resizebox{\textwidth}{!}{\begin{tabular}{  c | c | c | c | c | c  }
 ~~$B$ field [T]~~& ~~$ |\eta| < 1.0 $~~ & ~~$ 1.0 < |\eta| < 1.5  $~~ & ~~$1.5 < |\eta| < 2.0 $~~ & ~~$ 2.0 < |\eta| < 2.5 $~~ & ~~$2.5 < |\eta| < 3.5$~~\\
 \hline \hline
 1.4 & 200 & 150 & 70  & 130  & 100 \\
 3.0 & 400 & 300 & 160  & 220  & 150 \\
-\end{tabular}
+\end{tabular}}
 \label{tab:min_pt1}
 \end{table}
 
@@ -398,7 +395,7 @@ A negligible difference was found in the jet performance studies using particle-
     \centering
     \includegraphics[width=0.49\textwidth]{EIC_Jets/1.4T_momentum_response.pdf}
     \includegraphics[width=0.49\textwidth]{EIC_Jets/3T_momentum_response.pdf}
-    \caption{Charged-jet momentum response for jets with $N_\mathrm{constituent} \geq 4$ determined from PYTHIA $e$+$p$ events at 20$\times$100 GeV collisions in a 1.4T (left) and 3.0T (right) magnetic field.}
+    \caption{Charged-jet momentum response for jets with $N_\mathrm{constituent} \geq 4$ determined from PYTHIA $e$+$p$ events at 20$\times$100 GeV collisions in a 1.4 T (left) and 3.0 T (right) magnetic field.}
     \label{fig:jet_response}
 \end{figure}
 
@@ -413,7 +410,7 @@ Figure~\ref{fig:jet_response} shows the momentum response matrix for charged jet
 \end{figure}
 
 Figure~\ref{fig:n_missed_vs_dpp} shows the energy resolution of jets vs. the difference between number of truth and reconstructed constituents, $N_\mathrm{Missed} = N_\mathrm{constituent}^\mathrm{truth,ch} - N_\mathrm{constituent}^\mathrm{reco}$. 
-The left panel shows a distribution centered at 0 for jets with no missing constituents. As the number of missed jet constituents increases, this distribution broadens and shifts towards higher values of d$p/p$. The right panel shows the d$p/p$ distribution of two populations of jets: jets with less than 1 missing constituent and jets with one or more missing constituents. Jets in a magnetic field of 1.4T (3.0T) with less than 1 missing constituent make up approximately 58\% (49\%) of jets that pass all other selection criteria and have a narrow distribution centered at 0 that is well described by a Gaussian fit. Jets with one or more missing constituents, however, have a much broader d$p/p$ distribution that is shifted toward higher values. These are best described by a Landau distribution. Consequently, we characterize the jet momentum resolution of the silicon tracker by simply taking the standard deviation of the d$p/p$ distribution; 
+The left panel shows a distribution centered at 0 for jets with no missing constituents. As the number of missed jet constituents increases, this distribution broadens and shifts towards higher values of d$p/p$. The right panel shows the d$p/p$ distribution of two populations of jets: jets with less than 1 missing constituent and jets with one or more missing constituents. Jets in a magnetic field of 1.4 T (3.0 T) with less than 1 missing constituent make up approximately 58\% (49\%) of jets that pass all other selection criteria and have a narrow distribution centered at 0 that is well described by a Gaussian fit. Jets with one or more missing constituents, however, have a much broader d$p/p$ distribution that is shifted toward higher values. These are best described by a Landau distribution. Consequently, we characterize the jet momentum resolution of the silicon tracker by simply taking the standard deviation of the d$p/p$ distribution; 
 %bvj as 
 Gaussian fits to the combined distributions are dominated by the narrow peak at d$p/p$ $\approx$ 0, with the detrimental effect of poorly characterizing the non-Gaussian ``shoulder'' shown in red in Fig.~\ref{fig:n_missed_vs_dpp}.
 
@@ -428,19 +425,19 @@ Gaussian fits to the combined distributions are dominated by the narrow peak at 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.96\textwidth]{EIC_Jets/DeltaR_B_1.4_resolutions_eta_mom.pdf}
-    \caption{Momentum and angular resolutions of charged jets reconstructed with the all-Silicon tracker simulated in PYTHIA $e$+$p$ collisions at 20$\times$100 GeV with the 1.4T magnetic-field configuration.}
+    \caption{Momentum and angular resolutions of charged jets reconstructed with the all-Silicon tracker simulated in PYTHIA $e$+$p$ collisions at 20$\times$100 GeV with the 1.4 T magnetic-field configuration.}
     \label{fig:1p4T_jet_resolutions}
 \end{figure}
 
-Figure~\ref{fig:3T_jet_resolutions} shows the momentum and angular resolutions of jets in a 3.0 T field. The resolutions are shown in bins of jet momentum and $\eta$. The momentum resolution for jets with one or more missing particles that make up the shoulder of the distribution is more difficult to describe. The d$p/p$ distribution shown in Fig.~\ref{fig:n_missed_vs_dpp} in red is best fit with a Landau distribution, where $\sigma$ is undefined. Therefore, instead of a fit, the simple numerical standard deviation of the overall distribution is taken, and reported for the momentum resolution in Fig.~\ref{fig:3T_jet_resolutions}. The angular resolutions are well described by double-Gaussian fits, where in both the azimuthal and polar angular distributions there is  a narrow peak centered at zero, with a low shoulder at larger values. The narrow Gaussian from the fit  is used to the standard deviation and its uncertainty is estimated from the fit. Figure \ref{fig:1p4T_jet_resolutions} shows the resulting resolutions of applying this procedure to jets simulated in a 1.4T magnetic field.
+Figure~\ref{fig:3T_jet_resolutions} shows the momentum and angular resolutions of jets in a 3.0 T field. The resolutions are shown in bins of jet momentum and $\eta$. The momentum resolution for jets with one or more missing particles that make up the shoulder of the distribution is more difficult to describe. The d$p/p$ distribution shown in Fig.~\ref{fig:n_missed_vs_dpp} in red is best fit with a Landau distribution, where $\sigma$ is undefined. Therefore, instead of a fit, the simple numerical standard deviation of the overall distribution is taken, and reported for the momentum resolution in Fig.~\ref{fig:3T_jet_resolutions}. The angular resolutions are well described by double-Gaussian fits, where in both the azimuthal and polar angular distributions there is  a narrow peak centered at zero, with a low shoulder at larger values. The narrow Gaussian from the fit  is used to the standard deviation and its uncertainty is estimated from the fit. Figure \ref{fig:1p4T_jet_resolutions} shows the resulting resolutions of applying this procedure to jets simulated in a 1.4 T magnetic field.
 
 
 \section{Charged Jet Observables at the EIC}
 
 \begin{figure}[htbp]
     \centering
-\includegraphics[height=0.4\textwidth,width=0.6\textwidth]{EIC_Jets/azimuthal_correlations.pdf}
-    \caption{Azimuthal correlation between the scattered electron and jets in $e$+$p$ collisions simulated with a 1.4T and 3.0T magnetic field. Solid lines display the correlation between particle-level scattered electron and jets. The dashed lines display the correlation between the reconstructed electron and reconstructed jets, with the shaded bands representing the uncertainty arising from the $\Delta\varphi$ resolution. The statistical error bars are scaled to reflect an expected luminosity of $L = 10\mathrm{fb}^{-1}$.}
+\includegraphics[width=0.99\textwidth]{EIC_Jets/azimuthal_correlations.pdf}
+    \caption{Azimuthal correlation between the scattered electron and jets in $e$+$p$ collisions simulated with a 1.4 T and 3.0 T magnetic field. Solid lines display the correlation between particle-level scattered electron and jets. The dashed lines display the correlation between the reconstructed electron and reconstructed jets, with the shaded bands representing the uncertainty arising from the $\Delta\varphi$ resolution. The statistical error bars are scaled to reflect an expected luminosity of $L = 10\mathrm{fb}^{-1}$.}
     \label{fig:az_corr}
 \end{figure}
 

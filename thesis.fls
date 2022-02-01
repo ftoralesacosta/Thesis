@@ -707,6 +707,7 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/translator/translator.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/translator/translator.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/translator/translator.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
@@ -1981,7 +1982,6 @@ INPUT EIC_Jets/azimuthal_correlations.pdf
 INPUT ./EIC_Jets/azimuthal_correlations.pdf
 INPUT ./EIC_Jets/azimuthal_correlations.pdf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 OUTPUT thesis.toc
 OUTPUT thesis.lof
 OUTPUT thesis.lot
@@ -2046,7 +2046,6 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb

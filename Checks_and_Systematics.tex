@@ -76,7 +76,7 @@ Table~\ref{tab:BigSummarySystematics} presents as summary of all uncertainty est
 \section{Event Mixing}
 Event mixing is used in the analysis in order to correct for the pair acceptance of photon-hadron pairs, as the convolution of the EMCal acceptance with the $\eta-\varphi$ dependent efficiency of the standalone ITS tracking is non-trivial. It can be corrected for, using the data driven method outlined in Sec.~\ref{sec:EventMixing}.
 
-Because this correction is data-driven, a systematic from any mis-modeling of the detector performance avoided. In theory, there should be a statistical uncertainty on the event mixing that would propagate as an uncertainty on the final analysis. For this reason, a very large number of MB events are mixed with gamma triggered events such that the statistical uncertainty on the mixed event correlations is negligible, and thus is not propagated into the analysis. Furthermore, for the high \zt~bins in the correlation and fragmentation function analysis, MB events where at least one track with a \pt~of 14\GeVc~are chosen to be in an event pool (this \pt~requirement roughly corresponds to the \zt~bin for a photon at 40\GeVc). This provides very good statistics, even in the normally statistics limited bins at higher \zt.
+Because this correction is data-driven, a systematic from any mis-modeling of the detector performance avoided. In theory, there should be a statistical uncertainty on the event mixing that would propagate as an uncertainty on the final analysis. For this reason, a very large number of MB events are mixed with gamma triggered events such that the statistical uncertainty on the mixed event correlations is negligible, and thus is not propagated into the analysis. Furthermore, for the high \zt~bins in the correlation and fragmentation function analysis, MB events where at least one track with a \pt~of 14 \GeVc~are chosen to be in an event pool (this \pt~requirement roughly corresponds to the \zt~bin for a photon at 40 \GeVc). This provides very good statistics, even in the normally statistics limited bins at higher \zt.
 
  Typically, an analysis that uses mixing to estimate uncorrelated background also introduces a systematic uncertainty attributed to the choice of the mixed event normalization. However, because the mixing is used as a pair acceptance correction, the normalization is set such that the highest value of the mixed-event correlation is set to 1.0, and no uncertainty is applied to this normalization.
 
@@ -96,7 +96,7 @@ Given a perfect detector with limited acceptance, the mixed-event correlation fu
 	\label{fig:toy_MC}
 \end{figure}
 
-However, this flat distribution cannot be assumed, seen previously in Figure \ref{fig:SR_2D} and now in right panel of Figure \ref{fig:toy_MC}. Dead areas or spots with a lower overall tracking efficiency accumulate over years of use at the LHC, and if large enough they can effect the pair efficiency and therefore the mixed event correlations. This is shown in Figure \ref{fig:toy_MC}. Both track and trigger photon \deltaeta~and \deltaphi~are constrained according to their respective detector acceptances, however additional holes in the $\varphi$ distribution of tracks are placed according to 2D tracking efficiency plot, see Fig.~\ref{fig:phiEff}, Sec.~\ref{sec:tracking}.
+However, this flat distribution cannot be assumed, seen previously in Figure \ref{fig:SR_2D} and now in right panel of Figure \ref{fig:toy_MC}. Dead areas or spots with a lower overall tracking efficiency accumulate over years of use at the LHC, and if large enough they can effect the pair efficiency and therefore the mixed event correlations. This is shown in Figure \ref{fig:toy_MC}. Both track and trigger photon \deltaeta~and \deltaphi~are constrained according to their respective detector acceptances, however additional holes in the $\varphi$ distribution of tracks are placed according to 2D tracking efficiency plot, see Fig.~\ref{fig:2Defficiency}, Sec.~\ref{sec:tracking}.
 
 \subsection{Binned Event Mixing}
 In order to ensure that the shape of the mixed event correlations arising from the Gale-Shapley matching algorithm, a more standard binned event mixing method was compared.
@@ -217,10 +217,10 @@ This study comparing ITS-only tracking and ITS+TPC tracks serves as a check agai
 
 % The difference in overall momentum fraction in the two partons is responsible for the away-side ridge spanning a very large region in \deltaeta.
 
-\section{Purity}\footnote{Please see Alwina Liu's UC Berkley Thesis for a more thorough discussion of systematics on the purity measurement}
+\section{Purity}
 \subsection{Systematic Uncertainties of the Purity Measurement}
 \label{sec:puritysystematics}
-There are two assumptions underlying the template fit procedure. The first is that the signal template from simulations is correct. The second is that the shape of the background estimated from the anti-isolated sideband, with the correction estimated from simulations, reflects the shape of the background in the signal region. In other words, the assumption is that the correlation between the shower shape and isolation variables can be corrected for via an Monte-Carlo simulation tuned to match the real detector response. The dominant sources of systematic uncertainty on the purity calculation are described in this section and can be summarized as follows: the signal template, the sideband region selection, and the background template correction. The effect of varying the cluster selection requirements were investigated, but it was found that the variations on the purity measurements are much smaller than the other sources of systematic uncertainties investigated here. Therefore, they are neglected. 
+\footnote{Please see Alwina Liu's UC Berkley Thesis for a more thorough discussion of systematics on the purity measurement}There are two assumptions underlying the template fit procedure. The first is that the signal template from simulations is correct. The second is that the shape of the background estimated from the anti-isolated sideband, with the correction estimated from simulations, reflects the shape of the background in the signal region. In other words, the assumption is that the correlation between the shower shape and isolation variables can be corrected for via an Monte-Carlo simulation tuned to match the real detector response. The dominant sources of systematic uncertainty on the purity calculation are described in this section and can be summarized as follows: the signal template, the sideband region selection, and the background template correction. The effect of varying the cluster selection requirements were investigated, but it was found that the variations on the purity measurements are much smaller than the other sources of systematic uncertainties investigated here. Therefore, they are neglected. 
 
 \subsection{Signal Template}
 The systematic uncertainty on the purity calculation arising from imperfections in the signal template is estimated by using a data-driven template fit. To this end, the range of the $\chi^{2}$ fit to the background-dominated region of the shower-shape distribution is restricted (0.4--1.5 for $\lambdasquare$) and the background template is used to fit the isolated data with the normalization as the only free parameter. In order to factorize the effect of the MC-correction to the background template, that correction is not applied here. Once the background normalization is determined, the signal is considered to be the integral of the isolated data minus the integral of the background, both in the signal region of the shower-shape variable. 
@@ -385,13 +385,13 @@ A closure test was preformed to validate the MC corrections used for the trackin
 
 The published data has a total uncertainty (quadrature sum of statistical and systematic uncertainties) that ranges from $1.8\%$ at 1 \GeVc, reaches $4.8\%$ by 10 \GeVc~and grows quickly to about 20$\%$ at 15 \GeVc, where it is dominated by the statistical uncertainty. 
 
-The ratio of the published data to the smeared published data is shown to illustrates the impact of the momentum smearing, which is less than a $2\%$ effect for TPC+ITS tracks but it reaches up to twice that in the ITS-only case above 7\GeVc. The closure-test ratios from TPC+ITS tracking are consistent with unity within uncertainties, which is expected. The ratios with ITS-only tracking are within $\pm$5\% of unity in the range between 0.85--10 \GeVc~and within $\pm$8\% of unity in the range between 0.5--0.85 \GeVc, which is the range used for the $\gammaiso$--hadron analysis. This difference from unity is used as a systematic uncertainty on the tracking.
+The ratio of the published data to the smeared published data is shown to illustrates the impact of the momentum smearing, which is less than a $2\%$ effect for TPC+ITS tracks but it reaches up to twice that in the ITS-only case above 7 \GeVc. The closure-test ratios from TPC+ITS tracking are consistent with unity within uncertainties, which is expected. The ratios with ITS-only tracking are within $\pm$5\% of unity in the range between 0.85--10 \GeVc~and within $\pm$8\% of unity in the range between 0.5--0.85 \GeVc, which is the range used for the $\gammaiso$--hadron analysis. This difference from unity is used as a systematic uncertainty on the tracking.
 
 \begin{figure}[htpb]
 \center
 \includegraphics[width=.95\textwidth]{Data_Analysis/Tracking/ratio_refolding_pPb_tpc_MBMC_1GeV15GeV_errors.pdf}
 \includegraphics[width=.95\textwidth]{Data_Analysis/Tracking/ratio_refolding_pPb_its_MBMC_0GeV15GeV_errors_band.pdf}
-\caption{Result of closure test comparing measured data and published data, for TPC+ITS tracking (top) and ITS-only tracking (bottom). The red curves show the ratio of the reference spectra to the smeared reference spectra. The blue curves show the ratio of the fake-subtracted measured data and the smeared reference spectra. Ideally the blue curve would be flat at unity. The error bar represents statistical uncertainty only for the blue curve, and the quadrature sum of statistical and systematic uncertainties for the red curve. Additionally, the dashed lines from 0.5 to 0.85 \GeVc represent an 8\% band around 1, while the dashed lines from 0.85 to 10.0 \GeVc represent a 5\% band around 1.}
+\caption{Result of closure test comparing measured data and published data, for TPC+ITS tracking (top) and ITS-only tracking (bottom). The red curves show the ratio of the reference spectra to the smeared reference spectra. The blue curves show the ratio of the fake-subtracted measured data and the smeared reference spectra. Ideally the blue curve would be flat at unity. The error bar represents statistical uncertainty only for the blue curve, and the quadrature sum of statistical and systematic uncertainties for the red curve. Additionally, the dashed lines from 0.5 to 0.85 \GeVc represent an 8\% band around 1.0, while the dashed lines from 0.85 to 10.0 \GeVc represent a 5\% band around 1.0.}
 \label{fig:RefoldedComparison}
 \end{figure}
 
@@ -425,9 +425,9 @@ Apart from the effect of $\varphi$-dependent acceptance holes, the measured azim
 After applying the $\varphi$ efficiency, the holes are corrected, and a distribution which is flat within {$\pm$2.5\%} is obtained. The TPC+ITS remains flat after the efficiency correction, as expected. This shows that the dead channels in the ITS are well-described in the simulation. 
 % Figure~\ref{fig:phiCorr} shows the $\varphi$ distribution of TPC+ITS and ITS-only tracks in minimum-bias \pPb~data and the effect of applying the efficiency correction to the $\varphi$ distribution. Before applying the efficiency correction, there are visible holes at $\varphi$ = $-$1.04, $-$0.8, $-$0.2 rad in ITS-only tracks which are not present in the TPC+ITS tracking. 
 
-\subsection{Summary of the ITS-only Tracking Performance Studies}\footnote{Please see Dhruv Dixit's UCB Thesis for more details.}
+\subsection{Summary of the ITS-only Tracking Performance Studies}
 \label{sec:sys_tracking}
-This section summarizes the findings of the studies on ITS-only tracking performance: 
+\footnote{Please see Dhruv Dixit's UCB Thesis for more details.}This section summarizes the findings of the studies on ITS-only tracking performance: 
 \begin{enumerate}
 \item Tracking Efficiency: \\
 The ITS-only tracking efficiency is $75\%$ at 150 MeV/$c$ and grows to 85$\%$ at 1 \GeVc~and above. 
@@ -539,7 +539,7 @@ Given that the impact of these cluster variations on the purity measurement is s
 \section{MC-based Correction for Background Template}
 \label{sec:MCbasedcorrection}
 
-Figure~\ref{fig:bkgCorrection} shows the weight correction\footnote{Credit Alwina Liu. Please see her UCB Thesis for more details.} (see Eq.~\ref{eq:bkgtemplatecorrection}) applied to the anti-isolation shower-shape distribution, which is obtained from dijet MC simulation. As described in more detail in Section~\ref{sec:purity}, only the shape of this correction is relevant as the normalization is fixed by the template fit. The systematic uncertainty associated with this correction is obtained with a double-ratio using data in the background-dominated region ($\lambdasquare>0.4$), as described in more detail in Section~\ref{sec:puritysystematics}, but is a $\approx_3\%$(abs.) effect on the purity. 
+Figure~\ref{fig:bkgCorrection} shows the weight correction\footnote{Credit Alwina Liu. Please see her UCB Thesis for more details.} (see Eq.~\ref{eq:bkgtemplatecorrection}) applied to the anti-isolation shower-shape distribution, which is obtained from dijet MC simulation. As described in more detail in Section~\ref{sec:purity}, only the shape of this correction is relevant as the normalization is fixed by the template fit. The systematic uncertainty associated with this correction is obtained with a double-ratio using data in the background-dominated region ($\lambdasquare>0.4$), as described in more detail in Section~\ref{sec:puritysystematics}, but is a $\approx3\%$(abs.) effect on the purity. 
 
 \begin{figure}
 	\center
@@ -550,7 +550,7 @@ Figure~\ref{fig:bkgCorrection} shows the weight correction\footnote{Credit Alwin
 \end{figure}
 
 \section{Checks on Error Function Fits to Purity}
-The purity is fit to a 3-parameter error function, shown in Figure~\ref{fig:Purity_Error_Function}, in order to capture the quickly rising behavior at low photon-\pt~ and to avoid bin-edge effects. The use of an error function was chosen as it best represents the data as shown in Figure \ref{Fig:Fit_variations}
+The purity is fit to a 3-parameter error function, shown in Figure~\ref{fig:purityresults}, in order to capture the quickly rising behavior at low photon-\pt~ and to avoid bin-edge effects. The use of an error function was chosen as it best represents the data as shown in Figure \ref{Fig:Fit_variations}
 
 \begin{figure}
     \centering

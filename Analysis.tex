@@ -20,7 +20,7 @@ This measurement exploits the difference between the electromagnetic shower prof
 
 The main background within the $\gammaiso$ candidate population are from multi-jet events where one jet typically contains a $\pi^{0}$ or $\eta$ that carries most of the jet energy and is misidentified as a photon because it decays into a photon pair that is collinear with respect to the EMCal cell granularity ($\Delta\eta\times\Delta\phi\approx$  14.3$\times$14.3 mrad$^{2}$), that is, the two photons are close enough to deposit most of their energy in the same cell and appear as a single shower. Another prominent source of background is very asymmetric neutral meson decays.
 
-The signal purity of the $\gammaiso$ selection is measured by using the ``template-fit method'', in which the measured shower-shape distribution is fit with the sum of signal and background templates with the relative normalization as the single free parameter\footnote{Note that this is an standard way to estimate QCD background since at least the Tevatron days. The same exact method is used in the CMS $\gammaiso$ and $\gammaiso$--jet measurements in pp and PbPb data, for example in~\cite{Sirunyan:2018gro,Chatrchyan:2012gt}.}. The background template is mostly data-driven, calculated with an anti-isolated sideband (described in \ref{sec:purity}), but a Monte-Carlo based correction is applied to account for biases such as the correlation between shower shape and isolation selections. The signal template is obtained from photon-jet simulation. The purity of our $\gammaiso$ selection is measured to be around 20$\%$ at {12 \GeVc} and increases to about 55$\%$ at {20 \GeVc} and above. 
+The signal purity of the $\gammaiso$ selection is measured by using the ``template-fit method'', in which the measured shower-shape distribution is fit with the sum of signal and background templates with the relative normalization as the single free parameter\footnote{Note that this is an standard way to estimate QCD background since at least the Tevatron days. The same exact method is used in the CMS $\gammaiso$ and $\gammaiso$--jet measurements in pp and PbPb data, for example in~\cite{Sirunyan:2018gro,Chatrchyan:2012gt}.}. The background template is mostly data-driven, calculated with an anti-isolated sideband (described in Section~\ref{sec:purity}), but a Monte-Carlo based correction is applied to account for biases such as the correlation between shower shape and isolation selections. The signal template is obtained from photon-jet simulation. The purity of our $\gammaiso$ selection is measured to be around 20$\%$ at {12 \GeVc} and increases to about 55$\%$ at {20 \GeVc} and above. 
 
 Next, the angular correlation of the $\gammaiso$ candidates with charged particles is measured.  The {$\ydecay$--hadron} correlation function is measured by inverting the shower-shape cut to select merged-clusters from meson decays, and is called the \textit{Background Region} correlation function. Both the signal and background region photon-hadron correlations are corrected for geometrical pair acceptance effects using the mixed-event technique. Afterwards, the $\ydecay$--hadron correlation is normalized using the measured purity and subtracted from the normalized main $\gammaiso$ candidate correlations in a process labelled ``correlated background subtraction''.
 
@@ -88,7 +88,7 @@ The average number of inelastic collisions per bunch crossing, $\mu$, is 0.020--
 
 \section{Monte Carlo simulations}
 \label{sec:mcsimulations}
-We use Monte Carlo (MC) simulations to obtain the signal shower-shape distributions for the template fits (section~\ref{sec:purity}), separate set of corrections to the background templates (section~\ref{sec:puritysystematics}), and to study tracking performance (section~\ref{sec:tracking}).
+We use Monte Carlo (MC) simulations to obtain the signal shower-shape distributions for the template fits (Section~\ref{sec:purity}), separate set of corrections to the background templates (Section~\ref{sec:puritysystematics}), and to study tracking performance (Section~\ref{sec:tracking}).
 
 The simulations of hard processes are based on the \textsc{Pythia} event generator \cite{zotero-332}. In \textsc{Pythia}, the signal events are included via $2\to2$ matrix elements with $gq\to\gamma q$ and $q\bar{q}\to\gamma g$ hard scatterings, defined at the leading order, followed by the leading-logarithm approximation of the partonic shower. The soft underlying events in pp collisions as well as fragmentation are included with the default \textsc{Pythia} models. 
 
@@ -121,7 +121,7 @@ The following event selection criteria is used to ensure good event quality and 
 \begin{itemize}
   \item The run passes Quality Assurance (QA) for EMCal and ITS.
 \item At least one EMCal cluster with $\pt>12$ \GeVc.
-\item At least one of the EMCal clusters match the triggers from Table~\ref{tab:triggerstringstab:triggerstrings}.
+\item At least one of the EMCal clusters match the triggers from Table~\ref{tab:triggerstrings}.
 \item Valid vertex ($|z|\neq0.0$) and $0<|z|<10$ cm 
 %\item Pileup rejection (\textsc{IsPileupFromSPD}(5, 0.8)=False).
 \end{itemize}
@@ -238,9 +238,9 @@ Figures~\ref{ClusterCutFlow_pPb} and~\ref{ClusterCutFlow_pp} show the distributi
 \FloatBarrier
 
 \label{sec:photons}
-\section{Isolated Prompt Photon Selection}\footnote{Credit: Alwina Liu}
+\section{Isolated Prompt Photon Selection}
 
-Photons are observed in their final state as an reconstructed cluster in the calorimeter. A key challenge of this measurement is the relatively small cross section of prompt photons compared to decay photons. In order to reduce the background of decay photons, and to identify prompt photons, a combination of isolation and electromagnetic shower profile selections are made. To select against photons from neutral-meson decays or fragmentation processes, a shower profile selection and isolation requirement are applied to these clusters. 
+\footnote{Credit: Alwina Liu}Photons are observed in their final state as a reconstructed cluster in the calorimeter. A key challenge of this measurement is the relatively small cross section of prompt photons compared to decay photons. In order to reduce the background of decay photons, and to identify prompt photons, a combination of isolation and electromagnetic shower profile selections are made. To select against photons from neutral-meson decays or fragmentation processes, a shower profile selection and isolation requirement are applied to these clusters. 
 %Also included in the definition of direct photons are thermal photons. These photons are produced as thermal radiation emitted by the quark gluon plasma. Thermal photons dominate the direct photon spectrum at low \pt, and at energies much lower than the photons of interest in this measurement (Section \ref{sec:photon_selection}).
 
 The primary background for this measurement are photons from the 2-body decay channel of neutral mesons $\pizero$'s. A \pizero~with a higher \pt~will decay  with a smaller opening angle between the two decay photons. As the opening angle becomes smaller, the electromagnetic showers from the decay photons get closer together in the EMCal until they begin to overlap. For this reason, photons from $\pi^0$ decays begin to merge into a single cluster in the EMCal above approximately 6~\GeVc. This cluster, made up of two showers from decay photons, will therefore tend to have a more elongated shower profile than a cluster resulting from a single, ideally prompt, photon. Thus, in order reject clusters produced by two photons from a meson decay, and select clusters from single photons, we select clusters using variables that encode the shape of the calorimeter shower. 
@@ -250,7 +250,6 @@ The \lambdasquare~variable is defined as the square of the larger eigenvalue of 
 \begin{equation}
 \lambdasquare = (\sigma^{2}_{\varphi\varphi} + \sigma^{2}_{\eta\eta})/2 + \sqrt{(\sigma^{2}_{\varphi\varphi} - \sigma^{2}_{\eta\eta})/4 + \sigma^{2}_{\varphi\eta}},
 \end{equation}
-
 where $\sigma^{2}_{ij} = \langle ij \rangle - \langle i \rangle\langle j \rangle$ are the covariance matrix elements; the integers $i,j$ are cell indices in $\eta$ and  $\varphi$ axes; $\langle ij \rangle$ and $\langle i\rangle$, $\langle j\rangle$ are the second and the first moments of the cluster position cell. The position is weighted by $\mathrm{max}\left(\log(E_{\mathrm{cell}}/E_{\mathrm{cluster}}) - w_{0},0\right).$ Following previous work~\cite{Acharya:2018dqe}, the cutoff in the log-weighting is chosen to be $w_{0}=-4.5$. Cells that contain less than {$e^{-4.5} =$ 1.1$\%$} of the total cluster energy are not considered in the $\lambdasquare$ calculation. Thus, $\lambdasquare$ discriminates between clusters belonging to single photons, having a $\lambdasquare$ distribution which is narrow and symmetric, and merged photons from neutral meson decays, which are asymmetric and have a distribution dominated by a long tail towards higher values. 
 
 Most single-photon clusters yield $\lambdasquare\approx 0.25$, shown later in Figs. \ref{fig:purcorrectionexample} and \ref{fig:TemplateFit} where the signal is displayed in blue. Consequently, a cluster selection of $\lambdasquare<0.30$ is applied irrespective of \pt. Simulations indicate that this results in a signal efficiency of about 90$\%$ with no significant \pt~dependence.
@@ -290,7 +289,6 @@ The simplest definition of isolation is defined as the scalar sum of the transve
 \begin{equation}
 \pt^\mathrm{iso,raw} = \sum_{\mathrm{track}~\in\Delta R<0.4} p_{\mathrm{T}}^{\mathrm{track}}	
 \end{equation}
-
 This does not, however, take into account the energy arising from the underlying event, described in the following section.
 %Define underlying event
 
@@ -350,7 +348,7 @@ The mean and standard deviation for each distribution is shown in Table~\ref{tab
 
 \subsection{UE Correction to Isolation Variable}
 \label{sec:ue_correction_isolation}
-For each cluster in the event, the underlying event is subtracted using the measured charged-particle density $\rho$ that is calculated event-by-event as described in Section~\ref{sec:ue_isolation}, and given in equation \ref{eq:pt_iso}. The result is an average subtraction for the isolation cone of {$R=0.4$} is about {$1.6$ \GeVc} and {$0.8$ \GeVc} for \pPb~and pp collisions, with a standard deviation of {0.9 \GeVc} and {0.4 \GeVc}, respectively.  
+For each cluster in the event, the underlying event is subtracted using the measured charged-particle density $\rho$ that is calculated event-by-event as described in Section~\ref{sec:ue_isolation}, and given in Equation \ref{eq:pt_iso}. The result is an average subtraction for the isolation cone of {$R=0.4$} is about {$1.6$ \GeVc} and {$0.8$ \GeVc} for \pPb~and pp collisions, with a standard deviation of {0.9 \GeVc} and {0.4 \GeVc}, respectively.  
 
 %For the determination of the isolation criterium,~$\pt^\mathrm{iso}$, the background due to the underlying event is estimated with the Voronoi method from the \textsc{FastJet} jet area/median package~\cite{Cacciari:2009dp} on an event-by-event basis and subtracted according to:
 
@@ -418,7 +416,7 @@ Of course, jets containing a neutral meson with a large fraction of its total mo
 The isolation and shower shape selections remove the bulk of the neutral meson decay background, but a substantial fraction of the \gammaiso candidates are still background photons. It is therefore necessary to quantify the ratio of true signal photons in our candidate sample in order to properly subtract it. The estimate of the ratio of true signal photons in our \gammaiso sample is called the \textit{purity}. \footnote{For a more rigorous discussion of the Purity calculation, please see Alwina Liu's UC Berkeley Thesis.}
 
 \subsection{The Template Fit Method}
-The purity of the isolated photon sample is determined with a two-component template fit, a method used by the CMS collaboration in~\cite{Sirunyan:2017qhf}. The distribution of the shower shape variable for the isolated cluster sample is fit to a linear combination of a signal distribution and the background distribution. The shape of the signal distribution is determined by a photon-jet simulation (see Table~\ref{tab:MCsamples}) and the shape of the background distribution is determined from data using an anti-isolated sideband~\footnote{The inversion of an isolation cut to estimate QCD background is a standard technique in several measurements at the LHC and previous hadron colliders.} with an additional correction computed from a dijet simulation. 
+The purity of the isolated photon sample is determined with a two-component template fit, a method used by the CMS collaboration in~\cite{Sirunyan:2017qhf}. The distribution of the shower shape variable for the isolated cluster sample is fit to a linear combination of a signal distribution and the background distribution. The shape of the signal distribution is determined by a photon-jet simulation (see Table~\ref{tab:MCsamples}) and the shape of the background distribution is determined from data using an anti-isolated sideband\footnote{The inversion of an isolation cut to estimate QCD background is a standard technique in several measurements at the LHC and previous hadron colliders.} with an additional correction computed from a dijet simulation. 
 
 The shape of the background distribution of the shower-shape for isolated clusters is estimated with a \textit{sideband} technique: the shower shape distribution of clusters from isolated decay photons is estimated with clusters that are anti-isolated but pass all other selection criteria. This method assumes that the correlation between the isolation variable and shower shape variable can be corrected for; the procedure for doing so is described below. The signal and sideband regions defined using the isolation variable are illustrated in Figure~\ref{SidebandDefinition}. 
 
@@ -564,9 +562,9 @@ The final purities for isolated, single photons in pp and \pPb~are shown in Fig.
 % \subsection{Photon Selection}
 % \label{sec:photon_selection}
 % \subsection{Charged Hadron Selection}
-\section{Charged Particle Tracking}\footnote{Credit to Dhruv Dixit for his work on validating the ITS-only tracking. Please see his UC Berkeley Thesis for more details.}
+\section{Charged Particle Tracking}
 \label{sec:tracking}
-Charged particles are measured in the range of $0.1 < \pt < 8 \GeVc$. The detectors usually responsible for measuring the charged hadrons in this analysis are the ALICE Inner Tracking System (ITS) and Time Projeciton Chamber (TPC). During the 13def and 17q periods, however, the TPC was either not read out or compromised due to space-charge distortions, mentioned in Sec.~\ref{sec:TPC}. As a result, this analysis relies on the ALICE software for ITS-only tracking for charged particle reconstruction. ITS-only tracking in ALICE is new for this flavor of analysis. As a cross-check, the charged-particle $\pt$-spectrum using ITS-only tracking is compared to the normal TPC+ITS tracking in the data-taking period when the TPC was active and free of space-charge distortions (the low-luminosity 13b data-taking period at 5 TeV \pPb~minimum-bias data). We also checked the tracking performance against published ALICE measurements~\cite{Acharya:2018qsh} using the same dataset. A more thorough comparison to published ALICE data is done in Sec.~\ref{sec:tracking_published_comparision}.
+\footnote{Credit to Dhruv Dixit for his work on validating the ITS-only tracking. Please see his UC Berkeley Thesis for more details.}Charged particles are measured in the range of $0.1 < \pt < 8 \GeVc$. The detectors usually responsible for measuring the charged hadrons in this analysis are the ALICE Inner Tracking System (ITS) and Time Projeciton Chamber (TPC). During the 13def and 17q periods, however, the TPC was either not read out or compromised due to space-charge distortions, mentioned in Sec.~\ref{sec:TPC}. As a result, this analysis relies on the ALICE software for ITS-only tracking for charged particle reconstruction, a novel approach for this flavor of analysis. As a cross-check, the charged-particle $\pt$-spectrum using ITS-only tracking is compared to the normal TPC+ITS tracking in the data-taking period when the TPC was active and free of space-charge distortions (the low-luminosity 13b data-taking period at 5 TeV \pPb~minimum-bias data). We also checked the tracking performance against published ALICE measurements~\cite{Acharya:2018qsh} using the same dataset. A more thorough comparison to published ALICE data is done in Sec.~\ref{sec:tracking_published_comparision}.
 
 The combined effect of tracking efficiency, fake rate, and track momentum smearing corrections are calculated using MC simulations, and validated by the comparison to the established hybrid-tracking method in ALICE. The comparison to hybrid tracking also estimates systematic uncertainties arising  from mis-modeling the tracking performance. The Monte Carlo simulations used for this section is a \textsc{DPMJET} simulation anchored (matching luminosity and simulating detector effects) to LHC13b,c and LHC17l3b datasets, and a pp \textsc{Pythia8} simulation anchored to LHC17p, see Table \ref{tab:MCsamples}. 
 
@@ -692,7 +690,7 @@ The \deltaphi~distribution of cluster-track pairs, divided by the number of trig
 
 where $T$ is simply the number of triggers, and $P$ is the number of cluster-track pairs. At a given \deltaphi, such distributions reflect the structure of jets. Di-hadron correlation functions typically contain a large, very narrow peak at $\deltaphi=0$, arising from the correlation of particles within the same jet, and a broader peak centered at $\deltaphi=\pi$ arising from the correlation between, particles in two jets in the event, shown in Fig.~\ref{fig:dihadron_cartoon}. 
 
-Enforcing an isolation requirement will heavily suppress the near side peak, however. The near side peak is further removed after the decay photon hadron correlation is subtracted, Sec.~\ref{sec:decaybkgsubtraction}, likely removing the remaining contribution of background jets to the isolated photon triggers. This becomes particularly important for the underlying event estimate detailed in Sec.\ref{sec:ue_subtraction}
+Enforcing an isolation requirement will heavily suppress the near side peak, however. The near side peak is further removed after the decay photon hadron correlation is subtracted, Sec.~\ref{sec:decaybkgsubtraction}, likely removing the remaining contribution of background jets to the isolated photon triggers. This becomes particularly important for the underlying event estimate detailed in Section~\ref{sec:ue_subtraction}
 
 %TODO fix ue_subtraction_correlations reference
 
@@ -700,7 +698,7 @@ Enforcing an isolation requirement will heavily suppress the near side peak, how
 %Low energy jets are of particular interest as they are less time dilated, and thus the timescale of fragmentation is comparatively less compared to higher energy jets. By studying jet fragments...
 
 %We actually get an extremely inclusive sample of jets. One needs to make the argument first that jets are a quickly spectrum in pT. If so, then we can only really make an argument on jets around the mean of the distribution.
-Eq.~\ref{eq:basic_correlation} is closely related to Eq.~\ref{eq:yield}. The former can be thought of as an ingredient to the latter; Eq.~\ref{eq:basic_correlation} refers to the correlation function over the full range of \deltaphi, while Eq.~\ref{eq:yield} refers to the yields, often the result of integrating $C$ at large  $\deltaphi$.
+Equation~\ref{eq:basic_correlation} is closely related to Eq.~\ref{eq:yield}. The former can be thought of as an ingredient to the latter; Eq.~\ref{eq:basic_correlation} refers to the correlation function over the full range of \deltaphi, while Eq.~\ref{eq:yield} refers to the yields, often the result of integrating $C$ at large  $\deltaphi$.
 
 \subsection{Signal Correlation Function}
 
@@ -722,7 +720,7 @@ Eq.~\ref{eq:basic_correlation} is closely related to Eq.~\ref{eq:yield}. The for
 
 \end{comment}
 
-Section \ref{sec:photons} introduced isolated prompt photons as the primary photon signal for this measurement. However, as detailed in \ref{sec:purity}, there is a substantial amount of background contributing to \gammaiso candidates and a subsequent contribution to the \gammaiso-hadron correlations. In this section, we the disentangle the signal of this measurement from what is initially measured.\\ 
+Section \ref{sec:photons} introduced isolated prompt photons as the primary photon signal for this measurement. However, as detailed in Section~\ref{sec:purity}, there is a substantial amount of background contributing to \gammaiso candidates and a subsequent contribution to the \gammaiso-hadron correlations. In this section, we the disentangle the signal of this measurement from what is initially measured.\\ 
 
 We directly measured the trigger-normalized correlation of isolated cluster in the photon signal region of the shower shape variable with associated hadrons. This correlation function is denoted \CSR. This quantity will be made up of the true signal correlation function, \CS~-- the correlation of isolated prompt photons and associated hadrons from the recoiling parton-- as well as the true background correlation, \CB, predominantly arising from the correlation between decay photons that pass the cluster selection and hadrons. We call this background the correlated background, as it arises from the correlation of background photons and the hadrons from the same hard scattering in the event. To separate what is initially measured, \CSR, and the true signal, \CS, we begin by taking a look at the ingredients of \CSR. First, we denote the number of trigger clusters in the shower signal region, also called the number of \gammaiso candidates, \TSR. We can write \TSR~as:
 %TODO Fix reference for shower shape ranges
@@ -730,7 +728,6 @@ We directly measured the trigger-normalized correlation of isolated cluster in t
   \label{eq:TS_TB}
   \TSR = \TS + \TB.
 \end{equation}
-
 Here we define \TS~as the number of ``true" signal triggers (i.e. the number isolated prompt photon triggers) and \TB~as the background, namely decay photons that pass our $\gammaiso$ selection. Similarly, the \deltaphi~distribution of signal region cluster-track pairs, \PSR~ can be written as:
 \begin{equation}
   \label{eq:PS_PB}
@@ -757,7 +754,7 @@ The goal of this formalism is to write the true signal correlation function (\CS
   \CSR &=& \frac{1}{\TSR}(\TS\CS +\TB\CB)\label{eq:CSR_TS_TB}
 \end{eqnarray}
 
-Where we have substituted Eq. \ref{eq:PS_PB} into  Eq. \ref{eq:CSR}, followed by using Equations \ref{eq:CS} and \ref{eq:CB} to substitute out \PS~and \PB, respectively. \TS~ and \TB~ are not directly measured, however they can be expressed in terms of measurable quantities. The purity is defined as the fraction of true signal in our \gammaiso clusters, or in other words, $p \equiv \TS/\TSR$~(see Section~\ref{sec:purity}). Substituting this into equation \ref{eq:TS_TB} and solving for \TB/\TSR, one obtains: $\TB/\TSR = 1-p$. This a natural result of the definition of purity: If $p$ is the fraction of the true signal making up the \gammaiso candidates, $1-p$ must be everything else, i.e. background. To summarize:
+Where we have substituted Eq. \ref{eq:PS_PB} into  Eq. \ref{eq:CSR}, followed by using Equations \ref{eq:CS} and \ref{eq:CB} to substitute out \PS~and \PB, respectively. \TS~ and \TB~ are not directly measured, however they can be expressed in terms of measurable quantities. The purity is defined as the fraction of true signal in our \gammaiso clusters, or in other words, $p \equiv \TS/\TSR$~(see Section~\ref{sec:purity}). Substituting this into Eq.~\ref{eq:TS_TB} and solving for \TB/\TSR, one obtains: $\TB/\TSR = 1-p$. This a natural result of the definition of purity: If $p$ is the fraction of the true signal making up the \gammaiso candidates, $1-p$ must be everything else, i.e. background. To summarize:
 
 \begin{eqnarray}
   p &\equiv & \TS/\TSR\\
@@ -775,9 +772,7 @@ Finally, we can solve for \CS~in terms of \CSR~and $p$:
   \CS = \frac{\CSR - (1-p) \CB}{p}
   \label{eq:FinalSubtraction_CB}
 \end{equation}
-
-
-Equation \ref{eq:FinalSubtraction_CB} shows \CS~in terms of the measured quantities, \CSR~and the purity. It also includes, however, a term for the background correlation function \CB, that cannot be determined from \CSR and the purity alone. The correlation function \CB is described in more detail in section \ref{sec:cb}.
+Equation \ref{eq:FinalSubtraction_CB} shows \CS~in terms of the measured quantities, \CSR~and the purity. It also includes, however, a term for the background correlation function \CB, that cannot be determined from \CSR~and the purity alone. The correlation function \CB~is described in more detail in Section~\ref{sec:cb}.
 
 \subsection{Decay Photon Hadron Correlations}
 \label{sec:cb}
@@ -943,7 +938,7 @@ where $\alpha$ is the normalization constant that sets the maximum value of the 
   \label{fig:SR_2D}
 \end{figure}
 
-Same event correlation functions are divided by the mixed event correlation function within the same \zt~bins, shown for a single \zt~bin in Figure~\ref{fig:SR_2D}. This procedure is carried out identically for clusters in the signal and background shower-shape regions. The triangular shape in \deltaeta~is due to the limited acceptance of the ITS and EMCal in psuedorapidity. A useful analogy is the integration of two intersecting square waves that result in a clear triangular signal. The round shape in \deltaphi~is more subtle, however. It is due to the inefficiencies and holes in the ITS, i.e. due to imperfections in the tracking system. This is further discussed in section \ref{sec:ToyMC_Mixing}.
+Same event correlation functions are divided by the mixed event correlation function within the same \zt~bins, shown for a single \zt~bin in Figure~\ref{fig:SR_2D}. This procedure is carried out identically for clusters in the signal and background shower-shape regions. The triangular shape in \deltaeta~is due to the limited acceptance of the ITS and EMCal in psuedorapidity. A useful analogy is the integration of two intersecting square waves that result in a clear triangular signal. The round shape in \deltaphi~is more subtle, however. It is due to the inefficiencies and holes in the ITS, i.e. due to imperfections in the tracking system. This is further discussed in Section~\ref{sec:ToyMC_Mixing}.
 
 % After the same-event correlation functions 
 
@@ -1006,10 +1001,6 @@ Same event correlation functions are divided by the mixed event correlation func
 %\caption{\textbf{Left}:Mixed event correlation for a single $z_T$ bin. The trapezoidal shape in $\Delta\eta$ is due to the convolution of EMCal and ITS acceptances in $\eta$. The non-uniformity in $\Delta\phi$ is attributed to holes in the ITS acceptance. \textbf{Right}: Correlation function for inclusive photons, after mixed-event correction.}
 %\label{GS_Mixed_2D}
 %\end{figure}
-
-%TODO Get Figures in here
-%TODO Decide on using inclusive shapes
-%TODO Fix ERrors
 
 \subsection{Fully Corrected \CSR~and \CBR}
 \label{sec:corrected_correlations}
